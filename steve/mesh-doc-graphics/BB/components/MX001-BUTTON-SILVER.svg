@@ -1,0 +1,43 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-5.4 -5.4 10.8 10.8"
+    >
+
+    <defs>
+        <radialGradient id="a" spreadMethod="pad">
+            <stop offset="0.0" stop-color="#f7f7f7"/>
+            <stop offset="0.1" stop-color="#f3f3f3"/>
+            <stop offset="0.2" stop-color="#efefef"/>
+            <stop offset="0.3" stop-color="#ececec"/>
+            <stop offset="0.4" stop-color="#e9e9e9"/>
+            <stop offset="0.5" stop-color="#e5e5e5"/>
+            <stop offset="0.6" stop-color="#e1e1e1"/>
+            <stop offset="0.7" stop-color="#dcdcdc"/>
+            <stop offset="0.8" stop-color="#d9d9d9"/>
+            <stop offset="0.9" stop-color="#d5d5d5"/>
+            <stop offset="1.0" stop-color="#d1d1d1"/>
+        </radialGradient>
+
+        <radialGradient id="b">
+            <stop offset="0.000" stop-color="#ffffff" stop-opacity="1.000"/>
+            <stop offset="0.562" stop-color="#ffffff" stop-opacity="0.356"/>
+            <stop offset="1.000" stop-color="#ffffff" stop-opacity="0.000"/>
+        </radialGradient>
+        
+        <svg
+            overflow="visible"
+            id="MX001-BUTTON"
+            >
+            <circle r="4.6" fill="#303030"/>
+            <circle r="4.4" fill="url(#a)" />
+
+            <ellipse rx="4.4" ry="0.489" fill="url(#b)" fill-opacity=".75" transform="rotate(-43.639)"/>
+            <ellipse rx="4.4" ry="0.489" fill="url(#b)" fill-opacity=".75" transform="rotate(46.361)"/>
+        </svg>
+    </defs>
+
+    <circle r="5.4" fill="#d3d2d2"/>
+
+    <use x="0" y="0" href="#MX001-BUTTON"/>
+    
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="168.804mm"
+   height="122.67mm"
+   viewBox="0 0 168.804 122.66999"
+   version="1.1"
+   id="svg21932"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="MB0032-CT.svg">
+  <defs
+     id="defs21926">
+    <clipPath
+       id="clipPath422001"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path421999"
+         d="m 0,426.197 h 539.583 v -426.197 h -539.583 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="405.61026"
+     inkscape:cy="156.21612"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false" />
+  <metadata
+     id="metadata21929">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(90.705551,-136.76382)">
+    <image
+       sodipodi:absref="E:\Dropbox (Mesheven)\Git\Documentation\mesh-doc-graphics\BB\Source\Artboards\Working\MB14x10.svg"
+       xlink:href="MB14x10.svg"
+       inkscape:label="imageMB0032-CT"
+       width="168.804"
+       height="122.67"
+       preserveAspectRatio="none"
+       style="fill:none;stroke:none;stroke-width:0.24644589;stroke-linecap:square;stroke-miterlimit:10;image-rendering:optimizeQuality"
+       id="image50579"
+       x="-90.705551"
+       y="136.76382">
+      <title
+         id="title50577">MB0032 Container</title>
+    </image>
+    <image
+       sodipodi:absref="E:\Dropbox (Mesheven)\Git\Documentation\mesh-doc-graphics\BB\Source\Artboards\Working\MB0032Text.svg"
+       xlink:href="MB0032Text.svg"
+       y="240.07024"
+       x="-11.06597"
+       id="image22814"
+       style="fill:none;stroke:none;stroke-width:1.48628163;stroke-linecap:square;stroke-miterlimit:10;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="8.2511206"
+       width="69"
+       inkscape:label="imageMB0032-CT">
+      <title
+         id="title22812">MB0032 Container</title>
+    </image>
+  </g>
+</svg>

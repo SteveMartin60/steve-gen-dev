@@ -1,0 +1,22 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    viewBox        ="-128 -128 256 256"
+    shape-rendering="geometricPrecision"
+    >
+<!-- ....................................................................... -->
+
+<!-- ....................................................................... -->
+    <rect x="-128px" y="-128px" width="256px" height="256px" fill="#ffe599" stroke="#666666" stroke-width="0.6"/>
+
+<!--
+    <rect x="-128px" y="-128px" width="256px" height="85px" fill="pink" stroke="#666666" stroke-width="0.6" opacity=".3"/>
+    <rect x="-128px" y="-043px" width="256px" height="85px" fill="pink" stroke="#666666" stroke-width="0.6" opacity=".3"/>
+    <rect x="-128px" y="-042px" width="256px" height="85px" fill="pink" stroke="#666666" stroke-width="0.6" opacity=".3"/>
+
+    <rect x="-128px" y="-128px" width="256px" height="128px" fill="pink" stroke="#666666" stroke-width="0.6" opacity=".3"/>
+    <rect x="-128px" y="0" width="256px" height="128px" fill="pink" stroke="#666666" stroke-width="0.6" opacity=".3"/>
+ -->
+
+    <text x="0"    y="-35" font-family="Lato" font-size="67" fill="darkgreen" text-anchor="middle">Mesh</text>
+    <text x="0"    y="95"  font-family="Lato" font-size="67" fill="darkgreen" text-anchor="middle">Dropbox</text>
+</svg>

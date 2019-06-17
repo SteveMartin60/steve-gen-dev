@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!-- ....................................................................... -->
+    <head>
+    <!-- ................................................................... -->
+        <style>
+            .container_row
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                min-height: 100vh;
+                zoom: 100%;
+            }
+
+            .editor
+            {
+                width: 100%;
+            }
+
+            .diagram
+            {
+                width: 100%;
+                margin-left: -100%;
+            }
+            .thumb
+            {
+                position: relative;
+                bottom  : -850px;
+                left    : -5000px;
+            }
+            .skewed
+            {
+                transform: rotateX(65deg) rotateY(0deg) rotateZ(-45deg);
+            }
+
+        </style>
+    </head>
+    <!-- ................................................................... -->
+    <body>
+    <!-- ................................................................... -->
+    <!-----                                                              ------>
+    <!-----              Do not edit code between here...                ------>
+    <!-----              ꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜ                ------>
+    <!-- ................ꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜꜜ................... -->
+        <script type="text/javascript" src="../../package-source/mesh-doc/source/partials/product-doc/js/block-diagram-editor.js"></script>
+
+        <div class="container_row">
+
+            <div class="editor">
+                <embed  class="emb" src="block-diagram-editor.svg" height="3000" type="image/svg+xml" ></embed>
+            </div>
+    <!-- ........................ꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛ ............................... -->
+    <!-----                      ꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛꜛ                             ------>
+    <!-----                      And here...                             ------>
+    <!-----                                                              ------>
+    <!-- ................................................................... -->
+            <div class="diagram">
+                <!--<embed src="../../doc/items/PCBA-MB0001/usage/mb0001-dual-coil-usage.svg" height="3000" type="image/svg+xml" ></embed>-->
+            </div>
+            <!-- ................................................................... -->
+            <div class="diagram">
+                <embed      class="emb" src="../../doc/items/PCBA-MB0001/usage/PCBA-MB0001-single-coil-usage.svg" height="3000" type="image/svg+xml" ></embed>
+                <!--<embed class="emb" src="../bd-dev/mb-14x10-headline-image.svg" height="3000" type="image/svg+xml" ></embed>-->
+                <!--<embed  class="emb" src="drawing-optimised.svg" height="3000" type="image/svg+xml" ></embed>-->
+            </div>
+            <!-- ................................................................... -->
+        </div>
+    <!-- ................................................................... -->
+        <script>
+            //<![CDATA[
+                window.addEventListener("load", findDiagramSVGElements, false);
+            //]]>
+        </script>
+    <!-- ................................................................... -->
+    </body>
+    <!-- ................................................................... -->
+</html>

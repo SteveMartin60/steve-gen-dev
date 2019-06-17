@@ -1,0 +1,2407 @@
+[
+  {
+    "version": 19,
+    "created_at": 1499167460234,
+    "caption_zh": "MB-2000 MCU蓝牙模块",
+    "approval_supply": "prototype",
+    "inventory_count": "27",
+    "description_en": "Low-Energy device-intelligence module with BLE and internal antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2000 MCU-BLE [Internal Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "approval_design": "prototype",
+    "updated_at": 1520919730618,
+    "organization": "5d36fdd4",
+    "description_zh": "低功耗蓝牙智能模块",
+    "params": {
+      "comment": "MB2000A-INT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "inventory_type": "inventory_counts",
+    "id": "CMPT-0101-0001",
+    "inherit_costs": "PCBA-MB2000A"
+  },
+  {
+    "version": 6,
+    "created_at": 1499167460238,
+    "caption_zh": "MB-2001 MCU蓝牙模块",
+    "description_en": "Mid-Level device-intelligence module with BLE and internal antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2001 MCU-BLE [Internal Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1520919781896,
+    "organization": "5d36fdd4",
+    "description_zh": "主流蓝牙智能模块",
+    "params": {
+      "comment": "MB2001A-INT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0002",
+    "inherit_costs": "PCBA-MB2001A"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460241,
+    "caption_zh": "MB-2002 MCU蓝牙模块",
+    "description_en": "High-Performance device-intelligence module with BLE and internal antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2002 MCU-BLE [Internal Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500171143874,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能蓝牙智能模块",
+    "params": {
+      "comment": "MB2002A-INT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0003",
+    "inherit_costs": "PCBA-MB2002A"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460245,
+    "caption_zh": "MB-3001 MCU-WiFi模块",
+    "description_en": "Mid-Level device-intelligence module with WiFi and internal antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-3001 MCU-WiFi [Internal Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534319542,
+    "organization": "5d36fdd4",
+    "description_zh": "主流WiFi智能模块",
+    "params": {
+      "comment": "MB3001A-INT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0004",
+    "inherit_costs": "PCBA-MB3001A"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460248,
+    "caption_zh": "MB-3002 MCU-WiFi模块",
+    "description_en": "High-Performance device-intelligence module with WiFi and internal antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-3002 MCU-WiFi [Internal Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534331082,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能WiFi智能模块",
+    "params": {
+      "comment": "MB3002A-INT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0005",
+    "inherit_costs": "PCBA-MB3002A"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460253,
+    "caption_zh": "MB-2000 MCU蓝牙模块",
+    "description_en": "Low-Energy device-intelligence module with BLE and external antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2000 MCU-BLE [External Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534342998,
+    "organization": "5d36fdd4",
+    "description_zh": "低功耗蓝牙智能模块",
+    "params": {
+      "comment": "MB2000B-EXT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0006",
+    "inherit_costs": "PCBA-MB2000B"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460256,
+    "caption_zh": "MB-2001 MCU蓝牙模块",
+    "description_en": "Mid-Level device-intelligence module with BLE and external antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2001 MCU-BLE [External Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534353016,
+    "organization": "5d36fdd4",
+    "description_zh": "主流蓝牙智能模块",
+    "params": {
+      "comment": "MB2001B-EXT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0007",
+    "inherit_costs": "PCBA-MB2001B"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460259,
+    "caption_zh": "MB-2002 MCU蓝牙模块",
+    "description_en": "High-Performance device-intelligence module with BLE and external antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-2002 MCU-BLE [External Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534362729,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能蓝牙智能模块",
+    "params": {
+      "comment": "MB2002B-EXT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0008",
+    "inherit_costs": "PCBA-MB2002B"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460262,
+    "caption_zh": "MB-3001 MCU-WiFi模块",
+    "description_en": "Mid-Level device-intelligence module with WiFi and external antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-3001 MCU-WiFi [External Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534371318,
+    "organization": "5d36fdd4",
+    "description_zh": "主流WiFi智能模块",
+    "params": {
+      "comment": "MB3001B-EXT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0009",
+    "inherit_costs": "PCBA-MB3001B"
+  },
+  {
+    "version": 4,
+    "created_at": 1499167460265,
+    "caption_zh": "MB-3002 MCU-WiFi模块",
+    "description_en": "High-Performance device-intelligence module with WiFi and external antenna",
+    "subcategory": "pcb - module",
+    "caption_en": "MB-3002 MCU-WiFi [External Antenna]",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1500534265072,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能WiFi智能模块",
+    "params": {
+      "comment": "MB3002B-EXT-ANT",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3",
+      "pcblib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-0101-0010",
+    "inherit_costs": "PCBA-MB3002B"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588625,
+    "project": "UR3B-DB5S-9Y9R",
+    "description_en": "4x SPST Smart-Relay Controller with current sense",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259550,
+    "organization": "5d36fdd4",
+    "description_zh": "4路 带有电流侦测功能的单刀单掷智能继电器控制器",
+    "params": {
+      "comment": "MB0001",
+      "technology": "SMT",
+      "schlib": "MB0001.01",
+      "pcblib": "MB0001.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0001",
+    "inherit_costs": "PCBA-MB0001"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588536,
+    "project": "46RF-DL4S-9UZY",
+    "description_en": "Single-touch capacitive touch controller with gesture sensing",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259551,
+    "organization": "5d36fdd4",
+    "description_zh": "多点触控能力、带背光及不带背光版本的触摸控制器",
+    "params": {
+      "comment": "MB0003",
+      "technology": "SMT",
+      "schlib": "MB0003.01",
+      "pcblib": "MB0003.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0003",
+    "inherit_costs": "PCBA-MB0003"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588553,
+    "project": "5DRX-CX4K-TFR8",
+    "description_en": "USB battery charger and power supply for rechargeable lithium battery, with 2A 3.3V and 5V outputs",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259552,
+    "organization": "5d36fdd4",
+    "description_zh": "USB锂电池充放电模块，带3.3V及5V输出",
+    "params": {
+      "comment": "MB0005",
+      "technology": "SMT",
+      "schlib": "MB0005.01",
+      "pcblib": "MB0005.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0005",
+    "inherit_costs": "PCBA-MB0005"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588647,
+    "project": "5ZJD-XHLX-5648",
+    "description_en": "USB battery manager and power supply for alkaline battery, with 3.3V and 5V outputs",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259553,
+    "organization": "5d36fdd4",
+    "description_zh": "3.3V及5V双输出，电池电源管理模块",
+    "params": {
+      "comment": "MB0006",
+      "technology": "SMT",
+      "schlib": "MB0006.01",
+      "pcblib": "MB0006.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0006",
+    "inherit_costs": "PCBA-MB0006"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588644,
+    "project": "5VEB-Q6SY-LQK7",
+    "description_en": "Motion sensor with accelerometer, gyroscope, compass and barometric altitude sensor",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259554,
+    "organization": "5d36fdd4",
+    "description_zh": "SPI接口智能运动传感器带线性、旋转、方向和高度感知功能",
+    "params": {
+      "comment": "MB0011",
+      "technology": "SMT",
+      "schlib": "MB0011.01",
+      "pcblib": "MB0011.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0011",
+    "inherit_costs": "PCBA-MB0011"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588650,
+    "project": "5WY9-A25T-AE6H",
+    "description_en": "4-port USB 3.0 hub with comprehensive USB charging support, 1 upstream & 4 downstream USB 3.0 ports",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259555,
+    "organization": "5d36fdd4",
+    "description_zh": "4端口USB3.0集线器带USB充电支持，1路上行4路下行",
+    "params": {
+      "comment": "MB0015",
+      "technology": "SMT",
+      "schlib": "MB0015.01",
+      "pcblib": "MB0015.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0015",
+    "inherit_costs": "PCBA-MB0015"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588664,
+    "project": "5RGU-TM5F-EGWM",
+    "description_en": "USB Power supply with additional 2x 40V inputs, 2A 3.3V and 2A 5V outputs",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259556,
+    "organization": "5d36fdd4",
+    "description_zh": "双路电源供电模块，24V输入，3.3V和5V输出",
+    "params": {
+      "comment": "MB0016",
+      "technology": "SMT",
+      "schlib": "MB0016.01",
+      "pcblib": "MB0016.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0016",
+    "inherit_costs": "PCBA-MB0016"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588538,
+    "project": "4EPS-GD5K-SYFY",
+    "description_en": "USB to UART & SWD programming and debugging peripheral",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259556,
+    "organization": "5d36fdd4",
+    "description_zh": "USB接口到UART串口和SWD调试口转换模块",
+    "params": {
+      "comment": "MB0017",
+      "technology": "SMT",
+      "schlib": "MB0017.01",
+      "pcblib": "MB0017.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0017",
+    "inherit_costs": "PCBA-MB0017"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588588,
+    "project": "3X2B-JS3C-WEWN",
+    "description_en": "USB ESD protector and configurable current limiter",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259557,
+    "organization": "5d36fdd4",
+    "description_zh": "USB信号静电防护&共模滤波和可配置电流值的限流模块",
+    "params": {
+      "comment": "MB0018",
+      "technology": "SMT",
+      "schlib": "MB0018.01",
+      "pcblib": "MB0018.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0018",
+    "inherit_costs": "PCBA-MB0018"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588621,
+    "project": "P4QT-P85C-XKVS",
+    "description_en": "Power-IO Expander, with 8x Protected 500mA Outputs",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259558,
+    "organization": "5d36fdd4",
+    "description_zh": "带有8路电压保护500mA输出的功率输入输出扩展器",
+    "params": {
+      "comment": "MB0020",
+      "technology": "SMT",
+      "schlib": "MB0020.01",
+      "pcblib": "MB0020.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0020",
+    "inherit_costs": "PCBA-MB0020"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588629,
+    "project": "4VVN-DYNX-WC2W",
+    "description_en": "4-Port USB 2.0 Hub with in-built LED indicators for each channel, and charging support for all channels",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259558,
+    "organization": "5d36fdd4",
+    "description_zh": "4端口USB2.0集线器，每通道带内置LED指示及充电功能",
+    "params": {
+      "comment": "MB0022",
+      "technology": "SMT",
+      "schlib": "MB0022.01",
+      "pcblib": "MB0022.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0022",
+    "inherit_costs": "PCBA-MB0022"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588632,
+    "project": "46R2-SJQG-Y7GF",
+    "description_en": "PIR (Passive Infra-Red) sensor controller",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259559,
+    "organization": "5d36fdd4",
+    "description_zh": "红外感应控制器",
+    "params": {
+      "comment": "MB0023",
+      "technology": "SMT",
+      "schlib": "MB0023.01",
+      "pcblib": "MB0023.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0023",
+    "inherit_costs": "PCBA-MB0023"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588691,
+    "project": "3AT3-QG5A-5UT9",
+    "description_en": "Secure RFID Reader-Writer",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259560,
+    "organization": "5d36fdd4",
+    "description_zh": "SPI接口RFID读写器，速度可达10Mbps,传输距离可达50mm",
+    "params": {
+      "comment": "MB0026",
+      "technology": "SMT",
+      "schlib": "MB0026.01",
+      "pcblib": "MB0026.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0026",
+    "inherit_costs": "PCBA-MB0026"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588634,
+    "project": "YYXJ-E54W-VQKL",
+    "description_en": "Sound-effects unit with audio amplifier",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259560,
+    "organization": "5d36fdd4",
+    "description_zh": "SPI接口的带1.2W音频放大的声效单元",
+    "params": {
+      "comment": "MB0028",
+      "technology": "SMT",
+      "schlib": "MB0028.01",
+      "pcblib": "MB0028.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0028",
+    "inherit_costs": "PCBA-MB0028"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588657,
+    "project": "4J6U-AWAN-4MLH",
+    "description_en": "16-channel x 60mA intelligent LED controller-driver",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259561,
+    "organization": "5d36fdd4",
+    "description_zh": "16通道60毫安智能LED控制器驱动",
+    "params": {
+      "comment": "MB0030",
+      "technology": "SMT",
+      "schlib": "MB0030.01",
+      "pcblib": "MB0030.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0030",
+    "inherit_costs": "PCBA-MB0030"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588668,
+    "project": "4J6U-AWAN-4MLH",
+    "description_en": "32-channel x 60mA intelligent LED controller-driver",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259562,
+    "organization": "5d36fdd4",
+    "description_zh": "32通道60毫安智能LED控制器驱动",
+    "params": {
+      "comment": "MB0031",
+      "technology": "SMT",
+      "schlib": "MB0031.01",
+      "pcblib": "MB0031.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0031",
+    "inherit_costs": "PCBA-MB0031"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588641,
+    "project": "32N6-XC5L-23N6",
+    "description_en": "48-channel x 60mA intelligent LED controller-driver",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259562,
+    "organization": "5d36fdd4",
+    "description_zh": "48通道60毫安智能LED控制器驱动",
+    "params": {
+      "comment": "MB0032",
+      "technology": "SMT",
+      "schlib": "MB0032.01",
+      "pcblib": "MB0032.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0032",
+    "inherit_costs": "PCBA-MB0032"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588661,
+    "project": "4GAQ-YN47-NUGH",
+    "description_en": "USB 3.0 to Gigabit Ethernet adaptor With built-in USB 3.0 upstream port and Ethernet port",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259563,
+    "organization": "5d36fdd4",
+    "description_zh": "USB3接口以太网适配器，带内置USB3.0上行端口和以太网端口",
+    "params": {
+      "comment": "MB0035",
+      "technology": "SMT",
+      "schlib": "MB0035.01",
+      "pcblib": "MB0035.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0035",
+    "inherit_costs": "PCBA-MB0035"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588659,
+    "project": "58L6-RPCU-JDZV",
+    "description_en": "HDMI interface designed for use in the HX-001 Intel-Atom based Mesheven Intelligent Machine",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259564,
+    "organization": "5d36fdd4",
+    "description_zh": "用于基于Intel Atom处理器的HX-001创享盒的HDMI接口模块",
+    "params": {
+      "comment": "MB0037",
+      "technology": "SMT",
+      "schlib": "MB0037.01",
+      "pcblib": "MB0037.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0037",
+    "inherit_costs": "PCBA-MB0037"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588666,
+    "project": "5T5C-CP4Y-7VR2",
+    "description_en": "Intelligent Power Manager, 9-18V input, 9V-1A, 5V-3A, 3V3-3A outputs",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259681,
+    "organization": "5d36fdd4",
+    "params": {
+      "comment": "MB0039",
+      "technology": "SMT",
+      "schlib": "MB0039.01",
+      "pcblib": "MB0039.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0039",
+    "inherit_costs": "PCBA-MB0039"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588662,
+    "project": "436L-ZS3C-B4U6",
+    "description_en": "3 output power supply with 5V and 3.3V outputs and an always-on 3.3V supply",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259682,
+    "organization": "5d36fdd4",
+    "description_zh": "3路输出电源模块带5V和3.3V输出及一路常开3.3V输出",
+    "params": {
+      "comment": "MB0043",
+      "technology": "SMT",
+      "schlib": "MB0043.01",
+      "pcblib": "MB0043.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0043",
+    "inherit_costs": "PCBA-MB0043"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588669,
+    "project": "8MCX-PG3R-8EPA",
+    "description_en": "SPI 4x DC Motor Driver",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259684,
+    "organization": "5d36fdd4",
+    "description_zh": "SPI接口4路直流电机控制器",
+    "params": {
+      "comment": "MB0045",
+      "technology": "SMT",
+      "schlib": "MB0045.01",
+      "pcblib": "MB0045.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0045",
+    "inherit_costs": "PCBA-MB0045"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588693,
+    "project": "5PPB-HU3K-ENAE",
+    "description_en": "USB 2.0 compliant general purpose USB to Audio device with support for headphones speakers",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259685,
+    "organization": "5d36fdd4",
+    "description_zh": "USB2.0接口通用音频模块，可用于耳机及扬声器",
+    "params": {
+      "comment": "MB0048",
+      "technology": "SMT",
+      "schlib": "MB0048.01",
+      "pcblib": "MB0048.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0048",
+    "inherit_costs": "PCBA-MB0048"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588672,
+    "project": "5EYY-6F4A-HKF8",
+    "description_en": "3-Axis motion controller with integrated stepper motor drivers",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259686,
+    "organization": "5d36fdd4",
+    "params": {
+      "comment": "MB0049",
+      "technology": "SMT",
+      "schlib": "MB0049.01",
+      "pcblib": "MB0049.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0049",
+    "inherit_costs": "PCBA-MB0049"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588673,
+    "project": "E3RX-XW5V-BHRL",
+    "description_en": "4-channel digital isolator 4x A->B, 1000V, 10MHz",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259694,
+    "organization": "5d36fdd4",
+    "params": {
+      "comment": "MB0051",
+      "technology": "SMT",
+      "schlib": "MB0051.01",
+      "pcblib": "MB0051.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0051",
+    "inherit_costs": "PCBA-MB0051"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588677,
+    "project": "5YTQ-KR53-428E",
+    "description_en": "USB to WiFi conversion with speed up to 150Mbps",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259696,
+    "organization": "5d36fdd4",
+    "description_zh": "150Mbps USB到WiFi转换模块",
+    "params": {
+      "comment": "MB0053",
+      "technology": "SMT",
+      "schlib": "MB0053.01",
+      "pcblib": "MB0053.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0053",
+    "inherit_costs": "PCBA-MB0053"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588683,
+    "project": "52BN-5P4M-LFW9",
+    "description_en": "General purpose CPLD with Altera MAXV 5M80ZE64C5N",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259698,
+    "organization": "5d36fdd4",
+    "params": {
+      "comment": "MB0059",
+      "technology": "SMT",
+      "schlib": "MB0059.01",
+      "pcblib": "MB0059.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0059",
+    "inherit_costs": "PCBA-MB0059"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588680,
+    "project": "4WQA-K54Y-AA2L",
+    "description_en": "Digital-Analog IO Expander",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259699,
+    "organization": "5d36fdd4",
+    "description_zh": "数字-模拟 输入输出扩展器",
+    "params": {
+      "comment": "MB0061",
+      "technology": "SMT",
+      "schlib": "MB0061.01",
+      "pcblib": "MB0061.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0061",
+    "inherit_costs": "PCBA-MB0061"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588696,
+    "project": "5CUN-UT39-LR6V",
+    "description_en": "General purpose CPLD with Lattice ispMACH LC4032V",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259700,
+    "organization": "5d36fdd4",
+    "params": {
+      "comment": "MB0062",
+      "technology": "SMT",
+      "schlib": "MB0062.01",
+      "pcblib": "MB0062.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-0062",
+    "inherit_costs": "PCBA-MB0062"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588479,
+    "project": "549S-L838-T26R",
+    "description_en": "Low-Energy device-intelligence module with BLE and internal antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259701,
+    "organization": "5d36fdd4",
+    "description_zh": "低功耗蓝牙智能模块",
+    "params": {
+      "comment": "MB2000A",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2000A.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2000A",
+    "inherit_costs": "PCBA-MB2000A"
+  },
+  {
+    "version": 4,
+    "created_at": 1528105588502,
+    "project": "549S-L838-T26R",
+    "description_en": "Low-Energy device-intelligence module with BLE and external antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259703,
+    "organization": "5d36fdd4",
+    "description_zh": "低功耗蓝牙智能模块",
+    "params": {
+      "comment": "MB2000B",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2000B.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2000B",
+    "inherit_costs": "PCBA-MB2000B"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588495,
+    "project": "LF7X-4633-93KK",
+    "description_en": "Mid-Level device-intelligence module with BLE and internal antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259714,
+    "organization": "5d36fdd4",
+    "description_zh": "主流蓝牙智能模块",
+    "params": {
+      "comment": "MB2001A",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2001A.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2001A",
+    "inherit_costs": "PCBA-MB2001A"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588586,
+    "project": "LF7X-4633-93KK",
+    "description_en": "Mid-Level device-intelligence module with BLE and external antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259715,
+    "organization": "5d36fdd4",
+    "description_zh": "主流蓝牙智能模块",
+    "params": {
+      "comment": "MB2001B",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2001B.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2001B",
+    "inherit_costs": "PCBA-MB2001B"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588627,
+    "project": "SLVK-6T4R-YSXD",
+    "description_en": "High-Performance device-intelligence module with BLE and internal antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259716,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能蓝牙智能模块",
+    "params": {
+      "comment": "MB2002A",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2002A.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2002A",
+    "inherit_costs": "PCBA-MB2002A"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588521,
+    "project": "SLVK-6T4R-YSXD",
+    "description_en": "High-Performance device-intelligence module with BLE and external antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259718,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能蓝牙智能模块",
+    "params": {
+      "comment": "MB2002B",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB2002B.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-2002B",
+    "inherit_costs": "PCBA-MB2002B"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588498,
+    "project": "38MX-8W3M-STCZ",
+    "description_en": "Mid-Level device-intelligence module with WiFi and internal antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259719,
+    "organization": "5d36fdd4",
+    "description_zh": "主流WiFi智能模块",
+    "params": {
+      "comment": "MB3001A",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB3001A.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-3001A",
+    "inherit_costs": "PCBA-MB3001A"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588523,
+    "project": "38MX-8W3M-STCZ",
+    "description_en": "Mid-Level device-intelligence module with WiFi and external antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259720,
+    "organization": "5d36fdd4",
+    "description_zh": "主流WiFi智能模块",
+    "params": {
+      "comment": "MB3001B",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB3001B.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-3001B",
+    "inherit_costs": "PCBA-MB3001B"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588581,
+    "project": "48VU-4BZ5-J7N8",
+    "description_en": "High-Performance device-intelligence module with WiFi and internal antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259730,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能WiFi智能模块",
+    "params": {
+      "comment": "MB3002A",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB3002A.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-3002A",
+    "inherit_costs": "PCBA-MB3002A"
+  },
+  {
+    "version": 3,
+    "created_at": 1528105588590,
+    "project": "48VU-4BZ5-J7N8",
+    "description_en": "High-Performance device-intelligence module with WiFi and external antenna",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259791,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能WiFi智能模块",
+    "params": {
+      "comment": "MB3002B",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-RAD.01",
+      "pcblib": "MB3002B.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-3002B",
+    "inherit_costs": "PCBA-MB3002B"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588528,
+    "project": "4MXM-SZ6S-2R7R",
+    "description_en": "Low-energy device-intelligence module with Ethernet",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259792,
+    "organization": "5d36fdd4",
+    "description_zh": "低功耗以太网设备智能模块",
+    "params": {
+      "comment": "MB4001",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-ETH.01",
+      "pcblib": "MB4001.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-4001",
+    "inherit_costs": "PCBA-MB4001"
+  },
+  {
+    "version": 2,
+    "created_at": 1528105588535,
+    "project": "3HFK-223A-MFCU",
+    "description_en": "High-performance device-intelligence module with Ethernet",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1534064259796,
+    "organization": "5d36fdd4",
+    "description_zh": "高性能以太网设备智能模块",
+    "params": {
+      "comment": "MB4002",
+      "technology": "SMT",
+      "schlib": "MB-MCU-14X10-ETH.01",
+      "pcblib": "MB4002.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "CMPT-2000-4002",
+    "inherit_costs": "PCBA-MB4002"
+  },
+  {
+    "updated_at": 1495888839702,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03z66j7a",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214205,
+    "params": {
+      "pcblib": "MODCMP-P072-M14X10",
+      "comment": "MODCMP-P072-M14X10",
+      "technology": "SMT",
+      "schlib": "MODCMP-P072-M14X10"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 72-Pin, 14mmX10mm",
+    "id": "MOD-0100-0094",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1495888839639,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04ef54yw",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214207,
+    "params": {
+      "pcblib": "MODCMP-P120-M22X14",
+      "comment": "MODCMP-P120-M22X14",
+      "technology": "SMT",
+      "schlib": "MODCMP-P120-M22X14"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 120-Pin, 22x14mm",
+    "id": "MOD-0100-0106",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1502247392124,
+    "version": 4,
+    "organization": "5d36fdd4",
+    "parts": [],
+    "created_at": 1489304214210,
+    "params": {
+      "pcblib": "MCU_14X10.A.1",
+      "comment": "MCU_14X10.A.2",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.2"
+    },
+    "category": "modules",
+    "description_en": "MCU_14X10.A.2",
+    "id": "MOD-0100-0209",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 8,
+    "created_at": 1489304214212,
+    "description_en": "USB_10X10.A1",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1535082321783,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03y2xaut",
+        "approval_design": "new"
+      }
+    ],
+    "params": {
+      "comment": "USB_10X10.A1",
+      "technology": "SMT",
+      "schlib": "USB_10X10.A1",
+      "pcblib": "MB0017.01"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0220",
+    "inherit_costs": "PCBA-MB0017"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214222,
+    "caption_zh": "MB0006 电池电源管理模块",
+    "inventory_count": "2",
+    "description_en": "Dual output, 5.0V and 3.3V, battery power manager",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0006 Battery Power Manager",
+    "updated_at": 1524559149394,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03axrpej",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "3.3V及5V双输出，电池电源管理模块",
+    "params": {
+      "pcblib": "MB0006A.01.A.2",
+      "comment": "MB0006A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0006A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0253",
+    "inherit_costs": "PCBA-MB0006"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214240,
+    "caption_zh": "MB0008 16通道脉宽调制LED控制器",
+    "inventory_count": "1",
+    "description_en": "16x PWM LED Controller",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0008 16x PWM LED Controller",
+    "updated_at": 1524558976210,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04mtfkax",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "16通道I2C LED控制器，驱动16通道单色或4通道RGB LED",
+    "params": {
+      "pcblib": "MB0008A.01.A.1",
+      "comment": "MB0008A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0008A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0257",
+    "inherit_costs": "PCBA-MB0008"
+  },
+  {
+    "version": 5,
+    "created_at": 1489304214244,
+    "caption_zh": "MB0006 子组装",
+    "description_en": "Dual output, 5.0V and 3.3V, battery power manager",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0006 Assembly",
+    "updated_at": 1524560706969,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03axrpem",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "3.3V及5V双输出，电池电源管理模块",
+    "params": {
+      "pcblib": "MB0006A.01.A.1",
+      "comment": "MB0006A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0006A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0261",
+    "inherit_costs": "PCBA-MB0006"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214253,
+    "caption_zh": "MB0015 USB 3.0集线器模块，4端口CDP模式",
+    "description_en": "4-port USB 3.0 hub with comprehensive USB charging support, 1 upstream & 4 downstream USB 3.0 ports",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0015 4-Port5 USB 3.0 Hub",
+    "updated_at": 1524559314607,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05cf8fbk",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4端口USB3.0集线器带USB充电支持，1路上行4路下行",
+    "params": {
+      "pcblib": "MB0015A.01.A.1",
+      "comment": "MB0015A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0015A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0264",
+    "inherit_costs": "PCBA-MB0015"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214257,
+    "caption_zh": "MB0016 3.3V及5V双电源供电模块",
+    "description_en": "Dual power supply with 24V input and 3.3V and 5V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0016 3.3V/5V Dual Power Supply",
+    "updated_at": 1524559395830,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "0374kkhl",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "双路电源供电模块，24V输入，3.3V和5V输出",
+    "params": {
+      "pcblib": "MB0016A.01.A.1",
+      "comment": "MB0016A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0016A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0266",
+    "inherit_costs": "PCBA-MB0016"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214258,
+    "caption_zh": "MB0003 触摸控制器",
+    "description_en": "Touch Controller with Single and Dual multi-touch capability, with or without back lights",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0003 Capacitive Touch Controller",
+    "updated_at": 1524559024114,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "044k5k4q",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "多点触控能力、带背光及不带背光版本的触摸控制器",
+    "params": {
+      "pcblib": "MB0003A.01.A.1",
+      "comment": "MB0003A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0003A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0268",
+    "inherit_costs": "PCBA-MB0003"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214260,
+    "caption_zh": "MB0023 红外感应控制器",
+    "description_en": "PIR (Passive Infra-Red) sensor controller",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0023 PIR Sensor Controller",
+    "updated_at": 1524559577881,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00fjmk6n",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "红外感应控制器",
+    "params": {
+      "pcblib": "MB0023A.01.A.1",
+      "comment": "MB0023A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0023A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0269",
+    "inherit_costs": "PCBA-MB0023"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214284,
+    "caption_zh": "MB0026 RFID读写器",
+    "description_en": "RFID Controller with SPI up to 10 Mbit/sec and an operating distance up to 50mm",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0026 RFID Controller",
+    "updated_at": 1524559671552,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05mwz78k",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "SPI接口RFID读写器，速度可达10Mbps,传输距离可达50mm",
+    "params": {
+      "pcblib": "MB0026A.01.A.1",
+      "comment": "MB0026A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0026A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0292",
+    "inherit_costs": "PCBA-MB0026"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214288,
+    "caption_zh": "MB0028 带1.2W音频放大的声效单元",
+    "description_en": "SPI controlled sound-effects unit with a 1.2W audio amplifier",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0028 Sound-Effects Unit with 1.2W Audio Amp",
+    "updated_at": 1524559709551,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05bqek4z",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "SPI接口的带1.2W音频放大的声效单元",
+    "params": {
+      "pcblib": "MB0028A.01.A.1",
+      "comment": "MB0028A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0028A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0294",
+    "inherit_costs": "PCBA-MB0028"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214289,
+    "caption_zh": "MB0030 48通道60mA SPI接口LED控制单元",
+    "description_en": "48x 60mA SPI LED Controller & Driver with 16x RGB LEDs and a 32-bit MCU",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0030 48x 60mA LED Controller",
+    "updated_at": 1520939939185,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04hzzxfq",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "48通道60mA SPI接口LED控制驱动器，带32位MCU，可支持16路RGB LED",
+    "params": {
+      "pcblib": "MB0030A.01.A.1",
+      "comment": "MB0030A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0030A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0297",
+    "inherit_costs": "PCBA-MB0030"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214291,
+    "caption_zh": "MB0020 4路SPI接口继电器控制器",
+    "description_en": "SPI enabled relay controller for up to 4 mechanical relays",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0020 4x SPI Relay Controller",
+    "updated_at": 1524559437070,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04muxk4r",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4路SPI接口继电器控制器",
+    "params": {
+      "pcblib": "MB0020A.01.A.1",
+      "comment": "MB0020A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0020A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0298",
+    "inherit_costs": "PCBA-MB0020"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214317,
+    "caption_zh": "MB0032 16通道60mA SPI接口LED控制器",
+    "inventory_count": "1",
+    "description_en": "16x 60mA SPI LED Controller & Driver with 4 RGBW LEDs and a 32-bit MCU",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0032 16x 60mA LED Controller",
+    "updated_at": 1520940022886,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03uzt3kn",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "16通道60mA SPI接口LED控制驱动器，带32位MCU，可支持4路RGBW LED",
+    "params": {
+      "pcblib": "MB0032A.01.A.1",
+      "comment": "MB0032A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0032A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0301",
+    "inherit_costs": "PCBA-MB0032"
+  },
+  {
+    "version": 5,
+    "created_at": 1489304214322,
+    "caption_zh": "MB0033 32通道60mA SPI接口LED控制器",
+    "description_en": "32x 60mA SPI LED Controller & Driver with 8 RGBW LEDs and a 32-bit MCU",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0033 32x 60mA LED Controller",
+    "updated_at": 1500194940639,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03q9q39p",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "32通道60mA SPI接口LED控制驱动器，带32位MCU，可支持8路RGBW LED",
+    "params": {
+      "pcblib": "MB0033A.01.A.1",
+      "comment": "MB0033A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0033A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0304",
+    "inherit_costs": "ASSM-0001-0033"
+  },
+  {
+    "version": 8,
+    "created_at": 1489304214489,
+    "caption_zh": "MB0035 USB3接口以太网适配器",
+    "inventory_count": "4",
+    "description_en": "USB 3.0 to Gigabit Ethernet adaptor With built-in USB 3.0 upstream port and Ethernet port",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0035 USB 3.0 Gigabit Ethernet",
+    "updated_at": 1513062341853,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "000c7f5m",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "USB3接口以太网适配器，带内置USB3.0上行端口和以太网端口",
+    "params": {
+      "pcblib": "MB0035A.01.A.1",
+      "comment": "MB0035A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0035A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0313",
+    "inherit_costs": "PCBA-MB0035"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214491,
+    "caption_zh": "MB0036 4通道霍尔效应电流传感器",
+    "description_en": "4x Hall-effect current sensor with a sensing range of -15.5A to +15.5",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0036 4x Hall-Effect Current Sensor",
+    "updated_at": 1524559809170,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05j43kkj",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4通道霍尔效应电流传感器，测量范围-15.5A到15.5",
+    "params": {
+      "pcblib": "MB0036A.01.A.1",
+      "comment": "MB0036A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0036A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0314",
+    "inherit_costs": "PCBA-MB0036"
+  },
+  {
+    "version": 8,
+    "created_at": 1489304214698,
+    "caption_zh": "MB0037 用于Atom CPU的HDMI接口模块",
+    "inventory_count": "7",
+    "description_en": "HDMI interface designed for use in the HX-001 Intel-Atom based Mesheven Intelligent Machine",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0037 HDMI Interface for Atom CPU",
+    "updated_at": 1524559833169,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05dbyk9k",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "用于基于Intel Atom处理器的HX-001创享盒的HDMI接口模块",
+    "params": {
+      "pcblib": "MB0037A.01.A.1",
+      "comment": "MB0037A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0037A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0317",
+    "inherit_costs": "PCBA-MB0037"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214707,
+    "caption_zh": "MB0039 5V/3.3V电源模块",
+    "description_en": "Power supply with 5V and dual 3.3V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0039 5V/3.3V Power Supply",
+    "updated_at": 1524559871590,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "0535dx5z",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "1路5V输出2路3.3V输出的电源模块",
+    "params": {
+      "pcblib": "MB0039A.01.A.1",
+      "comment": "MB0039A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0039A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0323",
+    "inherit_costs": "PCBA-MB0039"
+  },
+  {
+    "version": 5,
+    "created_at": 1489304214712,
+    "description_en": "BB component, length 22.91mm width 14.204mm",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1520939795415,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04c4uy5q",
+        "approval_design": "new"
+      }
+    ],
+    "params": {
+      "pcblib": "BB9017A.01.A.2",
+      "comment": "BB9017A.01.A.2",
+      "technology": "PTH",
+      "schlib": "BB9017A"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0329",
+    "inherit_costs": "PCBA-BB9017"
+  },
+  {
+    "updated_at": 1495888829107,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03wke2ku",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214810,
+    "params": {
+      "pcblib": "AB0010",
+      "comment": "AB0010.01.A.2",
+      "technology": "PTH",
+      "schlib": "AB0010"
+    },
+    "category": "modules",
+    "description_en": "AB component, length 11.5mm width 36mm",
+    "id": "MOD-0100-0330",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214812,
+    "caption_zh": "MB0045 直流电机控制器",
+    "description_en": "SPI 4x DC Motor Driver",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0045 DC Motor Driver",
+    "updated_at": 1524559939718,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04enfpcn",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "SPI接口4路直流电机控制器",
+    "params": {
+      "pcblib": "MB0045A.01.A.1",
+      "comment": "MB0045A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0045A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0333",
+    "inherit_costs": "PCBA-MB0045"
+  },
+  {
+    "updated_at": 1495888839686,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03q66y2h",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214817,
+    "params": {
+      "pcblib": "MODCMP-P120-M22X14",
+      "comment": "MODCMP-P120-M22X14",
+      "technology": "SMT",
+      "schlib": "MODCMP-P120-M22X14_NEW"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 120-Pin, 22x14mm",
+    "id": "MOD-0100-0340",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1502270492690,
+    "version": 4,
+    "organization": "5d36fdd4",
+    "parts": [],
+    "created_at": 1489304214819,
+    "params": {
+      "pcblib": "MODCMP-P152-M22X22",
+      "comment": "MODCMP-P152-M22X22",
+      "technology": "SMT",
+      "schlib": "MODCMP-P152-M22X22_NEW"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 152-Pin, 22x22mm",
+    "id": "MOD-0100-0341",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1495888839655,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "048mlwhb",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214825,
+    "params": {
+      "pcblib": "MODCMP-P88-M14X14",
+      "comment": "MODCMP-P88-M14X14",
+      "technology": "SMT",
+      "schlib": "MODCMP-P088-M14X14_NEW"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 88-Pin, 14x14mm",
+    "id": "MOD-0100-0342",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1495888839638,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04zxzs7c",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214836,
+    "params": {
+      "pcblib": "MODCMP-P056-M10X10",
+      "comment": "MODCMP-P056-M10X10",
+      "technology": "SMT",
+      "schlib": "MODCMP-P056-M10X10_NEW"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 56-Pin, 10x10mm",
+    "id": "MOD-0100-0343",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1495888839639,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03z66j7a",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214841,
+    "params": {
+      "pcblib": "MODCMP-P072-M14X10",
+      "comment": "MODCMP-P072-M14X10",
+      "technology": "SMT",
+      "schlib": "MODCMP-P072-M14X10_NEW"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 72-Pin, 14x10mm",
+    "id": "MOD-0100-0344",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1502247112758,
+    "version": 4,
+    "organization": "5d36fdd4",
+    "parts": [],
+    "created_at": 1489304214847,
+    "params": {
+      "pcblib": "MCU_14X10.A.2",
+      "comment": "MCU_14X10.A.3",
+      "technology": "SMT",
+      "schlib": "MCU_14X10.A.3"
+    },
+    "category": "modules",
+    "description_en": "Module Component - 1mm Pitch, 54-Pin, 14x10mm",
+    "id": "MOD-0100-0351",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 4,
+    "created_at": 1489304214849,
+    "caption_zh": "MB0039 子组装",
+    "description_en": "Power supply with 5V and dual 3.3V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0039 Assembly",
+    "updated_at": 1500193541875,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "0535dx5x",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "1路5V输出2路3.3V输出的电源模块",
+    "params": {
+      "pcblib": "MB0039A.01.A.3",
+      "comment": "MB0039A.01.A.3",
+      "technology": "SMT",
+      "schlib": "MB0039A.01.A.3"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0352",
+    "inherit_costs": "ASSM-0001-0039"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214856,
+    "caption_zh": "MB0051 4通道数字隔离器4路入4路出",
+    "description_en": "4 channel digital isolator with isolation of up to 1000V RMS and transmission speed from DC to 10 Mbps",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0051 4 Channel Digital Isolator, 4-In:4-Out",
+    "updated_at": 1524560067898,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00bjrffk",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4通道数字隔离器，1000V直流有效值10Mbps传输速度",
+    "params": {
+      "pcblib": "MB0051A.01.A.1",
+      "comment": "MB0051A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0051A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0354",
+    "inherit_costs": "PCBA-MB0051"
+  },
+  {
+    "version": 14,
+    "created_at": 1489304214859,
+    "caption_zh": "MB0052 4通道数字隔离器3路入1路出",
+    "description_en": "4 channel digital isolator with a 3-in:1-out configuration",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0052 4 Channel Digital Isolator, 3-In:1-Out",
+    "updated_at": 1524560100366,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "04684kml",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4通道数字隔离器，3路入1路出配置",
+    "params": {
+      "pcblib": "MB0052A.01.A.1",
+      "comment": "MB0052A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0052A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0355",
+    "inherit_costs": "PCBA-MB0052"
+  },
+  {
+    "updated_at": 1495888829153,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03kxavcv",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214864,
+    "params": {
+      "pcblib": "AB0001.01.A.3",
+      "comment": "AB0001.01.A.3",
+      "technology": "SMT",
+      "schlib": "AB0001.01.A.3"
+    },
+    "category": "modules",
+    "description_en": "AB component, length 56.42mm width 58.6mm",
+    "id": "MOD-0100-0359",
+    "subcategory": "pcb - board",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214866,
+    "caption_zh": "MB0053 USB接口WiFi模块",
+    "inventory_count": "7",
+    "description_en": "USB to WiFi conversion with speed up to 150Mbps",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0053 USB to WiFi",
+    "updated_at": 1524560150587,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03zga3km",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "150Mbps USB到WiFi转换模块",
+    "params": {
+      "pcblib": "MB0053A.01.A.1",
+      "comment": "MB0053A.01.A.1",
+      "technology": "SMT",
+      "schlib": "MB0053A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0360",
+    "inherit_costs": "PCBA-MB0053"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214869,
+    "caption_zh": "MB0048 USB音频模块",
+    "inventory_count": "2",
+    "description_en": "USB 2.0 compliant general purpose USB to Audio device with support for headphones speakers",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0048 USB Audio",
+    "updated_at": 1524559988082,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "039z93eu",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "USB2.0接口通用音频模块，可用于耳机及扬声器",
+    "params": {
+      "pcblib": "MB0048A.01.A.2",
+      "comment": "MB0048A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0048A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0361",
+    "inherit_costs": "PCBA-MB0048"
+  },
+  {
+    "version": 12,
+    "created_at": 1489304214873,
+    "caption_zh": "MB0005 USB电池充电及3.3V、5V供电模块",
+    "inventory_count": "1",
+    "description_en": "USB battery charger and power supply for rechargeable lithium battery, with 3.3V and 5V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0005 USB Battery Charger and 3.3V & 5V Power Supply",
+    "updated_at": 1524559079551,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "054m778l",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "USB锂电池充放电模块，带3.3V及5V输出",
+    "params": {
+      "comment": "MB0005A.01.A.3",
+      "technology": "SMT",
+      "schlib": "MB0005A.01.A.3",
+      "pcblib": "MB0005A.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0363",
+    "inherit_costs": "PCBA-MB0005"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214876,
+    "caption_zh": "MB0011 9轴运动传感器",
+    "description_en": "Intelligent motion sensor with linear, rotational, direction (compass heading), and altitude (barometric pressure) data over SPI",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0011 9-Axis Motion Sensor",
+    "updated_at": 1524559276873,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "03pcxxbq",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "SPI接口智能运动传感器带线性、旋转、方向和高度感知功能",
+    "params": {
+      "pcblib": "MB0011A.01.A.2",
+      "comment": "MB0011A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0011A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0364",
+    "inherit_costs": "PCBA-MB0011"
+  },
+  {
+    "version": 7,
+    "created_at": 1489304214879,
+    "caption_zh": "MB0043 3路输出电源模块",
+    "inventory_count": "4",
+    "description_en": "3 output power supply with 5V and 3.3V outputs and an always-on 3.3V supply",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0043 3 Output Power Supply",
+    "updated_at": 1524559910868,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00qqx38k",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "3路输出电源模块带5V和3.3V输出及一路常开3.3V输出",
+    "params": {
+      "pcblib": "MB0043A.01.A.2",
+      "comment": "MB0043A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0043A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0365",
+    "inherit_costs": "PCBA-MB0043"
+  },
+  {
+    "version": 6,
+    "created_at": 1489304214883,
+    "caption_zh": "MB0049",
+    "description_en": "3x DC Stepper Motor Driver",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0049",
+    "updated_at": 1524560010329,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00rl77cv",
+        "approval_design": "new"
+      }
+    ],
+    "params": {
+      "pcblib": "MB0049A.01.A.2",
+      "comment": "MB0049A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0049A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0368",
+    "inherit_costs": "PCBA-MB0049"
+  },
+  {
+    "updated_at": 1502249533385,
+    "version": 4,
+    "organization": "5d36fdd4",
+    "parts": [],
+    "created_at": 1489304214888,
+    "params": {
+      "pcblib": "HDR_1X7_2.54",
+      "comment": "BBCMP-P7",
+      "technology": "PTH",
+      "schlib": "HDR_1X7_BB"
+    },
+    "category": "modules",
+    "description_en": "BB component, length 21.52mm width 17.78mm",
+    "id": "MOD-0100-0371",
+    "subcategory": "module - breadboard",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 5,
+    "created_at": 1489304214890,
+    "caption_zh": "MB0016 子组装",
+    "description_en": "Dual power supply with 24V input and 3.3V and 5V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0016 Assembly",
+    "updated_at": 1520939976153,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "0374kkhk",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "双路电源供电模块，24V输入，3.3V和5V输出",
+    "params": {
+      "pcblib": "MB0016A.01.A.2",
+      "comment": "MB0016A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0016A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0372",
+    "inherit_costs": "PCBA-MB0016"
+  },
+  {
+    "version": 4,
+    "created_at": 1489304214892,
+    "description_en": "AB board Buzzer",
+    "subcategory": "module - breadboard",
+    "item_type": "eda_component",
+    "state": "active",
+    "updated_at": 1501574978279,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00rxsepx",
+        "approval_design": "new"
+      }
+    ],
+    "params": {
+      "pcblib": "AB0014.01.A.1",
+      "comment": "AB0014.01.A.1",
+      "technology": "PTH",
+      "schlib": "AB0014.01.A.1"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0373"
+  },
+  {
+    "version": 8,
+    "created_at": 1489304214894,
+    "caption_zh": "MB0015 子组装",
+    "inventory_count": "4",
+    "description_en": "4-port USB 3.0 hub with comprehensive USB charging support, 1 upstream & 4 downstream USB 3.0 ports",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0015 Assembly",
+    "updated_at": 1524559366621,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "05cf8fbl",
+        "approval_design": "new"
+      }
+    ],
+    "description_zh": "4端口USB3.0集线器带USB充电支持，1路上行4路下行",
+    "params": {
+      "pcblib": "MB0015A.01.A.2",
+      "comment": "MB0015A.01.A.2",
+      "technology": "SMT",
+      "schlib": "MB0015A.01.A.2"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0374",
+    "inherit_costs": "PCBA-MB0015"
+  },
+  {
+    "updated_at": 1495888829138,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "047mucmz",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214895,
+    "params": {
+      "pcblib": "AB0016.01.A.1",
+      "comment": "AB0016.01.A.1",
+      "technology": "PTH",
+      "schlib": "AB0016.01.A.1"
+    },
+    "category": "modules",
+    "description_en": "AB board 12X4.1mm",
+    "id": "MOD-0100-0375",
+    "subcategory": "module - breadboard",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "updated_at": 1495888848234,
+    "version": 3,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "part": "00rr49sj",
+        "approval_design": "new"
+      }
+    ],
+    "created_at": 1489304214897,
+    "params": {
+      "pcblib": "SODIMM_MODULE",
+      "comment": "SODIMM_Module",
+      "technology": "SMT",
+      "schlib": "PC_SODIMM"
+    },
+    "category": "modules",
+    "description_en": "SODIMM_Module",
+    "id": "MOD-0100-0376",
+    "subcategory": "connector",
+    "item_type": "eda_component",
+    "state": "active"
+  },
+  {
+    "version": 13,
+    "created_at": 1489304214905,
+    "caption_zh": "MB0005 子组装",
+    "description_en": "USB battery charger and power supply for rechargeable lithium battery, with 3.3V and 5V outputs",
+    "subcategory": "pcb - module",
+    "item_type": "eda_component",
+    "state": "active",
+    "caption_en": "MB0005 Assembly",
+    "updated_at": 1524559114930,
+    "organization": "5d36fdd4",
+    "parts": [
+      {
+        "approval_supply": "new",
+        "approval_design": "new",
+        "part": "054m778p"
+      }
+    ],
+    "description_zh": "USB锂电池充放电模块，带3.3V及5V输出",
+    "params": {
+      "pcblib": "MB0005A.01.A.4",
+      "comment": "MB0005A.01.A.4",
+      "technology": "SMT",
+      "schlib": "MB0005A.01.A.4"
+    },
+    "category": "modules",
+    "cost_type": "costs_inherited",
+    "id": "MOD-0100-0381",
+    "inherit_costs": "PCBA-MB0005"
+  }
+]

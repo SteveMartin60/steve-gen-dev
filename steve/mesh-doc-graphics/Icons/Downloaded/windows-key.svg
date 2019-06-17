@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="221.64964"
+   height="221.64964"
+   viewBox="0 0 58.6448 58.644803"
+   version="1.1"
+   id="svg18815"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="windows-key.svg">
+  <title
+     id="title18848">Windows Key</title>
+  <defs
+     id="defs18809" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4257425"
+     inkscape:cx="194.95825"
+     inkscape:cy="148.12607"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <metadata
+     id="metadata18812">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Windows Key</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.069751,-37.016078)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.0927;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect18828"
+       width="52.823967"
+       height="52.823967"
+       x="57.980167"
+       y="39.926495"
+       ry="4.911478" />
+    <rect
+       ry="4.911478"
+       y="39.926495"
+       x="57.980167"
+       height="52.823967"
+       width="52.823967"
+       id="rect18860"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <g
+       id="g18888"
+       transform="translate(-0.9280196,0.17947959)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect18839"
+         d="m 74.753696,58.145323 8.653742,-1.267389 v 9.087776 h -8.653732 z"
+         style="opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.0927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path18844"
+         d="m 83.795632,56.819872 12.091013,-1.77124 V 65.96571 H 83.795632 Z"
+         style="opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.0927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.0927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 74.753696,74.172674 8.653742,1.267389 v -9.087759 h -8.653732 z"
+         id="path18868"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:#555555;stroke-width:0.0927;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 83.795632,75.498125 12.091013,1.77124 V 66.352304 H 83.795632 Z"
+         id="path18870"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>

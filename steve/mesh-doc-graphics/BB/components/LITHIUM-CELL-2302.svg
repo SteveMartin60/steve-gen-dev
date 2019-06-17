@@ -1,0 +1,56 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="-11.544 -3.06 23.088 8.025"
+    >
+    <defs>
+        <linearGradient id="LITHIUM-CELL-2302.gradient">
+            <stop offset="0.000" stop-color="#4f4c4d"/>
+            <stop offset="0.298" stop-color="#deddde"/>
+            <stop offset="0.399" stop-color="#444141"/>
+            <stop offset="0.583" stop-color="#deddde"/>
+            <stop offset="0.934" stop-color="#deddde"/>
+            <stop offset="1.000" stop-color="#231f20"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="23.00" height="6.0" x="-11.50" y="-3.0" fill="#444141" stroke="#231f20" stroke-width="0.088" rx=".498" ry="0.506"/>
+    <rect width="02.00" height="6.0" x="-10.06" y="-3.0" fill="#393536" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="02.00" height="6.0" x="+08.06" y="-3.0" fill="#393536" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="20.12" height="4.0" x="-10.06" y="-2.0" fill="#2e2a2b" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="05.00" height="0.6" x="-02.50" y="-2.2" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.303" ry="0.3"/>
+    <rect width="02.50" height="0.4" x="+00.75" y="+1.6" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.203" ry="0.2"/>
+    <rect width="02.50" height="0.4" x="-03.25" y="+1.6" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.203" ry="0.2"/>
+
+    <path
+        fill="url(#LITHIUM-CELL-2302.gradient)"
+        stroke="#231f20"
+        stroke-width=".088" 
+        d="
+            m +9.5,  -0.8
+            h -0.5
+            c 0, -0.44, -0.36, -0.8, -0.8, -0.8 
+            h -16.4
+            c -0.44, 0, -0.8, 0.36, -0.8, 0.8
+            h -0.5
+            c -0.275, 0, -0.5, 0.225, -0.5, 0.5
+            v 1.4
+            c 0, 0.275, 0.225, 0.5, 0.5, 0.5
+            h 19
+            c 0.275, 0, 0.5, -0.225, 0.5, -0.5
+            v -1.4
+            c 0, -0.275, -0.225, -0.5, -0.5, -0.5
+        z"/>
+
+    <rect width="17.992" height=".147" x="-9.007" y="-.873" fill="url(#LITHIUM-CELL-2302.gradient)" stroke="#231f20" stroke-width=".088" rx=".079" ry=".073"/>
+    <svg
+        overflow    ="visible"
+        fill        ="#4899c4" 
+        font-family ="Lato" 
+        font-size   ="1.94"
+        stroke-width="0.353" 
+        font-weight ="700" 
+        white-space ="normal" 
+        >
+        <text x="-7.619" y="4.965">Lithium Cell 2032</text>
+    </svg>
+</svg>

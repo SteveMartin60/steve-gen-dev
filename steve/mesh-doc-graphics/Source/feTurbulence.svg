@@ -1,0 +1,64 @@
+<svg
+    width="450px"
+    height="325px"
+    viewBox="0 0 101 76"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <defs>
+        <filter
+            id="Turb5"
+            filterUnits="objectBoundingBox" 
+            >
+            <feTurbulence
+                type="fractalNoise" 
+                baseFrequency="2" 
+                numOctaves="4"
+            />
+            
+            <feGaussianBlur result="blur" stdDeviation="0.1" />
+
+            <feComponentTransfer>
+                <feFuncA type="discrete" tableValues="0 1 1 1 1"/>
+            </feComponentTransfer>
+                
+            <feColorMatrix type="saturate" values="0"/>
+        </filter>
+
+        <pattern
+            id    ="PATTERN-SENSOR-TEXTURE"
+            x     ="0.5"
+            y     ="0.5" 
+            width =".16"
+            height=".16"
+            patternUnits="userSpaceOnUse"
+        >
+
+        <rect x="0.00" y="0.00" width="0.08" height="0.08" fill="#303030" opacity="0.5"/>
+        <rect x="0.08" y="0.08" width="0.08" height="0.08" fill="#a0a0a0" opacity="0.5"/>
+
+        </pattern>        
+
+        <svg
+            id="TEXTURE-MP-2"
+            overflow="visible"
+            >
+            
+        <svg
+            id="TEXTURE-MP-X"
+            >
+            
+            <rect x="10" y="10" width="50" height="50" stroke="hotpink" stroke-width="0.9" fill="pink" filter="url(#Turb5)"  opacity="0.25"/>
+        </svg>
+
+        </svg>
+
+    </defs>
+
+<!--
+     <rect x="5" y="5" width="100" height="75" filter="url(#Turb5)"  />
+
+ -->
+    <rect x="10" y="10" width="50" height="50" stroke="black" stroke-width="0.9" fill="#abbd89" filter="url(#Turb5)"/>
+
+</svg>
+

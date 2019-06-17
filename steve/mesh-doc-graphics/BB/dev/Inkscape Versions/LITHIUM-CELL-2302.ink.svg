@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="LITHIUM-CELL-2302.ink.svg">
+    <title
+         id="title133027">lithium-2302</title>
+    <defs
+         id="defs128415">
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath44940">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path44938"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <linearGradient
+             x1="0"
+             y1="0"
+             x2="1"
+             y2="0"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0,17.985414,-17.985414,0,-0.40758331,6.3888796)"
+             spreadMethod="pad"
+             id="linearGradient44930">
+            <stop
+                 style="stop-opacity:1;stop-color:#4f4c4d"
+                 offset="0"
+                 id="stop44912" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.06794786"
+                 id="stop44914" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.128079"
+                 id="stop44916" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.29823535"
+                 id="stop44918" />
+            <stop
+                 style="stop-opacity:1;stop-color:#444141"
+                 offset="0.399015"
+                 id="stop44920" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.58270155"
+                 id="stop44922" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.847291"
+                 id="stop44924" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.93395082"
+                 id="stop44926" />
+            <stop
+                 style="stop-opacity:1;stop-color:#231f20"
+                 offset="1"
+                 id="stop44928" />
+        </linearGradient>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath44894">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path44892"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <linearGradient
+             x1="0"
+             y1="0"
+             x2="1"
+             y2="0"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0,20.000007,-20.000007,0,-1.2075775,5.388878)"
+             spreadMethod="pad"
+             id="linearGradient44884">
+            <stop
+                 style="stop-opacity:1;stop-color:#4f4c4d"
+                 offset="0"
+                 id="stop44866" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.06794786"
+                 id="stop44868" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.128079"
+                 id="stop44870" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.29823535"
+                 id="stop44872" />
+            <stop
+                 style="stop-opacity:1;stop-color:#444141"
+                 offset="0.399015"
+                 id="stop44874" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.58270155"
+                 id="stop44876" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.847291"
+                 id="stop44878" />
+            <stop
+                 style="stop-opacity:1;stop-color:#deddde"
+                 offset="0.93395082"
+                 id="stop44880" />
+            <stop
+                 style="stop-opacity:1;stop-color:#231f20"
+                 offset="1"
+                 id="stop44882" />
+        </linearGradient>
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient44930"
+             id="linearGradient14829"
+             x1="17.911797"
+             y1="8.3440905"
+             x2="22.999998"
+             y2="8.3440905"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(13.595549,0,0,0.38292125,-243.95358,-2.9135859)" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient44884"
+             id="linearGradient14908"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="translate(-20.490128,-1.119934)"
+             x1="10.446068"
+             y1="1.119995"
+             x2="30.53394"
+             y2="1.119995" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient44930"
+             id="linearGradient14910"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(3.5971556,0,0,0.10131458,-73.597035,-1.688443)"
+             x1="17.911797"
+             y1="8.3440905"
+             x2="22.999998"
+             y2="8.3440905" />
+    </defs>
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="8"
+         inkscape:cx="-8.2302005"
+         inkscape:cy="-17.832549"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         inkscape:showpageshadow="false"
+         borderlayer="true"
+         inkscape:snap-others="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>lithium-2302</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <rect
+         rx="0.49812788"
+         ry="0.50639635"
+         y="-3.0001812"
+         x="-11.499805"
+         height="6.0001326"
+         width="22.999611"
+         id="rect14884"
+         style="opacity:1;vector-effect:none;fill:#444141;fill-opacity:1;stroke:#231f20;stroke-width:0.08810625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+         style="opacity:1;vector-effect:none;fill:#393536;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect14886"
+         width="1.9998971"
+         height="6.0001326"
+         x="-10.060252"
+         y="-2.9999962"
+         rx="0"
+         ry="0" />
+    <text
+         y="4.9653702"
+         x="-7.6189923"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.9402777px;font-family:Lato;-inkscape-font-specification:Lato-Bold;writing-mode:lr-tb;fill:#4899c4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277781"
+         id="text14890">
+        <tspan
+             style="stroke-width:0.35277781"
+             x="-7.6189923 -6.6158681 -6.0900531 -5.3391652 -4.2370877 -3.7112718 -2.6091943 -0.97548145 -0.60100979 0.69897991 1.7362514 2.2620673 2.7878814 3.1623569 4.2877173 5.4130778 6.5384402"
+             y="4.9653702"
+             sodipodi:role="line"
+             id="tspan14888">Lithium Cell 2032</tspan>
+    </text>
+    <rect
+         ry="0"
+         rx="0"
+         y="-2.9999962"
+         x="8.0598259"
+         height="6.0001326"
+         width="1.9998971"
+         id="rect14892"
+         style="opacity:1;vector-effect:none;fill:#393536;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+         ry="0"
+         rx="0"
+         y="-1.9995297"
+         x="-10.060252"
+         height="3.9998055"
+         width="20.119806"
+         id="rect14894"
+         style="opacity:1;vector-effect:none;fill:#2e2a2b;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <path
+         d="m 9.499829,-0.800039 h -0.500239 c 0,-0.439914 -0.359833,-0.8001 -0.8001,-0.8001 h -16.399934 c -0.439914,0 -0.799747,0.360186 -0.799747,0.8001 h -0.499886 c -0.275167,0 -0.499886,0.225072 -0.499886,0.500239 v 1.399822 c 0,0.275167 0.224719,0.500239 0.499886,0.500239 h 18.999906 c 0.274814,0 0.499886,-0.225072 0.499886,-0.500239 v -1.399822 c 0,-0.275167 -0.225072,-0.500239 -0.499886,-0.500239 z"
+         style="fill:url(#linearGradient14908);fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path14896"
+         inkscape:connector-curvature="0" />
+    <rect
+         rx="0.3028248"
+         ry="0.2999934"
+         y="-2.1999846"
+         x="-2.5001016"
+         height="0.59998679"
+         width="5.0000076"
+         id="rect14898"
+         style="opacity:1;vector-effect:none;fill:#cfa550;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+         rx="0.20307605"
+         ry="0.19990277"
+         y="1.6000854"
+         x="0.74978787"
+         height="0.39980555"
+         width="2.4998055"
+         id="rect14900"
+         style="opacity:1;vector-effect:none;fill:#cfa550;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+         style="opacity:1;vector-effect:none;fill:#cfa550;fill-opacity:1;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect14902"
+         width="2.4998055"
+         height="0.39980555"
+         x="-3.2502656"
+         y="1.6000854"
+         ry="0.19990277"
+         rx="0.20307605" />
+    <rect
+         style="opacity:1;vector-effect:none;fill:url(#linearGradient14910);fill-opacity:1;stroke:#231f20;stroke-width:0.08819443;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect14904"
+         width="17.992008"
+         height="0.14680557"
+         x="-9.0068865"
+         y="-0.87345976"
+         ry="0.073402785"
+         rx="0.078518681" />
+</svg>

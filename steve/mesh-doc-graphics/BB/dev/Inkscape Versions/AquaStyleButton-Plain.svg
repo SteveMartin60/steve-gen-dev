@@ -1,0 +1,32 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="80" 
+height="26"
+ >
+    <defs>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#373ea3"/>
+            <stop offset="1" stop-color="#94ddf6"/>
+        </linearGradient>
+
+        <filter id="c" x="-.048" width="1.095" y="-.147" height="1.294">
+            <feGaussianBlur stdDeviation="1.59"/>
+        </filter>
+
+        <filter id="f">
+            <feGaussianBlur stdDeviation=".108"/>
+        </filter>
+
+        <linearGradient href="#b" id="e" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)" x1="40" y1="-1" x2="40" y2="13"/>
+
+        <linearGradient href="#a" id="d" gradientUnits="userSpaceOnUse" x1="40" y1="-1" x2="40" y2="26"/>
+    </defs>
+
+    <path d="M12.783 0h54.434C74.3 0 80 5.798 80 13s-5.701 13-12.783 13H12.783C5.7 26 0 20.202 0 13S5.701 0 12.783 0z" fill="url(#d)"/>
+    <path d="M12.781 1C6.03 1 0 7 4 13h72c4-6-2.029-12-8.781-12z" opacity=".8" fill="url(#e)" filter="url(#f)"/>
+</svg>

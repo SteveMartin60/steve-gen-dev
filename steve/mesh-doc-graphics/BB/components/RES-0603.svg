@@ -1,0 +1,22 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-1.05 -0.45 2.1 0.9"
+    >
+    <rect width="0.700" height="0.900" x="-1.050" y="-0.450" fill="#ebb300" />
+    <rect width="0.700" height="0.900" x="+0.350" y="-0.450" fill="#ebb300" />
+    <rect width="1.977" height="0.781" x="-0.988" y="-0.391" fill="#bfb290" stroke="#303030" stroke-width=".088"/>
+    <rect width="1.576" height="0.781" x="-0.788" y="-0.391" fill="#bdbcbc" stroke="#303030" stroke-width=".088"/>
+    <rect width="1.100" height="0.781" x="-0.550" y="-0.391" fill="#656263" stroke="#303030" stroke-width=".088"/>
+    <svg
+        overflow    ="visible"
+        fill        ="#ffffff" 
+        font-family ="Lato Semibold" 
+        font-size   ="0.353" 
+        stroke-width="0.265" 
+        font-weight ="600" 
+        white-space ="normal" 
+        >
+        <text x="-0.318" y="-0.044">RES </text>
+        <text x="-0.405" y="+0.298">0603</text>
+    </svg>
+</svg>

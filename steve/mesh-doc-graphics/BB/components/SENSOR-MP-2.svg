@@ -1,0 +1,102 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-8.088 -8.088 16.176 16.176"
+    >
+<!--
+    width="16.176mm"
+    height="16.176mm"
+    viewBox="-6.5 -4 1 1"
+ -->
+    <defs>
+        <pattern
+            id    ="PATTERN-SENSOR-TEXTURE"
+            x     ="0.5"
+            y     ="0.5" 
+            width =".16"
+            height=".16"
+            patternUnits="userSpaceOnUse"
+        >
+
+        <rect x="0.00" y="0.00" width="0.08" height="0.08" fill="#303030" opacity="0.025"/>
+        <rect x="0.08" y="0.08" width="0.08" height="0.08" fill="#a0a0a0" opacity="0.025"/>
+
+        </pattern>        
+
+        <radialGradient
+            id="radialGradient-MP-2"
+            >
+            <stop offset="0.9" stop-color="#ababab"/>
+            <stop offset="1.0" stop-color="#dddddd"/>
+        </radialGradient>
+
+        <svg
+            id="CROSS-HATCH-MP-2"
+            overflow="visible"
+            >
+            <path
+                stroke      ="#231f20" 
+                opacity     ="0.5"
+                stroke-width="0.265" 
+                d="m -2.25, -2.50 v 5 m 0.5, -5 v 5 m 0.5, -5 v 5 m 0.5,-5 v 5 m 0.5,-5 v 5 m 0.5,-5 v 5 m 0.5,-5 v 5 m 0.5, -5 v 5 m 0.5, -5 v 5 m 0.5, -5 v 5"
+            />
+            <path 
+                d="m -2.50,  2.25 h 5 m  -5, -0.5 h 5 m  -5, -0.5 h 5 m -5, -0.5 h 5 m -5, -0.5 h 5 m -5,-0.5 h 5 m -5, -0.5 h 5 m -5, -0.5 h 5 m-5, -0.5h5m-5,-0.5h5"
+                stroke      ="#231f20" 
+                stroke-width="0.265" 
+                opacity     ="0.5"
+            />
+        </svg>
+
+        <svg
+            id="TEXTURE-MP-2"
+            overflow="visible"
+            >
+            
+            <circle r="8" fill="url(#PATTERN-SENSOR-TEXTURE)"/>
+        </svg>
+        
+        <svg
+            id="QR-CODE-SENSOR-96"
+            overflow="visible"
+            >
+            <path
+                fill="#e7e8e9" 
+                stroke="#231f20" 
+                stroke-width="0.035" 
+                d="
+                    m 0 1 
+                    a 1, 1, 0, 1, 1, 0, -2
+                    a 1, 1, 0, 0, 1, 0, +2
+                    z
+                    m -4.785, 3.785
+                    h +9.57
+                    v -9.57
+                    h -9.57
+                    z
+                  "
+            />
+
+            <path fill="#231f20" d="m -4.785 -4.785 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+            <path fill="#231f20" d="m +2.475 -4.785 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+            <path fill="#231f20" d="m -4.785 +2.475 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+        </svg>
+    </defs>
+
+    <circle r="8.0" fill="url(#radialGradient-MP-2)"  stroke="#303030" stroke-width="0.176"/>
+
+    <use x="0" y="0" href="#TEXTURE-MP-2" />
+
+    <circle r="7.1" fill="#f1f1f2"/>
+
+    <circle r="2.5" fill="#5a5758" stroke="#231f20" stroke-width="0.176"/>
+    
+    <use href="#CROSS-HATCH-MP-2"/>
+
+    <use x="0" y="0" href="#QR-CODE-SENSOR-96" />
+
+    <path fill="#414142" d="m +1.492 , -5.000 c 0.59 , +0.00 , +0.690, -0.831, +0.121, -0.986 a 6.155, 6.155, 0, 0, 0, -3.226, +0.000 c -0.570, +0.155, -0.469 ,+0.986, +0.121 , +0.986 z"/>
+    <path fill="#414142" d="m +5.000 , +1.513 c 0.00 , +0.59 , +0.831, +0.690, +0.986, +0.121 a 6.155, 6.155, 0, 0, 0, +0.000, -3.226 c -0.156, -0.570, -0.986 ,-0.468, -0.986 , +0.122 z"/>
+    <path fill="#414142" d="m +1.492 , +5.000 c 0.59 , +0.00 , +0.690, +0.831, +0.121, +0.986 a 6.155, 6.155, 0, 0, 1, -3.226, +0.000 c -0.570, -0.156, -0.469 ,-0.986, +0.121 , -0.986 z"/>
+    <path fill="#414142" d="m -5.000 , -1.464 c 0.00 , -0.59 , -0.831, -0.690, -0.986, -0.121 a 6.155, 6.155, 0, 0, 0, +0.000, +3.226 c +0.155, +0.570, +0.986 ,+0.469, +0.986 , -0.120 z"/>
+</svg>
+

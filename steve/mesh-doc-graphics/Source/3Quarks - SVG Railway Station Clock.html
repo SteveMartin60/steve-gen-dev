@@ -1,0 +1,876 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0035)http://www.3quarks.com/en/SVGClock/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3Quarks - SVG Railway Station Clock</title>
+  
+    
+    <meta name="author" content="Rüdiger Appel">
+    <meta name="keywords" content="3Quarks, Railway Station Clock, SVG, Clock, Railway, JavaScript, Animation">
+    <meta name="description" content="The simplest way to display a railway station clock on a website is via SVG. Neither JavaScript – already contained within the SVG file – nor plug-ins are needed. An SVG file and a simple HTML tag are enough.">
+    <meta name="robots" content="all">
+    
+    <link type="image/x-icon" rel="Shortcut Icon" href="http://www.3quarks.com/favicon.ico"> 
+    <link type="text/css" rel="stylesheet" href="./3Quarks - SVG Railway Station Clock_files/jquery-ui-1.8.18.custom.css">  
+    <link type="text/css" rel="stylesheet" href="./3Quarks - SVG Railway Station Clock_files/base.css">
+    <!--[if lt IE 9]>
+      <link type="text/css" rel="stylesheet" href="../../stylesheets/stupid-ie.css" />
+    <![endif]-->
+
+    <style type="text/css">
+      
+      #page .topic .settings h3 {
+        margin: 0.5em 0 0 0;
+        padding: 1em 0.5em 0.5em 0;
+        border-top: 1px solid rgba(69, 92, 113, 0.5);
+        }
+      
+      #page .topic .settings ul {
+        padding: 0.2em 0.3em;
+        list-style-type: none;
+        }
+        
+      #page .topic .settings li {
+        vertical-align: baseline;
+        padding: 0.2em 0;
+        }
+        
+      #page .topic .settings td {
+        padding: 0.25em 1.5em 0.25em 0;
+        }
+      
+      #page .topic .settings input {
+        text-align: right;
+        }
+      
+      #page .topic .settings select {
+        width: 170px;
+        }
+      
+      #page .topic .settings .slider {
+        width: 170px;
+        }
+
+      #page .topic .settings .swatch {
+        width: 59px;
+        height: 59px;
+        margin-left: 4em;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        }
+        
+      #dialRed         .ui-slider-range  { background:   #e2001a; }
+      #dialRed         .ui-slider-handle { border-color: #e2001a; }
+      #dialGreen       .ui-slider-range  { background:   #009036; }
+      #dialGreen       .ui-slider-handle { border-color: #009036; }
+      #dialBlue        .ui-slider-range  { background:   #004a99; }
+      #dialBlue        .ui-slider-handle { border-color: #004a99; }
+      #hourHandRed     .ui-slider-range  { background:   #e2001a; }
+      #hourHandRed     .ui-slider-handle { border-color: #e2001a; }
+      #hourHandGreen   .ui-slider-range  { background:   #009036; }
+      #hourHandGreen   .ui-slider-handle { border-color: #009036; }
+      #hourHandBlue    .ui-slider-range  { background:   #004a99; }
+      #hourHandBlue    .ui-slider-handle { border-color: #004a99; }
+      #minuteHandRed   .ui-slider-range  { background:   #e2001a; }
+      #minuteHandRed   .ui-slider-handle { border-color: #e2001a; }
+      #minuteHandGreen .ui-slider-range  { background:   #009036; }
+      #minuteHandGreen .ui-slider-handle { border-color: #009036; }
+      #minuteHandBlue  .ui-slider-range  { background:   #004a99; }
+      #minuteHandBlue  .ui-slider-handle { border-color: #004a99; }
+      #secondHandRed   .ui-slider-range  { background:   #e2001a; }
+      #secondHandRed   .ui-slider-handle { border-color: #e2001a; }
+      #secondHandGreen .ui-slider-range  { background:   #009036; }
+      #secondHandGreen .ui-slider-handle { border-color: #009036; }
+      #secondHandBlue  .ui-slider-range  { background:   #004a99; }
+      #secondHandBlue  .ui-slider-handle { border-color: #004a99; }
+      #axisCoverRed    .ui-slider-range  { background:   #e2001a; }
+      #axisCoverRed    .ui-slider-handle { border-color: #e2001a; }
+      #axisCoverGreen  .ui-slider-range  { background:   #009036; }
+      #axisCoverGreen  .ui-slider-handle { border-color: #009036; }
+      #axisCoverBlue   .ui-slider-range  { background:   #004a99; }
+      #axisCoverBlue   .ui-slider-handle { border-color: #004a99; }
+
+    </style>
+
+    <script type="text/javascript" src="./3Quarks - SVG Railway Station Clock_files/jquery-1.7.2.min.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - SVG Railway Station Clock_files/jquery-ui-1.8.18.custom.min.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - SVG Railway Station Clock_files/background.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - SVG Railway Station Clock_files/formatter.js.download"></script>
+    <script type="text/javascript" src="./3Quarks - SVG Railway Station Clock_files/sidebar.js.download"></script>
+
+    <!--[if IE]>
+      <script type="text/javascript" src="../../javascripts/excanvas.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+      
+      $(document).ready(function() { 
+        $('input[name=scenario]').change(function() {
+          setScenario($('input[name=scenario]:checked').val());
+        });
+        $('.clockElement').change(function() {
+          setClockElement(this.name, $('input[name=' + this.name + ']:checked').val(), true);
+        });
+        $('input[name=axisCoverRadius]').change(function() { 
+          setAxisCoverRadius($(this).val().parse(2), true);
+        });
+        $('#axisCoverRadius').slider({ 
+          min: 0, max: 50, step: 0.5, range: "min", animate: true, value: 7,
+          slide: function(event, ui) { setAxisCoverRadius(ui.value.format(2), true); }
+        });
+        $('.color').change(function() { 
+          $('#' + $(this).attr('name')).slider('value', $(this).val().parse(2));
+          updateColor('dial');
+          updateColor('hourHand');
+          updateColor('minuteHand');
+          updateColor('secondHand');
+          updateColor('axisCover');
+        });   
+        $('#dialRed, #dialGreen, #dialBlue').slider({
+          min: 0, max: 255, step: 1, range: "min", animate: true,
+          slide: function(event, ui) { $('input[name=' + this.id + ']').val(ui.value.format(0)); updateColor('dial') }
+        });
+        $('#hourHandRed, #hourHandGreen, #hourHandBlue').slider({
+          min: 0, max: 255, step: 1, range: "min", animate: true,
+          slide: function(event, ui) { $('input[name=' + this.id + ']').val(ui.value.format(0)); updateColor('hourHand') }
+        });
+        $('#minuteHandRed, #minuteHandGreen, #minuteHandBlue').slider({
+          min: 0, max: 255, step: 1, range: "min", animate: true,
+          slide: function(event, ui) { $('input[name=' + this.id + ']').val(ui.value.format(0)); updateColor('minuteHand') }
+        });
+        $('#secondHandRed, #secondHandGreen, #secondHandBlue').slider({
+          min: 0, max: 255, step: 1, range: "min", animate: true,
+          slide: function(event, ui) { $('input[name=' + this.id + ']').val(ui.value.format(0)); updateColor('secondHand') }
+        });
+        $('#axisCoverRed, #axisCoverGreen, #axisCoverBlue').slider({
+          min: 0, max: 255, step: 1, range: "min", animate: true,
+          slide: function(event, ui) { $('input[name=' + this.id + ']').val(ui.value.format(0)); updateColor('axisCover') }
+        });
+        
+        initColor('dial', 40, 40, 40);
+        initColor('hourHand', 20, 20, 20);
+        initColor('minuteHand', 20, 20, 20);
+        initColor('secondHand', 160, 50, 40);
+        initColor('axisCover', 20, 20, 20);
+        
+        var timerId = window.setInterval(function() { 
+          if (getClock()) {
+            updateSourceCode();
+            window.clearInterval(timerId);
+          }
+        }, 500);
+      });
+      
+      function getClock() {
+        return document.getElementById('station-clock').contentDocument.defaultView.clock;
+      }
+
+      function setClockElement(name, value, refresh) {
+        if (name == 'secondHandStopToGo') {
+          getClock().secondHandStopToGo = value;
+          $('input[name=secondHandStopToGo]').attr('checked', value == 'yes');
+        } else {
+          $('input[name=' + name + '][value="' + value + '"]').attr('checked', 'checked');
+          switch (name) {
+            case 'dial'               : getClock().setClockDial(value); break;
+            case 'hourHand'           : getClock().setHourHand(value); break;
+            case 'minuteHand'         : getClock().setMinuteHand(value); break;
+            case 'secondHand'         : getClock().setSecondHand(value); break;
+            case 'minuteHandBehavior' : getClock().minuteHandBehavior = value; break;
+            case 'secondHandBehavior' : getClock().secondHandBehavior = value; break;
+            case 'secondHandStopToGo' : getClock().secondHandStopToGo = value; break;
+          }
+        }
+        if (refresh) {
+          refreshSourceCode();
+        }
+      }
+
+      function setAxisCoverRadius(radius, refresh) {
+        $('input[name=axisCoverRadius]').val(radius);
+        $('#axisCoverRadius').slider('value', radius);
+        getClock().setAxisCover($('input[name=axisCoverRadius]').val().parse(1));
+        if (refresh) {
+          refreshSourceCode();
+        }
+      }
+      
+      function initColor(name, red, green, blue) {
+        $('input[name=' + name + 'Red]').val(red);
+        $('input[name=' + name + 'Green]').val(green);
+        $('input[name=' + name + 'Blue]').val(blue);
+        $('#' + name + 'Red').slider('value',  red);
+        $('#' + name + 'Green').slider('value', green);
+        $('#' + name + 'Blue').slider('value', blue);
+        $('#' + name + 'Swatch').css('background-color', 'rgb(' + red + ',' + green + ',' + blue + ')');
+      }
+
+      function updateColor(name) {
+        var red   = $('input[name=' + name + 'Red]').val();
+        var green = $('input[name=' + name + 'Green]').val();
+        var blue  = $('input[name=' + name + 'Blue]').val();
+        var rgb   = 'rgb(' + red + ',' + green + ',' + blue + ')';
+        $('#' + name + 'Swatch').css('background-color', rgb);
+        getClock()[name + 'Color'] = rgb;
+        getClock().setColorForElement(name);
+        refreshSourceCode();
+      }
+      
+      function setColor(name, red, green, blue) {
+        initColor(name, red, green, blue);
+        getClock()[name + 'Color'] = 'rgb(' + red + ',' + green + ',' + blue + ')';
+        getClock().setColorForElement(name);
+      }
+
+      function setScenario(scenario) {
+        switch (scenario) {
+          case 'none':
+            break;
+          case 'Mobatime':
+            setClockElement('dial', 'swiss');
+            setClockElement('hourHand', 'swiss');
+            setClockElement('minuteHand', 'swiss');
+            setClockElement('secondHand', 'swiss');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'sweeping');
+            setClockElement('secondHandStopToGo', 'yes');
+            setAxisCoverRadius(0);
+            setColor('dial', 40, 40, 40);
+            setColor('hourHand', 20, 20, 20);
+            setColor('minuteHand', 20, 20, 20);
+            setColor('secondHand', 200, 20, 20);
+            break;
+          case 'Lindau':
+            setClockElement('dial', 'din 41091.1');
+            setClockElement('hourHand', 'din 41092.3');
+            setClockElement('minuteHand', 'din 41092.3');
+            setClockElement('secondHand', 'din 41071.2');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'swinging');
+            setClockElement('secondHandStopToGo', 'yes');
+            setAxisCoverRadius(0);
+            setColor('dial', 40, 40, 40);
+            setColor('hourHand', 20, 20, 20);
+            setColor('minuteHand', 20, 20, 20);
+            setColor('secondHand', 160, 50, 40);
+            break;
+          case 'Offakamp':
+            setClockElement('dial', 'din 41091.1');
+            setClockElement('hourHand', 'din 41092.3');
+            setClockElement('minuteHand', 'din 41092.3');
+            setClockElement('secondHand', 'din 41071.2');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'sweeping');
+            setClockElement('secondHandStopToGo', 'yes');
+            setAxisCoverRadius(0);
+            setColor('dial', 40, 40, 40);
+            setColor('hourHand', 20, 20, 20);
+            setColor('minuteHand', 20, 20, 20);
+            setColor('secondHand', 160, 50, 40);
+            break;
+          case 'Siemens':
+            setClockElement('dial', 'din 41091.1');
+            setClockElement('hourHand', 'siemens');
+            setClockElement('minuteHand', 'siemens');
+            setClockElement('secondHand', 'din 41071.2');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'swinging');
+            setClockElement('secondHandStopToGo', 'yes');
+            setAxisCoverRadius(7);
+            setColor('dial', 40, 40, 40);
+            setColor('hourHand', 20, 20, 20);
+            setColor('minuteHand', 20, 20, 20);
+            setColor('secondHand', 160, 50, 40);
+            break;
+          case 'Wandelhalle':
+            setClockElement('dial', 'din 41091.1');
+            setClockElement('hourHand', 'siemens');
+            setClockElement('minuteHand', 'siemens');
+            setClockElement('secondHand', 'din 41071.2');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'swinging');
+            setClockElement('secondHandStopToGo', 'yes');
+            setAxisCoverRadius(10);
+            setColor('dial', 40, 40, 40);
+            setColor('hourHand', 20, 20, 20);
+            setColor('minuteHand', 20, 20, 20);
+            setColor('secondHand', 200, 20, 20);
+            break;
+          case 'Farbkreis':
+            setClockElement('dial', 'none');
+            setClockElement('hourHand', 'swiss');
+            setClockElement('minuteHand', 'swiss');
+            setClockElement('secondHand', 'swiss');
+            setClockElement('minuteHandBehavior', 'stepping');
+            setClockElement('secondHandBehavior', 'sweeping');
+            setClockElement('secondHandStopToGo', 'no');
+            setAxisCoverRadius(0);
+            setColor('hourHand', 20, 80, 200);
+            setColor('minuteHand', 60, 200, 20);
+            setColor('secondHand', 200, 20, 20);
+            break;
+        }
+        $('#station-clock').css('background-image', 'url(../../images/svg/' + scenario + '.png)');
+        refreshSourceCode();
+      }
+      
+      function refreshSourceCode(){
+        window.setTimeout('updateSourceCode()', 200);
+      }
+      
+      function updateSourceCode() {
+        var clock = getClock(); 
+        var html  ='&lt;object data="station-clock.svg" type="image/svg+xml"\n';
+        html +='        width="200" height="200"&gt;\n';
+        html += '  &lt;param name="dial"               value="' + $('input[name=dial]:checked').val() + '"/&gt;\n';
+        html += '  &lt;param name="hourHand"           value="' + $('input[name=hourHand]:checked').val() + '"/&gt;\n';
+        html += '  &lt;param name="minuteHand"         value="' + $('input[name=minuteHand]:checked').val() + '"/&gt;\n';
+        html += '  &lt;param name="secondHand"         value="' + $('input[name=secondHand]:checked').val() + '"/&gt;\n';
+        html += '  &lt;param name="minuteHandBehavior" value="' + clock.minuteHandBehavior + '"/&gt;\n';
+        html += '  &lt;param name="secondHandBehavior" value="' + clock.secondHandBehavior + '"/&gt;\n';
+        html += '  &lt;param name="secondHandStopToGo" value="' + clock.secondHandStopToGo + '"/&gt;\n';
+        html += '  &lt;param name="secondHandStopTime" value="' + clock.secondHandStopTime + '"/&gt;\n';
+        html += '  &lt;param name="backgroundColor"    value="' + clock.backgroundColor + '"/&gt;\n';
+        html += '  &lt;param name="dialColor"          value="' + clock.dialColor + '"/&gt;\n';
+        html += '  &lt;param name="hourHandColor"      value="' + clock.hourHandColor + '"/&gt;\n';
+        html += '  &lt;param name="minuteHandColor"    value="' + clock.minuteHandColor + '"/&gt;\n';
+        html += '  &lt;param name="secondHandColor"    value="' + clock.secondHandColor + '"/&gt;\n';
+        html += '  &lt;param name="axisCoverColor"     value="' + clock.axisCoverColor + '"/&gt;\n';
+        html += '  &lt;param name="axisCoverRadius"    value="' + $('input[name=axisCoverRadius]').val().parse(1) + '"/&gt;\n';
+        html += '  &lt;param name="updateInterval"     value="' + clock.updateInterval + '"/&gt;\n';
+        html += '&lt;/object&gt;\n';
+        $('#sourceCode').html(html);
+      }
+
+    </script>
+
+  </head>
+  
+  <body>
+    
+    <div id="wrapper">
+      
+      <div id="page">
+        
+        <div id="header">
+          <h1>
+            <span class="home">
+              <a href="http://www.3quarks.com/index.html">3Quarks</a>
+            </span>
+            » SVG Railway Station Clock
+            <span class="language">
+              <a href="http://www.3quarks.com/de/SVGUhr/index.html">deutsch</a>
+            </span>
+          </h1>
+        </div>
+          
+        <div class="topic explorer">
+          <h2>A word about Internet Explorer</h2>
+          <div class="body">
+            <p>
+              This website utilizes elements from HTML 5 such as rounded-off corners, 
+              transparent color details and shadows, as well as the SVG element. 
+              It functions using all modern browsers 
+              (<a href="http://www.google.com/chrome">Chrome</a>,
+               <a href="http://www.mozilla-europe.org/en/firefox/">Firefox</a>,
+               <a href="http://www.opera.com/">Opera</a> or
+               <a href="http://www.apple.com/safari/">Safari</a>)
+              except for Internet Explorer. 
+              In other words, if you want to view this website in all its glory, then change the browser you’re using.
+            </p>
+          </div> <!-- end topic body -->
+        </div> <!-- end topic -->
+
+        <div class="topic">
+          <h2>Overview</h2>
+          <div class="body settings">
+            <p>
+              The simplest way to display a railway station clock on a website is via SVG. 
+              Neither JavaScript – already contained within the SVG file – nor plug-ins are needed. 
+              An SVG file and a simple HTML tag are enough.
+            </p>
+            <p>
+              And this is how it works: Either choose one of the ready-made 
+              <a href="http://www.3quarks.com/en/SVGClock/#scenario">scenarios</a> or put together your own railway station clock on this website by selecting the 
+              <a href="http://www.3quarks.com/en/SVGClock/#dial">dial</a>, 
+              <a href="http://www.3quarks.com/en/SVGClock/#hands">hands</a>, 
+              <a href="http://www.3quarks.com/en/SVGClock/#behavior">hand movement</a>, 
+              <a href="http://www.3quarks.com/en/SVGClock/#axisCover">hand axis cover</a> and 
+              <a href="http://www.3quarks.com/en/SVGClock/#colors">colors</a>. 
+              The result is immediately visible to the right. 
+              Then copy the <a href="http://www.3quarks.com/en/SVGClock/#source">generated HTML source code</a> and get the SVG file 
+              <a href="./3Quarks - SVG Railway Station Clock_files/station-clock.svg">station-clock.svg</a>. 
+              Stir the two together on your website, and your own individualized SVG railway station clock is ready to run.
+            </p>
+            <p>
+              The only browser that causes <a href="http://www.3quarks.com/en/SVGClock/#problems">problems</a> is Windows Explorer 9 
+              – older versions of this browser don’t recognize SVG at all and won’t display anything. 
+              In other words, if you want to support this browser, then you ought to choose one of the ready-made clocks:
+              <!--
+              <a href="../../images/svg/swiss-clock.svg">Swiss Railway Station Clock</a>,
+              -->
+              <a href="http://www.3quarks.com/images/svg/german-clock.svg">German Railway Station Clock</a> or
+              <a href="http://www.3quarks.com/images/svg/siemens-clock.svg">Siemens Railway Station Clock</a>.
+            </p>
+            <h3>Download and Terms of Licensing</h3>
+            <p>
+              </p><ul style="padding: 0 0 1em 0.5em; list-style-type: none">
+                <li><a href="./3Quarks - SVG Railway Station Clock_files/station-clock.svg">The configurable railway station clock on this page</a> 
+                  <span style="color: #999">(19 kByte)</span></li>
+                <!--
+                <li><a href="../../images/svg/swiss-clock.svg">Swiss Railway Station Clock</a> 
+                  <span style="color: #999">(4 kByte)</span></li>
+                -->
+                <li><a href="http://www.3quarks.com/images/svg/german-clock.svg">German Railway Station Clock acc. to German DIN standard</a> 
+                  <span style="color: #999">(4 kByte)</span></li>
+                <li><a href="http://www.3quarks.com/images/svg/siemens-clock.svg">Siemens Railway Station Clock</a> 
+                  <span style="color: #999">(5 kByte)</span></li>
+              </ul>
+            <p>
+              The SVG railway station clocks presented here are governed by the 
+              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0 Lizenz</a>
+              and may be used freely for private and commercial purposes. 
+              I would be glad if reference is made to the author or if a link to this website is posted.
+            </p>
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2 id="scenario">Scenario</h2>
+          <div class="body settings">
+            <p>
+              Choose one of the ready-made scenarios here.
+            </p>
+            <ul>
+              <li>
+                <input type="radio" name="scenario" id="scenarioOff" value="none">
+                <label for="scenarioOff">Without background picture <span style="color: #999">(settings won’t be changed)</span></label>
+              </li>
+              <!--
+              <li> 
+                <input type="radio" name="scenario" id="scenarioMobatime" value="Mobatime" checked="checked"/>
+                <label for="scenarioMobatime">Swiss Railway Station Clock <span style="color: #999">(from a photo by Jürgen Götzke)</span></label>
+              </li>
+              -->
+              <li> 
+                <input type="radio" name="scenario" id="scenarioLindau" value="Lindau">
+                <label for="scenarioLindau">Lindau, Germany <span style="color: #999">(from a photo by Jürgen Götzke)</span></label>
+              </li>
+              <li> 
+                <input type="radio" name="scenario" id="scenarioOffakamp" value="Offakamp">
+                <label for="scenarioOffakamp">Offakamp, Hamburg, Germany</label>
+              </li>
+              <li> 
+                <input type="radio" name="scenario" id="scenarioSiemens" value="Siemens" checked="checked">
+                <label for="scenarioSiemens">Siemens Wall Clock <span style="color: #999">(from a photo by Gerhard Joch)</span></label>
+              </li>
+              <!--
+              <li> 
+                <input type="radio" name="scenario" id="scenarioWandelhalle" value="Wandelhalle"/>
+                <label for="scenarioWandelhalle">Wandelhalle, Hamburg <span style="color: #999">(aus einem Foto von Torsten Schneider)</span></label>
+              </li>
+              -->
+              <li> 
+                <input type="radio" name="scenario" id="scenarioFarbkreis" value="Farbkreis">
+                <label for="scenarioFarbkreis">Color Wheel Clock <span style="color: #999">(based on a drawing by Markus Golschinski)</span></label>
+              </li>
+            </ul>
+            <p style="padding-top: 1em">
+              The background pictures are not an integral element of the SVG file: 
+              they are set via the CSS attribute <b>background-image</b>. 
+              If you want to use the pictures on your website, then please note that, as a rule, 
+              the authors of the pictures insist on being mentioned by name.            
+            </p>
+          </div>
+        </div>
+
+        <div class="topic">
+          <h2>Dial and Hands</h2>
+          <div class="body settings">
+            <p>
+              Define the dial, hands and hands axis cover for the railway station clock in this section.
+            </p>
+            <h3 id="dial">Zifferblatt</h3>
+            <ul>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial1" value="none">
+                <label for="dial1">Without dial</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial5" value="din 41091.1" checked="checked">
+                <label for="dial5">Dial with minute and hour markers (DIN 41091, Sect. 1)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial6" value="din 41091.3">
+                <label for="dial6">Dial with hour markers (DIN 41091, Sect. 3)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial7" value="din 41091.4">
+                <label for="dial7">Dial with hour numerals (DIN 41091, Part 4)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial2" value="swiss">
+                <label for="dial2">Dial with minute and hour markers (Bauhaus)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial3" value="austria">
+                <label for="dial3">Dial with minute and hour markers (Austria)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="dial" id="dial4" value="points">
+                <label for="dial4">Dial with hour dots</label>
+              </li>
+            </ul>
+            <h3 id="hands">Hour Hand</h3>
+            <ul>
+              <li> 
+                <input type="radio" class="clockElement" name="hourHand" id="hourHand1" value="none">
+                <label for="hourHand1">Without hour hand</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="hourHand" id="hourHand2" value="din 41092.3" checked="checked">
+                <label for="hourHand2">Pointed, bar-shaped hand (DIN 41092, Sect. 3)</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="hourHand" id="hourHand3" value="german" checked="checked">
+                <label for="hourHand3">Blunt, bar-shaped hand (German Rail)</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="hourHand" id="hourHand4" value="siemens" checked="checked">
+                <label for="hourHand4">Heart-shaped hand (Siemens)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="hourHand" id="hourHand5" value="swiss" checked="checked">
+                <label for="hourHand5">Blunt, javelin-shaped hand (Austria)</label>
+              </li>
+            </ul>
+            <h3>Minute Hand</h3>
+            <ul>
+              <li> 
+                <input type="radio" class="clockElement" name="minuteHand" id="minuteHand1" value="none" checked="checked">
+                <label for="minuteHand1">Without minute hand</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="minuteHand" id="minuteHand2" value="din 41092.3" checked="checked">
+                <label for="minuteHand2">Pointed, bar-shaped hand (DIN 41092, Sect. 3)</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="minuteHand" id="minuteHand3" value="german" checked="checked">
+                <label for="minuteHand3">Blunt, bar-shaped hand (German Rail)</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="minuteHand" id="minuteHand4" value="siemens" checked="checked">
+                <label for="minuteHand4">Serpentine hand (Siemens)</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="minuteHand" id="minuteHand5" value="swiss" checked="checked">
+                <label for="minuteHand5">Blunt, javelin-shaped hand (Austria)</label>
+              </li>
+            </ul>
+            <h3>Second Hand</h3>
+            <ul>
+              <li> 
+                  <input type="radio" class="clockElement" name="secondHand" id="secondHand1" value="none" checked="checked">
+                  <label for="secondHand1">Without second hand</label>
+              </li>
+              <li>
+                  <input type="radio" class="clockElement" name="secondHand" id="secondHand2" value="din 41071.1" checked="checked">
+                  <label for="secondHand2">Javelin-shaped hand (DIN 41071, Sect. 1)</label>
+              </li>
+              <li>
+                  <input type="radio" class="clockElement" name="secondHand" id="secondHand3" value="din 41071.2" checked="checked">
+                  <label for="secondHand3">Perforated pointer hand (DIN 41071, Sect. 2)</label>
+              </li>
+              <li>
+                  <input type="radio" class="clockElement" name="secondHand" id="secondHand4" value="german" checked="checked">
+                  <label for="secondHand4">Modern perforated pointer hand (German Rail)</label>
+              </li>
+              <li>
+                  <input type="radio" class="clockElement" name="secondHand" id="secondHand5" value="swiss" disabled="disabled">
+                  <label style="color: #999" for="secondHand5">Disc-end hand (Switzerland)</label>
+              </li>
+            </ul>
+            <h3 id="axisCover">Hands Axis Cover</h3>
+            <table style="margin: 0.5em 0">
+              <tbody><tr>
+                <td>Cover radius</td>
+                <td><input type="text" name="axisCoverRadius" size="6" value="7,00"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="axisCoverRadius"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 14%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 14%;"></a></div></td>
+              </tr>
+            </tbody></table>
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2 id="behavior">Hand Movement</h2>
+          <div class="body settings">
+            <p>
+              In this section you alter the behavior of the minute and second hands. 
+              A behavior that jumps from second to second or moves at a constant creep can be set for both hands. 
+              In addition, the second hand can be modeled as an oscillating hand 
+              – the same way it moves on today’s German railway station clocks – 
+              it ‘swings’ from second to second, so to speak.
+            </p>
+            <h3>Minute Hand Movement</h3>
+            <ul>
+              <li>
+                <input type="radio" class="clockElement" name="minuteHandBehavior" id="minuteHandBehavior1" value="stepping" checked="checked">
+                <label for="minuteHandBehavior1">Stepping minute hand</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="minuteHandBehavior" id="minuteHandBehavior2" value="sweeping">
+                <label for="minuteHandBehavior2">Sweeping minute hand</label>
+              </li>
+            </ul>
+            <h3>Second Hand Movement</h3>
+            <ul>
+              <li>
+                <input type="radio" class="clockElement" name="secondHandBehavior" id="secondHandBehavior1" value="stepping">
+                <label for="secondHandBehavior1">Stepping second hand</label>
+              </li>
+              <li> 
+                <input type="radio" class="clockElement" name="secondHandBehavior" id="secondHandBehavior2" value="sweeping">
+                <label for="secondHandBehavior2">Sweeping second hand</label>
+              </li>
+              <li>
+                <input type="radio" class="clockElement" name="secondHandBehavior" id="secondHandBehavior3" value="swinging" checked="checked">
+                <label for="secondHandBehavior3">Oscillating second hand</label>
+              </li>
+            </ul>
+            <h3>Stop to Go Second Hand</h3>
+            <p>
+              The second hand on a modern station clock is modeled as a so-called ‘stop to go’ hand. 
+              It takes only about 58.5 seconds to go full circle, 
+              then pauses until the next minute strikes before it moves on to the 12 o’clock position.
+            </p>
+            <div style="padding: 1em 0.3em">
+              <input type="checkbox" class="clockElement" name="secondHandStopToGo" id="secondHandStopToGo" checked="checked" value="yes">
+              <label for="secondHandStopToGo">Stop to go second hand</label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2 id="colors">Colors</h2>
+          <div class="body settings">
+            <table>
+              <tbody><tr>
+                <td>Dial</td>
+                <td><input type="text" class="color" name="dialRed" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="dialRed"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 15.6863%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 15.6863%;"></a></div></td>
+                <td rowspan="3">
+                  <div id="dialSwatch" class="swatch" style="background-color: rgb(40, 40, 40);"></div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="dialGreen" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="dialGreen"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 15.6863%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 15.6863%;"></a></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="dialBlue" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="dialBlue"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 15.6863%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 15.6863%;"></a></div></td>
+              </tr>
+              <tr>
+                <td>Hour hand</td>
+                <td><input type="text" class="color" name="hourHandRed" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="hourHandRed"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+                <td rowspan="3">
+                  <div id="hourHandSwatch" class="swatch" style="background-color: rgb(20, 20, 20);"></div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="hourHandGreen" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="hourHandGreen"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="hourHandBlue" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="hourHandBlue"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+              <tr>
+                <td>Minuten hand</td>
+                <td><input type="text" class="color" name="minuteHandRed" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="minuteHandRed"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+                <td rowspan="3">
+                  <div id="minuteHandSwatch" class="swatch" style="background-color: rgb(20, 20, 20);"></div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="minuteHandGreen" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="minuteHandGreen"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="minuteHandBlue" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="minuteHandBlue"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+              <tr>
+                <td>Second hand</td>
+                <td><input type="text" class="color" name="secondHandRed" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="secondHandRed"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 62.7451%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 62.7451%;"></a></div></td>
+                <td rowspan="3">
+                  <div id="secondHandSwatch" class="swatch" style="background-color: rgb(160, 50, 40);"></div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="secondHandGreen" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="secondHandGreen"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 19.6078%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 19.6078%;"></a></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="secondHandBlue" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="secondHandBlue"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 15.6863%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 15.6863%;"></a></div></td>
+              </tr>
+              <tr>
+                <td>Axis cover</td>
+                <td><input type="text" class="color" name="axisCoverRed" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="axisCoverRed"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+                <td rowspan="3">
+                  <div id="axisCoverSwatch" class="swatch" style="background-color: rgb(20, 20, 20);"></div>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="axisCoverGreen" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="axisCoverGreen"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="text" class="color" name="axisCoverBlue" size="6"></td>
+                <td><div class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="axisCoverBlue"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 7.84314%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="http://www.3quarks.com/en/SVGClock/#" style="left: 7.84314%;"></a></div></td>
+              </tr>
+            </tbody></table>
+          </div>
+        </div>
+        
+        <div class="topic">
+          <h2 id="source">HTML</h2>
+          <div class="body settings">
+            <p>
+              The following HMTL tag is generated from the settings performed above. 
+              You can copy it directly from this website and paste it into your HTML file. 
+              You can freely define the width and height of the station clock – 200&nbsp;×&nbsp;200 pixels in the example shown. 
+              The clock automatically adapts to the size you specify.
+            </p>
+            <pre id="sourceCode">&lt;object data="station-clock.svg" type="image/svg+xml"
+        width="200" height="200"&gt;
+  &lt;param name="dial"               value="din 41091.1"/&gt;
+  &lt;param name="hourHand"           value="siemens"/&gt;
+  &lt;param name="minuteHand"         value="siemens"/&gt;
+  &lt;param name="secondHand"         value="din 41071.2"/&gt;
+  &lt;param name="minuteHandBehavior" value="stepping"/&gt;
+  &lt;param name="secondHandBehavior" value="swinging"/&gt;
+  &lt;param name="secondHandStopToGo" value="yes"/&gt;
+  &lt;param name="secondHandStopTime" value="1.5"/&gt;
+  &lt;param name="backgroundColor"    value="rgba(0,0,0,0)"/&gt;
+  &lt;param name="dialColor"          value="rgb(40,40,40)"/&gt;
+  &lt;param name="hourHandColor"      value="rgb(20,20,20)"/&gt;
+  &lt;param name="minuteHandColor"    value="rgb(20,20,20)"/&gt;
+  &lt;param name="secondHandColor"    value="rgb(160, 50, 40)"/&gt;
+  &lt;param name="axisCoverColor"     value="rgb(20,20,20)"/&gt;
+  &lt;param name="axisCoverRadius"    value="7"/&gt;
+  &lt;param name="updateInterval"     value="50"/&gt;
+&lt;/object&gt;
+</pre>
+            <h3>Parameters</h3>
+            <p>
+              The SVG clock can be configured via a total of 16 paramters, 
+              13 of which can be set using this Web App. 
+              The remaining 3 parameters cannot be set via the Web App and can be changed as needed in the source code:
+            </p>
+            <p>
+              <b>backgroundColor</b> stipulates a background color for the dial. A transparent dial background is preset. 
+            </p>
+            <p>
+              <b>secondHandStopTime</b> defines the waiting time in seconds for the ‘stop to go’ second hand. 
+              The second hand is sped up accordingly and requires 60 seconds, minus the waiting time set, 
+              to go full circle around the clock dial. 
+              Valid values are 0 seconds, in other words no waiting time, up to 30 seconds. 
+              The preset value is 1.5 seconds.
+            </p>
+            <p>
+              <b>updateInterval</b> defines the waiting time between animation phases in milliseconds. 
+              The preset interval is 50 milliseconds. 
+              On the one hand, this assures a smooth animation, and on the other doesn’t use up an excessive amount of computing time. 
+              If no second hand or a stepping second hand is being used, the interval can be increased to 200 milliseconds or more.
+            </p>
+          </div>
+        </div>
+
+        <div class="topic">
+          <h2 id="problems">Problems</h2>
+          <div class="body settings">
+            <p>
+              At today’s present status, March 2012, there are plenty of problems with the current SVG implementations. 
+              For instance, I would have liked to put a shadow underneath the hands by means of an SVG filter, 
+              but Safari is not able to depict even primitive filters, and all other browsers produce unsightly artefacts. 
+              Not one implementation functions as expected, so for the time being I’ll do without the cast shadow. 
+              If the situation improves one day, then I’ll build in an appropriate filter.
+            </p>
+            <h3>Internet Explorer 9</h3>
+            <p>
+              The SVG clock’s appearance and behavior can be set via HTML parameters. 
+              Sadly, Internet Explorer 9 doesn’t play along here. Activating 
+              <b>document.defaultView.frameElement</b> 
+              in the SVG file supplies <b>null</b>
+              and, by doing so, effectively prevents a reading out of the parameters:
+</p><pre>// get html parameter and set clock attributes
+if (document.defaultView.frameElement) {
+  var params = document.defaultView.frameElement.getElementsByTagName('param');
+  for (var i = 0; i &lt; params.length; i++) {
+    this[params[i].name] = params[i].value.toLowerCase();
+  }
+}
+</pre>
+              As a result, the clock cannot be configured via HTML parameters and Explorer 9 always displays the preset Swiss Railway Station Clock. 
+              If other clocks are supposed to be shown, then the SVG file has to be adapted ‘manually’.
+            <p></p>
+            <p>
+              If you have a solution to this problem, then please let me know. 
+              I’ve already wasted so much time with Microsoft’s Explorer 
+              – something doesn’t function properly or behaves differently from the way specified by W3C. 
+              Voluntarily I’m not willing to spend another minute longer busying myself with this browser.       
+            </p>
+          </div>
+        </div>
+
+        <div id="footer">
+          <p>3Quarks » SVG Railway Station Clock, Rüdiger Appel, December 2012</p>
+        </div>
+      
+      </div> <!-- end page -->
+        
+      <div id="sidebar" style="padding-top: 800px;">
+        <div class="content">
+          <object id="station-clock" data="./3Quarks - SVG Railway Station Clock_files/station-clock.svg" type="image/svg+xml" width="200" height="200" style="padding: 40px; background-image: url(../../images/svg/Siemens.png)">
+            <param name="dial" value="din 41091.1">
+            <param name="hourHand" value="siemens">
+            <param name="minuteHand" value="siemens">
+            <param name="secondHand" value="din 41071.2">
+            <param name="minuteHandBehavior" value="stepping">
+            <param name="secondHandBehavior" value="swinging">
+            <param name="secondHandStopToGo" value="yes">
+            <param name="secondHandStopTime" value="1.5">
+            <param name="backgroundColor" value="rgba(0,0,0,0)">
+            <param name="dialColor" value="rgb(40,40,40)">
+            <param name="hourHandColor" value="rgb(20,20,20)">
+            <param name="minuteHandColor" value="rgb(20,20,20)"> 
+            <param name="secondHandColor" value="rgb(160, 50, 40)">
+            <param name="axisCoverColor" value="rgb(20,20,20)">
+            <param name="axisCoverRadius" value="7">
+            <param name="updateInterval" value="50">
+          </object>
+        </div>
+      </div> <!-- end sidebar -->
+              
+    </div> <!-- end wrapper -->
+    
+   
+
+
+</body></html>

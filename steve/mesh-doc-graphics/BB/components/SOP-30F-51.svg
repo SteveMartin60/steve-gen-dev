@@ -1,0 +1,63 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="#cfa550"
+    viewBox="-8.0075 -4.97 16.015 9.940">
+
+    <rect width="0.55" height="1.463" x="-5.349" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-4.349" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-3.348" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-2.348" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-1.347" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-0.347" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+0.654" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+1.654" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+2.655" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+3.655" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+4.656" y="-4.970" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+5.656" y="-4.970" fill="#ebb300"/>
+    
+    <rect width="0.30" height="0.934" x="-5.224" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-4.224" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-3.223" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-2.223" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-1.222" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-0.222" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+0.779" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+1.779" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+2.779" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+3.780" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+4.780" y="-4.441" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+5.781" y="-4.441" fill="#c0c0c0"/>
+
+    <rect width="0.55" height="1.463" x="-5.349" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-4.349" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-3.348" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-2.348" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-1.347" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="-0.347" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+0.654" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+1.654" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+2.655" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+3.655" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+4.655" y="+3.507" fill="#ebb300"/>
+    <rect width="0.55" height="1.463" x="+5.656" y="+3.507" fill="#ebb300"/>
+
+    <rect width="0.30" height="0.934" x="-5.224" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-4.224" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-3.223" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-2.223" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-1.222" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="-0.222" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+0.779" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+1.779" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+2.779" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+3.780" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+4.780" y="+3.507" fill="#c0c0c0"/>
+    <rect width="0.30" height="0.934" x="+5.781" y="+3.507" fill="#c0c0c0"/>
+    
+    <rect width="14.986" height="7.061" x="-7.068" y="-3.555" fill="#4f4c4d" stroke="#303030" stroke-width="0.178"/>
+    
+    <circle cx="-5.813" cy="2.337" r=".329" fill="#ffffff"/>
+    
+    <path fill="#4899c4" d="M-7.834 2.895a.175.175 0 0 0-.174.178v.865a.176.176 0 0 0 0 .009v.498h1.373a.175.175 0 1 0 0-.349h-1.022V3.95a.176.176 0 0 0 0-.013v-.865a.175.175 0 0 0-.177-.178z"/>
+</svg>

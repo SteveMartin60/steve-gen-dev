@@ -1,0 +1,49 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-3.768 -1.9175 7.536 3.835"
+    >
+    <defs>
+        <svg id = "pin-tip-m64"
+             overflow="visible">
+
+            <rect width="0.75" height="0.75" x="0.000" y="0.000" fill="#231f20" />
+            <rect width="0.71" height="0.71" x="0.020" y="0.020" fill="#272f2f" />
+            <rect width="0.67" height="0.67" x="0.040" y="0.040" fill="#ffffff" />
+            <rect width="0.34" height="0.34" x="0.205" y="0.205" fill="#ebb300" />  
+
+            <path fill="#c39500" d="m 0.041 0.041 h 0.67  l -0.166 +0.164 h -0.338z"/> <!-- Top    -->
+            <path fill="#c39500" d="m 0.041 0.710 h 0.67  l -0.166 -0.164 h -0.338z"/> <!-- Bottom -->
+            <path fill="#c39500" d="m 0.041 0.041 v 0.668 l +0.164 -0.162 v -0.341z"/> <!-- Left   -->
+            <path fill="#c39500" d="m 0.710 0.041 v 0.668 l -0.164 -0.162 v -0.341z"/> <!-- Right  -->
+        </svg>
+    </defs>
+
+    <rect width="7.5" height="3.80" x="-3.75" y="-1.9" fill="#e5e4e4" stroke="#303030" stroke-width=".035" />
+
+    <rect width="0.5" height="0.25" x="-3.251" y="-0.25" fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" />
+    <rect width="0.5" height="0.25" x="-3.251" y="-0.50" fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" />
+    <rect width="0.5" height="0.25" x="+2.749" y="-0.25" fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" />
+    <rect width="0.5" height="0.25" x="+2.749" y="-0.50" fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" />
+
+    <path fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 -1.7 l 0.3 0.3 h 6.5 l 0.3 -0.3z"/>
+
+    <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 0 h +0.3 v -1.38 l -0.3 -0.3 z"/>
+    <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" d="m +3.55 0 h -0.3 v -1.38 l +0.3 -0.3 z"/>
+
+    <path fill="#deddde" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 0 v -1.7 h 7.1 v 0.0 1.7 h .2 v -1.9 h -7.5 V 0z"/>
+
+    <path fill="none"    stroke="#303030" stroke-width="0.035" d="m -3.75 0 h 1 v -0.5 h -0.5 v -0.9 h 6.5 v 0.9 h -0.5 v .5 h 1 v -1.9 h -7.5 z"/>
+    
+    <path fill="#c8c7c7" stroke="#303030" stroke-width="0.035" d="m 0.433 -1.4  -0.47 0.5 l -0.433 -0.5z"/>
+
+    <rect width="5.50" height="0.750" x="-2.750" y="+1.150" fill="#d3d2d2" stroke="#303030" stroke-width="0.035" />
+    <rect width="5.50" height="0.767" x="-2.750" y="+0.392" fill="#ededed" stroke="#7b7979" stroke-width="0.018" />
+
+    <rect width="1" height="1.5" x="-3.75" y="0.4" fill="#e5e4e4" stroke="#303030" stroke-width="0.035" />
+    <rect width="1" height="0.5" x="-3.75" y="1.4" fill="#c8c7c7" stroke="#303030" stroke-width="0.035" />
+    <rect width="1" height="1.5" x="+2.75" y="0.4" fill="#e5e4e4" stroke="#303030" stroke-width="0.035" />
+    <rect width="1" height="0.5" x="+2.75" y="1.4" fill="#c8c7c7" stroke="#303030" stroke-width="0.035" />
+
+    <use x="-1.62" y="-0.674" href="#pin-tip-m64"/>
+    <use x="0.876" y="-0.674" href="#pin-tip-m64"/>
+</svg>

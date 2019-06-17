@@ -1,0 +1,22 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-2.8 -2.5025 5.6 5.005"
+    >
+    <rect width="1.2" height="0.9" x="+1.600" y="+1.350" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="-2.800" y="+1.350" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="+1.600" y="+0.150" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="-2.800" y="+0.150" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="+1.600" y="-1.050" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="-2.800" y="-1.050" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="+1.600" y="-2.150" fill="#ebb300"/>
+    <rect width="1.2" height="0.9" x="-2.800" y="-2.150" fill="#ebb300"/>
+    
+    <rect width="5.0" height="5.0" x="-2.5" y="-2.5" fill="#f4f4f4" stroke="#303030" stroke-width="0.005"/>
+
+    <circle r="2.25" fill="#e9e9e9"/>
+
+    <rect width="0.6" height="0.6" x="+0.5" y="+0.5" fill="#5cb5e9"/>
+    <rect width="0.6" height="0.6" x="-1.1" y="+0.5" fill="#5bba7a"/>
+    <rect width="0.6" height="0.6" x="+0.5" y="-1.1" fill="#f46e6a"/>
+    <rect width="0.6" height="0.6" x="-1.1" y="-1.1" fill="#fde5a5"/>
+</svg>

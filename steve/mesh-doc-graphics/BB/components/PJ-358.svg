@@ -1,0 +1,35 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="-3 -5 6 10"
+    >
+    <defs>
+        <radialGradient
+            id="RadialGradientHole"
+            spreadMethod="pad"
+            >
+            <stop offset="000%" stop-color="#363636"/>
+            <stop offset="077%" stop-color="#2d2d2d"/>
+            <stop offset="085%" stop-color="#262626"/>
+            <stop offset="092%" stop-color="#1e1e1e"/>
+            <stop offset="098%" stop-color="#1a1b1b"/>
+            <stop offset="100%" stop-color="#303030"/> 
+        </radialGradient>
+    </defs>
+    
+    <rect
+        width       ="+5.924"
+        height      ="+9.924"
+        x           ="-2.962" 
+        y           ="-4.962" 
+        stroke-width="+0.076" 
+        rx          ="0"
+        ry          ="0"
+        fill        ="#4f4c4d" 
+        stroke      ="#303030" 
+    />
+    
+    <circle r="2.920" fill="url(#RadialGradientHole)"/>
+
+    <circle r="1.856" fill="none" stroke="#303030" stroke-width="0.1"/>
+    <circle r="2.300" fill="none" stroke="#37a83f" stroke-width="1.1"/>
+</svg>

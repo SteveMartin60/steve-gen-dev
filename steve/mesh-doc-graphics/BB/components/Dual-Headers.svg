@@ -1,0 +1,269 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-16.6 -13.65 32.95 20.45"
+    >
+    <!-- ...................................................................... -->
+
+    <!-- 
+    viewBox="-6.4765 -1.475 5.953 5.275"
+    -->    
+
+    <!-- Defs Begin                                                             -->
+    <!-- ...................................................................... -->
+    <defs>
+        <radialGradient
+            id="RadialGradientSolderedPin"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#3c3c3c"/>
+            <stop offset="0.067" stop-color="#4d4d4d"/>
+            <stop offset="0.181" stop-color="#5e5e5e"/>
+            <stop offset="1.000" stop-color="#f0f0f0"/>
+        </radialGradient>
+        
+        <linearGradient
+            id="PinRightAngleLightDarkV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="000%" stop-color="#e5b758"/>
+            <stop offset="080%" stop-color="#c58f27"/>
+            <stop offset="100%" stop-color="#7e5c19"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleLightDarkH"
+            spreadMethod="pad"
+            >
+            <stop offset="000%" stop-color="#e5b758"/>
+            <stop offset="080%" stop-color="#c58f27"/>
+            <stop offset="100%" stop-color="#7e5c19"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleDarkLightH"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleDarkLightV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <circle id = "pad-round-m18-solder"  cx="0" cy="0" r="+0.8"  fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" stroke-width=".2"/>
+        <circle id = "pad-round-m18-outline" cx="0" cy="0" r="+0.9" fill="none" stroke="#303030" stroke-width=".02"/>
+        <rect   id = "pad-square-m18-outline" x="0"  y="0" width="1.84" height="1.84" fill="#303030" />
+
+        <path   id = "pin-tip-fill-v" fill="#e5b758" d="m 0 0 +0.8  0.15 v 0.34  l -0.8  +0.15 z"/>
+        <path   id = "pin-tip-fill"   fill="#e5b758" d="m 0 6 -0.15 0.8  h -0.34 l -0.15 -0.8z"/>
+        <path   id = "pin-outline-h"  fill="none" stroke="#303030" stroke-width=".02" d="m -0 0 v 0.64 H 6 l 0.8 -0.15 v -0.34 l -0.8 -0.15 h -1.62 z"/>
+
+        <path
+            id = "pin-outline-v"
+            fill="none"
+            stroke="#303030"
+            stroke-width=".02"
+            d="
+                m 0 0 
+                l 0 6
+                l 0.147 0.79 
+                h 0.35
+                l 0.153 -0.79
+                l 0 -6.0
+                z"/>
+
+         <svg id = "HDR2X5P254F_RA.component-body"
+             overflow="visible">
+            <rect width="13.2" height="8.5" x="-6.6" y="-8.50" fill="#4f4c4d" stroke="#231f20" stroke-width=".088"/>
+        </svg>
+
+        <rect   id="HDR2X5P254F_RA.body-shadow-light" width="0.5" height="2.54" x="0" y="0" fill="#656263"/>
+        <rect   id="HDR2X5P254F_RA.body-shadow-dark"  width="0.5" height="2.54" x="0" y="0" fill="#444141"/>
+
+        <svg id = "HDR2X5P254M_RA.component-body"
+             overflow="visible">
+            <rect   width="12.7" height="2.54" x="-6.35" y="-2.54" fill="#4f4c4d"/>
+
+            <use x="+5.85" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="+3.31" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="+0.77" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="-1.77" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="-4.31" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+
+            <use x="-6.35" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="-3.81" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="-1.27" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="+1.27" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="+3.81" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+        </svg>
+
+        <svg id = "pin-round-m18-soldered"
+             overflow="visible">
+            <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+            <use  x="-0"   y="0"    href="#pad-round-m18-outline"/>
+            <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+        </svg>
+        
+        <svg id = "pin-square-m18-soldered"
+             overflow="visible">
+            <use  x="-0.92" y="-0.92" href="#pad-square-m18-outline"/>
+            <rect x="-0.9" y="-0.9" width="1.8" height="1.8" fill="#ebb300" />
+            <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+            <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+        </svg>
+        
+        <svg id = "pin-square-m60-v"
+             overflow="visible">
+            <rect x="0" y="0" width="0.64" height="6.0" fill="#cfa550" />
+            <use  x=".64" y="0" href="#pin-tip-fill"/>
+            <use  x="0" y="0" href="#pin-outline-v"/>
+        </svg>
+        
+        <svg id = "HDR2X5P254M_RA.PIN-RA"
+             overflow="visible">
+            <rect width="0.64" height="4.513" x="0" y="0" stroke="#303030" stroke-width=".02" fill="url(#PinRightAngleDarkLightV)"/>
+        </svg>
+
+        <svg id = "HDR2X5P254F_RA.PIN-RA"
+             overflow="visible">
+            <rect width="0.64" height="4.513" x="0" y="0" stroke="#303030" stroke-width=".02" fill="url(#PinRightAngleDarkLightV)"/>
+        </svg>
+        
+        <svg id = "origin-marker-large" stroke-width="0.006" fill="none"
+             overflow="visible">
+            <line x1="0.5" x2="-0.5"  y1="-0.5" y2="+0.5"/>
+            <line x1="0.5" x2="-0.5"  y1="+0.5" y2="-0.5"/>
+            <ellipse cx="0" rx="0.5" ry="0.5"/>
+        </svg>
+
+        <svg id = "origin-marker-large-grey" stroke="#f5f5f5" overflow="visible"><use x="0" y="0" href="#origin-marker-large"/></svg>
+        <svg id = "origin-marker-large-blue" stroke="#2e2aff" overflow="visible"><use x="0" y="0" href="#origin-marker-large"/></svg>
+        <svg id = "origin-marker-large-red"  stroke="#ff0000" overflow="visible"><use x="0" y="0" href="#origin-marker-large"/></svg>
+        
+        <svg id = "origin-marker-small-green"
+             overflow="visible">
+            <line x1="0.3" x2="-0.3"  y1="-0.3" y2="+0.3" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+            <line x1="0.3" x2="-0.3"  y1="+0.3" y2="-0.3" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+            <ellipse cx="0"     fill="none" stroke="#2eff28" stroke-width="0.005" rx="0.315" ry="0.315"/>
+        </svg>
+
+        <svg id = "HDR2X5P254F_RA"
+             overflow="visible">
+
+            <!-- Pins Round M18 Soldered -->
+            <use x="-5.08" y="-10.16" href="#pin-square-m18-soldered"/>
+            <use x="-2.54" y="-10.16" href="#pin-round-m18-soldered"/>
+            <use x="-0.00" y="-10.16" href="#pin-round-m18-soldered"/>
+            <use x="+2.54" y="-10.16" href="#pin-round-m18-soldered"/>
+            <use x="+5.08" y="-10.16" href="#pin-round-m18-soldered"/>
+
+            <use x="-5.08" y="-12.7" href="#pin-round-m18-soldered"/>
+            <use x="-2.54" y="-12.7" href="#pin-round-m18-soldered"/>
+            <use x="-0.00" y="-12.7" href="#pin-round-m18-soldered"/>
+            <use x="+2.54" y="-12.7" href="#pin-round-m18-soldered"/>
+            <use x="+5.08" y="-12.7" href="#pin-round-m18-soldered"/>
+
+            <!-- Right Angle Pins    -->
+            <use x="-5.40" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+            <use x="-2.86" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+            <use x="-0.32" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+            <use x="+2.22" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+            <use x="+4.76" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+
+            <!-- Plastic Component Body -->
+            <use x="0" y="0" href="#HDR2X5P254F_RA.component-body"/>
+
+            <!-- Origin Marker -->
+            <use x="0" y="0" href="#origin-marker-large-red"/>
+        </svg>
+
+        <svg id = "HDR2X5P254M_RA"
+             overflow="visible">
+            <!-- Pins Straight Male    -->
+            <use x="-5.40" y="0" href="#pin-square-m60-v"/>
+            <use x="-2.86" y="0" href="#pin-square-m60-v"/>
+            <use x="-0.32" y="0" href="#pin-square-m60-v"/>
+            <use x="+2.22" y="0" href="#pin-square-m60-v"/>
+            <use x="+4.76" y="0" href="#pin-square-m60-v"/>
+
+            <!-- Pins Round M18 Soldered -->
+            <use x="-2.54" y="-4.064" href="#pin-round-m18-soldered"/>
+            <use x="-0.00" y="-4.064" href="#pin-round-m18-soldered"/>
+            <use x="+2.54" y="-4.064" href="#pin-round-m18-soldered"/>
+            <use x="+5.08" y="-4.064" href="#pin-round-m18-soldered"/>
+
+            <use x="-5.08" y="-6.604" href="#pin-round-m18-soldered"/>
+            <use x="-2.54" y="-6.604" href="#pin-round-m18-soldered"/>
+            <use x="-0.00" y="-6.604" href="#pin-round-m18-soldered"/>
+            <use x="+2.54" y="-6.604" href="#pin-round-m18-soldered"/>
+            <use x="+5.08" y="-6.604" href="#pin-round-m18-soldered"/>
+
+            <!-- Pin Square M18 Soldered -->
+            <use x="-5.08" y="-4.064" href="#pin-square-m18-soldered"/>
+
+            <!-- Right Angle Pins    -->
+            <use x="-5.40" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+            <use x="-2.86" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+            <use x="-0.32" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+            <use x="+2.22" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+            <use x="+4.76" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+
+            <!-- Plastic Component Body -->
+            <use x="0" y="0" href="#HDR2X5P254M_RA.component-body"/>
+
+            <!-- Origin Marker -->
+            <use x="0" y="0" href="#origin-marker-large-red"/>
+        </svg>
+
+        <svg id = "cross-hairs"
+             overflow="visible">
+
+            <line x1="-50" x2="50" y1="0"   y2="0"  fill="none" stroke="#000000" stroke-width="0.006"/>
+            <line x1="0"   x2="0"  y1="-50" y2="50" fill="none" stroke="#000000" stroke-width="0.006"/>
+        </svg>
+
+
+
+    </defs>
+    <!-- ...................................................................... -->
+    <!-- Defs End                                                               -->
+    <!-- ...................................................................... -->
+
+    <use x="-9.95" y="-0.04" href="#HDR2X5P254F_RA"/>
+
+    <use x="10" y="0" href="#HDR2X5P254M_RA"/>
+
+    <!-- Origin Marker -->
+    <use x="0" y="0" href="#origin-marker-large-blue"/>
+ 
+    <!-- Cross Hairs -->
+    <use x="0" y="0" href="#cross-hairs"/>
+
+    <svg
+        overflow    ="visible"
+        fill        ="#ffffff" 
+        font-family ="Lato Semibold" 
+        font-size   ="1.411" 
+        stroke-width="00.353" 
+        font-weight ="600" 
+        white-space ="normal" 
+        >
+        <text
+            x="-2.03"
+            y="0.411"
+            textLength="4.07"
+            lengthAdjust="spacing"
+            >
+            Buzzer
+        </text>
+    </svg>
+</svg>

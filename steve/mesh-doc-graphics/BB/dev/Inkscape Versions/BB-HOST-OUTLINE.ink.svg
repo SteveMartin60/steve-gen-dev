@@ -1,0 +1,21 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 1 1"
+    >
+    <line x1="-2.617" x2="2.543" y1="26.707" y2="26.707" stroke="#303030" stroke-width=".15"/>
+    <path fill="none" stroke="#cfa550" stroke-width=".15" d="M-5.117 24.207a2.5 2.5 0 0 0 2.5 2.5"/>
+    <line x1="5.043" x2="5.043" y1="24.207" y2="9.756" stroke="#303030" stroke-width=".15"/>
+    <line x1="5.629" x2="6.997" y1="8.341" y2="6.973" stroke="#303030" stroke-width=".15"/>
+    <line x1="7.583" x2="7.583" y1="5.558" y2="-3.173" stroke="#303030" stroke-width=".15"/>
+    <line x1="-7.057" x2="6.983" y1="-3.773" y2="-3.773" stroke="#303030" stroke-width=".15"/>
+    <line x1="-7.657" x2="-7.657" y1="5.558" y2="-3.173" stroke="#303030" stroke-width=".15"/>
+    <line x1="-7.071" x2="-5.703" y1="6.973" y2="8.341" stroke="#303030" stroke-width=".15"/>
+    <line x1="-5.117" x2="-5.117" y1="24.207" y2="9.756" stroke="#303030" stroke-width=".15"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M2.543 26.707a2.5 2.5 0 0 0 2.5-2.5"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M-5.117 9.757a2.002 2.002 0 0 0-.586-1.416"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M-7.657 5.558a2.002 2.002 0 0 0 .586 1.415"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M5.043 9.756a2.002 2.002 0 0 1 .586-1.416"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M7.583 5.558a2.002 2.002 0 0 1-.586 1.415"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M-7.657-3.173a.6.6 0 0 1 .6-.6"/>
+    <path fill="none" stroke="#303030" stroke-width=".15" d="M7.583-3.173a.6.6 0 0 0-.6-.6"/>
+</svg>

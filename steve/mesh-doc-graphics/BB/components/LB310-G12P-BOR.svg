@@ -1,0 +1,147 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-3.3 -3 6.6 6.0"
+    >
+    <defs>
+        <radialGradient
+            id="RadialGradientSolderedPin"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#3c3c3c"/>
+            <stop offset="0.067" stop-color="#4d4d4d"/>
+            <stop offset="0.181" stop-color="#5e5e5e"/>
+            <stop offset="1.000" stop-color="#f0f0f0"/>
+        </radialGradient>
+        
+        <linearGradient
+            x2="0%" y2="100%"
+            fx=".75" fy="1.45"
+            id="RadialGradientSolderedPinOffset"
+            href="#RadialGradientSolderedPin"/>
+
+        <linearGradient
+            id="PinRightAngleLightDarkV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="000%" stop-color="#e5b758"/>
+            <stop offset="080%" stop-color="#c58f27"/>
+            <stop offset="100%" stop-color="#7e5c19"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleLightDarkH"
+            spreadMethod="pad"
+            >
+            <stop offset="000%" stop-color="#e5b758"/>
+            <stop offset="080%" stop-color="#c58f27"/>
+            <stop offset="100%" stop-color="#7e5c19"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleDarkLightH"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinRightAngleDarkLightV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <linearGradient
+            id="GradientExtrusionVerticalGrey"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#282828"                     />
+            <stop offset="0.255" stop-color="#404040" stop-opacity="0.749"/>
+            <stop offset="0.515" stop-color="#505050" stop-opacity="0.620"/>
+            <stop offset="0.781" stop-color="#404040" stop-opacity="0.498"/>
+            <stop offset="1.000" stop-color="#282828"                     />
+        </linearGradient>
+    </defs>
+
+    <!-- Pads -->
+    <rect width="0.45" height="1.8" x="+1.776" y="-3.0" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="+0.976" y="-3.0" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="+0.176" y="-3.0" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-0.624" y="-3.0" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-1.424" y="-3.0" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-2.224" y="-3.0" fill="url(#RadialGradientSolderedPinOffset)"/>
+
+    <rect width="0.45" height="1.8" x="+1.776" y="+1.2" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="+0.976" y="+1.2" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="+0.176" y="+1.2" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-0.624" y="+1.2" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-1.424" y="+1.2" fill="#d0d0d0"/>
+    <rect width="0.45" height="1.8" x="-2.224" y="+1.2" fill="#d0d0d0"/>
+
+    <!-- External Pins -->
+    <rect width="0.35" height="1.4" x="-2.174" y="+1.4" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="-1.374" y="+1.4" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="-0.574" y="+1.4" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="+0.226" y="+1.4" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="+1.026" y="+1.4" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="+1.826" y="+1.4" fill="#ebb300"/>
+
+    <rect width="0.35" height="1.4" x="+1.826" y="-2.8" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="+1.026" y="-2.8" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="+0.226" y="-2.8" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="-0.574" y="-2.8" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="-1.374" y="-2.8" fill="#ebb300"/>
+    <rect width="0.35" height="1.4" x="-2.174" y="-2.8" fill="#ebb300"/>
+
+    <!-- Main Body -->
+    <rect width="6.6" height="4.1" x="-3.3" y="-2.059" fill="#4f4c4d"/>
+
+    <!-- Body Insets -->
+    <rect width=".241" height=".768" x="2.791" y="-.393" fill="#383838" transform="scale(-1 1)"/>
+    <rect width=".241" height=".768" x="-3.034" y="-.393" fill="#383838" transform="scale(-1 1)"/>
+
+    <!-- Pin Alignment Extrusions -->
+    <rect width="4.81" height=".381" x="-2.403" y="-1.14" fill="#303030" rx=".191" ry=".191"/>
+
+    <rect width="4.66" height=".234" x="-2.328" y="-1.066" fill="url(#GradientExtrusionVerticalGrey)" rx=".117" ry=".117"/>
+
+    <rect width="4.81" height=".381" x="-2.403" y=".76" fill="#303030" rx=".191" ry=".191"/>
+
+    <rect width="4.66" height=".234" x="-2.328" y=".833" fill="url(#GradientExtrusionVerticalGrey)" rx=".117" ry=".117"/>
+
+
+    <!-- Internal Pins -->
+    <rect width="0.35" height="0.400" x="-2.174" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+    <rect width="0.35" height="0.400" x="-1.374" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+    <rect width="0.35" height="0.400" x="-0.574" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+    <rect width="0.35" height="0.400" x="+0.226" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+    <rect width="0.35" height="0.400" x="+1.026" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+    <rect width="0.35" height="0.400" x="+1.826" y="-1.431" fill="url(#PinRightAngleDarkLightV)"/>
+
+    <rect width="0.35" height="0.400" x="-2.174" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="-1.374" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="-0.574" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+0.226" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+1.026" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+1.826" y="-0.867" fill="url(#PinRightAngleLightDarkV)" rx="0" ry="0"/>
+
+    <rect width="0.35" height="0.400" x="-2.174" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="-1.374" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="-0.574" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+0.226" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+1.026" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+    <rect width="0.35" height="0.400" x="+1.826" y="0.469" fill="url(#PinRightAngleDarkLightV)" rx="0" ry="0"/>
+
+    <rect width="0.35" height="0.400" x="-2.174" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+    <rect width="0.35" height="0.400" x="-1.374" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+    <rect width="0.35" height="0.400" x="-0.574" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+    <rect width="0.35" height="0.400" x="+0.226" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+    <rect width="0.35" height="0.400" x="+1.026" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+    <rect width="0.35" height="0.400" x="+1.826" y="1.033" fill="url(#PinRightAngleLightDarkV)"/>
+</svg>

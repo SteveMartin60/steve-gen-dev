@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="SYMBOL-SENSOR-INFRARED.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="22.627417"
+         inkscape:cx="19.431798"
+         inkscape:cy="-1.7043064"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="true"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false"
+         inkscape:snap-global="false"
+         inkscape:snap-intersection-paths="true"
+         inkscape:object-paths="true"
+         inkscape:snap-smooth-nodes="true"
+         inkscape:snap-midpoints="true">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997"
+             enabled="false" />
+        <inkscape:grid
+             type="xygrid"
+             id="grid2214"
+             color="#000000"
+             opacity="0.03921569"
+             empcolor="#000000"
+             empopacity="0"
+             spacingx="1.27"
+             spacingy="1.27"
+             originx="-1.27"
+             originy="-1.27" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g
+         id="g74341"
+         transform="rotate(-90,0.54981233,3.3554769)">
+        <path
+             inkscape:connector-curvature="0"
+             id="path29588"
+             style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+             d="m 4.3619599,1.8278526 h 0.7433028 c 0.077964,0 0.1411111,-0.063147 0.1411111,-0.1411111 0,-0.077964 -0.063147,-0.1411111 -0.1411111,-0.1411111 h -0.7433028 -0.9129889 -0.6995583 -0.044097 c -0.077964,0 -0.1411111,0.063147 -0.1411111,0.1411111 0,0.077964 0.063147,0.1411111 0.1411111,0.1411111 h 0.7436555 c 0.060678,0.1957917 0.2409472,0.3390194 0.4564945,0.3390194 0.2155472,0 0.3958166,-0.1432277 0.4564944,-0.3390194" />
+        <path
+             inkscape:connector-curvature="0"
+             id="path29592"
+             style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+             d="m 4.9543437,3.1710179 c 0.055033,0.055033 0.1442861,0.055033 0.1996722,0 0.055033,-0.055033 0.055033,-0.1442861 0,-0.1996722 -0.6727472,-0.6723944 -1.7670638,-0.6723944 -2.4394583,0 -0.027517,0.027517 -0.041275,0.063853 -0.041275,0.099836 0,0.036336 0.013758,0.072319 0.041275,0.099836 0.055033,0.055033 0.1442861,0.055033 0.1993195,0 0.5626805,-0.5623278 1.4777861,-0.5623278 2.0404666,0" />
+        <path
+             inkscape:connector-curvature="0"
+             id="path29596"
+             style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+             d="m 4.7272254,3.5978094 c 0.055033,-0.055033 0.055033,-0.1442861 0,-0.1996722 -0.2113139,-0.2116667 -0.4931833,-0.3280833 -0.7930444,-0.3280833 -0.2998611,0 -0.5817306,0.1164166 -0.7930445,0.3280833 -0.027517,0.027869 -0.041275,0.063853 -0.041275,0.099836 0,0.036336 0.013758,0.072319 0.041275,0.099836 0.055033,0.055033 0.1442862,0.055033 0.1996723,0 0.1580444,-0.1583972 0.3690055,-0.2455333 0.5933722,-0.2455333 0.2243666,0 0.4353277,0.087136 0.5933722,0.2455333 0.055386,0.055033 0.1446389,0.055033 0.1996722,0" />
+        <path
+             inkscape:connector-curvature="0"
+             id="path29600"
+             style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+             d="m 3.9343221,3.95528 c 0.062794,0 0.1220611,0.024694 0.1668639,0.069144 0.055033,0.055033 0.1442861,0.055033 0.1993194,0 0.055386,-0.055033 0.055386,-0.1442861 0,-0.1996722 -0.097719,-0.097719 -0.2278944,-0.1516944 -0.3661833,-0.1516944 -0.1386417,0 -0.2688167,0.053975 -0.3665361,0.1516944 -0.027517,0.027869 -0.041275,0.063853 -0.041275,0.099836 0,0.036336 0.013758,0.072319 0.041275,0.099836 0.055033,0.055033 0.1442861,0.055033 0.1996722,0 0.04445,-0.04445 0.1037167,-0.069144 0.1668639,-0.069144" />
+    </g>
+</svg>

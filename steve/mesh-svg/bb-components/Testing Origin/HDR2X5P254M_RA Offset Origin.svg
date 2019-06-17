@@ -1,0 +1,131 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="-7.115 -6.35 14.230 12.700"
+    >
+    <defs>
+        <radialGradient
+            id="RadialGradientSolderedPin"
+            spreadMethod="pad"
+        >
+            <stop offset="0.000" stop-color="#3c3c3c"/>
+            <stop offset="0.067" stop-color="#4d4d4d"/>
+            <stop offset="0.181" stop-color="#5e5e5e"/>
+            <stop offset="1.000" stop-color="#f0f0f0"/>
+        </radialGradient>
+        
+        <linearGradient
+            id="PinRightAngleDarkLight"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <circle id = "pad-round-m18-solder"  cx="0" cy="0" r="+0.8"  fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" stroke-width=".2"/>
+        <circle id = "pad-round-m18-outline" cx="0" cy="0" r="+0.9" fill="none" stroke="#303030" stroke-width=".02"/>
+        <rect   id = "pad-square-m18-outline" x="0"  y="0" width="1.84" height="1.84" fill="#303030" />
+        
+        <path   id = "pin-tip-fill" fill="#e5b758" d="m  0 0 0.8.15 v 0.34 l -0.8.15 z"/>
+        <path   id = "pin-outline"  fill="none" stroke="#303030" stroke-width=".02" d="m -0 0 v 0.64 H 6 l 0.8 -0.15 v -0.34 l -0.8 -0.15 h -1.62 z"/>
+
+        <rect   id="body-shadow-light" width="2.54" height="0.5" x="0" y="0" fill="#656263"/>
+        <rect   id="body-shadow-dark"  width="2.54" height="0.5" x="0" y="0" fill="#444141"/>
+
+         <svg id = "component-body"
+             overflow="visible">
+            <rect   width="2.54" height="12.7" x="0" y="-6.35" fill="#4f4c4d"/>
+
+            <use x="0" y="-6.35" href="#body-shadow-light"/>
+            <use x="0" y="-3.81" href="#body-shadow-light"/>
+            <use x="0" y="-1.27" href="#body-shadow-light"/>
+            <use x="0" y="+1.27" href="#body-shadow-light"/>
+            <use x="0" y="+3.81" href="#body-shadow-light"/>
+            <use x="0" y="-4.31" href="#body-shadow-dark"/>
+            <use x="0" y="-1.77" href="#body-shadow-dark"/>
+            <use x="0" y="+0.77" href="#body-shadow-dark"/>
+            <use x="0" y="+3.31" href="#body-shadow-dark"/>
+            <use x="0" y="+5.85" href="#body-shadow-dark"/>
+        </svg>
+
+        <svg id = "pin-round-m18-soldered"
+             overflow="visible">
+            <use  x="-0"   y="0"    href="#pad-round-m18-outline"/>
+            <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+            <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+        </svg>
+        
+        <svg id = "pin-square-m18-soldered"
+             overflow="visible">
+            <use  x="-0.92" y="-0.92"    href="#pad-square-m18-outline"/>
+            <rect x="-0.9" y="-0.9" width="1.8" height="1.8" fill="#ebb300" />
+            <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+            <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+        </svg>
+        
+        <svg id = "pin-square-m60"
+             overflow="visible">
+            <rect x="0" y="0" width="6.000" height="0.64" fill="#cfa550" />
+            <use  x="6" y="0" href="#pin-tip-fill"/>
+            <use  x="0" y="0" href="#pin-outline"/>
+        </svg>
+        
+        <svg id = "right-angle-pin-gradient-fill"
+             overflow="visible">
+            <rect width="4.513" height="0.64" x="0" y="0" stroke="#303030" stroke-width=".02" fill="url(#PinRightAngleDarkLight)"/>
+        </svg>
+        
+        <svg id = "origin-marker-large-blue"
+             overflow="visible">
+            <line x1="1.832" x2="+0.567" y1="-.633" y2=".633" fill="none" stroke="#2e2aff" stroke-width=".006" paint-order="markers fill stroke"/>
+            <line x1="1.832" x2="+0.567" y1="0.633" y2="-.633" fill="none" stroke="#2e2aff" stroke-width=".006" paint-order="markers fill stroke"/>
+            <ellipse cx="1.199" fill="none" stroke="#2e2aff" stroke-width="0.005" rx="0.633" ry="0.633"/>
+        </svg>
+        
+        <svg id = "origin-marker-small-green"
+             overflow="visible">
+            <line x1="0.315" x2="-.315"  y1="-.315" y2=".315" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+            <line x1="0.315" x2="-.315"  y1="0.315" y2="-.315" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+            <ellipse cx="0"     fill="none" stroke="#2eff28" stroke-width="0.005" rx="0.315" ry="0.315"/>
+        </svg>
+        
+        
+    </defs>
+  
+    <!-- Pins Straight Male    -->
+    <use x="1.27" y="-5.410" href="#pin-square-m60"/>
+    <use x="1.27" y="-2.861" href="#pin-square-m60"/>
+    <use x="1.27" y="-0.321" href="#pin-square-m60"/>
+    <use x="1.27" y="+2.221" href="#pin-square-m60"/>
+    <use x="1.27" y="+4.761" href="#pin-square-m60"/>
+
+    <!-- Pins Round M18 Soldered -->
+    <use x="-5.106" y="-5.08" href="#pin-round-m18-soldered"/>
+    <use x="-2.566" y="-5.08" href="#pin-round-m18-soldered"/>
+    <use x="-5.106" y="-2.54" href="#pin-round-m18-soldered"/>
+    <use x="-2.566" y="-2.54" href="#pin-round-m18-soldered"/>
+    <use x="-5.106" y="+0.00" href="#pin-round-m18-soldered"/>
+    <use x="-2.566" y="+0.00" href="#pin-round-m18-soldered"/>
+    <use x="-5.106" y="+2.54" href="#pin-round-m18-soldered"/>
+    <use x="-2.566" y="+2.54" href="#pin-round-m18-soldered"/>
+    <use x="-5.106" y="+5.08" href="#pin-round-m18-soldered"/>
+
+    <!-- Pin Square M18 Soldered -->
+    <use x="-2.566" y="+5.08" href="#pin-square-m18-soldered"/>
+
+    <!-- Right Angle Pins    -->
+    <use x="-5.375" y="-5.40" href="#right-angle-pin-gradient-fill"/>
+    <use x="-5.375" y="-2.86" href="#right-angle-pin-gradient-fill"/>
+    <use x="-5.375" y="-0.32" href="#right-angle-pin-gradient-fill"/>
+    <use x="-5.375" y="+2.22" href="#right-angle-pin-gradient-fill"/>
+    <use x="-5.375" y="+4.76" href="#right-angle-pin-gradient-fill"/>
+
+    <!-- Plastic Component Body -->
+    <use x="-1.27" y="0" href="#component-body"/>
+
+    <!-- Origin Markers -->
+    <use x="0" y="0" href="#origin-marker-large-blue"/>
+    <use x="-0.0127" y="0" href="#origin-marker-small-green"/>
+    </svg>
+

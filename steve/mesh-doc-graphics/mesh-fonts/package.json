@@ -1,0 +1,7 @@
+{
+  "name": "mesh-fonts",
+  "version": "0.0.0",
+  "description": "Fonts for Mesheven browser apps",
+  "main": "index",
+  "private": true
+}

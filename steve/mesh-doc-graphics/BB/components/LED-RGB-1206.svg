@@ -1,0 +1,53 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-1.3 -0.759 2.6 1.518"
+    >
+    <rect width="0.839" height="0.577" x="-1.300" y="-0.750" fill="#ebb300"/>
+    <rect width="0.839" height="0.577" x="-1.300" y="+0.173" fill="#ebb300"/>
+    <rect width="0.839" height="0.577" x="+0.461" y="+0.173" fill="#ebb300"/>
+    <rect width="0.839" height="0.577" x="+0.461" y="-0.750" fill="#ebb300"/>
+    <path
+        fill="#cfa550"
+        stroke="#231f20" 
+        stroke-width="0.018" 
+        d="
+            m -0.8 0.588
+            v 0.16
+            h 1.6
+            v -0.15 
+            c -0.17 -0.05, -0.17 -0.4, 0 -0.468
+            v-.264
+            c -0.17 -0.05, -0.17 -0.4, 0 -0.468
+            v -0.15 
+            h -1.6
+            v 0.15
+            c 0.17 0.05, 0.17 0.4, 0 0.468
+            v 0.264 
+            c 0.17 0.05, 0.17 0.4, 0 0.464
+            v 0.15" 
+    />
+    <rect width="1.581" height="0.16" x="-0.791" y="-0.08" fill="#a7a5a6" />
+
+    <rect width="1.15" height="1.4975" x="-.574" y="-.75" fill="#fddfc4" stroke="#231f20" stroke-width=".018"/>
+
+    <rect width="0.3" height="0.3" x="-0.45" y="-0.45" fill="#5bba7a"/>
+    <rect width="0.3" height="0.3" x="+0.15" y="-0.45" fill="#5cb5e9"/>
+    <rect width="0.3" height="0.3" x="+0.15" y="+0.15" fill="#f46e6a"/>
+    </svg>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

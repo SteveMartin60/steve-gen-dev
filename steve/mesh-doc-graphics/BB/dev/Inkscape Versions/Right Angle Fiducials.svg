@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999996 1"
+     version="1.1"
+     id="svg10127"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="Right Angle Fiducials.svg"
+     inkscape:label="BB0001-Relays">
+    <defs
+         id="defs10121">
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath612757">
+            <path
+                 d="m 347.489,277.492 h 82.205 v -35.15 h -82.205 z"
+                 id="path612755"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath612313">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path612311"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath611977">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path611975"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath612733-5">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path612731-6"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath612757-3">
+            <path
+                 d="m 347.489,277.492 h 82.205 v -35.15 h -82.205 z"
+                 id="path612755-0"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <marker
+             style="overflow:visible"
+             refY="0"
+             refX="0"
+             orient="auto"
+             inkscape:stockid="Arrow2Sstart"
+             inkscape:isstock="true"
+             id="Arrow2Sstart">
+            <path
+                 inkscape:connector-curvature="0"
+                 transform="matrix(0.3,0,0,0.3,-0.69,0)"
+                 style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+                 id="Arrow2SstartPath"
+                 d="m 8.72,4.03 -10.93,-4.01 10.93,-4.02 c -1.75,2.37 -1.74,5.62 0,8.03 z" />
+        </marker>
+        <marker
+             style="overflow:visible"
+             refY="0"
+             refX="0"
+             orient="auto"
+             inkscape:stockid="Arrow2Send"
+             inkscape:isstock="true"
+             id="Arrow2Send">
+            <path
+                 inkscape:connector-curvature="0"
+                 transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+                 style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+                 id="Arrow2SendPath"
+                 d="m 8.72,4.03 -10.93,-4.01 10.93,-4.02 c -1.75,2.37 -1.74,5.62 0,8.03 z" />
+        </marker>
+        <clipPath
+             id="clipPath612733-5-5"
+             clipPathUnits="userSpaceOnUse">
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path612731-6-6"
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z" />
+        </clipPath>
+        <clipPath
+             id="clipPath612733-5-2"
+             clipPathUnits="userSpaceOnUse">
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path612731-6-60"
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z" />
+        </clipPath>
+        <clipPath
+             id="clipPath612395"
+             clipPathUnits="userSpaceOnUse">
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path612393"
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z" />
+        </clipPath>
+        <clipPath
+             id="clipPath612395-1"
+             clipPathUnits="userSpaceOnUse">
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path612393-5"
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath68845">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path68843"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath68973">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path68971"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+        <clipPath
+             clipPathUnits="userSpaceOnUse"
+             id="clipPath69111">
+            <path
+                 d="m 0,426.197 h 539.583 v -426.197 h -539.583 z"
+                 id="path69109"
+                 inkscape:connector-curvature="0" />
+        </clipPath>
+    </defs>
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="15.377696"
+         inkscape:cx="5.3238461"
+         inkscape:cy="-5.294299"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg10127"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         inkscape:window-width="1920"
+         inkscape:window-height="1027"
+         inkscape:window-x="-8"
+         inkscape:window-y="-8"
+         inkscape:window-maximized="1"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:snap-bbox-edge-midpoints="true"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:object-nodes="true"
+         inkscape:snap-midpoints="true"
+         inkscape:snap-object-midpoints="true"
+         inkscape:snap-center="false"
+         inkscape:snap-nodes="false"
+         inkscape:snap-others="true"
+         inkscape:bbox-paths="true"
+         inkscape:bbox-nodes="true"
+         gridtolerance="10"
+         inkscape:object-paths="true"
+         inkscape:snap-intersection-paths="true"
+         objecttolerance="10"
+         guidetolerance="10"
+         inkscape:snap-perpendicular="true"
+         inkscape:snap-tangential="true"
+         inkscape:snap-smooth-nodes="true"
+         inkscape:pagecheckerboard="false"
+         borderlayer="true"
+         inkscape:showpageshadow="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid7157"
+             spacingx="0.99999999"
+             spacingy="0.99999999"
+             dotted="false"
+             units="mm"
+             originx="0"
+             originy="0"
+             color="#000000"
+             opacity="0.07843137"
+             empcolor="#000000"
+             empopacity="0.25098039" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata10124">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title />
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:description>Default Template SVG file for Mesheven BB's</dc:description>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path
+         d="m -0.44568663,-5.846402 h 1.57585823 v 0.780344 h -1.57585823 z"
+         style="fill:#bdbcbc;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path69061"
+         inkscape:connector-curvature="0" />
+    <path
+         d="m -0.20756164,-5.846402 h 1.09960829 v 0.780344 h -1.09960829 z"
+         style="fill:#6a5e50;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path69063"
+         inkscape:connector-curvature="0" />
+    <path
+         d="m -0.6460644,-5.846402 h 0.20037777 v 0.780344 h -0.20037777 z"
+         style="fill:#bfb290;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path69065"
+         inkscape:connector-curvature="0" />
+    <path
+         d="m 1.1301716,-5.846402 h 0.2003778 v 0.780344 h -0.2003778 z"
+         style="fill:#bfb290;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.08819444;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path69067"
+         inkscape:connector-curvature="0" />
+    <path
+         inkscape:connector-curvature="0"
+         id="path15127"
+         d="m -0.89998999,0.09857592 v -0.9985659 h 0.99856504"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4899c4;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4899c4;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 0.90142426,-0.89998998 h 0.99856574 v 0.9985657"
+         id="path15976"
+         inkscape:connector-curvature="0" />
+    <path
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4899c4;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 1.89999,0.90142432 v 0.99856568 h -0.99856579"
+         id="path15978"
+         inkscape:connector-curvature="0" />
+    <path
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#4899c4;stroke-width:0.20000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 0.09857572,1.89999 h -0.99856571 v -0.99856578"
+         id="path15980"
+         inkscape:connector-curvature="0" />
+</svg>

@@ -1,0 +1,121 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-3.3 -3.0 6.6 6.0"
+    >
+<!--
+    width="6.6mm"
+    height="6.0mm"
+ -->
+    <defs>
+        <svg
+            id="PIN-SMD-LB335-G12S-BOR">
+            <rect width="0.45" height="1.8" x="0.00" y="0.0" fill="#d0d0d0"/>
+            <rect width="0.35" height="1.4" x="0.05" y="0.2" fill="#ebb300"/>
+        </svg>
+        
+        <svg
+            id="PIN-INTERNAL-LB335-G12S-BOR">
+            <rect width="0.35" height="0.119" x="0" y="0" fill="#ebb300"/>
+        
+            <path 
+                fill="#c39500" 
+                d="
+                    m 0, 0.119
+                    h 0.35
+                    a 0.229, 0.154, 0, 0, 1, -0.175, 0.055 
+                    a 0.229, 0.154, 0, 0, 1, -0.175, -0.055 
+                    z
+                  "
+            />
+        </svg>
+        
+        <svg
+            id="PIN-INTERNAL-LB335-G12S-BOR-FLIPPED" overflow="visible">
+            <rect width="0.35" height="0.119" x="0" y="0" fill="#ebb300"
+            />
+        
+            <path 
+            transform="rotate(180, 0.175, 0.0595)"
+                fill="#c39500" 
+                d="
+                    m 0, 0.119
+                    h 0.35
+                    a 0.229, 0.154, 0, 0, 1, -0.175, 0.055 
+                    a 0.229, 0.154, 0, 0, 1, -0.175, -0.055 
+                    z
+                  "
+            />
+        </svg>
+        
+    </defs>
+
+    <use x="+1.776" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="+0.976" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="+0.176" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-0.624" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-1.424" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-2.224" y="-3.0" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="+1.776" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="+0.976" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="+0.176" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-0.624" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-1.424" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+    <use x="-2.224" y="+1.2" href="#PIN-SMD-LB335-G12S-BOR"/>
+
+    <rect width="6.60" height="4.1" x="-3.300" y="-2.059" fill="#4f4c4d"/>
+
+    <rect width="5.05" height="1" x="-2.523" y="+0.651" fill="#303030"/>
+    <rect width="5.05" height="1" x="-2.523" y="-1.649" fill="#303030"/>
+
+
+    <rect width="0.241" height="0.768" x="+2.791" y="-0.393" fill="#383838"/>
+    <rect width="0.241" height="0.768" x="-3.034" y="-0.393" fill="#383838"/>
+
+    <path fill="#404040" d="m +2.527 +0.650 l -0.12 +0.113 l -4.841 +0.007 l -0.09 -0.12  z"/>
+    <path fill="#404040" d="m +2.527 -1.650 l -0.12 +0.113 l -4.841 +0.008 l -0.09 -0.12  z"/>
+
+    <path fill="#404040" d="m +2.526 +1.650 l -0.12 -0.12  h -4.84 l -0.09.12 z"/>
+    <path fill="#404040" d="m -2.523 +0.650 l +0.12 +0.12  v +0.76 l -0.12.12 z"/>
+    <path fill="#404040" d="m +2.527 +0.642 l -0.12 +0.09  v +0.80 l +0.12.12 z"/>
+    <path fill="#404040" d="m +2.526 -0.650 l -0.12 -0.12  h -4.84 l -0.09.12 z"/>
+    <path fill="#404040" d="m -2.523 -1.650 l +0.12 +0.12  v +0.76 l -0.12.12 z"/>
+    <path fill="#404040" d="m +2.527 -1.658 l -0.12 +0.09  v +0.80 l +0.12.12 z"/>
+
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m -2.403 -1.53  l -0.12 -0.12"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m +2.407 -1.537 l +0.12 -0.112"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m +2.407 -0.769 l +0.12 +0.12"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m -2.403 +1.53  l -0.12 +0.12"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m -2.403 +0.77  l -0.12 -0.12"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m +2.407 +0.763 l +0.12 -0.112"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m +2.407 +1.531 l +0.12 +0.12"/>
+    <path fill="none" stroke="#fff" stroke-width="0.001" d="m -2.403 -0.77  l -0.12 +0.12"/>
+ 
+    <use x="-2.174" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="-1.374" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="-0.574" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+1.826" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+1.026" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+0.226" y="1.532" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    
+    <use x="-2.174" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="-1.374" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="-0.574" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+1.826" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+1.026" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+0.226" y="0.651" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    
+    <use x="-2.174" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="-1.374" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="-0.574" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+1.826" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+1.026" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+    <use x="+0.226" y="-0.768" href="#PIN-INTERNAL-LB335-G12S-BOR-FLIPPED"/>
+
+    <use x="-2.174" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="-1.374" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="-0.574" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+1.026" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+0.226" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+    <use x="+1.826" y="-1.649" href="#PIN-INTERNAL-LB335-G12S-BOR"/>
+
+</svg>

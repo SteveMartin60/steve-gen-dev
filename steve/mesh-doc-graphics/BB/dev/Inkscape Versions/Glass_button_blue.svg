@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="Glass_button_blue.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415">
+        <radialGradient
+             id="c"
+             cx="600.08002"
+             cy="491.401"
+             r="150.47"
+             fx="600.08002"
+             fy="491.401"
+             gradientTransform="matrix(0.25782474,-0.0755891,0.07536477,0.25706655,-181.55705,-53.324639)"
+             gradientUnits="userSpaceOnUse"
+             xlink:href="#a" />
+        <linearGradient
+             id="a">
+            <stop
+                 offset="0"
+                 stop-color="#6196ff"
+                 id="stop5669" />
+            <stop
+                 offset="1"
+                 stop-color="#039"
+                 id="stop5671" />
+        </linearGradient>
+        <radialGradient
+             inkscape:collect="always"
+             xlink:href="#a"
+             id="radialGradient6281"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.00603403,-0.00176906,0.00176381,0.00601628,-4.3884828,-1.3847743)"
+             cx="600.08002"
+             cy="491.401"
+             fx="600.08002"
+             fy="491.401"
+             r="150.47" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#b"
+             id="linearGradient6283"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.0061922,0,0,0.0061922,-5.0198562,-1.9177443)"
+             x1="742.88098"
+             y1="140.339"
+             x2="787.88098"
+             y2="257.797" />
+        <linearGradient
+             id="b">
+            <stop
+                 offset="0"
+                 stop-color="#fff"
+                 id="stop5674" />
+            <stop
+                 offset="1"
+                 stop-color="#fff"
+                 stop-opacity="0"
+                 id="stop5676" />
+        </linearGradient>
+    </defs>
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="29.911182"
+         inkscape:cx="7.1888008"
+         inkscape:cy="1.8715816"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path
+         style="display:inline;fill:url(#radialGradient6281);stroke-width:0.28396678"
+         inkscape:connector-curvature="0"
+         id="path6275"
+         d="m 1,-1.3521516e-8 c 0,0.552289503521516 -0.44771047,1.000000013521516 -1,1.000000013521516 -0.55228285,0 -1,-0.44771051 -1,-1.000000013521516 0,-0.552282836478484 0.44771715,-0.999999986478484 1,-0.999999986478484 0.55228953,0 1,0.44771715 1,0.999999986478484 z" />
+    <path
+         style="display:inline;fill:url(#linearGradient6283);stroke-width:0.26458341"
+         inkscape:connector-curvature="0"
+         id="path6277"
+         d="m -0.04950541,-0.92680615 c -0.74828429,0.0476924 -1.00828869,0.94985909 -0.81878251,0.84774967 0,0 0.28899624,-0.22250441 0.7125367,-0.38067183 0.42843848,-0.16000652 0.7301907,-0.17245904 0.7301907,-0.17245904 0.18460811,-0.0580767 -0.30230333,-0.31498495 -0.62394489,-0.2946126 z" />
+</svg>

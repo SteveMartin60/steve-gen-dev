@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: url(../images/backgrounds/Texture0109.jpg);
+}
+
+body, div, p, h1, h2, h3, ul, li, input, label, table, td, tr {
+  margin: 0;
+  padding: 0;
+	color: #333;
+}
+
+input {
+  font-size: 12px;
+  vertical-align: baseline;
+  padding: 0.1em 0.3em;
+}
+
+label {
+  vertical-align: baseline;
+  padding: 0.1em 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(16, 94, 166);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus { 
+  outline: none; 
+}
+
+
+
+#wrapper {
+	min-width: 600px;
+}
+
+#page {
+  float: left;
+	margin: 0 3% 10px 3%;
+  width: 60%;
+  min-height: 500px;
+}
+
+#sidebar {
+  float: right;
+  width: 34%;
+}
+
+#sidebar .content {
+	padding: 4.8em 2.5em 1em 0.5em;
+	text-align: center;
+}
+
+
+
+#header {
+  padding: 1.5em 6px 1em 6px;
+}
+
+#header h1 {
+  position: relative;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-shadow: rgba(255, 255, 255, 0.7) 1px 1px 4px;
+  color: rgb(69, 92, 113);
+}
+
+#header h1 a {
+  color: rgb(16, 94, 166);
+}
+
+#header h1 .home a {
+	font-size: 1.2em;
+}
+
+#header h1 .language {
+  position: absolute;
+  right: 0px;
+	bottom: 0.1em;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  _text-shadow: rgba(255, 255, 255, 0.7) 1px 1px 4px;
+}
+
+#header h1 .language a {
+}
+
+
+
+#footer {
+  margin: 30px 6px 0 6px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(69, 92, 113);
+  text-align: center;
+  line-height: 1.8em;
+  color: rgb(69, 92, 113);
+}
+
+
+
+.topic {
+  margin-bottom: 1.5em; 
+  background: white;
+  overflow: hidden;
+	text-align: left;
+  border-radius: 9px;
+  box-shadow: 3px 3px 9px #999;
+  -webkit-border-radius: 9px;
+  -webkit-box-shadow: 3px 3px 9px #999;
+  -moz-border-radius: 9px;
+  -moz-box-shadow: 3px 3px 9px #999;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.topic h2 {
+  position: relative;
+  padding: 0.4em 16px 0.3em 16px;
+  font-size: 1.25em;
+	line-height: 1.5em;
+  font-weight: bold;
+  color: rgb(69, 92, 113);
+  background-color: rgba(255, 255, 255, 0.3);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  text-shadow: white 2px 2px 4px;
+  -webkit-border-top-right-radius: 9px;
+  -webkit-border-top-left-radius: 9px;
+  -moz-border-top-right-radius: 9px;
+  -moz-border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.topic h2 .more {
+  position: absolute;
+  right: 10px;
+  white-space: nowrap;
+	font-size: 0.9em;
+  _color: #fff;
+  _background: url(../images/more.png) center right no-repeat;
+}
+
+.topic h2 .less {
+  _background: url(../images/less.png) center right no-repeat;
+}
+
+.topic h2 .closebox {
+  position: absolute;
+  right: 0.8em;
+	top: 0.6em;
+}
+
+.topic .body {
+  padding: 1em 16px;
+}
+
+.topic .body h3 {
+  padding: 2em 0 2em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(69, 92, 113);
+}
+
+.topic .body p {
+  padding: 0 0 0.5em 0;
+	line-height: 1.4em;
+  width: 100%;  
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.topic .body pre {
+  padding-left: 1em;
+  color: rgb(0,80,31);
+	font-family: monospace;
+}
+
+.topic .body .keyword {
+  color: rgb(69, 92, 113);
+  font-weight: bold;
+}
+
+.topic .body .more {
+  padding-right: 12px;
+  white-space: nowrap;
+}
+
+.topic .body .info {
+  display: none;
+  margin: 0 0 1em 0;
+  border-bottom: 1px solid rgba(69, 92, 113, 0.5);
+}
+
+.topic .body .section {
+  clear: both; 
+  padding: 0;
+}
+
+.topic .body .seperator {
+  margin: 10px 0; 
+	border-top: 1px solid rgba(69, 92, 113, 0.5);
+}
+
+.topic .body .section h3 {
+  padding: 0.8em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(69, 92, 113);
+}
+
+.topic .body .moreLink {
+  padding: 0 12px 0 1em;
+  background: url(../images/more.png) no-repeat center right;
+}
+
+.topic .body .contentOpen {
+  background: url(../images/less.png) no-repeat center right;
+}
+
+.topic .body .moreContent {
+  display: none;
+}
+
+
+
+.pointer {
+	cursor: pointer;
+}
+
+.explorer {
+	display: none;
+}

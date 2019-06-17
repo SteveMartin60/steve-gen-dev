@@ -1,0 +1,2952 @@
+<?xml version="1.0" standalone="no"?>
+<svg
+    xmlns   = "http://www.w3.org/2000/svg"
+    style   = "isolation:isolate"
+    viewBox = "-50 -50 100 100"
+    width   = "240mm"
+    height  = "180mm"
+    transform ="scale(1,-1)"
+>
+<style> .boardId
+{
+    font-size          : 1.8px;
+    font-family        : Lato;
+    font-weight        : bold;
+    alignment-baseline : middle;
+    text-anchor        : central;
+    fill               : white;
+}
+</style>
+<defs>
+    <pattern id="holeGND" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#99cf2c" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#89ba28" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#749d21" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="hole9V" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#ed9bd3" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#e985c9" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#e467bc" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="hole5V" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#ed1c24" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#de1219" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#bd0f16" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="hole3V3" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#51abe4" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#3ba0e1" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#2190d6" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeWAKE" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#cfa550" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#ca9b3c" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#b18731" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeMISO" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f25c19" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#e5500d" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#c3440b" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeSCLK" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f89c0e" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#e68e07" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#c37906" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeMOSI" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#fbc834" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#fbc11b" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#edb205" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeMMISO" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f05b71" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#ee445d" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#eb2340" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeMSCLK" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f48b91" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#f2747b" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#ef535c" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeMMOSI" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f8b1b2" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#f69a9b" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#f3797b" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeCS_N" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#fbc18c" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#fab473" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#f9a151" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeSDA" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#bb87bc" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#b277b3" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#a560a6" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeSCL" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#a154a1" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#904b90" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#793f79" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeColumn1A" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#d8d8d8" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#cbcbcb" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#b9b9b9" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeColumn1B" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#f0f0f0" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#e3e3e3" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#d1d1d1" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <pattern id="holeColumn10" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <svg stroke = "none">
+            <path fill = "#c4c4c4" d = "M1.27 1.27 m -1.27 -1.2 v 2.4 h 2.54     v -2.4 h-2.54 Z"/>
+            <path fill = "#b7b7b7" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 h 1.6      v -1.6 h-1.60 Z"/>
+            <path fill = "#a5a5a5" d = "M1.27 1.27 m -0.80 -0.8 v 1.6 l 0.4 -0.4 v -0.8 h 0.8 l 0.4 -0.4  H -1.2 Z"/>
+            <path fill = "#303030" d = "M1.27 1.27 m -0.40 -0.4 v 0.8 h 0.8      v -0.8 h-0.8 Z"/>
+        </svg>
+    </pattern>
+    <svg id="ColumnBlock" overflow="visible">
+        <rect fill = "url(#holeColumn10)" x= "0.00" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1B)" x= "2.54" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1A)" x= "5.08" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1B)" x= "7.62" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1A)" x="10.16" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1B)" x="12.70" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1A)" x="15.24" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1B)" x="17.78" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1A)" x="20.32" y="0" width="2.54" height="30.48"/>
+        <rect fill = "url(#holeColumn1B)" x="22.86" y="0" width="2.54" height="30.48"/>
+    </svg>
+    <g id="BusRowBlock" overflow="visible">
+        <rect fill = "url(#hole5V  )" x="0" y="-2.54" width="203.2" height="2.54"/>
+        <rect fill = "url(#holeGND )" x="0" y="+0.00" width="203.2" height="2.54"/>
+        <rect fill = "url(#hole3V3 )" x="0" y="+2.54" width="203.2" height="2.54"/>
+        <rect fill = "url(#holeWAKE)" x="0" y="+5.08" width="203.2" height="2.54"/>
+        <rect fill = "url(#holeSCL )" x="0" y="+7.62" width="203.2" height="2.54"/>
+        <rect fill = "url(#holeSDA )" x="0" y="10.16" width="203.2" height="2.54"/>
+    </g>
+    <pattern id="grid02mm" width="1" height="1" patternUnits="userSpaceOnUse">
+    <path d            = "M 0,0 h 1 v 1, h -1 v -1"
+          fill         = "#f8f8f0"
+          stroke       = "#c0c0c0"
+          stroke-width = "0.05"/>
+    </pattern>
+    <pattern id="grid10mm" width="5" height="5" patternUnits="userSpaceOnUse">
+        <rect width="5" height="5" fill="url(#grid02mm)"/>
+        <path d            = "M 0 0 h 5  v 5"
+              fill         = "none"
+              stroke       = "#a0a0a0"
+              stroke-width = "0.10"/>
+    </pattern>
+    <pattern id="grid02in" width="1.27" height="1.27" patternUnits="userSpaceOnUse">
+    <path d            = "M 0,0 h 1.27 v 1.27, h -1.27 v -1.27"
+          fill         = "#f8f8f0"
+          stroke       = "#c0c0c0"
+          stroke-width = "0.03"/>
+    </pattern>
+    <pattern id="grid10in" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+        <rect width="2.54" height="2.54" fill="url(#grid02in)"/>
+        <path d            = "M 0 0 h 2.54  v 2.54"
+              fill         = "none"
+              stroke       = "#b0b0b0"
+              stroke-width = "0.03"/>
+    </pattern>
+    <g id="padEnd" 
+       stroke = "none">
+       <path fill="#a07a57" d="M -0.4 -0.4 L -0.4 0.4  L 0.4 0.4 Z"/>
+       <path fill="#b68b64" d="M -0.4 -0.4 L 0.4 -0.4  L 0.4 0.4 Z"/> 
+       <path fill="#c1946c" d="M -0.2 -0.2 L 0.2 -0.2  L 0.2 0.2 L -0.2 0.2 Z"/> 
+   </g>
+<svg id="SWD-SOCKET" 
+       stroke          = "#4899c4"
+       stroke-width    = "0.4" 
+       stroke-linejoin = "round"
+       stroke-linecap  = "round"
+       overflow        = "visible"
+       fill            = "none">       
+       <path d="M -0.1  2.1
+                L  2.3  2.1
+                A  1.3  1.3   0 0 0  3.6, +0.8
+                L                    3.6, -0.8
+                A  1.3  1.3   0 0 0  2.3, -2.1
+                L -0.1 -2.1"/>
+
+       <path d="M -1.9 -2.1   L -2.3 -2.1  A 1.3  1.3  0 0 0  -3.4 -1.5"/> 
+       <path d="M -1.9 +2.1   L -2.3 +2.1  A 1.3  1.3  0 0 1  -3.4 +1.5"/>                   
+
+       <path d="M -3.7 +0.8   L -3.5 +0.8  L -3.5 -0.8  L -3.7 -0.8 L -3.7 +0.8"/>  
+
+       <path d="M -1.1 -2.2   L -0.9 -2.2  L -0.9 -2.0  L -1.1 -2.0 L -1.1 -2.2"/>                   
+       <path d="M -1.1 +2.2   L -0.9 +2.2  L -0.9 +2.0  L -1.1 +2.0 L -1.1 +2.2"/>         
+
+       // Draw the Visualization
+       <g id="SWD-Holes" 
+           stroke          = "#404040"
+           stroke-width    = "0.6" 
+           stroke-linejoin = "round"
+           stroke-linecap  = "round"
+           fill            = "none">       
+           <path d="M -2.0 -0.7  L -2.0 +0.7"/>
+           <path d="M +2.0 -0.7  L +2.0 +0.7"/>
+       </g> 
+    
+       <g id="SWD-PADS" 
+           stroke          = "#ebb300"
+           stroke-width    = "0.7" 
+           stroke-linejoin = "round"
+           stroke-linecap  = "round"
+           fill            = "none">       
+           <path d="M -1.0 -0.45  L -1.0 +0.45"/>
+           <path d="M +0.0 -0.45  L +0.0 +0.45"/>       
+           <path d="M +1.0 -0.45  L +1.0 +0.45"/>      
+       </g>
+   </svg>
+</defs>
+<defs>
+
+    <svg id = "origin-marker-large"
+         stroke-width="0.006" fill="none"
+         overflow="visible">
+        <line x1="0.5" x2="-0.5"  y1="-0.5" y2="+0.5"/>
+        <line x1="0.5" x2="-0.5"  y1="+0.5" y2="-0.5"/>
+        <ellipse cx="0" rx="0.5" ry="0.5"/>
+    </svg>
+    <svg id = "origin-marker-large-grey"
+         stroke="#f5f5f5" overflow="visible">
+        <use x="0" y="0" href="#origin-marker-large"/>
+    </svg>
+    <svg id = "origin-marker-large-blue"
+         stroke="#2e2aff" overflow="visible">
+        <use x="0" y="0" href="#origin-marker-large"/>
+    </svg>
+    <svg id = "origin-marker-large-red"
+         stroke="#ff0000" overflow="visible">
+        <use x="0" y="0" href="#origin-marker-large"/>
+    </svg>
+    <svg id = "origin-marker-small-green"
+         overflow="visible">
+        <line x1="0.3" x2="-0.3"  y1="-0.3" y2="+0.3" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+        <line x1="0.3" x2="-0.3"  y1="+0.3" y2="-0.3" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+        <ellipse cx="0"     fill="none" stroke="#2eff28" stroke-width="0.005" rx="0.315" ry="0.315"/>
+    </svg>
+
+    <svg id = "GRAPHIC-TOUCH-PAD"
+        overflow="visible">
+        <defs>
+            <radialGradient id="xxxa" cx="0" cy="0" r="1" fx="0" fy="0" gradientTransform="matrix(4.58876 0 0 4.58784 -0.046 -1.938)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+                <stop offset="0"     stop-color="#fff"/>
+                <stop offset="0.305" stop-color="#fff"/>
+                <stop offset="0.788" stop-color="#fff"/>
+                <stop offset="1"     stop-color="#bec1c8"/>
+            </radialGradient>
+        </defs>
+        <rect width="16.728" height="16.728" x="-8.364" y="-8.364" fill="#4899c4" paint-order="markers fill stroke" rx="1.142" ry="1.129"/>
+        <path fill="url(#axxx)" d="M-4.635-1.939A4.588 4.588 0 0 0-0.046 2.65a4.588 4.588 0 0 0 0-9.176 4.589 4.589 0 0 0-4.589 4.588"/>
+        <path fill="#fbc18c" d="M-2.179 8.367V4.7c.674-0.422 1.162.067 1.253.607.063.377.073 1.793.073 1.793.827-0.044 1.934.157 2.004 1.266"/>
+        <circle cx="-0.046" cy="-1.938" r="3.094" fill="#99d420"/>
+        <path fill="#fbc18c" d="M-0.61 8.363L-0.612-0.091c0-0.31.25-0.56.56-0.561.31 0 0.66.25.661.56l.001 3.515h.075l-0.001-0.737c0-0.31.35-0.56.66-0.561.31 0 0.661.25.662.56v.736h.09v-0.5c0-0.31.35-0.561.66-0.562.31 0 0.661.25.661.56l.001.5h.05l.036-0.12c0-0.31.35-0.561.66-0.561.31 0 0.561.25.562.56l.005 5.065"/>
+    </svg>
+
+    <svg id = "GRAPHIC-RFID"
+        overflow="visible">
+        <path fill="#4899c4" d="M8.98 8.98c-4.96 4.96-13 4.96-17.96 0-4.96-4.96-4.96-13 0-17.96 4.96-4.96 13-4.96 17.96 0 4.96 4.96 4.96 13 0 17.96"/>
+        <path fill="#51abe4" d="M-8.98-8.98c-4.96 4.96-4.96 13 0 17.96L8.98-8.98c-4.96-4.96-13-4.96-17.96 0"/>
+        <path fill="#fbc18c" d="M-4.537 1.15L-5.78-.646s-1.26-.219-1.882.48c-.622.698-1.16 2.09-1.748 2.981-.588.89-1.758 2.38-1.758 2.38l-.205.465A12.676 12.676 0 0 0-8.98 8.98a12.66 12.66 0 0 0 4.35 2.849c1.021-.488 2.21-1.37 2.21-1.37.117.42.974.705.974.705S.05 9.769.924 9.014c.873-.757.52-.992.52-.992s.94-.504 1.125-1.294c.185-.79-.1-1.512-.588-2.083-.487-.571-6.518-3.494-6.518-3.494"/>
+        <path fill="#f89c0e" d="M-.858 6.691v-.473a1.831 1.831 0 0 0-.357 3.097 1.828 1.828 0 0 1 .357-2.623"/>
+        <path fill="#f89c0e" d="M-1.737 7.873A1.834 1.834 0 0 0-2.7 9.708a1.823 1.823 0 0 1 .962-1.413zM-5.075 1.117l-2.554 2.789 3.309-2.513z"/>
+        <path fill="#ffffff" d="M9.732-2.189L.229 7.315a.902.902 0 0 1-1.273 0l-6.27-6.27a.902.902 0 0 1 0-1.273l9.503-9.504a.903.903 0 0 1 1.272 0l6.271 6.27c.35.35.35.923 0 1.273"/>
+        <path fill="#51abe4" d="M6.1-1.334a.448.448 0 0 1-.448-.448 3.874 3.874 0 0 0-3.87-3.87.449.449 0 0 1 0-.896 4.771 4.771 0 0 1 4.766 4.766.448.448 0 0 1-.448.448"/>
+        <path fill="#51abe4" d="M4.576-1.334a.448.448 0 0 1-.448-.448 2.349 2.349 0 0 0-2.346-2.346.448.448 0 1 1 0-.896 3.246 3.246 0 0 1 3.242 3.242c0 .248-.2.448-.448.448"/>
+        <path fill="#51abe4" d="M3.052-1.334a.448.448 0 0 1-.448-.448.823.823 0 0 0-.822-.822.448.448 0 0 1 0-.896c.947 0 1.718.77 1.718 1.718 0 .248-.2.448-.448.448"/>
+        <path fill="#f89c0e" d="M-7.629 3.906C-6.744 3.02-2.202-.01-1.597-.412-.992-.815-.404-1.42.234-1.134c.639.285.958 2.15.152 2.973-.807.824-3.082 2.09-3.882 2.89-.8.8.511 3.577-2.447 5.436-2.959 1.86-2.57-5.375-1.686-6.26"/>
+        <path fill="#fbc18c" d="M.234-1.134c-.639-.286-1.226.319-1.831.722-.605.403-5.295 3.58-6.18 4.465-.59.59-.796 4.334-.053 5.946.328.259.668.499 1.015.72.253-.051.542-.225.872-.554 2.74-2.74.988-4.4 2.235-5.648C-2.46 3.27-1.108 2.616.018 1.716c1.126-.9.855-2.565.216-2.85"/>
+    </svg>
+
+    <svg id = "MX-BUTTON"
+        overflow="visible">
+        <circle r="5.4"/>
+        <circle r="4.5" fill="silver" stroke="#303030" stroke-width ="0.3"/>
+    </svg>
+
+    <svg id = "MX-DC"
+        overflow="visible">
+        <defs>
+            <linearGradient
+                id="MX001-GRADIENT-GREY-01"
+                x2="5%"
+                y2="50%"
+                >
+                <stop offset="0" stop-color="#deddde"/>
+                <stop offset="1" stop-color="#7b7979"/>
+            </linearGradient>
+
+            <radialGradient id="CENTRE-WHITE-GREY"  spreadMethod="pad">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#3d3a3b"/>
+            </radialGradient>
+
+            <linearGradient
+                id="MX001-GRADIENT-GREY-02"
+                x1="95%"
+                y1="95%"
+                x2="5%"
+                y2="5%"
+            >
+                <stop offset="0.000" stop-color="#f2f2f2"/>
+                <stop offset="0.441" stop-color="#f2f2f2"/>
+                <stop offset="1.000" stop-color="#484546"/>
+            </linearGradient>
+
+            <linearGradient
+                id="MX001-GRADIENT-GREY-03"
+                x1="5%"
+                y1="5%"
+                x2="95%"
+                y2="95%"
+            >
+                <stop offset="0" stop-color="#e9e9e9"/>
+                <stop offset="1" stop-color="#4f4c4d"/>
+            </linearGradient>
+
+            <linearGradient
+                id="MX001-GRADIENT-GREY-04"
+                x2="0%"
+                y2="100%"
+            >
+                <stop offset="0" stop-color="#2c2829"/>
+                <stop offset="1" stop-color="#454142"/>
+            </linearGradient>
+        </defs>
+
+        <circle cx="0" cy="0" r="5.10" fill="#231f20"/>
+        <circle cx="0" cy="0" r="5.00" fill="#b8bbc2" opacity="0.25"/>
+        <circle cx="0" cy="0" r="4.50" fill="url(#MX001-GRADIENT-GREY-01)"/>
+        <circle cx="0" cy="0" r="4.20" fill="url(#MX001-GRADIENT-GREY-02)"/>
+        <circle cx="0" cy="0" r="3.50" fill="url(#MX001-GRADIENT-GREY-03)"/>
+        <circle cx="0" cy="0" r="2.65" fill="url(#MX001-GRADIENT-GREY-04)"/>
+        <circle cx="0" cy="0" r="1.05" fill="url(#CENTRE-WHITE-GREY)"     />
+    </svg>
+
+    <svg id = "MX-LIGHT-PIPE-43X11"
+        overflow="visible">
+        <rect width="4.3" height="1.1" x="-2.15" y="-0.55" rx="0.3" ry="0.3" fill="#d8d8d8" stroke="black" stroke-width="0.1" />
+    </svg>
+
+    <svg id = "MX-SCREEN-01"
+        overflow="visible">
+        <rect width="41.82" height="8.8" x="-20.91" y="-4.4" fill="#231f20" rx="2.016" ry="2.016"/>
+        <rect width="22.40" height="5.6" x="-11.20" y="-2.8" fill="#4f4c4d" rx="0.500" ry="0.500"/>
+        <circle cx="-16.51" r="1" fill="#444141"/>
+    </svg>
+
+    <svg id = "MX-SCREEN-01-ALL"
+        overflow="visible">
+        <rect width="41.82" height="8.80" x="-20.91" y="-3.844" fill="#231f20" rx="2.016" ry="2.016"/>
+        <rect width="13.60" height="4.26" x="-06.80" y="+7.989" fill="#4899c4" rx="0.800" ry="0.800"/>
+        <rect width="22.40" height="5.60" x="-11.20" y="-2.244" fill="#4f4c4d" rx="0.500" ry="0.500"/>
+
+        <circle cx="-16.51" cy=".557" r="1" fill="#444141"/>
+
+        <path fill="#231f20" d="m -8.393,-8.777h-0.634v-2.149l-0.53,2.149h-0.884l-0.53,-2.149v2.149h-0.633v-3.472h0.893l0.725,2.802l0.724,-2.802h0.87z"/>
+        <path fill="#231f20" d="m -5.665,-8.777h-2.173v-3.472h2.168v0.624h-1.544v0.694h1.54v0.625h-1.54v0.904h1.549z"/>
+        <path fill="#231f20" d="m -2.798,-9.402c0,0.203,-0.053,0.358,-0.16,0.465c-0.108,0.106,-0.263,0.16,-0.464,0.16h-1.808v-0.625h1.808v-0.914h-1.23a0.644,0.644,0,0,1,-0.451,-0.157c-0.115,-0.105,-0.173,-0.261,-0.173,-0.467v-0.685c0,-0.2,0.057,-0.354,0.17,-0.462a0.63,0.63,0,0,1,0.455,-0.163h1.708v0.625h-1.707v0.685h1.229c0.188,0,0.34,0.056,0.453,0.17a0.612,0.612,0,0,1,0.171,0.454z"/>
+        <path fill="#231f20" d="m 0.27,-8.777h-0.625v-1.544h-1.304v1.544h-0.634v-3.472h0.634v1.303h1.304v-1.303h0.625z"/>
+        <path fill="#231f20" d="m 2.997,-8.777h-2.173v-3.472h2.168v0.624h-1.542v0.694h1.539v0.625h-1.54v0.904h1.55z"/>
+        <path fill="#231f20" d="m 5.93,-12.25l-1.06,3.474h-0.619l-1.029,-3.474h0.68l0.674,2.512l0.714,-2.512z"/>
+        <path fill="#231f20" d="m 8.432,-8.777h-2.172v-3.472h2.168v0.624h-1.544v0.694h1.539v0.625h-1.54v0.904h1.55z"/>
+        <path fill="#231f20" d="m 11.604,-8.777h-0.48l-1.613,-2.328v2.328h-0.634v-3.472h0.624l1.479,2.208v-2.208h0.624z"/>
+
+        <path fill="#fff" d="m -2.879,11.32h-0.438v-1.486l-0.366,1.484h-0.611l-0.366,-1.484v1.484h-0.44v-2.4h0.618l0.501,1.938l0.5,-1.937h0.601z"/>
+        <path fill="#fff" d="m -0.548,11.32h-0.521l-0.542,-0.916l-0.535,0.915h-0.501l0.784,-1.243l-0.76,-1.156h0.515l0.521,0.81l0.514,-0.81h0.501l-0.763,1.135z"/>
+        <path fill="#fff" d="m 0.954,9.351h-0.977v1.537h0.977zm0.432,1.537c0,0.288,-0.144,0.431,-0.432,0.431h-0.977c-0.288,0,-0.432,-0.143,-0.432,-0.431v-1.538a0.418,0.418,0,0,1,0.13,-0.307a0.418,0.418,0,0,1,0.302,-0.125h0.977c0.06,0,0.116,0.012,0.168,0.035a0.45,0.45,0,0,1,0.23,0.23a0.404,0.404,0,0,1,0.034,0.167z"/>
+        <path fill="#fff" d="m 3.113,9.351h-0.977v1.537h0.977zm0.431,1.537c0,0.288,-0.144,0.431,-0.431,0.431h-0.977c-0.288,0,-0.432,-0.143,-0.432,-0.431v-1.538a0.423,0.423,0,0,1,0.268,-0.399a0.418,0.418,0,0,1,0.164,-0.033h0.977c0.06,0,0.115,0.012,0.167,0.035a0.45,0.45,0,0,1,0.23,0.23a0.41,0.41,0,0,1,0.034,0.167z"/>
+        <path fill="#fff" d="m 5.098,11.32h-1.298v-0.432h0.438v-1.538h-0.438v-0.43h0.87v1.968h0.428z"/>
+
+    </svg>
+
+    <svg id = "MX-USB-MINI-VF"
+        overflow="visible">
+        <rect
+            width ="7.936"
+            height="4.136"
+            x     ="-3.968"
+            y     ="-2.068"
+            fill  ="#231f20"
+            rx    ="0.82"
+            ry    ="0.82"
+        />
+
+        <path
+            fill="#9c9a9a"
+            stroke="#242021"
+            stroke-width="0.035"
+            d="
+                m 3.15, -1.95
+                c 0.386, 0, 0.7, 0.314, 0.7, 0.7
+                v 0.798
+                a 0.69, 0.69, 0, 0, 1, -0.217, 0.507
+                l -0.213, 0.212
+                a 0.323, 0.323, 0, 0, 0, -0.088, 0.194
+                v 0.788
+                a 0.701, 0.701, 0, 0, 1, -0.7, 0.701
+                h -5.266
+                a 0.701, 0.701, 0, 0, 1, -0.7, -0.7
+                v -0.77
+                a 0.32, 0.32, 0, 0, 0, -0.076, -0.202
+                l -0.236, -0.235
+                a 0.688, 0.688, 0, 0, 1, -0.205, -0.512
+                v -0.782
+                a 0.7, 0.7, 0, 0, 1, 0.7 , -0.7
+                z
+              "
+        />
+        <path
+        fill="#353132"
+        stroke="#242021"
+        stroke-width="0.035"
+        d="
+            m -3.433, -0.169
+            l 0.224, 0.224
+            a 0.602, 0.602, 0, 0, 1, 0.176, 0.424
+            v 0.77
+            c 0, 0.221, 0.179, 0.4, 0.4, 0.4
+            h 5.266
+            a 0.4, 0.4, 0, 0, 0, 0.4, -0.4
+            v -0.769
+            a 0.599, 0.599, 0, 0, 1, 0.177, -0.425
+            l 0.224, -0.224
+            a 0.407, 0.407, 0, 0, 0, 0.118, -0.283
+            v -0.797
+            a 0.402, 0.402, 0, 0, 0, -0.401, -0.402
+            h -6.3
+            a 0.4, 0.4, 0, 0, 0, -0.4, 0.402
+            v 0.797
+            a 0.404, 0.404, 0, 0, 0, 0.117, 0.283
+            z
+          "
+            />
+        <path
+            fill="#252928"
+            stroke="#242021"
+            stroke-width="0.035"
+            d="
+                m -2.35, -0.8
+                h 4.7
+                v 0.8
+                l -0.8, 0.8
+                h -3.1
+                l -0.8,-0.8
+                z
+              "
+        />
+
+        <rect width="0.4" height="0.6" y="-0.50" x="-0.949" fill="#cba855" stroke="#242021" stroke-width="0.035"/>
+        <rect width="0.4" height="0.6" y="-0.50" x="-0.200" fill="#cba855" stroke="#242021" stroke-width="0.035"/>
+        <rect width="0.4" height="0.6" y="-0.50" x="+0.550" fill="#cba855" stroke="#242021" stroke-width="0.035"/>
+        <rect width="0.4" height="0.6" y="-0.50" x="+1.299" fill="#cba855" stroke="#242021" stroke-width="0.035"/>
+        <rect width="0.4" height="0.6" y="-0.50" x="-1.699" fill="#cba855" stroke="#242021" stroke-width="0.035" />
+    </svg>
+
+    <svg id = "QR-CODE-MB"
+        fill="#bdbcbc"
+        overflow="visible">
+        <path d="M1.7-2.7v1h1v-1zm.2.2h.6v.6h-.6z"/>
+        <path d="M-3.1-3.1v6.2h6.2v-6.2zm.2.2h1.4v1.4h-1.4zm4.4 0h1.4v1.4H1.5zm-4.4 4.4h1.4v1.4h-1.4z"/>
+        <path d="M-2.7-2.7v1h1v-1zm.2.2h.6v.6h-.6z"/>
+        <path d="M-2.7 1.7v1h1v-1zm.2.2h.6v.6h-.6z"/>
+    </svg>
+
+    <svg id = "SYMBOL-HEADPHONES"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m 1.014, 0.316
+                v -0.203
+                a 1.013, 1.013, 0, 0, 0, -2.027, 0
+                v 0.203
+                c -0.072, 0, -0.102, 0.03, -0.102, 0.101
+                v 0.203
+                c 0, 0.071, 0.03, 0.101, 0.101, 0.101
+                h 0.001
+                c 0.002, 0.07, 0.031, 0.097, 0.1, 0.098
+                c 0.072, 0, 0.102, -0.03, 0.102, -0.102
+                v -0.604
+                a 0.811, 0.811, 0, 0, 1, 1.621 , 0
+                v 0.604
+                c 0, 0.073, 0.03, 0.103, 0.103, 0.103
+                c 0.07, 0, 0.099, -0.028, 0.1, -0.098
+                h 0.001
+                c 0.072, 0, 0.102, -0.03, 0.102, -0.101
+                v -0.204
+                c 0,-0.071, -0.03, -0.101, -0.101, -0.101"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                m 0.43, 0.265
+                v 0.507
+                c 0, 0.09, 0.037, 0.128, 0.128, 0.128
+                c 0.09, 0, 0.128, -0.038, 0.128, -0.128
+                v -0.507
+                c 0, -0.09, -0.038, -0.128, -0.128, -0.128
+                s -0.128, 0.038, -0.128, 0.128"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                m -0.685, 0.265
+                v 0.507
+                c 0, 0.09, 0.037, 0.128, 0.128, 0.128
+                c 0.09, 0, 0.128, -0.038, 0.128, -0.128
+                v -0.507
+                c 0, -0.09, -0.038, -0.127, -0.128, -0.128
+                c -0.09, 0, -0.128, 0.038, -0.128, 0.128"
+         />
+    </svg>
+
+    <svg id = "SYMBOL-MICROPHONE"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m 0.1, 0.585
+                h -0.198
+                v 0.417
+                h -0.2
+                c -0.07, 0, -0.1, 0.03, -0.1, 0.1
+                s 0.03, 0.098, 0.1, 0.098
+                h 0.594
+                c 0.07, 0, 0.1, -0.03, 0.1, -0.1
+                s -0.03, -0.1, -0.1, -0.1
+                h -0.197
+            z"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                m -0.792, -0.6
+                c -0.07, 0, -0.1, 0.03, -0.1, 0.1
+                v 0.296
+                a 0.89, 0.89, 0, 0, 0, 0.794, 0.881
+                c 0.138, 0.003, 0.138, 0.002, 0.198, 0
+                c 0.45, -0.05, 0.79, -0.429, 0.791, -0.881
+                v -0.297
+                c 0, -0.07, -0.029, -0.098, -0.099, -0.098
+                s -0.099, 0.028, -0.099, 0.098
+                v 0.297
+                a 0.694, 0.694, 0, 0, 1, -1.386, 0
+                v -0.297
+                c 0, -0.07, -0.029, -0.099, -0.099, -0.099
+                z"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                m -0.36, -0.521
+                v -0.317
+                c 0, -0.256, 0.105, -0.362, 0.36, -0.362
+                c 0.256, 0, 0.362, 0.106, 0.361, 0.362
+                v 0.634
+                c 0, 0.256, -0.105, 0.362, -0.36, 0.362
+                c -0.256 , 0, -0.362, -0.107, -0.362, -0.362
+                z"
+            />
+    </svg>
+
+    <svg id = "SYMBOL-MICROPHONE-MUTE"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m -0.806, 0.806
+                a 0.12, 0.12, 0, 0, 1, 0, -0.17l1.442, -1.441
+                a 0.12, 0.12 , 0, 1, 1, 0.17, 0.17
+                l -1.442, 1.441
+                a 0.12, 0.12, 0, 0, 1, -0.17 ,0
+            "/>
+        <path
+            fill="#4899c4"
+            d="
+                m 0, -1.2
+                c -0.255, 0, -0.36, 0.106, -0.36, 0.362
+                v 0.634
+                c 0, 0.066, 0.007, 0.122, 0.022, 0.169
+                l0.7,-0.7v-0.104c-0.001,-0.256,-0.107,-0.361,-0.362,-0.361z"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                 m -0.792, -0.6
+                 c -0.07, 0, -0.1, 0.03, -0.1, 0.1
+                 v 0.296
+                 c 0.001, 0.201, 0.072, 0.386, 0.187, 0.536
+                 l 0.139, -0.139
+                 a 0.69, 0.69, 0, 0, 1, -0.127, -0.397
+                 v -0.297
+                 c 0, -0.07, -0.029, -0.099, -0.099, -0.099
+                 z
+                 m 1.682, 0.084
+                 l -0.197, 0.196
+                 v0.116
+                 a 0.693, 0.693, 0, 0, 1, -0.798, 0.683
+                 l -0.163, 0.161
+                 c 0.055, 0.018, 0.111, 0.03, 0.17, 0.036
+                 v 0.325
+                 h -0.199
+                 c -0.07, 0, -0.099, 0.029, -0.1, 0.099
+                 c 0, 0.07, 0.03, 0.099, 0.1, 0.099
+                 h0.595
+                 c 0.07, 0, 0.098, -0.03, 0.098, -0.099
+                 c 0, -0.07, -0.029, -0.099, -0.098, -0.099
+                 h -0.198
+                 v -0.324
+                 c 0.45, -0.05, 0.79 ,-0.429, 0.791, -0.881
+                 v-0.297
+                 l -0.001, -0.015
+                 z
+             "/>
+    </svg>
+
+    <svg id = "SYMBOL-MINUS"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                M 0.75, 0.188
+                h-1.5
+                v-0.376
+                h1.5
+                z
+                m -1.75, -0.188
+                a1, 1, 0, 1, 0, +2, 0
+                a1, 1, 0, 0, 0, -2, 0
+            "/>
+    </svg>
+
+    <svg id = "SYMBOL-PLUS"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m +0.188, -0.188
+                h +0.562
+                v +0.376
+                h -0.562
+                v +0.562
+                h -0.376
+                v -0.562
+                h -0.562
+                v -0.376
+                h +0.562
+                v -0.562
+                h +0.376
+                z
+                m -1.188,0.188
+                a 1, 1, 0, 1, 0,+2, 0
+                a 1, 1, 0, 0, 0,-2, 0
+            "/>
+    </svg>
+
+    <svg id = "SYMBOL-PLUS-MINUS"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m -1.421, 0.15
+                h -0.45
+                v -0.3
+                h 0.45
+                v-0.45
+                h +0.3
+                v +0.45
+                h +0.45
+                v +0.3
+                h -0.45
+                v +0.45
+                h -0.3
+                z
+                m 0.95, -0.15
+                a 0.8, 0.8, 0, 1, 0, -1.6 ,-0.001
+                a 0.8, 0.8, 0, 0, 0, 1.6, 0
+            "/>
+        <path
+            fill="#4899c4"
+            d="
+                m +0.671, -0.15
+                h +1.2
+                v +0.3
+                h -1.2
+                z
+                m 1.4, 0.15
+                a 0.8, 0.8, 0, 1, 0, -1.6 ,0
+                a 0.8, 0.8, 0, 0, 0, 1.6 , 0
+            "/>
+    </svg>
+
+    <svg id = "SYMBOL-SPEAKER-MUTE"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m -0.944, 0.817
+                a 0.123, 0.123, 0, 0, 1, 0.027, -0.172
+                l 1.688, -1.237
+                a 0.123, 0.123, 0, 0, 1, 0.146, 0.199
+                l -1.689, 1.235
+                a 0.124, 0.124, 0, 0, 1, -0.172, -0.025"
+            />
+        <path
+            fill="#4899c4"
+            d="
+                m 0.537, -0.985
+                a0.146, 0.146, 0, 0, 0, -0.077 , 0.028
+                l -0.651, 0.47
+                h -0.529
+                a 0.147, 0.147, 0, 0, 0, -0.146, 0.146
+                v 0.682
+                c 0, 0.057, 0.034, 0.105, 0.082, 0.13
+                l 1.476, -1.083 v-0.228
+                c 0, -0.09, -0.076, -0.15, -0.155, -0.146
+                z
+            "/>
+        <path
+            fill="#4899c4"
+            d="
+                m 0.692, -0.153
+                l -0.878, 0.644
+                l 0.646, 0.466
+                c 0.097, 0.07, 0.232, 0, 0.232, -0.12
+                v -0.495
+                z
+            "/>
+    </svg>
+
+    <svg id = "SYMBOL-JUMPER"
+        overflow="visible">
+        <path
+            fill="#4899c4"
+            d="
+                m +0.95, -0.32
+                v +0.16
+                h -1.9
+                v -0.16
+                h -0.64
+                v +0.64
+                h +0.64
+                v -0.16
+                h +1.9
+                v +0.16
+                h +0.64
+                v -0.64
+                z
+                m -0.3, 0.94
+                v -0.16
+                h -1.3
+                v +0.16
+                h -1.24
+                v -1.24
+                h +1.24
+                v +0.16
+                h +1.3
+                v -0.16
+                h +1.24
+                v +1.24
+                z
+                m +1.39, -1.89
+                h -4.08
+                l -0.5, 0.5
+                v +1.54
+                l +0.5, 0.5
+                h +4.08
+                l +0.5, -0.5
+                v -1.54
+                z
+                "
+        />
+    </svg>
+
+ </defs>
+
+<defs>
+
+    <radialGradient id="RadialGradientHole"
+            spreadMethod="pad">
+            <stop offset="000%" stop-color="#363636"/>
+            <stop offset="077%" stop-color="#2d2d2d"/>
+            <stop offset="085%" stop-color="#262626"/>
+            <stop offset="092%" stop-color="#1e1e1e"/>
+            <stop offset="098%" stop-color="#1a1b1b"/>
+            <stop offset="100%" stop-color="#303030"/>
+    </radialGradient>
+    <radialGradient id="RadialGradientSolderedPin"
+        spreadMethod="pad">
+        <stop offset="0.000" stop-color="#3c3c3c"/>
+        <stop offset="0.067" stop-color="#4d4d4d"/>
+        <stop offset="0.181" stop-color="#5e5e5e"/>
+        <stop offset="1.000" stop-color="#f0f0f0"/>
+    </radialGradient>
+    <linearGradient id="PinRightAngleLightDarkV"
+        spreadMethod="pad"
+        x2="0%" y2="100%">
+        <stop offset="000%" stop-color="#e5b758"/>
+        <stop offset="080%" stop-color="#c58f27"/>
+        <stop offset="100%" stop-color="#7e5c19"/>
+    </linearGradient>
+    <linearGradient id="PinRightAngleLightDarkH"
+        spreadMethod="pad">
+        <stop offset="000%" stop-color="#e5b758"/>
+        <stop offset="080%" stop-color="#c58f27"/>
+        <stop offset="100%" stop-color="#7e5c19"/>
+    </linearGradient>
+    <linearGradient id="PinRightAngleDarkLightH"
+        spreadMethod="pad">
+        <stop offset="0.000" stop-color="#7e5c19"/>
+        <stop offset="0.204" stop-color="#c58f27"/>
+        <stop offset="1.000" stop-color="#e5b758"/>
+    </linearGradient>
+    <linearGradient id="PinRightAngleDarkLightV"
+        spreadMethod="pad"
+        x2="0%" y2="100%">
+        <stop offset="0.000" stop-color="#7e5c19"/>
+        <stop offset="0.204" stop-color="#c58f27"/>
+        <stop offset="1.000" stop-color="#e5b758"/>
+    </linearGradient>
+
+    <circle id = "pad-round-m18-solder"   cx="0" cy="0" r="+0.8"  fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" stroke-width=".2"/>
+    <circle id = "pad-round-m18-outline"  cx="0" cy="0" r="+0.9" fill="none" stroke="#303030" stroke-width=".02"/>
+    <rect   id = "pad-square-m18-outline"  x="0"  y="0" width="1.84" height="1.84" fill="#303030" />
+    <path   id = "pin-tip-fill-v"         fill="#e5b758" d="m 0 0 +0.8  0.15 v 0.34  l -0.8  +0.15 z"/>
+    <path   id = "pin-tip-fill"           fill="#e5b758" d="m 0 6 -0.15 0.8  h -0.34 l -0.15 -0.8z"/>
+    <path   id = "pin-outline-h"          fill="none" stroke="#303030" stroke-width=".02" d="m -0 0 v 0.64 H 6 l 0.8 -0.15 v -0.34 l -0.8 -0.15 h -1.62 z"/>
+
+    <path id = "pin-outline-v"
+        fill="none"
+        stroke="#303030"
+        stroke-width=".02"
+        d="
+            m 0 0
+            l 0 6
+            l 0.147 0.79
+            h 0.35
+            l 0.153 -0.79
+            l 0 -6.0
+            z"/>
+
+    <svg id = "pin-round-m18-soldered"
+         overflow="visible">
+        <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+        <use  x="-0"   y="0"    href="#pad-round-m18-outline"/>
+        <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+    </svg>
+
+    <svg id = "pin-square-m18-soldered"
+         overflow="visible">
+        <use  x="-0.92" y="-0.92" href="#pad-square-m18-outline"/>
+        <rect x="-0.9" y="-0.9" width="1.8" height="1.8" fill="#ebb300" />
+        <rect x="-0.4" y="-0.4" width="0.8" height="0.8" fill="#505050" />
+        <use  x="-0"   y="0"    href="#pad-round-m18-solder"/>
+    </svg>
+
+    <svg id = "pin-square-m60-v"
+         overflow="visible">
+        <rect x="0" y="0" width="0.64" height="6.0" fill="#cfa550" />
+        <use  x=".64" y="0" href="#pin-tip-fill"/>
+        <use  x="0" y="0" href="#pin-outline-v"/>
+    </svg>
+
+    <svg id = "PAD-TH-M10"
+         overflow="visible">
+        <circle r=".846" fill="#dfdfdf" stroke="#656263" stroke-width="0.035"/>
+        <circle r=".483" fill="url(#RadialGradientHole)" stroke="#231f20" stroke-width="0.001"/>
+    </svg>
+
+    <svg id = "pin-tip-m64"
+         overflow="visible">
+
+        <rect width="0.75" height="0.75" x="0.000" y="0.000" fill="#231f20" />
+        <rect width="0.71" height="0.71" x="0.020" y="0.020" fill="#272f2f" />
+        <rect width="0.67" height="0.67" x="0.040" y="0.040" fill="#ffffff" />
+        <rect width="0.34" height="0.34" x="0.205" y="0.205" fill="#f4a72a" />
+
+        <path fill="#efc06d" d="m 0.041 0.041 h 0.67  l -0.166 +0.164 h -0.338z"/> <!-- Top    -->
+        <path fill="#9d732c" d="m 0.041 0.710 h 0.67  l -0.166 -0.164 h -0.338z"/> <!-- Bottom -->
+        <path fill="#cb9a4b" d="m 0.041 0.041 v 0.668 l +0.164 -0.162 v -0.341z"/> <!-- Left   -->
+        <path fill="#cb8e29" d="m 0.710 0.041 v 0.668 l -0.164 -0.162 v -0.341z"/> <!-- Right  -->
+    </svg>
+
+    <svg id = "pin-tip-m50"
+         overflow="visible">
+
+        <rect width="0.53" height="0.53" x="0" y="0" fill="#ffffff" stroke="#303030" stroke-width="0.03"/>
+
+        <path fill="#fbc961" d="m 0.015, 0.015 h +0.5 l -0.1, +0.1 h -0.3 l -0.1, -0.1 z"/> <!-- Top   -->
+        <path fill="#cfa550" d="m 0.015, 0.515 h +0.5 l -0.1, -0.1 h -0.3 l +0.1, -0.1 z"/> <!-- Bottom -->
+        <path fill="#f0c05d" d="m 0.015, 0.015 v +0.5 l  0.1, -0.1 v -0.3 l +0.1, +0.1 z"/> <!-- Left   -->
+        <path fill="#f0c05d" d="m 0.515, 0.015 v +0.5 l -0.1, -0.1 v -0.3 l -0.1, +0.1 z"/> <!-- Right   -->
+
+        <rect width=".3" height=".3" x=".115" y=".115" fill="#e5b758"/>
+    </svg>
+
+    <svg id = "PIN-TIP-M50"
+         overflow="visible">
+
+        <rect width="0.50" height="0.50" x="-0.250" y="-0.250" fill="#231f20" />
+        <rect width="0.45" height="0.45" x="-0.225" y="-0.225" fill="#272f2f" />
+        <rect width="0.43" height="0.43" x="-0.215" y="-0.215" fill="#ffffff" />
+        <rect width="0.22" height="0.22" x="-0.11"  y="-0.11" fill="#ebb300" />
+
+        <path fill="#c39500" d="M -0.22 -0.22 L -0.11 -0.11 H +0.11 L +0.22 -0.22"/> <!-- Top     -->
+        <path fill="#c39500" d="M -0.22 -0.22 L -0.11 -0.11 V +0.11 L -0.22 +0.22"/> <!-- Left    -->
+        <path fill="#c39500" d="M -0.22 +0.22 L -0.11 +0.11 H +0.11 L +0.22 +0.22"/> <!-- Bottom  -->
+        <path fill="#c39500" d="M +0.22 +0.22 L +0.11 +0.11 V -0.11 L +0.22 -0.22"/> <!-- Right   -->
+
+    </svg>
+
+    <svg
+         id = "PAD-TH-SQUARE-90"
+         overflow="visible"
+        >
+        <rect x="-0.45" y="-0.45" width="0.90" height="0.90" fill="#ebb300"/>
+        <rect x="-0.42" y="-0.42" width="0.84" height="0.84" fill="dimgrey"/>
+        <use  x="0"    y="0" href="#PIN-TIP-M50"/>
+    </svg>
+
+    <svg
+         id = "PAD-TH-ROUND-90"
+         overflow="visible"
+        >
+        <circle cx="0" cy="0" id="pad-A1"  r="0.45" fill="#ebb300"/>
+        <circle cx="0" cy="0" id="pad-A1"  r="0.37" fill="dimgrey"/>
+        <use     x="0"  y="0" href="#PIN-TIP-M50"/>
+    </svg>
+
+ </defs>
+
+<defs>
+
+    <svg id = "AUDIO-M35-PJ-358"
+        overflow="visible">
+        <rect height ="+5.8" width ="+9.9" y="-2.9" x="-4.95" stroke-width="+0.076" fill="#4f4c4d" stroke="#202020"/>
+        <circle r="2.920" fill="#303030"/>
+        <circle r="1.856" fill="none" stroke="#303030" stroke-width="0.1"/>
+        <circle r="2.300" fill="none" stroke="#37a83f" stroke-width="1.1"/>
+    </svg>
+
+    <svg id = "CONN-BATTERY-LITHIUM"
+        overflow="visible">
+        <rect width="7.5" height="3.80" x="-3.75" y="-1.9" fill="#e5e4e4" stroke="#303030" stroke-width=".035" />
+
+        <rect width="0.5" height="0.25" x="-3.251" y="-0.25" fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" />
+        <rect width="0.5" height="0.25" x="-3.251" y="-0.50" fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" />
+        <rect width="0.5" height="0.25" x="+2.749" y="-0.25" fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" />
+        <rect width="0.5" height="0.25" x="+2.749" y="-0.50" fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" />
+
+        <path fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 -1.7 l 0.3 0.3 h 6.5 l 0.3 -0.3z"/>
+
+        <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 0 h +0.3 v -1.38 l -0.3 -0.3 z"/>
+        <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.018" d="m +3.55 0 h -0.3 v -1.38 l +0.3 -0.3 z"/>
+
+        <path fill="#deddde" stroke="#a7a5a6" stroke-width="0.018" d="m -3.55 0 v -1.7 h 7.1 v 0.0 1.7 h .2 v -1.9 h -7.5 V 0z"/>
+
+        <path fill="none"    stroke="#303030" stroke-width="0.035" d="m -3.75 0 h 1 v -0.5 h -0.5 v -0.9 h 6.5 v 0.9 h -0.5 v .5 h 1 v -1.9 h -7.5 z"/>
+
+        <path fill="#c8c7c7" stroke="#303030" stroke-width="0.035" d="m 0.433 -1.4  -0.47 0.5 l -0.433 -0.5z"/>
+
+        <rect width="5.50" height="0.750" x="-2.750" y="+1.150" fill="#d3d2d2" stroke="#303030" stroke-width="0.035" />
+        <rect width="5.50" height="0.767" x="-2.750" y="+0.392" fill="#ededed" stroke="#7b7979" stroke-width="0.018" />
+
+        <rect width="1" height="1.5" x="-3.75" y="0.4" fill="#e5e4e4" stroke="#303030" stroke-width="0.035" />
+        <rect width="1" height="0.5" x="-3.75" y="1.4" fill="#c8c7c7" stroke="#303030" stroke-width="0.035" />
+        <rect width="1" height="1.5" x="+2.75" y="0.4" fill="#e5e4e4" stroke="#303030" stroke-width="0.035" />
+        <rect width="1" height="0.5" x="+2.75" y="1.4" fill="#c8c7c7" stroke="#303030" stroke-width="0.035" />
+
+        <use x="-1.62" y="-0.674" href="#pin-tip-m64"/>
+        <use x="0.876" y="-0.674" href="#pin-tip-m64"/>
+    </svg>
+
+    <svg id = "CONN-BATTERY-ALKALINE"
+        overflow="visible">
+
+        <rect width="6" height="4.7" x="-3" y="-2.35" fill="#e9e9e9" stroke="#231f20" stroke-width=".071"/>
+        <rect width="6" height="4.7" x="-3" y="-2.35" fill="#deddde" stroke="#a7a5a6" stroke-width=".018"/>
+
+        <path fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.020" d="m -2.786, -2.150 h +5.572 l-0.298, +0.3 h -4.975 z"/>
+        <path fill="#d3d2d2" stroke="#a7a5a6" stroke-width="0.020" d="m +2.786, +2.150 h -5.572 l 0.298, -0.3 h +4.975 z"/>
+
+        <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.020" d="m +2.800, +2.137 l -0.3, -0.299 v -3.678 l +0.3, -0.298 z"/>
+        <path fill="#c8c7c7" stroke="#a7a5a6" stroke-width="0.020" d="m -2.800, -2.136 l +0.3, +0.298 v +3.678 l -0.3, +0.298 z"/>
+
+        <path
+            fill        ="#e9e9e9"
+            stroke      ="#231f20"
+            stroke-width="0.035"
+            d="
+                m -2.500, -1.850
+                h +2.4
+                v +0.2
+                h +0.2
+                v -0.2
+                h +2.4
+                v +1.7
+                h +0.5
+                v +1.0
+                h -0.5
+                v +1.0
+                h -1.5
+                v +0.5
+                h -2.0
+                v -0.5
+                h -1.5
+                v -1.0
+                h -0.5
+                v -1.0
+                h +0.5
+                z"/>
+
+        <path fill="#d3d2d2" d="M2.483-.4h-4.965v.5h4.965z"/>
+        <rect width=".205" height=".205" x="-.102" y="-1.853" fill="#d3d2d2" stroke="#303030" stroke-width=".03"/>
+
+        <rect width="0.523" height="0.523" x="+0.739" y="+0.338" fill="#cfa550" stroke="#ff0000" stroke-width=".03"/>
+        <use x="-1.261" y="+0.338" href="#pin-tip-m50"/>
+        <use x="+0.739" y="+0.338" href="#pin-tip-m50"/>
+    </svg>
+
+    <svg id = "CONN-M25-VF-GREEN"
+        stroke            = "#231f20"
+        stroke-miterlimit = "10"
+        overflow          = "visible">
+
+        <rect width="7.0"  height="8.2" x="-3.5"  y="-4.1" fill="#246839" stroke-width=".08" />
+        <rect width="0.5"  height="0.5" x="-1.5"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+        <rect width="0.5"  height="0.5" x="+1.0"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+
+        <path fill="#40bb6a" stroke-width="0.08" d="M1.3 3.3v-1h-4v-4h.95v-.8h-.55v-.8h1.9v.8h-.55v.8h1.9v-.8H.4v-.8h1.9v.8h-.55v.8h.95v5zm2.2-7.4h-7v8.2h7z"/>
+    </svg>
+
+    <svg id = "CONN-M25-VF-BLACK"
+        stroke            = "#231f20"
+        stroke-miterlimit = "10"
+        overflow          = "visible">
+
+        <rect width="7.0"  height="8.2" x="-3.5"  y="-4.1" fill="#393536" stroke-width=".08" />
+        <rect width="0.5"  height="0.5" x="-1.5"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+        <rect width="0.5"  height="0.5" x="+1.0"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+
+        <path fill="#4f4c4d" stroke-width="0.08" d="M1.3 3.3v-1h-4v-4h.95v-.8h-.55v-.8h1.9v.8h-.55v.8h1.9v-.8H.4v-.8h1.9v.8h-.55v.8h.95v5zm2.2-7.4h-7v8.2h7z"/>
+    </svg>
+
+    <svg id = "CONN-RJ45-LED-V"
+        overflow = "visible">
+        <rect
+            width       ="15.751"
+            height      ="16.462"
+            x           ="-7.875"
+            y           ="-8.231"
+            fill        ="#d3d2d2"
+            stroke      ="#303030"
+            stroke-width="0.353"
+            paint-order ="markers fill stroke"
+            rx          ="0.26"
+            ry          ="0.26"
+        />
+        <path
+            fill        ="#4f4c4d"
+            stroke      ="#303030"
+            stroke-width="0.35"
+            d="M6.312-1.911v-2.734H3.637v-1.676H2.475v-1.617h-5.174v1.617h-1.16v1.676h-2.676v2.734h1.122v1.97h-1.122v3.615H6.312V.058H5.189v-1.97z"
+        />
+
+      <rect width="2.67" height="1.679" x="-6.535" y="-6.323" fill="#99d420" stroke="#303030" stroke-width="0.35" paint-order="markers fill stroke" rx="0.114" ry="0.072"/>
+      <rect width="2.67" height="1.679" x=" 3.642" y="-6.323" fill="#fbc834" stroke="#303030" stroke-width="0.35" paint-order="markers fill stroke" rx="0.114" ry="0.072"/>
+
+      <rect width="0.44" height="4.143" x=" 4.044" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x="-4.706" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x="-3.456" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x="-2.206" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x="-0.956" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x=" 0.294" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x=" 1.544" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+      <rect width="0.44" height="4.143" x=" 2.794" y="-1.146" fill="#f9a72b" stroke="#231f20" stroke-width="0.09" paint-order="markers fill stroke" rx="0.004" ry="0.003"/>
+
+      <line x1="-6.056" x2="-1.211" y1="7.79" y2="7.789" stroke="#303030" stroke-linecap="round" stroke-width="0.353"/>
+      <line x1=" 1.179" x2=" 6.024" y1="7.79" y2="7.789" stroke="#303030" stroke-linecap="round" stroke-width="0.353"/>
+    </svg>
+
+    <svg id = "HDR2X5P254F_RA"
+         overflow="visible">
+        <defs>
+            <svg  id = "HDR2X5P254F_RA.component-body"
+                 overflow="visible">
+                <rect width="13.2" height="8.5" x="-6.6" y="-8.50" fill="#4f4c4d" stroke="#231f20" stroke-width=".088"/>
+            </svg>
+            <rect id = "HDR2X5P254F_RA.body-shadow-light" width="0.5" height="2.54" x="0" y="0" fill="#656263"/>
+            <rect id = "HDR2X5P254F_RA.body-shadow-dark"  width="0.5" height="2.54" x="0" y="0" fill="#444141"/>
+            <svg id  = "HDR2X5P254F_RA.PIN-RA"
+                 overflow="visible">
+                <rect width="0.64" height="4.513" x="0" y="0" stroke="#303030" stroke-width=".02" fill="url(#PinRightAngleDarkLightV)"/>
+            </svg>
+        </defs>
+        <!-- Pins Round M18 Soldered -->
+        <use x="-5.08" y="-10.16" href="#pin-square-m18-soldered"/>
+        <use x="-2.54" y="-10.16" href="#pin-round-m18-soldered"/>
+        <use x="-0.00" y="-10.16" href="#pin-round-m18-soldered"/>
+        <use x="+2.54" y="-10.16" href="#pin-round-m18-soldered"/>
+        <use x="+5.08" y="-10.16" href="#pin-round-m18-soldered"/>
+
+        <use x="-5.08" y="-12.7" href="#pin-round-m18-soldered"/>
+        <use x="-2.54" y="-12.7" href="#pin-round-m18-soldered"/>
+        <use x="-0.00" y="-12.7" href="#pin-round-m18-soldered"/>
+        <use x="+2.54" y="-12.7" href="#pin-round-m18-soldered"/>
+        <use x="+5.08" y="-12.7" href="#pin-round-m18-soldered"/>
+
+        <!-- Right Angle Pins    -->
+        <use x="-5.40" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+        <use x="-2.86" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+        <use x="-0.32" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+        <use x="+2.22" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+        <use x="+4.76" y="-12.9" href="#HDR2X5P254F_RA.PIN-RA"/>
+
+        <!-- Plastic Component Body -->
+        <use x="0" y="0" href="#HDR2X5P254F_RA.component-body"/>
+
+        <!-- Origin Marker -->
+        <!--<use x="0" y="0" href="#origin-marker-large-red"/>-->
+    </svg>
+
+    <svg id = "HDR2X5P254M_RA"
+         overflow="visible">
+         <defs>
+            <svg id = "HDR2X5P254M_RA.component-body"
+             overflow="visible">
+            <rect   width="12.7" height="2.54" x="-6.35" y="-2.54" fill="#4f4c4d"/>
+
+            <use x="+5.85" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="+3.31" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="+0.77" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="-1.77" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+            <use x="-4.31" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-light"/>
+
+            <use x="-6.35" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="-3.81" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="-1.27" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="+1.27" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+            <use x="+3.81" y="-2.54" href="#HDR2X5P254F_RA.body-shadow-dark"/>
+        </svg>
+            <svg id = "HDR2X5P254M_RA.PIN-RA"
+             overflow="visible">
+            <rect width="0.64" height="4.513" x="0" y="0" stroke="#303030" stroke-width=".02" fill="url(#PinRightAngleDarkLightV)"/>
+        </svg>
+        </defs>
+        <!-- Pins Straight Male    -->
+        <use x="-5.40" y="0" href="#pin-square-m60-v"/>
+        <use x="-2.86" y="0" href="#pin-square-m60-v"/>
+        <use x="-0.32" y="0" href="#pin-square-m60-v"/>
+        <use x="+2.22" y="0" href="#pin-square-m60-v"/>
+        <use x="+4.76" y="0" href="#pin-square-m60-v"/>
+
+        <!-- Pins Round M18 Soldered -->
+        <use x="-2.54" y="-4.064" href="#pin-round-m18-soldered"/>
+        <use x="-0.00" y="-4.064" href="#pin-round-m18-soldered"/>
+        <use x="+2.54" y="-4.064" href="#pin-round-m18-soldered"/>
+        <use x="+5.08" y="-4.064" href="#pin-round-m18-soldered"/>
+
+        <use x="-5.08" y="-6.604" href="#pin-round-m18-soldered"/>
+        <use x="-2.54" y="-6.604" href="#pin-round-m18-soldered"/>
+        <use x="-0.00" y="-6.604" href="#pin-round-m18-soldered"/>
+        <use x="+2.54" y="-6.604" href="#pin-round-m18-soldered"/>
+        <use x="+5.08" y="-6.604" href="#pin-round-m18-soldered"/>
+
+        <!-- Pin Square M18 Soldered -->
+        <use x="-5.08" y="-4.064" href="#pin-square-m18-soldered"/>
+
+        <!-- Right Angle Pins    -->
+        <use x="-5.40" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+        <use x="-2.86" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+        <use x="-0.32" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+        <use x="+2.22" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+        <use x="+4.76" y="-6.9" href="#HDR2X5P254M_RA.PIN-RA"/>
+
+        <!-- Plastic Component Body -->
+        <use x="0" y="0" href="#HDR2X5P254M_RA.component-body"/>
+
+        <!-- Origin Marker -->
+        <!--<use x="0" y="0" href="#origin-marker-large-red"/>-->
+    </svg>
+
+    <svg id = "SMA-VM"
+        overflow          = "visible">
+        <circle cx="+2.54" cy="+2.54" r="1.250" fill="#cfa550" stroke-width="0.23"/>
+        <circle cx="-2.54" cy="+2.54" r="1.250" fill="#cfa550" stroke-width="0.23"/>
+        <circle cx="-2.54" cy="-2.54" r="1.250" fill="#cfa550" stroke-width="0.23"/>
+        <circle cx="+2.54" cy="-2.54" r="1.250" fill="#cfa550" stroke-width="0.23"/>
+
+        <circle cx="+2.54" cy="+2.54" r="0.673" fill="none"    stroke-width="0.254" stroke="#7b7979"/>
+        <circle cx="-2.54" cy="+2.54" r="0.673" fill="none"    stroke-width="0.254" stroke="#7b7979"/>
+        <circle cx="-2.54" cy="-2.54" r="0.673" fill="none"    stroke-width="0.254" stroke="#7b7979"/>
+        <circle cx="+2.54" cy="-2.54" r="0.673" fill="none"    stroke-width="0.254" stroke="#7b7979"/>
+
+        <rect width="6" height="6" x="-3" y="-3" fill="#f9a72b"/>
+
+        <circle r="2.7"  fill="#a7a5a6"/>
+        <circle r="2.25" fill="#f9a72b"/>
+        <circle r="1.6"  fill="#ffffff"/>
+        <circle r="0.4"  fill="#f9a72b"/>
+    </svg>
+
+    <svg id = "USB3A-VF"
+        overflow="visible">
+        <circle cx="-6.58" cy="-1.344" r="1.4"   fill="#d2ac67"/>
+        <circle cx="-6.58" cy="-1.344" r="0.744" fill="#303030"/>
+        <circle cx=" 6.58" cy="-1.344" r="1.4"   fill="#d2ac67"/>
+        <circle cx=" 6.58" cy="-1.344" r="0.744" fill="#303030"/>
+
+        <rect width="16"     height="8.501" x="-8"     y="-4.25"  fill="none"    stroke="#2580a4" stroke-width=".176" rx="2.009" ry="2.005"/>
+
+        <rect width="13"     height="5.6"   x="-6.499" y="-2.892" fill="#d3d2d2" stroke="#231f20" stroke-width="0.088" rx="0.303" ry="0.298"/>
+        <rect width="12.566" height="5.165" x="-6.282" y="-2.675" fill="#58595b" stroke="#231f20" stroke-width="0.088" rx="0.064" ry="0.047"/>
+        <rect width="5.529"  height="0.572" x=" 0.03"  y="-3.464" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="11.233" height="0.757" x="-5.616" y=" 2.707" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.62"   height="3.85"  x="-7.121" y="-2.079" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="5.529"  height="0.572" x="-5.681" y="-3.464" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.62"   height="3.85"  x=" 6.501" y="-2.079" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x="-3.887" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x="-1.361" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x=" 0.579" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x=" 3.123" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+
+        <rect width="10.815" height="1.907" x="-5.403" y="-0.082" fill="#1e8dc5" stroke="#231f20" stroke-width="0.044"/>
+    </svg>
+
+    <svg id = "USB2A-VF"
+        overflow="visible">
+        <circle cx="-6.58" cy="-1.344" r="1.4"   fill="#d2ac67"/>
+        <circle cx="-6.58" cy="-1.344" r="0.744" fill="#303030"/>
+        <circle cx=" 6.58" cy="-1.344" r="1.4"   fill="#d2ac67"/>
+        <circle cx=" 6.58" cy="-1.344" r="0.744" fill="#303030"/>
+
+        <rect width="16"     height="8.501" x="-8"     y="-4.25"  fill="none"    stroke="#2580a4" stroke-width=".176" rx="2.009" ry="2.005"/>
+
+        <rect width="13"     height="5.6"   x="-6.499" y="-2.892" fill="#d3d2d2" stroke="#231f20" stroke-width="0.088" rx="0.303" ry="0.298"/>
+        <rect width="12.566" height="5.165" x="-6.282" y="-2.675" fill="#58595b" stroke="#231f20" stroke-width="0.088" rx="0.064" ry="0.047"/>
+        <rect width="5.529"  height="0.572" x=" 0.03"  y="-3.464" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="11.233" height="0.757" x="-5.616" y=" 2.707" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.62"   height="3.85"  x="-7.121" y="-2.079" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="5.529"  height="0.572" x="-5.681" y="-3.464" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.62"   height="3.85"  x=" 6.501" y="-2.079" fill="#d1d3d4" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x="-3.887" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x="-1.361" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x=" 0.579" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="0.86"   height="0.498" x=" 3.123" y="-0.612" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+
+        <rect width="10.815" height="1.907" x="-5.403" y="-0.082" fill="#d1d3d4" stroke="#231f20" stroke-width=".044"/>
+    </svg>
+
+    <svg id = "USB3C-VF"
+        overflow="visible"
+        fill="#cfa550">
+        <rect width="9"     height="3.2"   x="-4.5"   y="-1.6"   fill="#999999" stroke="#303030" stroke-width="0.09"  rx="0.95"  ry="0.95"/>
+        <rect width="8.288" height="2.488" x="-4.144" y="-1.244" fill="#4f4c4d" stroke="#303030" stroke-width="0.16"  rx="0.6"   ry="0.6" />
+        <rect width="5.912" height="0.592" x="-2.956" y="-0.296" fill="#909090" stroke="#303030" stroke-width="0.088" rx="0.182" ry="0.157"/>
+
+        <circle r="0.5" fill="#d2ac67" cx="-2.4" cy=" 2.15"/>
+        <circle r="0.5" fill="#d2ac67" cx=" 2.4" cy="-2.15"/>
+        <circle r="0.5" fill="#d2ac67" cx=" 2.4" cy=" 2.15"/>
+        <circle r="0.5" fill="#d2ac67" cx="-2.4" cy="-2.15"/>
+
+        <rect x="-2.5  "  y="0.2"  width="0.41" height="0.1"/>
+        <rect x="-1.844"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x="-1.189"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x="-0.533"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x=" 0.123"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x=" 0.779"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x=" 1.434"  y="0.2"  width="0.41" height="0.1"/>
+        <rect x=" 2.09 "  y="0.2"  width="0.41" height="0.1"/>
+
+        <rect x="-2.5  "  y="-0.3" width="0.41" height="0.1"/>
+        <rect x="-1.844"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x="-1.189"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x="-0.533"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x=" 0.123"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x=" 0.779"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x=" 1.434"  y="-0.3" width="0.41" height="0.1"/>
+        <rect x=" 2.09 "  y="-0.3" width="0.41" height="0.1"/>
+
+        <!--<rect width="12.4" height="6.4" x="-6.2" y="-3.2" fill="none" stroke="#2580a4" stroke-width="0.176" rx="2" ry="2"/>-->
+
+    </svg>
+
+ </defs>
+
+<defs>
+    <svg
+        id = "origin-marker-large-blue"
+        stroke-width="0.006"
+        stroke="#2e2aff"
+        fill="none"
+        overflow="visible"
+        >
+        <line x1="0.65" x2="-0.65" y1="-0.65" y2="+0.65"/>
+        <line x1="0.65" x2="-0.65" y1="+0.65" y2="-0.65"/>
+        <ellipse cx="0" rx="0.65" ry="0.65"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg id = "PIN-TIP-M50"
+         overflow="visible">
+
+        <rect width="0.50" height="0.50" x="-0.250" y="-0.250" fill="#231f20" />
+        <rect width="0.45" height="0.45" x="-0.225" y="-0.225" fill="#272f2f" />
+        <rect width="0.43" height="0.43" x="-0.215" y="-0.215" fill="#ffffff" />
+        <rect width="0.22" height="0.22" x="-0.11"  y="-0.11" fill="#ebb300" />
+
+        <path fill="#c39500" d="M -0.22 -0.22 L -0.11 -0.11 H +0.11 L +0.22 -0.22"/> <!-- Top     -->
+        <path fill="#c39500" d="M -0.22 -0.22 L -0.11 -0.11 V +0.11 L -0.22 +0.22"/> <!-- Left    -->
+        <path fill="#c39500" d="M -0.22 +0.22 L -0.11 +0.11 H +0.11 L +0.22 +0.22"/> <!-- Bottom  -->
+        <path fill="#c39500" d="M +0.22 +0.22 L +0.11 +0.11 V -0.11 L +0.22 -0.22"/> <!-- Right   -->
+
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+         id = "PAD-TH-SQUARE-90"
+         overflow="visible"
+        >
+        <rect x="-0.45" y="-0.45" width="0.90" height="0.90" fill="#ebb300"/>
+        <rect x="-0.42" y="-0.42" width="0.84" height="0.84" fill="dimgrey"/>
+        <use  x="0"    y="0" href="#PIN-TIP-M50"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+         id = "PAD-TH-ROUND-90"
+         overflow="visible"
+        >
+        <circle cx="0" cy="0" id="pad-A1"  r="0.45" fill="#ebb300"/>
+        <circle cx="0" cy="0" id="pad-A1"  r="0.37" fill="dimgrey"/>
+        <use     x="0"  y="0" href="#PIN-TIP-M50"/>
+    </svg>
+
+
+
+
+    <radialGradient
+        id="RadialGradientSolderedPin"
+        spreadMethod="pad"
+        >
+        <stop offset="0.000" stop-color="#3c3c3c"/>
+        <stop offset="0.067" stop-color="#4d4d4d"/>
+        <stop offset="0.181" stop-color="#5e5e5e"/>
+        <stop offset="1.000" stop-color="#f0f0f0"/>
+    </radialGradient>
+    <!-- ............................................................... -->
+    <svg
+        id = "origin-marker-large-blue"
+        stroke="#2e2aff"
+        stroke-width="0.006"
+        fill="none"
+        overflow="visible"
+        >
+        <line x1="0.65" x2="-0.65" y1="-0.65" y2="+0.65"/>
+        <line x1="0.65" x2="-0.65" y1="+0.65" y2="-0.65"/>
+        <ellipse cx="0" rx="0.65" ry="0.65"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+        id = "PIN-ROUND-RECT-24-11"
+        overflow="visible"
+        >
+        <rect x="-0.55" y="-1.2" width="1.1" height="2.4" fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" rx=".55" ry=".55" stroke-width="0.1"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+        id = "PIN-ROUND-RECT-21-11"
+        overflow="visible"
+        >
+        <rect x="-0.55" y="-1.05" width="1.1" height="2.1" fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" rx=".55" ry=".55" stroke-width="0.1"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+        id = "PIN-ROUND-RECT-16-11"
+        overflow="visible"
+        >
+        <rect x="-0.55" y="-0.8" width="1.1" height="1.6" fill="url(#RadialGradientSolderedPin)" stroke="#ebb300" rx=".55" ry=".55" stroke-width="0.1"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg
+        id = "PIN-RECT-025-095"
+        overflow="visible"
+        >
+        <rect x="-0.125" y="-0.475" width=".25" height="0.95" fill="#ebb300" stroke="none" stroke-width="0"/>
+    </svg>
+    <!-- ............................................................... -->
+    <svg id = "PIN-TIP-M4"
+         overflow="visible">
+
+        <rect width="0.4"  height="0.4"  x="-0.20" y="-0.20" fill="#231f20" />
+        <rect width="0.38" height="0.38" x="-0.19" y="-0.19" fill="#272f2f" />
+        <rect width="0.36" height="0.36" x="-0.18" y="-0.18" fill="#ffffff" />
+        <rect width="0.20" height="0.20" x="-0.1"  y="-0.1"  fill="#ebb300" />
+
+        <path fill="#c39500" d="M -0.18 -0.18 H 0.18  L 0.1 -0.1 H -0.1 "/> <!-- Top     -->
+        <path fill="#c39500" d="M 0.18 -0.18 V 0.18  L 0.1 0.1 V -0.1   "/> <!-- Left    -->
+        <path fill="#c39500" d="M 0.18 0.18 H -.18  L -0.1 0.1 H 0.1    "/> <!-- Bottom  -->
+        <path fill="#c39500" d="M -0.18 -0.18 V .18 L -0.1 0.1 V -0.1   "/> <!-- Right   -->
+    </svg>
+
+    <svg id = "USB3C-HF"
+         overflow="visible"
+          fill="#cfa550"
+        >
+        <defs>
+            <linearGradient
+                id="USB3C-HF.GradientUSBCaseHighlight"
+                spreadMethod="pad"
+                x2="0%" y2="100%"
+                >
+                <stop offset="000"  stop-color="#b7b8b7"/>
+                <stop offset="0.11" stop-color="#bcbcbc"/>
+                <stop offset="0.2"  stop-color="#bfc0bf"/>
+                <stop offset="0.35" stop-color="#d3d4d3"/>
+                <stop offset="0.5"  stop-color="#c4c5c4"/>
+                <stop offset="1"    stop-color="#babbba"/>
+            </linearGradient>
+            <!-- ....................................................... -->
+            <svg
+                id = "USB3C-HF.PIN-RECT-025-095-ROWx12"
+                overflow="visible"
+                >
+                <use x="0"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="0.5" y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="1"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="1.5" y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="2"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="2.5" y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="3"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="3.5" y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="4"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="4.5" y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="5"   y="-3.925" href="#PIN-RECT-025-095"/>
+                <use x="5.5" y="-3.925" href="#PIN-RECT-025-095"/>
+            </svg>
+            <!-- ....................................................... -->
+            <linearGradient
+                id="USB3C-HF.GradientUSBCase"
+                spreadMethod="pad"
+                x2="100%" y2="00%"
+                >
+                <stop offset="0.000" stop-color="#898a89"/>
+                <stop offset="0.140" stop-color="#c2c3c2"/>
+                <stop offset="0.160" stop-color="#c6c7c6"/>
+                <stop offset="0.850" stop-color="#c6c7c6"/>
+                <stop offset="0.890" stop-color="#cdcecd"/>
+                <stop offset="1.000" stop-color="#9a9b9a"/>
+            </linearGradient>
+            <!-- ....................................................... -->
+        </defs>
+        <!-- ........................................................... -->
+        <use x="4.32"   y="+2.7" href="#PIN-ROUND-RECT-24-11"/>
+        <use x="-4.32"  y="+2.7" href="#PIN-ROUND-RECT-24-11"/>
+        <use x="4.32"   y="-1.85" href="#PIN-ROUND-RECT-21-11"/>
+        <use x="-4.32"  y="-1.85" href="#PIN-ROUND-RECT-21-11"/>
+        <use x="-2.625" y="1.45"  href="#USB3C-HF.PIN-RECT-025-095-ROWx12"/>
+        <use x="-2.875" y="2.75"  href="#USB3C-HF.PIN-RECT-025-095-ROWx12"/>
+        <use x="+3.77"  y="-1.35" href="#PIN-TIP-M4"/>
+        <use x="-3.77"  y="-1.35" href="#PIN-TIP-M4"/>
+        <use x="+4"     y="-1.35" href="#PIN-ROUND-RECT-16-11" transform="rotate(90, +4, -1.35)"/>
+        <use x="-4"     y="-1.35" href="#PIN-ROUND-RECT-16-11" transform="rotate(90, -4, -1.35)"/>
+        <!-- Main Body -->
+        <path
+            stroke="dimgrey"
+            fill="url(#USB3C-HF.GradientUSBCase)"
+            stroke-width=".05"
+            d="M 0, -2.5 l -4.1, 0l0,0.5l-0.375,0l0,7.4l8.95,0l0,-7.4l-0.375,0l0,-0.5 Z"
+        />
+
+        <!-- Case Highlights -->
+        <rect x="-2.4" y="0.15" width="1.2" height="0.8" fill="url(#USB3C-HF.GradientUSBCaseHighlight)" stroke="none" stroke-width="0"/>
+        <rect x="+1.2" y="0.15" width="1.2" height="0.8" fill="url(#USB3C-HF.GradientUSBCaseHighlight)" stroke="none" stroke-width="0"/>
+
+        <!-- Case Holes -->
+        <rect x="-3.0" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+        <rect x="-1.9" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+        <rect x="-0.8" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+        <rect x="+0.3" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+        <rect x="+1.4" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+        <rect x="+2.5" y="-2.05"  width="0.5" height="0.4" fill="#1f1f1f" stroke="none" stroke-width="0"/>
+    </svg>
+
+    <svg
+         id = "CONN-RJ45-HF-LEDS"
+         overflow="visible"
+        >
+        <defs>
+            <linearGradient
+                id="CONN-RJ45-HF-LEDS.GradientCase"
+                spreadMethod="pad"
+                x2="100%" y2="00%"
+                >
+                <stop offset="0.000" stop-color="#898a89"/>
+                <stop offset="0.010" stop-color="#c2c3c2"/>
+                <stop offset="0.040" stop-color="#c6c7c6"/>
+                <stop offset="0.970" stop-color="#c6c7c6"/>
+                <stop offset="0.990" stop-color="#cdcecd"/>
+                <stop offset="1.000" stop-color="#9a9b9a"/>
+            </linearGradient>
+        <!-- ........................................................... -->
+        <linearGradient
+            id="CONN-RJ45-HF-LEDS.GradientCaseEdge"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#707070 "/>
+            <stop offset="0.250" stop-color="#acacac"/>
+            <stop offset="1.000" stop-color="#acacac"/>
+        </linearGradient>
+        <!-- ........................................................... -->
+        </defs>
+        <!--Pads-->
+        <use x="-3.247" y="+7.85" href="#PAD-TH-SQUARE-90"/>  <!-- 1 -->
+        <use x="-1.207" y="+7.85" href="#PAD-TH-ROUND-90" />  <!-- 3 -->
+        <use x="+0.833" y="+7.85" href="#PAD-TH-ROUND-90" />  <!-- 5 -->
+        <use x="+2.873" y="+7.85" href="#PAD-TH-ROUND-90" />  <!-- 7 -->
+
+        <use x="-2.227" y="+9.63" href="#PAD-TH-ROUND-90" />  <!-- 2 -->
+        <use x="-0.187" y="+9.63" href="#PAD-TH-ROUND-90" />  <!-- 4 -->
+        <use x="+1.853" y="+9.63" href="#PAD-TH-ROUND-90" />  <!-- 6 -->
+        <use x="+3.893" y="+9.63" href="#PAD-TH-ROUND-90" />  <!-- 8 -->
+
+        <use x="-6.86" y="+15" href="#PAD-TH-ROUND-90"    />  <!-- 1 -->
+        <use x="-4.57" y="+15" href="#PAD-TH-ROUND-90"    />  <!-- 2 -->
+        <use x="+4.57" y="+15" href="#PAD-TH-ROUND-90"    />  <!-- 3 -->
+        <use x="+6.86" y="+15" href="#PAD-TH-ROUND-90"    />  <!-- 4 -->
+
+        <!--LEDs-->
+        <circle cx="-6.5" cy="0.75" r="0.9" fill="#efcb00" opacity=".7"/> <!-- Amber LED Lens -->
+        <circle cx="+6.5" cy="0.75" r="0.9" fill="#0d7a58" opacity=".7"/> <!-- Green LED Lens -->
+
+        <!-- Main Body -->
+        <rect x="-8.225" y="0"    width="5.725" height="0.5"   fill="url(#CONN-RJ45-HF-LEDS.GradientCaseEdge)" stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="+2.500" y="0"    width="5.725" height="0.5"   fill="url(#CONN-RJ45-HF-LEDS.GradientCaseEdge)" stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="-6.650" y="15.6" width="13.3"  height="0.2"   fill="url(#CONN-RJ45-HF-LEDS.GradientCaseEdge)" stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="+8.125" y="7.5"  width="0.2"   height="0.7"   fill="url(#CONN-RJ45-HF-LEDS.GradientCase)"     stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="-8.325" y="7.5"  width="0.2"   height="0.7"   fill="url(#CONN-RJ45-HF-LEDS.GradientCase)"     stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="-8.225" y="0.25" width="16.45" height="15.45" fill="url(#CONN-RJ45-HF-LEDS.GradientCase)"     stroke="none" stroke-width="0" rx="0.1" ry="0.1"/>
+        <rect x="-8.225" y="0.15" width="16.45" height="5"     fill="url(#CONN-RJ45-HF-LEDS.GradientCase)"     stroke="none" stroke-width="0" rx="0.0" ry="0.0"/>
+    </svg>
+
+
+
+ </defs>
+
+<defs>
+
+    <svg id = "SWITCH-PB-30X40"
+        overflow="visible">
+
+        <rect width="4.992" height="1.309" x="-2.496" y="-0.654" fill="#d3d2d2" stroke="#303030" stroke-width="0.088"/>
+        <rect width="4"     height="3"     x="-2"     y="-1.5"   fill="#5f5f5f" stroke="#231f20" stroke-width="0.088"/>
+
+        <circle
+            r           ="0.896"
+            fill        ="#3c3c3c"
+            stroke      ="#303030"
+            stroke-width=".088"
+        />
+    </svg>
+
+    <svg id = "SWITCH-PB-60X60"
+        overflow="visible">
+        <rect width="6.4" height="1" x="-3.2" y="-.5" fill="#bdbcbc" stroke="#4f4c4d" stroke-miterlimit="10" stroke-width=".035" paint-order="markers fill stroke"/>
+
+        <path fill="#656263" d="M2-3h-4l-1 1v4l1 1h4l1-1v-4z"/>
+
+        <rect width="1" height="5.4" x="-.5" y="-2.7" fill="#231f20" paint-order="markers fill stroke"/>
+
+        <path fill="#444141" stroke="#2e2a2b" stroke-width=".1" d="M-1.752 2.4L-2.4 1.75v-3.503l.648-.648h3.504l.648.648v3.503l-.648.649z"/>
+
+        <circle r="2.25" fill="#4f4c4d" stroke="#303030" stroke-width=".1"/>
+    </svg>
+
+    <svg id = "SOP127P950X198-16L"
+        overflow = "visible">
+        <g fill="#ebb380">
+            <rect width="0.64" height="1.905" x="+4.213" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="+2.943" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="+1.673" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="+0.403" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="-0.867" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="-2.137" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="-3.407" y="+3.430"/>
+            <rect width="0.64" height="1.905" x="-4.677" y="+3.430"/>
+
+            <rect width="0.64" height="1.905" x="+4.213" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="+2.943" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="+1.673" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="+0.403" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="-0.867" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="-2.137" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="-3.407" y="-5.335"/>
+            <rect width="0.64" height="1.905" x="-4.677" y="-5.335"/>
+        </g>
+        <g fill="#c0c0c0">
+            <rect width="0.35" height="1.200" x="+4.358" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="+3.088" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="+1.818" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="+0.548" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="-0.722" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="-1.992" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="-3.262" y="+3.430"/>
+            <rect width="0.35" height="1.200" x="-4.532" y="+3.430"/>
+
+            <rect width="0.35" height="1.200" x="+4.358" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="+3.088" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="+1.818" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="+0.548" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="-0.722" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="-1.992" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="-3.262" y="-4.630"/>
+            <rect width="0.35" height="1.200" x="-4.532" y="-4.630"/>
+        </g>
+
+        <rect width="12.524" height="7.056" x="-6.174" y="-3.528" fill="#4f4c4d" stroke="#231f20" stroke-width="0.176"/>
+        <circle cx="-5.218" cy="2.686" r="0.25" fill="#ffffff"/>
+
+        <path fill="#4899c4" d="M-6.639 2.615a.175.175 0 0 0-.174.178v.865a.176.176 0 0 0 .001.009v.499h1.373a.175.175 0 1 0 0-.35h-1.023V3.67a.176.176 0 0 0 0-.013v-.865a.175.175 0 0 0-.177-.178z"/>
+    </svg>
+
+    <svg id = "SOP127P950X198-24L"
+        overflow = "visible">
+        <g fill = "#ebb300">
+            <rect width="+0.55" height="1.463" x="-5.774" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-4.774" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-3.773" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-2.773" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-1.772" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-0.772" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+0.229" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+1.229" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+2.230" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+3.230" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+4.231" y="-4.970" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+5.231" y="-4.970" fill="#ebb300"/>
+
+            <rect width="+0.55" height="1.463" x="-5.774" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-4.774" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-3.773" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-2.773" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-1.772" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="-0.772" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+0.229" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+1.229" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+2.230" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+3.230" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+4.230" y="+3.507" fill="#ebb300"/>
+            <rect width="+0.55" height="1.463" x="+5.231" y="+3.507" fill="#ebb300"/>
+        </g>
+        <g fill="#c0c0c0">
+            <rect width="+0.30" height="0.934" x="-5.649" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-4.649" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-3.648" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-2.648" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-1.647" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-0.647" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+0.354" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+1.354" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+2.354" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+3.355" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+4.355" y="-4.441" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+5.356" y="-4.441" fill="#c0c0c0"/>
+
+
+            <rect width="+0.30" height="0.934" x="-5.649" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-4.649" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-3.648" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-2.648" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-1.647" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="-0.647" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+0.354" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+1.354" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+2.354" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+3.355" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+4.355" y="+3.507" fill="#c0c0c0"/>
+            <rect width="+0.30" height="0.934" x="+5.356" y="+3.507" fill="#c0c0c0"/>
+        </g>
+
+        <rect width="14.986" height="7.061" x="-7.493" y="-3.555" fill="#4f4c4d" stroke="#303030" stroke-width="+0.178"/>
+        <circle cx="-6.238" cy="2.337" r="+0.329" fill="#fff"/>
+        <path fill="#4899c4" d="M-7.909 2.615a.175.175 0 0 0-.174.178v.865a.176.176 0 0 0 .001.009v.499h1.373a.175.175 0 1 0 0-.35h-1.023V3.67a.176.176 0 0 0 0-.013v-.865a.175.175 0 0 0-.177-.178z"/>
+
+    </svg>
+
+    <svg id = "LITHIUM-CELL-2302"
+        overflow="visible">
+
+        <defs>
+            <linearGradient id="LITHIUM-CELL-2302.gradient">
+                <stop offset="0.000" stop-color="#4f4c4d"/>
+                <stop offset="0.298" stop-color="#deddde"/>
+                <stop offset="0.399" stop-color="#444141"/>
+                <stop offset="0.583" stop-color="#deddde"/>
+                <stop offset="0.934" stop-color="#deddde"/>
+                <stop offset="1.000" stop-color="#231f20"/>
+            </linearGradient>
+        </defs>
+
+        <rect width="23.00" height="6.0" x="-11.50" y="-3.0" fill="#444141" stroke="#231f20" stroke-width="0.088" rx=".498" ry="0.506"/>
+        <rect width="02.00" height="6.0" x="-10.06" y="-3.0" fill="#393536" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="02.00" height="6.0" x="+08.06" y="-3.0" fill="#393536" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="20.12" height="4.0" x="-10.06" y="-2.0" fill="#2e2a2b" stroke="#231f20" stroke-width="0.088"/>
+        <rect width="05.00" height="0.6" x="-02.50" y="-2.2" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.303" ry="0.3"/>
+        <rect width="02.50" height="0.4" x="+00.75" y="+1.6" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.203" ry="0.2"/>
+        <rect width="02.50" height="0.4" x="-03.25" y="+1.6" fill="#cfa550" stroke="#231f20" stroke-width="0.088" rx="0.203" ry="0.2"/>
+
+        <path
+            fill="url(#LITHIUM-CELL-2302.gradient)"
+            stroke="#231f20"
+            stroke-width=".088"
+            d="
+                m +9.5,  -0.8
+                h -0.5
+                c 0, -0.44, -0.36, -0.8, -0.8, -0.8
+                h -16.4
+                c -0.44, 0, -0.8, 0.36, -0.8, 0.8
+                h -0.5
+                c -0.275, 0, -0.5, 0.225, -0.5, 0.5
+                v 1.4
+                c 0, 0.275, 0.225, 0.5, 0.5, 0.5
+                h 19
+                c 0.275, 0, 0.5, -0.225, 0.5, -0.5
+                v -1.4
+                c 0, -0.275, -0.225, -0.5, -0.5, -0.5
+            z"/>
+
+        <rect width="17.992" height=".147" x="-9.007" y="-.873" fill="url(#LITHIUM-CELL-2302.gradient)" stroke="#231f20" stroke-width=".088" rx=".079" ry=".073"/>
+    </svg>
+
+    <svg id = "SOCKET-HOST-PIR-A"
+        overflow="visible">
+        <rect
+            width       ="+20.360"
+            height      ="+05.108"
+            x           ="-10.180"
+            y           ="-02.554"
+            rx          ="+00.900"
+            ry          ="+00.900"
+            stroke-width="+00.076"
+            fill        ="#a7a5a6"
+            stroke      ="#4f4c4d"
+            />
+
+        <use x="-8.897" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="-6.355" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="-3.813" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="-1.271" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="+3.813" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="+6.355" y="-1.271" href="#PAD-TH-M10"/>
+        <use x="+8.897" y="-1.271" href="#PAD-TH-M10"/>
+
+        <use x="-8.897" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="-6.355" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="-3.813" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="-1.271" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="+3.813" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="+6.355" y="+1.271" href="#PAD-TH-M10"/>
+        <use x="+8.897" y="+1.271" href="#PAD-TH-M10"/>
+
+        <rect width="2.54" height="5.108" x=".001" y="-2.554" fill="#dfdfdf" stroke="#4f4c4d" stroke-miterlimit="10" stroke-width=".076"/>
+    </svg>
+
+    <svg id = "SOCKET-HOST-SPI-A"
+        overflow="visible"
+        stroke-width="0.035">
+        <path
+            fill="#a7a5a6"
+            stroke="#4f4c4d"
+            stroke-width=".076"
+            d=
+                "M -2.54 -3.8
+                 v -1.74
+                 c 0 -0.44 0.36 -0.8 0.8 -0.8
+                 h 3.48
+                 c 0.44 0 0.8 0.36 0.8 0.8
+                 v 1.74
+                 z
+                 M -2.54 -1.27
+                 v 6.82
+                 c 0 0.44 0.36 0.8 0.8 0.8
+                 h 3.48
+                 c 0.44 0 0.81 -0.36 0.8 -0.8
+                 v -6.82
+                 h -5.08
+                 z"
+             />
+
+        <rect width="5.08" height="2.54" x="-2.54" y="-3.8" fill="#dfdfdf" stroke="#4f4c4d" stroke-miterlimit="10" stroke-width=".076"/>
+
+        <circle cx="+1.274" cy="-5.084" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="+1.274" cy="+0.004" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="+1.274" cy="+2.544" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="+1.274" cy="05.084" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="-1.274" cy="+0.004" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="-1.274" cy="-5.084" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="-1.274" cy="+2.544" r=".846" fill="#dfdfdf" stroke="#656263"/>
+        <circle cx="-1.274" cy="+5.084" r=".846" fill="#dfdfdf" stroke="#656263"/>
+
+        <circle cx="+1.276" cy="-5.078" r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="+1.276" cy="+0.01"  r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="+1.276" cy="+2.55"  r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="+1.276" cy="+5.09"  r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="-1.272" cy="-5.078" r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="-1.272" cy="+0.01"  r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="-1.272" cy="+2.55"  r=".452" fill="#35302f" stroke="#231f20"/>
+        <circle cx="-1.272" cy="+5.09"  r=".452" fill="#35302f" stroke="#231f20"/>
+    </svg>
+
+    <svg id = "SPEAKER-MODULE"
+        overflow="visible">
+        <rect width="26" height="16" x="-13" y="-8" fill="#4f4c4d" stroke="#303030" stroke-width="0.1"  rx="2" ry="2"/>
+        <circle cx="+7.62" cy="-5.46" r="0.8" fill="#cba855"/>
+        <circle cx="-7.62" cy="-5.46" r="0.8" fill="#cba855"/>
+        <circle cx="-11.4" cy="-2.00" r="0.8" fill="#a7a5a6"/>
+        <circle cx="+11.4" cy="-2.00" r="0.8" fill="#a7a5a6"/>
+    </svg>
+
+    <svg id = "ENCODER"
+        overflow="visible">
+        <rect width=" 0.9" height="03.75" x="-0.45" y="+5.00" fill="#bdbcbc" stroke="#231f20" stroke-width="0.176"/>
+        <rect width="16.0" height="02.00" x="-8.00" y="-1.00" fill="#bdbcbc" stroke="#231f20" stroke-width="0.176"/>
+        <rect width=" 0.9" height="17.50" x="+2.05" y="-8.75" fill="#bdbcbc" stroke="#231f20" stroke-width="0.176"/>
+        <rect width=" 0.9" height="17.50" x="-2.95" y="-8.75" fill="#bdbcbc" stroke="#231f20" stroke-width="0.176"/>
+
+        <rect width="11.7" height="12.00" x="-5.85" y="-6.00" fill="#a7a5a6" stroke="#231f20" stroke-width="0.176" rx="0.972" ry="0.972"/>
+
+        <circle r="4" fill="#918f90" stroke="#231f20" stroke-width="0.176"/>
+        <circle r="3" fill="#7b7979" stroke="#231f20" stroke-width="0.176"/>
+
+        <path fill="#bdbcbc" stroke="#231f20" stroke-width="0.176" d="M2.889-.8a3.08 3.08 0 0 0-.082-.251l-.49-.13.184-.474a2.863 2.863 0 0 0-.155-.212l-.508.029.03-.508a3.056 3.056 0 0 0-.213-.155l-.475.185-.129-.49A2.952 2.952 0 0 0 .8-2.89l-.393.321-.274-.425C.089-2.995.045-3 0-3c-.045 0-.089.005-.133.007l-.274.425-.393-.32c-.085.023-.169.05-.251.082l-.13.49-.474-.185c-.073.048-.144.1-.212.155l.028.508-.507-.029a2.869 2.869 0 0 0-.155.212l.184.475-.49.129c-.03.082-.058.166-.082.251l.32.393h5.137z"/>
+        <path fill="#bdbcbc" stroke="#231f20" stroke-width="0.176" d="M-2.889.8c.024.085.051.169.082.251l.49.13-.184.474c.048.074.1.144.155.212l.508-.028-.03.507c.07.054.14.107.213.155l.474-.184.13.49c.082.03.166.058.251.082l.393-.32.274.425C-.09 2.995-.045 3 0 3c.045 0 .088-.005.133-.006l.274-.426.393.321c.085-.024.169-.051.251-.082l.13-.49.474.184c.073-.048.144-.1.212-.155l-.029-.507.508.028c.054-.068.107-.138.155-.212l-.184-.475.49-.129c.03-.082.058-.166.082-.251l-.32-.393h-5.137z"/>
+    </svg>
+
+    <svg id = "SCREEN-OLED-MONO-128X32"
+        overflow="visible">
+        <rect width="1" height="10.8" x="14.305" y="-5.4" fill="#393536" paint-order="markers fill stroke" rx=".5" ry=".508"/>
+        <rect width="29.991" height="11.494" x="-15.305" y="-5.747" fill="#51abe4" paint-order="markers fill stroke"/>
+
+        <path
+            fill="#191816"
+            d="
+                m -14.178 , -5.048
+                v 9.885
+                h 28.865
+                v -4.86
+                c -1.00, 0,-1.227, 0.078, -1.39, -0.39
+                c -0.126 ,-2.73 ,0.434 ,-2.65 ,-1.68 , -2.6
+                v-2.033
+                z
+                "
+            />
+    </svg>
+
+    <svg id = "SCREEN-OLED-MONO-128X64"
+        overflow="visible">
+
+        <rect width="24.00" height="00.80" x="-12.00" y="+09.429" fill="#303030" rx=".406" ry="1.982"/>
+        <rect width="26.70" height="19.26" x="-13.35" y="-10.185" fill="#4f4c4d" stroke="#303030" stroke-width=".088"/>
+        <rect width="25.70" height="14.40" x="-12.85" y="-09.853" fill="#303030" />
+        <rect width="21.75" height="10.86" x="-10.87" y="-08.085" fill="#433f40" />
+        <rect width="12.00" height="00.31" x="-06.00" y="+09.119" fill="#f89c0e" opacity="0.6" />
+
+        <path
+            fill="#f89c0e"
+            opacity="0.6"
+            d="
+                m -6.013, 9.43
+                v 0.148
+                c 0.41, -0.041, 0.564, 0.329, 0.542, 0.525
+                l -0.057, 0.126
+                h 11.03
+                l -0.062, -0.121
+                c -0.032 , -0.33, 0.27, -0.558, 0.547, -0.53
+                v -0.149
+                z"
+        />
+    </svg>
+
+    <svg id = "SCREEN-TFT-COLOR-320X240"
+        overflow="visible">
+        <rect width="37.001" height="50.8"  x="-18.5"   y="-25.4"   fill="#393536" stroke="#231f20" stroke-width="0.176" />
+        <rect width="34.484" height="45.95" x="-17.242" y="-23.901" fill="#656263" stroke="#231f20" stroke-width="0.176" />
+    </svg>
+
+    <svg id = "HAPTIC-VIBRATOR"
+        overflow="visible">
+        <defs>
+            <linearGradient
+                id="HAPTIC-VIBRATOR.gradient-grey"
+                x2="0%" y2="100%"
+                >
+                <stop offset="0.000" stop-color="#7b7979"/>
+                <stop offset="0.161" stop-color="#7b7979"/>
+                <stop offset="0.607" stop-color="#f4f4f4"/>
+                <stop offset="0.858" stop-color="#7b7979"/>
+                <stop offset="1.000" stop-color="#7b7979"/>
+            </linearGradient>
+
+            <linearGradient
+                id="HAPTIC-VIBRATOR.gradient-brown"
+                x2="0%" y2="100%"
+                >
+                <stop offset="0.000" stop-color="#87531f"/>
+                <stop offset="0.161" stop-color="#87531f"/>
+                <stop offset="0.607" stop-color="#f4f4f4"/>
+                <stop offset="0.858" stop-color="#875c2f"/>
+                <stop offset="1.000" stop-color="#875c2f"/>
+            </linearGradient>
+
+        </defs>
+
+        <circle cy="+1.514" cx="5.585" r="0.229" fill="#a47343"/>
+        <circle cy="-1.514" cx="5.585" r="0.229" fill="#a47343"/>
+
+        <rect width="2.452" height="2.452" x="-2.395" y="-1.234" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088" rx=".305" ry=".298"/>
+        <rect width="0.902" height="2.223" x="+5.126" y="-1.099" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088" rx=".301" ry=".286"/>
+
+        <rect width="3.061" height="2.782" x="-5.946" y="-1.396" fill="#bdbcbc" stroke="#303030" stroke-width="0.088"/>
+        <rect width="1.290" height="4.366" x="+3.918" y="-2.183" fill="#303030" stroke="#303030" stroke-width="0.088"/>
+        <rect width="6.897" height="4.204" x="-1.315" y="-2.106" fill="#918f90" stroke="#303030" stroke-width="0.088"/>
+        <rect width="6.897" height="3.595" x="-1.315" y="-1.797" fill="#d3d2d2" stroke="#303030" stroke-width="0.088"/>
+        <rect width="6.897" height="2.782" x="-1.315" y="-1.396" fill="#f4f4f4" stroke="#303030" stroke-width="0.088"/>
+
+        <rect width="0.648" height="0.572" x="-3.056" y="-0.286" fill="url(#HAPTIC-VIBRATOR.gradient-brown)" stroke="#303030" stroke-width="0.088"/>
+        <rect width="3.138" height="1.207" x="-6.028" y="-0.600" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088"/>
+
+        <svg
+            overflow    ="visible"
+            fill        ="#303030"
+            font-family ="Lato"
+            font-size   ="1.411"
+            stroke-width="0.353"
+            font-weight ="600"
+            white-space ="normal"
+            >
+            <text x="+0.025" y="-0.151">Haptic</text>
+            <text x="-0.442" y="+1.17" >Vibrator</text>
+        </svg>
+     </svg>
+
+    <svg id = "BUZZER"
+        overflow="visible">
+        <rect width="1" height="1.6" x="-2.25" y="+1.05" fill="#cfa550"/>
+        <rect width="1" height="1.6" x="+1.25" y="+1.05" fill="#cfa550"/>
+        <rect width="1" height="1.6" x="+1.25" y="-2.65" fill="#cfa550"/>
+
+        <path
+            fill="#4f4c4d"
+            stroke="#231f20"
+            stroke-miterlimit="10"
+            stroke-width=".088"
+            d="
+                m -1, -2.5 l -1.5, 1.5 v 3.5 h 5 v -5 z
+              "
+        />
+
+        <svg
+            overflow    ="visible"
+            fill        ="#ffffff"
+            font-family ="Lato Semibold"
+            font-size   ="1.411"
+            stroke-width="00.353"
+            font-weight ="600"
+            white-space ="normal"
+            >
+            <text
+                x="-2.03"
+                y="0.411"
+                textLength="4.07"
+                lengthAdjust="spacing"
+                >
+                Buzzer
+            </text>
+        </svg>
+    </svg>
+
+ </defs>
+
+<defs>
+    <svg id = "JUMPER-3V3-GND"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width=".035"
+            d="
+                m 2.66, 5.097
+                c -0.001, -3.482, +0.005, -6.964, -0.002, -10.446
+                c +0.030, -0.587, -0.458, -1.130, -1.052, -01.118
+                c -1.147, +0.000, -2.190, +0.006, -3.280, +00.006
+                c -0.596, +0.022, -1.030, +0.596, -0.984, +01.173
+                c +0.000, +3.543, -0.004, +7.086, +0.002, +010.63
+                c -0.030, +0.586, +0.458, +1.124, +1.052, +01.117
+                c +1.070, +0.011, +2.140, +0.011, +3.210, +00.000
+                c +0.594, +0.007, +1.082, -0.530, +1.052, -01.118
+                c +0.003, -0.081, +0.003, -0.163, +0.003, -00.244
+                z
+              "
+        />
+
+        <path fill="#2aa9e0" d="m +1.29, -6.2 h -2.582 c -0.79, 0, -1.099, 0.308, -1.099, 1.099 v 1.14 h4.78 v -1.139 c 0, -0.791, -0.308, -1.099, -1.099, -1.099"/>
+
+        <path fill="#2aa9e0" d="m -2.39, -1.12 v +6.22 c +0, 0.79, +0.308, 1.099, +1.099, 1.099 h 1.14 v-7.32z"/>
+
+        <path fill="#a6ce39" d="m +0.15, -1.12 v +7.32 h 1.14 c 0.792, 0, 1.1 , -0.308, 1.1 , -1.099 v -6.221 z"/>
+
+        <path fill="#a6ce39" d="m -2.39, -1.42 h +4.780 v -2.24 h -4.78z"/>
+    </svg>
+
+    <svg id = "JUMPER-3V3-GND-5V"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030"
+            stroke-width="0.035"
+            d="
+                m -2.371, -6.469
+                c -0.712, +0.008, -0.960, +0.048, -1.240, +00.315
+                c -0.227, +0.248, -0.303, +0.466, -0.303, +01.055
+                c +0.006, +3.365, -0.039, +7.154, -0.000, +10.202
+                c +0.000, +0.590, +0.076, +0.807, +0.304, +01.055
+                c +0.279, +0.266, +0.527, +0.307, +1.239, +00.315
+                c +1.467, +0.002, +3.340, -0.005, +4.740, +00.000
+                c +0.712, -0.008, +0.960, -0.048, +1.240, -00.314
+                c +0.227, -0.248, +0.304, -0.466, +0.304, -01.056
+                c -0.022, -3.750, +0.048, -6.822, +0.000, -10.202
+                c +0.000, -0.590, -0.077, -0.807, -0.304, -01.055
+                c -0.280, -0.267, -0.528, -0.307, -1.240, -00.315
+                c -1.590, -0.005, -3.250, +0.005, -4.740, +00.000
+                z
+              "
+        />
+
+        <path fill="#2aa9e0" d="m +2.561, -6.2 h -5.121 c -0.791, 0, -1.1, 0.308, -1.1, 1.099 v 1.141 h7.32 v -1.14 c 0, -0.791, -0.307, -1.099, -1.098, -1.099"/>
+
+        <path fill="#2aa9e0" d="m -3.66, +1.42 v +3.68 c 0, 0.791, 0.308, 1.1, 1.099, 1.1 h 1.141 v -4.78 z"/>
+
+        <path fill="#ed1c24" d="m 1.42, 1.42 v 4.78 h 1.14 c 0.791, 0, 1.099, -0.308, 1.099, -1.099 v -3.681 z"/>
+
+        <rect width="7.32" height="2.24" x="-3.66" y="-3.66" fill="#a6ce39"/>
+        <rect width="7.32" height="2.24" x="-3.66" y="-1.12" fill="#ed1c24"/>
+        <rect width="2.24" height="4.78" x="-1.12" y="+1.42" fill="#a6ce39"/>
+    </svg>
+
+    <svg id = "JUMPER-GND-5V"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="0.035"
+            d="
+                m -1.29, 5.198
+                c -0.495, +0.042, -1.076, -0.127, -1.269, -0.633
+                c -0.168, -0.477, -0.077, -0.991, -0.100, -1.487
+                c +0.004, -2.409, -0.008, -4.817, +0.006, -7.225
+                a +1.062, +1.062,  0, 0,   1    , +1.049, -1.049
+                c +1.070, -0.010, +2.14,  -0.010, +3.210, +0.000
+                a +1.062, +1.062,  0,  0,  1    , +1.048, +1.049
+                c +0.015, +2.340, +0.002, +4.681, +0.006, +7.022
+                c -0.015, +0.516, +0.041, +1.038, -0.050, +1.547
+                c -0.120, +0.532, -0.684, +0.816, -1.196, +0.775
+                h -2.704
+                z
+              "
+        />
+
+        <path fill="#ed1c24" d="m -2.386-.154h4.78v-2.24h-4.78z"/>
+
+        <path fill="#ed1c24" d="m 0.154, 0.146 v 4.78 h 1.141 c 0.791, 0, 1.1, -0.308, 1.1, -1.099 v -3.681z"/>
+
+        <path fill="#a6ce39" d="m 1.295, -4.934h -2.582 c -0.791, 0, -1.1, 0.308, -1.1, 1.099 v 1.141 h 4.781 v -1.141 c 0, -0.79, -0.308, -1.099, -1.099, -1.099"/>
+
+        <path fill="#a6ce39" d="m -2.386, 0.146 v 3.681 c 0,0.791, 0.308, 1.1, 1.099, 1.1 h 1.14 v -4.782 z"/>
+    </svg>
+
+    <svg id = "JUMPER-GND-GND"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030"
+            stroke-width=".035"
+            d="
+                m 0.336, -5.2
+                h -0.74
+                c -0.596, +0.022, -1.030, +0.603, -0.984, +1.180
+                c +0.006, +6.171, -0.009, +2.173, +0.000, +8.094
+                c -0.030, +0.587, +0.460, +1.125, +1.054, +1.118
+                h +0.670
+                c +0.594, +0.007, +1.083, -0.531, +1.052, -1.118
+                c -0.001, -7.060, +0.008, -3.750, +0.000, -8.156
+                c +0.030, -0.587, -0.458, -1.130, -1.052, -1.118
+                z
+              "
+        />
+
+        <path
+            fill="#a6ce39"
+            d="
+                m -0.017, -4.932
+                c -0.367, -0.007, -0.814, 0.075, -0.983, 0.447
+                c -0.170, +0.383, -0.101, 0.810, -0.116, 1.217
+                v +0.575
+                h +2.24
+                c -0.001, -1.786, +0.003, +0.537, -0.002, -1.249
+                c -0.003, -0.352, -0.128, -0.763, -0.491, -0.895
+                c -0.205, -0.083, -0.430, -0.096, -0.648, -0.095
+                z
+              "
+        />
+
+        <path
+            fill="#a6ce39"
+            d="
+                m -0.018, 4.93
+                c -0.367, +0.005, -0.815, -0.076, -0.983, -0.448
+                c -0.170, -0.383, -0.101, -0.810, -0.116, -1.217
+                v -0.575
+                h +2.24
+                c -0.002, +1.786, +0.002, -0.538, -0.002, +1.248
+                c -0.003, +0.353, -0.128, +0.764, -0.492, +0.896
+                c -0.204, +0.083, -0.429, +0.096, -0.647, +0.095
+                z
+              "
+        />
+    </svg>
+
+    <svg id = "JUMPER-I2C"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030"
+            stroke-width="0.035"
+            d="
+                m 1.607, -10.28
+                c -1.146, +0.000, -2.189, +00.006, -3.279, +00.006
+                c -0.597, +0.022, -1.030, +00.597, -0.985, +01.173
+                c +0.006, +6.172, -0.007, +12.334, +0.002, +18.255
+                c -0.030, +0.587, +0.458, +01.125, +1.052, +01.118
+                c +1.070, +0.011, +2.140, +00.011, +3.210, +00.000
+                c +0.594, +0.007, +1.083, -00.531, +1.053, -01.118
+                c +0.003, -0.081, +0.002, -00.163, +0.002, -00.245
+                c -0.006, -6.098, +0.007, -12.480, -0.002, -18.070
+                c +0.030, -0.588, -0.459, -01.130, -1.053, -01.12z
+              "
+        />
+
+        <path fill="#a154a1" d="m -2.39, -5.23 h 4.78 v -2.24 h -4.78z"/>
+
+        <path fill="#bb87bc" d="m 1.291, -10.01 h -2.581 c -0.791, 0, -1.1, 0.308, -1.1, 1.099 v1.141 h4.78 v-1.14 c 0, -0.791, -0.307, -1.099, -1.098, -1.099"/>
+
+        <path fill="#bb87bc" d="m -2.39, -4.93 v 13.84 c 0, 0.792, 0.308, 1.1, 1.099, 1.1 h 1.141 v -14.94 z"/>
+
+        <path fill="#a154a1" d="m 0.15, -4.93 v 14.94 h1.14 c 0.791, 0, 1.099, -0.308, 1.099, -1.1 v -13.84 z"/>
+    </svg>
+
+    <svg id = "JUMPER-WAKE"
+        overflow="visible">
+        <path
+            fill="#ffffff"
+            stroke="#303030" 
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="0.035"
+            d="
+                m +00.337, -7.736
+                h -00.740
+                c -00.596, +0.022, -1.030, +0.603, -0.984, +1.180
+                v +13.173
+                c -00.030, +0.587, +0.460, +1.125, +1.054, +1.118
+                h +00.670
+                c +00.594, +0.007, +1.083, -0.531, +1.052, -1.118
+                v -13.235
+                c +00.030, -0.587, -0.458, -1.130, -1.052, -1.118
+                z
+              "
+        />
+
+        <path
+            fill="#dab866"
+            d="
+                m -00.001, +7.484
+                c -00.791, +0.000, -1.100, -0.308, -1.100, -1.100
+                v -12.74
+                c +00.000, -0.791, +0.309, -1.099, +1.100, -1.099
+                h +00.041
+                c +00.790, +0.000, +1.098, +0.308, +1.098, +1.099
+                v +12.741
+                c +00.000, +0.790, -0.308, +1.099, -1.098, +1.099
+                z
+              "
+        />
+    </svg>
+
+ </defs>
+
+<defs>
+    <svg id = "LED-0603-BLUE"
+        overflow="visible" >
+       <path
+           fill             ="#cba855"
+           stroke           ="#303030"
+           stroke-miterlimit="10"
+           stroke-width     ="0.02"
+           d="
+           M -0.795 -0.395
+           v  0.232
+           A  0.162  0.162 0 0 1 -0.633 0
+           a  0.162  0.162 0 0 1 -0.162 0.163
+           v  0.233
+           h  1.59
+           V  0.162
+           A  0.162  0.162 0 0 1 0.65   0
+           a  0.162  0.162 0 0 1 0.144 -0.16
+           v -0.236
+           z"
+       />
+       <rect
+           width            = "1.2"
+           height           = "0.78"
+           x                = "-0.6"
+           y                = "-0.39"
+           fill             = "#d3d2d2"
+           stroke           = "#303030"
+           stroke-miterlimit= "10"
+           stroke-width     = "0.01"
+       />
+     <rect
+           width  ="0.4"
+           height ="0.4"
+           x      ="-0.2"
+           y      ="-0.2"
+           fill   ="#4fabdc"
+       />
+    </svg>
+
+    <svg id = "LED-0603-GREEN"
+       overflow="visible">
+       <path
+           fill             ="#cba855"
+           stroke           ="#303030"
+           stroke-miterlimit="10"
+           stroke-width     ="0.02"
+           d="
+           M -0.795 -0.395
+           v  0.232
+           A  0.162 0.162 0 0 1 -0.633 0
+           a  0.162 0.162 0 0 1 -0.162 0.163
+           v  0.233
+           h  1.59
+           V  0.162
+           A  0.162 0.162 0 0 1 0.65   0
+           a  0.162 0.162 0 0 1 0.144 -0.16
+           v -0.236
+           z"
+       />
+       <rect
+           width            = "1.2"
+           height           = "0.78"
+           x                = "-0.6"
+           y                = "-0.39"
+           fill             = "#d3d2d2"
+           stroke           = "#303030"
+           stroke-miterlimit= "10"
+           stroke-width     = "0.01"
+       />
+     <rect
+           width  ="0.4"
+           height ="0.4"
+           x      ="-0.2"
+           y      ="-0.2"
+           fill   ="#99d420"
+       />
+    </svg>
+
+    <svg id = "LED-0603-RED"
+        overflow="visible" >
+        <path
+            fill             ="#cba855"
+            stroke           ="#303030"
+            stroke-miterlimit="10"
+            stroke-width     ="0.02"
+            d="
+            M -0.795 -0.395
+            v  0.232
+            A  0.162  0.162 0 0 1 -0.633 0
+            a  0.162  0.162 0 0 1 -0.162 0.163
+            v  0.233
+            h  1.59
+            V  0.162
+            A  0.162  0.162 0 0 1 0.65   0
+            a  0.162  0.162 0 0 1 0.144 -0.16
+            v -0.236
+            z"
+        />
+        <rect
+            width            = "1.2"
+            height           = "0.78"
+            x                = "-0.6"
+            y                = "-0.39"
+            fill             = "#d3d2d2"
+            stroke           = "#303030"
+            stroke-miterlimit= "10"
+            stroke-width     = "0.01"
+        />
+        <rect
+            width  ="0.4"
+            height ="0.4"
+            x      ="-0.2"
+            y      ="-0.2"
+            fill   ="#ed1c24"
+        />
+    </svg>
+
+    <svg id = "LED-1206-RGB"
+        overflow="visible">
+        <path fill="#ebb300" d="m -0.9 -0.4 v -0.35 l -0.175 -0.175 h -0.45 l -0.175 0.175 v +0.35 l 0.175 0.175 h 0.45"/>
+        <path fill="#ebb300" d="m -0.9 +0.7 v -0.35 l -0.175 -0.175 h -0.45 l -0.175 0.175 v +0.35 l 0.175 0.175 h 0.45"/>
+        <path fill="#ebb300" d="m +1.7 +0.7 v -0.35 l -0.175 -0.175 h -0.45 l -0.175 0.175 v +0.35 l 0.175 0.175 h 0.45"/>
+
+        <rect width="0.8" height="0.7" x="0.9" y="-0.9" fill="#ebb300" />
+
+        <rect width="3.0" height="1.5" x="-1.5" y="-0.75" fill="#f4f4f4" stroke="#303030" stroke-width="0.008"/>
+
+        <rect width="0.6" height="0.6" x="+0.35" y="+0.05" fill="#5cb5e9"/>
+        <rect width="0.6" height="0.6" x="-0.95" y="+0.05" fill="#5bba7a"/>
+        <rect width="0.6" height="0.6" x="+0.35" y="-0.65" fill="#f46e6a"/>
+
+    </svg>
+
+    <svg id = "LED-3628-RED"
+        overflow="visible">
+        <rect width="3.5" height="2.1" x="-1.75" y="-1.05" fill="#ebb300"/>
+        <rect width="3.3" height="2.8" x="-1.65" y="-1.40" fill="#a7a5a6"/>
+
+        <path
+            fill  ="#f36676"
+            stroke="#7b7979"
+            stroke-miterlimit="10"
+            stroke-width="0.088"
+            d="M1.25-1.05h-2.5l-.3.3v1.5l.3.3h2.5l.3-.3v-1.5z"
+        />
+    </svg>
+
+    <svg id = "LED-3628-GREEN"
+        overflow="visible">
+        <rect width="3.5" height="2.1" x="-1.75" y="-1.05" fill="#ebb300"/>
+        <rect width="3.3" height="2.8" x="-1.65" y="-1.40" fill="#a7a5a6"/>
+
+        <path
+            fill  ="#21be21"
+            stroke="#7b7979"
+            stroke-miterlimit="10"
+            stroke-width="0.088"
+            d="M1.25-1.05h-2.5l-.3.3v1.5l.3.3h2.5l.3-.3v-1.5z"
+        />
+    </svg>
+
+    <svg id = "LED-2214-GREEN"
+        overflow="visible">
+        <rect width="2.2" height="1.4" x="-1.10" y="-0.70" fill="#a7a5a6"/>
+        <rect width="1.5" height="0.9" x="-0.75" y="-0.45" fill="#21be21"/>
+    </svg>
+
+    <svg id = "LED-2214-AMBER"
+        overflow="visible">
+        <rect width="2.2" height="1.4" x="-1.10" y="-0.70" fill="#f8f8f8"  stroke="#a0a0a0" stroke-width = "0.10"/>
+        <rect width="1.5" height="0.9" x="-0.75" y="-0.45" fill="orange" stroke="none" stroke-width = "0.05"/>
+    </svg>
+
+    <svg id = "LED-2214-RED"
+        overflow="visible">
+        <rect width="2.2" height="1.4" x="-1.10" y="-0.70" fill="#e8e8e8" stroke="#a0a0a0" stroke-width = "0.10"/>
+        <rect width="1.5" height="0.9" x="-0.75" y="-0.45" fill="#f9a735"/>
+    </svg>
+
+    <svg id = "LED-2016-WHITE"
+        overflow="visible">
+        <rect width="2.0" height="1.6" x="-1.00" y="-0.80" fill="#e8e8e8" stroke="#a0a0a0" stroke-width = "0.10"/>
+        <rect width="1.7" height="1.3" x="-0.85" y="-0.65" fill="#f9a735"/>
+    </svg>
+
+    <svg id = "LED-WHITE-HIGH-POWER"
+        overflow="visible">
+        <rect width="6.192" height="7.83"  x="-3.096" y="-3.915" fill="#bfb290" stroke="#303030" stroke-width="0.088"/>
+        <rect width="6.192" height="7.425" x="-3.096" y="-3.705" fill="#a7a5a6" stroke="#303030" stroke-width="0.088"/>
+        <rect width="7"     height="7"     x="-3.5"   y="-3.509" fill="#d3d2d2" stroke="#303030" stroke-width="0.088" rx="0.503" ry="0.499"/>
+        <rect width="6.4"   height="6.4"   x="-3.2"   y="-3.15"  fill="#f9a735" stroke="#303030" stroke-width="0.088" rx="1.614" ry="1.606"/>
+    </svg>
+
+    <svg id = "LED-5050-RGB-HSY"
+        overflow="visible">
+        <rect width="5.3" height="0.9" x="-2.65" y="+1.15" fill="#ebb300"/>
+        <rect width="5.3" height="0.9" x="-2.65" y="-0.45" fill="#ebb300"/>
+        <rect width="5.3" height="0.9" x="-2.65" y="-2.05" fill="#ebb300"/>
+
+        <rect width="5.0" height="5.0" x="-2.5" y="-2.5" fill="#e9e9e9" stroke="#303030" stroke-width="0.005"/>
+
+        <circle r="2.25" fill="#d3d2d2"/>
+
+        <rect width="0.8" height="1.6" x="-1.6" y="-0.8" fill="#f46e6a"/>
+        <rect width="0.8" height="1.6" x="-0.4" y="-0.8" fill="#5bba7a"/>
+        <rect width="0.8" height="1.6" x="+0.8" y="-0.8" fill="#5cb5e9"/>
+    </svg>
+
+    <svg id = "LED-5050-RGBW-HSY"
+        overflow="visible">
+        <rect width="1.2" height="0.9" x="+1.600" y="+1.350" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="-2.800" y="+1.350" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="+1.600" y="+0.150" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="-2.800" y="+0.150" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="+1.600" y="-1.050" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="-2.800" y="-1.050" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="+1.600" y="-2.150" fill="#ebb300"/>
+        <rect width="1.2" height="0.9" x="-2.800" y="-2.150" fill="#ebb300"/>
+
+        <rect width="5.0" height="5.0" x="-2.5" y="-2.5" fill="#f4f4f4" stroke="#303030" stroke-width="0.005"/>
+
+        <circle r="2.25" fill="#e9e9e9"/>
+
+        <rect width="0.6" height="0.6" x="+0.5" y="+0.5" fill="#5cb5e9"/>
+        <rect width="0.6" height="0.6" x="-1.1" y="+0.5" fill="#5bba7a"/>
+        <rect width="0.6" height="0.6" x="+0.5" y="-1.1" fill="#f46e6a"/>
+        <rect width="0.6" height="0.6" x="-1.1" y="-1.1" fill="#fde5a5"/>
+    </svg>
+
+ </defs>
+
+
+<g transform="translate(1.27,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+<rect rx="0.5" ry= "0.5" x="-3.81" y="-19.049999999999997" width="7.62" height="45.72" stroke="none" fill="url(#grid10in)"  opacity="1"/>
+<g transform="translate(0,-7.62)" opacity="1.0" ><g transform="rotate(0,0,0)"><g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#QR-CODE-MB"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(-2.54,0)" opacity="1.0" ><g transform="rotate(90,0,0)"><g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#99cf2c">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(2.54,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#51abe4">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(5.08,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#cfa550">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(7.62,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#a154a1">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(10.16,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#bb87bc">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#HEADER-BUS-WAKE-I2C"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(2.54,0)" opacity="1.0" ><g transform="rotate(90,0,0)"><g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#99cf2c">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(2.54,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#51abe4">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(5.08,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#cfa550">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(7.62,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#a154a1">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(10.16,0)" opacity="1" ><g transform="rotate(0,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#bb87bc">
+        
+        <path d="M -1.143 -1.27     
+                 L -1.143 1.27
+                 L 1.143 1.27  
+                 L 1.143 -1.27
+                 L -1.143 -1.27 Z 
+
+                 M                     0 -0.889         
+                 A 0.889 0.889  0 0 1  0 0.889        
+                 A 0.889 0.889  0 0 1  0 -0.889 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#HEADER-BUS-WAKE-I2C"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(0,-12.7)" opacity="1.0" ><g transform="rotate(0,0,0)"><g>
+<g transform="translate(-2.54,0)" opacity="1" ><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+           <path d="M-1.12,1V5.6l0.75,0.75H0.37l0.75,-0.75V1l0,0H0.9l0,0V5l0,0H-0.9l0,0V1l0,0H-1.12l0,0Z"/>
+        </g>
+
+        <text
+            x="-4.8" y="0" 
+            font-size          = "1.25" 
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start" 
+            fill               = "black">
+            INT
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(180,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(2.54,0)" opacity="1" ><g transform="rotate(180,0,0)"><g>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none" 
+        fill  = "#ebb300">
+        
+        <path d="M                     0 -0.8     
+                 A 0.8 0.8  0 0 1  0 0.8  
+                 A 0.8 0.8  0 0 1  0 -0.8 Z 
+
+                 M                     0 -0.55         
+                 A 0.55 0.55  0 0 1  0 0.55        
+                 A 0.55 0.55  0 0 1  0 -0.55 Z"/>
+    </g>  
+    
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+    
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(0,0)" opacity="1" ><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#HEADER-M254-01X03"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(0,16.51)" opacity="1" ><g transform="rotate(270,0,0)"> <g transform="scale(1,-1)">
+<rect x="-9.5" y="-1.27" width="19" height="2.54" fill="#376f88"/>
+    <text x="0" y="0"
+        font-size          = "1.7"
+        font-family        = "Lato"
+        font-weight        = "bold"
+        dominant-baseline  = "central"
+        text-anchor        = "middle"
+        fill               = "white"
+    >BB-SENSE-LSM6DS33TR</text>
+</g></g></g>
+<line x1="-1.27" y1="0" x2="1.27" y2="0" stroke-width="0.8" stroke="white" opacity="0"/>
+<line x1="0" y1="-1.27" x2="0" y2="1.27" stroke-width="0.8" stroke="white" opacity="0"/>
+<line x1="-1.27" y1="0" x2="1.27" y2="0" stroke-width="0.1" stroke="black" opacity="0.5"/>
+<line x1="0" y1="-1.27" x2="0" y2="1.27" stroke-width="0.1" stroke="black" opacity="0.5"/>
+<rect rx="0.5" ry= "0.5" x="-3.81" y="-19.049999999999997" width="7.62" height="45.72" stroke="#202020" stroke-width = "0.1" fill="none"  opacity="1"/>
+</g></g></g>
+</svg>

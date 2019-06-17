@@ -1,0 +1,49 @@
+<svg
+    xmlns  ="http://www.w3.org/2000/svg"
+    viewBox="-6.288 -3.288 12.576 6.576"
+    >
+    <defs>
+        <svg
+            id="pin-usb-c-internal"
+            overflow="visible"
+            >
+            <rect x="0"  y="0" width="0.41" height="0.1" fill="#ebb300"/>
+        </svg>
+
+        <svg
+            id="pin-usb-c-external"
+            overflow="visible"
+            >
+            <circle r="0.5" fill="#d2ac67" cx="0" cy="0"/> 
+        </svg>
+    </defs>
+
+    <rect width="9"     height="3.2"   x="-4.5"   y="-1.6"   fill="#999999" stroke="#303030" stroke-width="0.09"  rx="0.95"  ry="0.95"/>
+    <rect width="8.288" height="2.488" x="-4.144" y="-1.244" fill="#4f4c4d" stroke="#303030" stroke-width="0.16"  rx="0.6"   ry="0.6" />
+    <rect width="5.912" height="0.592" x="-2.956" y="-0.296" fill="#909090" stroke="#303030" stroke-width="0.088" rx="0.182" ry="0.157"/>
+
+    <use x="-2.4" y="+2.15" href="#pin-usb-c-external"/>
+    <use x="+2.4" y="-2.15" href="#pin-usb-c-external"/>
+    <use x="+2.4" y="+2.15" href="#pin-usb-c-external"/>
+    <use x="-2.4" y="-2.15" href="#pin-usb-c-external"/>
+
+    <use x="-2.5  "  y="0.2" href="#pin-usb-c-internal"/>
+    <use x="-1.844"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x="-1.189"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x="-0.533"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x=" 0.123"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x=" 0.779"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x=" 1.434"  y="0.2" href="#pin-usb-c-internal"/>
+    <use x=" 2.09 "  y="0.2" href="#pin-usb-c-internal"/>
+
+    <use x="-2.5  "  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x="-1.844"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x="-1.189"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x="-0.533"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x=" 0.123"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x=" 0.779"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x=" 1.434"  y="-0.3" href="#pin-usb-c-internal"/>
+    <use x=" 2.09 "  y="-0.3" href="#pin-usb-c-internal"/>
+
+    <rect width="12.4" height="6.4" x="-6.2" y="-3.2" fill="none" stroke="#2580a4" stroke-width="0.176" rx="2" ry="2"/>
+</svg>

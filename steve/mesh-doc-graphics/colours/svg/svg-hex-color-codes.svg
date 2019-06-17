@@ -1,0 +1,383 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    version="1.2" 
+    viewBox="0 0 1024 1928"
+    height="2570.668" 
+    width="1365.332"
+    >
+
+<!--
+    viewBox="1010 46 4 4"
+    <path fill="#ff0000" d="M 000 0000  h 1024v1928H0V0"/>
+    <path fill="#ff0000" d="M 000 0000  h 1024v1928H0V0"/>
+ -->
+
+
+
+
+    <line x1="08" x2="1014.026" y1="08.225" y2="08.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="47.225" y2="47.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="86.225" y2="86.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="125.225" y2="125.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="164.225" y2="164.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="203.225" y2="203.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="242.225" y2="242.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="281.225" y2="281.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="320.225" y2="320.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="359.225" y2="359.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="398.225" y2="398.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="437.225" y2="437.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="476.225" y2="476.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="515.225" y2="515.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="554.225" y2="554.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="593.225" y2="593.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="632.225" y2="632.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="671.225" y2="671.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="710.225" y2="710.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="749.225" y2="749.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="788.225" y2="788.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="827.225" y2="827.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="866.225" y2="866.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="905.225" y2="905.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="944.225" y2="944.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="983.225" y2="983.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1022.225" y2="1022.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1061.225" y2="1061.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1100.225" y2="1100.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1139.225" y2="1139.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1178.225" y2="1178.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1217.225" y2="1217.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1256.225" y2="1256.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1295.225" y2="1295.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1334.225" y2="1334.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1373.225" y2="1373.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1412.225" y2="1412.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1451.225" y2="1451.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1490.225" y2="1490.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1529.225" y2="1529.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1568.225" y2="1568.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1607.225" y2="1607.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1646.225" y2="1646.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1685.225" y2="1685.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1724.225" y2="1724.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1763.225" y2="1763.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1802.225" y2="1802.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1841.225" y2="1841.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1880.225" y2="1880.225" stroke="#303030" stroke-width="0.5"/>
+    <line x1="08" x2="1014.026" y1="1919.225" y2="1919.225" stroke="#303030" stroke-width="0.5"/>
+
+    
+    <rect fill="#000000" x="262" y="0008" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#000080" x="597" y="0008" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00008b" x="933" y="0008" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#0000cd" x="262" y="0047" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#0000ff" x="597" y="0047" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#006400" x="933" y="0047" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#008000" x="262" y="0086" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#008080" x="597" y="0086" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#008b8b" x="933" y="0086" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00bfff" x="262" y="0125" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00ced1" x="597" y="0125" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00fa9a" x="933" y="0125" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00ff00" x="262" y="0164" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00ff7f" x="597" y="0164" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00ffff" x="933" y="0164" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#00ffff" x="262" y="0203" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#191970" x="597" y="0203" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#1e90ff" x="933" y="0203" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#20b2aa" x="262" y="0242" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#228b22" x="597" y="0242" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#2e8b57" x="933" y="0242" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#2f4f4f" x="262" y="0281" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#2f4f4f" x="597" y="0281" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#32cd32" x="933" y="0281" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#3cb371" x="262" y="0320" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#40e0d0" x="597" y="0320" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#4169e1" x="933" y="0320" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#4682b4" x="262" y="0359" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#483d8b" x="597" y="0359" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#48d1cc" x="933" y="0359" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#4b0082" x="262" y="0398" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#556b2f" x="597" y="0398" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#5f9ea0" x="933" y="0398" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#6495ed" x="262" y="0437" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#66cdaa" x="597" y="0437" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#696969" x="933" y="0437" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#696969" x="262" y="0476" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#6a5acd" x="597" y="0476" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#6b8e23" x="933" y="0476" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#708090" x="262" y="0515" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#708090" x="597" y="0515" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#778899" x="933" y="0515" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#778899" x="262" y="0554" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#7b68ee" x="597" y="0554" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#7cfc00" x="933" y="0554" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#7fff00" x="262" y="0593" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#7fffd4" x="597" y="0593" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#800000" x="933" y="0593" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#800080" x="262" y="0632" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#808000" x="597" y="0632" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#808080" x="933" y="0632" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#808080" x="262" y="0671" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#87ceeb" x="597" y="0671" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#87cefa" x="933" y="0671" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#8a2be2" x="262" y="0710" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#8b0000" x="597" y="0710" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#8b008b" x="933" y="0710" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#8b4513" x="262" y="0749" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#8fbc8f" x="597" y="0749" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#90ee90" x="933" y="0749" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#9370db" x="262" y="0788" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#9400d3" x="597" y="0788" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#98fb98" x="933" y="0788" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#9932cc" x="262" y="0827" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#9acd32" x="597" y="0827" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#a0522d" x="933" y="0827" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#a52a2a" x="262" y="0866" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#a9a9a9" x="597" y="0866" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#a9a9a9" x="933" y="0866" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#add8e6" x="262" y="0905" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#adff2f" x="597" y="0905" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#afeeee" x="933" y="0905" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#b0c4de" x="262" y="0944" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#b0e0e6" x="597" y="0944" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#b22222" x="933" y="0944" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#b8860b" x="262" y="0983" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ba55d3" x="597" y="0983" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#bc8f8f" x="933" y="0983" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#bdb76b" x="262" y="1022" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#c0c0c0" x="597" y="1022" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#c71585" x="933" y="1022" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#cd5c5c" x="262" y="1061" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#cd853f" x="597" y="1061" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#d2691e" x="933" y="1061" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#d2b48c" x="262" y="1100" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#d3d3d3" x="597" y="1100" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#d3d3d3" x="933" y="1100" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#d8bfd8" x="262" y="1139" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#da70d6" x="597" y="1139" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#daa520" x="933" y="1139" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#db7093" x="262" y="1178" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#dc143c" x="597" y="1178" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#dcdcdc" x="933" y="1178" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#dda0dd" x="262" y="1217" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#deb887" x="597" y="1217" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#e0ffff" x="933" y="1217" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#e6e6fa" x="262" y="1256" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#e9967a" x="597" y="1256" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ee82ee" x="933" y="1256" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#eee8aa" x="262" y="1295" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f08080" x="597" y="1295" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f0e68c" x="933" y="1295" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f0f8ff" x="262" y="1334" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f0fff0" x="597" y="1334" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f0ffff" x="933" y="1334" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f4a460" x="262" y="1373" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f5deb3" x="597" y="1373" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f5f5dc" x="933" y="1373" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f5f5f5" x="262" y="1412" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f5fffa" x="597" y="1412" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#f8f8ff" x="933" y="1412" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fa8072" x="262" y="1451" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#faebd7" x="597" y="1451" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#faf0e6" x="933" y="1451" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fafad2" x="262" y="1490" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fdf5e6" x="597" y="1490" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff0000" x="933" y="1490" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff00ff" x="262" y="1529" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff00ff" x="597" y="1529" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff1493" x="933" y="1529" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff4500" x="262" y="1568" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff6347" x="597" y="1568" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff69b4" x="933" y="1568" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff7f50" x="262" y="1607" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ff8c00" x="597" y="1607" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffa07a" x="933" y="1607" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffa500" x="262" y="1646" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffb6c1" x="597" y="1646" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffc0cb" x="933" y="1646" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffd700" x="262" y="1685" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffdab9" x="597" y="1685" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffdead" x="933" y="1685" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffe4b5" x="262" y="1724" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffe4c4" x="597" y="1724" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffe4e1" x="933" y="1724" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffebcd" x="262" y="1763" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffefd5" x="597" y="1763" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fff0f5" x="933" y="1763" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fff5ee" x="262" y="1802" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fff8dc" x="597" y="1802" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fffacd" x="933" y="1802" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fffaf0" x="262" y="1841" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fffafa" x="597" y="1841" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffff00" x="933" y="1841" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffffe0" x="262" y="1880" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#fffff0" x="597" y="1880" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+    <rect fill="#ffffff" x="933" y="1880" width="81" height="39" stroke="#303030" stroke-width="0.05"/>
+
+    <svg
+        overflow    ="visible"
+        fill        ="#303030" 
+        font-family ="Lato Semibold" 
+        font-size   ="16" 
+        stroke-width="00.353" 
+        font-weight ="700" 
+        white-space ="normal" 
+        >
+        <text x="038" y="0033">    black(safe 16 hex3) #000000                             </text>
+        <text x="411" y="0033">    navy(16) #000080                                        </text>
+        <text x="743" y="0033">    darkblue #00008b                                        </text>
+        <text x="059" y="0072">    mediumblue #0000cd                                      </text>
+        <text x="375" y="0072">    blue(safe 16 hex3) #0000ff                              </text>
+        <text x="740" y="0072">    darkgreen #006400                                       </text>
+        <text x="073" y="0111">    green(16) #008000                                       </text>
+        <text x="415" y="0111">    teal(16) #008080                                        </text>
+        <text x="740" y="0111">    darkcyan #008b8b                                        </text>
+        <text x="059" y="0150">    deepskyblue #00bfff                                     </text>
+        <text x="386" y="0150">    darkturquoise #00ced1                                   </text>
+        <text x="703" y="0150">    mediumspringgreen #00fa9a                               </text>
+        <text x="040" y="0189">    lime(safe 16 hex3) #00ff00                              </text>
+        <text x="397" y="0189">    springgreen #00ff7f                                     </text>
+        <text x="685" y="0189">    cyan(safe 16=aqua hex3) #00ffff                         </text>
+        <text x="035" y="0228">    aqua(safe 16 hex3) #00ffff                              </text>
+        <text x="395" y="0228">    midnightblue #191970                                    </text>
+        <text x="734" y="0228">    dodgerblue #1e90ff                                      </text>
+        <text x="055" y="0267">    lightseagreen #20b2aa                                   </text>
+        <text x="401" y="0267">    forestgreen #228b22                                     </text>
+        <text x="743" y="0267">    seagreen #2e8b57                                        </text>
+        <text x="055" y="0306">    darkslategray #2f4f4f                                   </text>
+        <text x="391" y="0306">    darkslategrey #2f4f4f                                   </text>
+        <text x="739" y="0306">    limegreen #32cd32                                       </text>
+        <text x="045" y="0345">    mediumseagreen #3cb371                                  </text>
+        <text x="405" y="0345">    turquoise #40e0d0                                       </text>
+        <text x="742" y="0345">    royalblue #4169e1                                       </text>
+        <text x="075" y="0384">    steelblue #4682b4                                       </text>
+        <text x="391" y="0384">    darkslateblue #483d8b                                   </text>
+        <text x="710" y="0384">    mediumturquoise #48d1cc                                 </text>
+        <text x="083" y="0423">    indigo #4b0082                                          </text>
+        <text x="387" y="0423">    darkolivegreen #556b2f                                  </text>
+        <text x="739" y="0423">    cadetblue #5f9ea0                                       </text>
+        <text x="050" y="0462">    cornflowerblue #6495ed                                  </text>
+        <text x="364" y="0462">    mediumaquamarine #66cdaa                                </text>
+        <text x="748" y="0462">    dimgrey #696969                                         </text>
+        <text x="077" y="0501">    dimgray #696969                                         </text>
+        <text x="403" y="0501">    slateblue #6a5acd                                       </text>                               
+        <text x="741" y="0501">    olivedrab #6b8e23                                       </text>
+        <text x="075" y="0540">    slategrey #708090                                       </text>
+        <text x="410" y="0540">    slategray #708090                                       </text>
+        <text x="708" y="0540">    lightslategray(hex3) #778899                            </text>
+        <text x="038" y="0579">    lightslategrey(hex3) #778899                            </text>
+        <text x="379" y="0579">    mediumslateblue #7b68ee                                 </text>
+        <text x="735" y="0579">    lawngreen #7cfc00                                       </text>
+        <text x="066" y="0618">    chartreuse #7fff00                                      </text>
+        <text x="394" y="0618">    aquamarine #7fffd4                                      </text>
+        <text x="736" y="0618">    maroon(16) #800000                                      </text>
+        <text x="070" y="0657">    purple(16) #800080                                      </text>
+        <text x="412" y="0657">    olive(16) #808000                                       </text>
+        <text x="747" y="0657">    gray(16) #808080                                        </text>
+        <text x="077" y="0696">    grey(16) #808080                                        </text>
+        <text x="408" y="0696">    skyblue #87ceeb                                         </text>
+        <text x="728" y="0696">    lightskyblue #87cefa                                    </text>
+        <text x="068" y="0735">    blueviolet #8a2be2                                      </text>
+        <text x="411" y="0735">    darkred #8b0000                                         </text>
+        <text x="727" y="0735">    darkmagenta #8b008b                                     </text>
+        <text x="060" y="0774">    saddlebrown #8b4513                                     </text>
+        <text x="389" y="0774">    darkseagreen #8fbc8f                                    </text>
+        <text x="739" y="0774">    lightgreen #90ee90                                      </text>
+        <text x="052" y="0813">    mediumpurple #9370db                                    </text>
+        <text x="404" y="0813">    darkviolet #9400d3                                      </text>
+        <text x="740" y="0813">    palegreen #98fb98                                       </text>
+        <text x="063" y="0852">    darkorchid #9932cc                                      </text>
+        <text x="394" y="0852">    yellowgreen #9acd32                                     </text>
+        <text x="750" y="0852">    sienna #a0522d                                          </text>
+        <text x="077" y="0891">    brown #a52a2a                                           </text>
+        <text x="402" y="0891">    darkgray #a9a9a9                                        </text>
+        <text x="738" y="0891">    darkgrey #a9a9a9                                        </text>
+        <text x="068" y="0930">    lightblue #add8e6                                       </text>
+        <text x="393" y="0930">    greenyellow #adff2f                                     </text>
+        <text x="721" y="0930">    paleturquoise #afeeee                                   </text>
+        <text x="054" y="0969">    lightsteelblue #b0c4de                                  </text>
+        <text x="395" y="0969">    powderblue #b0e0e6                                      </text>
+        <text x="745" y="0969">    firebrick #b22222                                       </text>
+        <text x="051" y="1008">    darkgoldenrod #b8860b                                   </text>
+        <text x="385" y="1008">    mediumorchid #ba55d3                                    </text>
+        <text x="733" y="1008">    rosybrown #bc8f8f                                       </text>
+        <text x="063" y="1047">    darkkhaki #bdb76b                                       </text>
+        <text x="403" y="1047">    silver(16) #c0c0c0                                      </text>
+        <text x="717" y="1047">    mediumvioletred #c71585                                 </text>
+        <text x="064" y="1086">    indianred #cd5c5c                                       </text>
+        <text x="419" y="1086">    peru #cd853f                                            </text>
+        <text x="741" y="1086">    chocolate #d2691e                                       </text>
+        <text x="089" y="1125">    tan #d2b48c                                             </text>
+        <text x="404" y="1125">    lightgray #d3d3d3                                       </text>
+        <text x="740" y="1125">    lightgrey #d3d3d3                                       </text>
+        <text x="079" y="1164">    thistle #d8bfd8                                         </text>
+        <text x="412" y="1164">    orchid #da70d6                                          </text>
+        <text x="735" y="1164">    goldenrod #daa520                                       </text>
+        <text x="058" y="1203">    palevioletred #db7093                                   </text>
+        <text x="407" y="1203">    crimson #dc143c                                         </text>
+        <text x="730" y="1203">    gainsboro #dcdcdc                                       </text>
+        <text x="078" y="1242">    plum #dda0dd                                            </text>
+        <text x="398" y="1242">    burlywood #deb887                                       </text>
+        <text x="739" y="1242">    lightcyan #e0ffff                                       </text>
+        <text x="070" y="1281">    lavender #e6e6fa                                        </text>
+        <text x="396" y="1281">    darksalmon #e9967a                                      </text>
+        <text x="752" y="1281">    violet #ee82ee                                          </text>
+        <text x="048" y="1320">    palegoldenrod #eee8aa                                   </text>
+        <text x="407" y="1320">    lightcoral #f08080                                      </text>
+        <text x="752" y="1320">    khaki #f0e68c                                           </text>
+        <text x="072" y="1359">    aliceblue #f0f8ff                                       </text>
+        <text x="402" y="1359">    honeydew #f0fff0                                        </text>
+        <text x="752" y="1359">    azure #f0ffff                                           </text>
+        <text x="060" y="1398">    sandybrown #f4a460                                      </text>
+        <text x="414" y="1398">    wheat #f5deb3                                           </text>
+        <text x="752" y="1398">    beige #f5f5dc                                           </text>
+        <text x="062" y="1437">    whitesmoke #f5f5f5                                      </text>
+        <text x="398" y="1437">    mintcream #f5fffa                                       </text>
+        <text x="735" y="1437">    ghostwhite #f8f8ff                                      </text>
+        <text x="078" y="1476">    salmon #fa8072                                          </text>
+        <text x="388" y="1476">    antiquewhite #faebd7                                    </text>
+        <text x="754" y="1476">    linen #faf0e6                                           </text>
+        <text x="026" y="1515">    lightgoldenrodyellow #fafad2                            </text>
+        <text x="411" y="1515">    oldlace #fdf5e6                                         </text>
+        <text x="713" y="1515">    red(safe 16 hex3) #ff0000                               </text>
+        <text x="028" y="1554">    fuchsia(safe 16 hex3) #ff00ff                           </text>
+        <text x="364" y="1545">    magenta(safe 16=fuchsia hex3)                           </text>
+        <text x="438" y="1563">    #ff00ff                                                 </text>
+        <text x="742" y="1554">    deeppink #ff1493                                        </text>
+        <text x="068" y="1593">    orangered #ff4500                                       </text>
+        <text x="415" y="1593">    tomato #ff6347                                          </text>
+        <text x="746" y="1593">    hotpink #ff69b4                                         </text>
+        <text x="085" y="1632">    coral #ff7f50                                           </text>
+        <text x="396" y="1632">    darkorange #ff8c00                                      </text>
+        <text x="731" y="1632">    lightsalmon #ffa07a                                     </text>
+        <text x="078" y="1671">    orange #ffa500                                          </text>
+        <text x="404" y="1671">    lightpink #ffb6c1                                       </text>
+        <text x="753" y="1671">    pink #ffc0cb                                            </text>
+        <text x="087" y="1710">    gold #ffd700                                            </text>
+        <text x="399" y="1710">    peachpuff #ffdab9                                       </text>
+        <text x="725" y="1710">    navajowhite #ffdead                                     </text>
+        <text x="069" y="1749">    moccasin #ffe4b5                                        </text>
+        <text x="413" y="1749">    bisque #ffe4c4                                          </text>
+        <text x="739" y="1749">    mistyrose #ffe4e1                                       </text>
+        <text x="040" y="1788">    blanchedalmond #ffebcd                                  </text>
+        <text x="392" y="1788">    papayawhip #ffefd5                                      </text>
+        <text x="724" y="1788">    lavenderblush #fff0f5                                   </text>
+        <text x="074" y="1827">    seashell #fff5ee                                        </text>
+        <text x="406" y="1827">    cornsilk #fff8dc                                        </text>
+        <text x="723" y="1827">    lemonchiffon #fffacd                                    </text>
+        <text x="063" y="1866">    floralwhite #fffaf0                                     </text>
+        <text x="415" y="1866">    snow #fffafa                                            </text>
+        <text x="701" y="1866">    yellow(safe 16 hex3) #ffff00                            </text>
+        <text x="063" y="1905">    lightyellow #ffffe0                                     </text>
+        <text x="418" y="1905">    ivory #fffff0                                           </text>
+        <text x="702" y="1905">    white(safe 16 hex3) #ffffff                             </text>
+    </svg>
+
+    <line x1="08" x2="8" y1="08.225" y2="1919.225" stroke="#303030" stroke-width="0.5"/>
+
+
+    <line x1="1014.026" x2="1014.026" y1="08.225" y2="1919.225" stroke="#303030" stroke-width="1.5"/>
+
+
+</svg>

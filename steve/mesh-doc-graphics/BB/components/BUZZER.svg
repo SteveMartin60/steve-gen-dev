@@ -1,0 +1,38 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-2.54 -2.65 5.08 5.300"
+    >
+    <rect width="1" height="1.6" x="-2.25" y="+1.05" fill="#cfa550"/>
+    <rect width="1" height="1.6" x="+1.25" y="+1.05" fill="#cfa550"/>
+    <rect width="1" height="1.6" x="+1.25" y="-2.65" fill="#cfa550"/>
+
+    <path
+        fill="#4f4c4d"
+        stroke="#231f20"
+        stroke-miterlimit="10"
+        stroke-width=".088" 
+        d="
+            m -1, -2.5 l -1.5, 1.5 v 3.5 h 5 v -5 z
+          "
+    />
+
+    <svg
+        overflow    ="visible"
+        fill        ="#ffffff" 
+        font-family ="Lato Semibold" 
+        font-size   ="1.411" 
+        stroke-width="00.353" 
+        font-weight ="600" 
+        white-space ="normal" 
+        >
+        <text
+            x="-2.03"
+            y="0.411"
+            textLength="4.07"
+            lengthAdjust="spacing"
+            >
+            Buzzer
+        </text>
+    </svg>
+</svg>
+

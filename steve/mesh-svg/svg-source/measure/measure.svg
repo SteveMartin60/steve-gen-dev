@@ -1,0 +1,426 @@
+<svg
+    xmlns   = "http://www.w3.org/2000/svg"
+    width   = "210mm"
+    height  = "297mm"
+    viewBox ="0 0 210 297"
+    stroke-linejoin="round"
+    >
+    <!-- ................................................................... -->
+    <!-- Defs Begin                                                          -->
+    <!-- ................................................................... -->
+    <defs>
+        <!-- ............................................................... -->
+        <svg
+            id="print-area"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            >
+            <rect fill="dimgrey" stroke="none"  x="0" y="0" width="210" height="297" shape-rendering="geometricPrecision" opacity="0.1"                 />
+        </svg>   <!--print-area          -->
+        <!-- ............................................................... -->
+        <svg
+            id="cross-metric"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            >
+            <line x1="-1" y1="0"  x2="1" y2="0" stroke-width="0.5" stroke="black"    stroke-linecap="butt"/>
+            <line x1="0"  y1="-1" x2="0" y2="1" stroke-width="0.5" stroke="black"    stroke-linecap="butt"/>
+            <line x1="-1" y1="0"  x2="1" y2="0" stroke-width="0.3" stroke="deeppink" stroke-linecap="butt"/>
+            <line x1="0"  y1="-1" x2="0" y2="1" stroke-width="0.3" stroke="deeppink" stroke-linecap="butt"/>
+            <line x1="-1" y1="0"  x2="1" y2="0" stroke-width="0.1" stroke="purple"   stroke-linecap="butt"/>
+            <line x1="0"  y1="-1" x2="0" y2="1" stroke-width="0.1" stroke="purple"   stroke-linecap="butt"/>
+        </svg>   <!--cross-metric        -->
+        <!-- ............................................................... -->
+        <svg
+            id="cross-imperial"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            >
+            <line x1="-1.27" y1="0"     x2="1.27"  y2="0"    stroke-width="0.5" stroke="black"    stroke-linecap="butt"/>
+            <line x1="0"     y1="-1.27" x2="0" y2="1.27" stroke-width="0.5" stroke="black"    stroke-linecap="butt"/>
+            <line x1="-1.27" y1="0" x2="1.27"  y2="0"    stroke-width="0.3" stroke="deeppink" stroke-linecap="butt"/>
+            <line x1="0"     y1="-1.27" x2="0" y2="1.27" stroke-width="0.3" stroke="deeppink" stroke-linecap="butt"/>
+            <line x1="-1.27" y1="0"     x2="1.27"  y2="0"    stroke-width="0.1" stroke="purple"   stroke-linecap="butt"/>
+            <line x1="0"     y1="-1.27" x2="0"     y2="1.27" stroke-width="0.1" stroke="purple"   stroke-linecap="butt"/>
+        </svg>   <!--cross-imperial      -->
+        <!-- ............................................................... -->
+        <svg
+            id="crosses-metric"
+            overflow="visible"
+            >
+            <text fill="#303030" font-family ="Lato" font-size="1.4" stroke-width="0.5" x="10" y="10">Metric</text>
+            <use x="000" y="000" href="#cross-metric"/>
+            <use x="010" y="000" href="#cross-metric"/>
+            <use x="020" y="000" href="#cross-metric"/>
+            <use x="000" y="010" href="#cross-metric"/>
+            <use x="010" y="010" href="#cross-metric"/>
+            <use x="020" y="010" href="#cross-metric"/>
+            <use x="000" y="020" href="#cross-metric"/>
+            <use x="010" y="020" href="#cross-metric"/>
+            <use x="020" y="020" href="#cross-metric"/>
+        </svg>   <!--crosses-metric      -->
+        <!-- ............................................................... -->
+        <svg
+            id="crosses-imperial"
+            overflow="visible"
+            >
+            <text fill="#303030" font-family ="Lato" font-size="1.4" stroke-width="0.5" x="10" y="10">Imperial</text>
+            <use x="000" y="000" href="#cross-imperial"/>
+            <use x="010" y="000" href="#cross-imperial"/>
+            <use x="020" y="000" href="#cross-imperial"/>
+            <use x="000" y="010" href="#cross-imperial"/>
+            <use x="010" y="010" href="#cross-imperial"/>
+            <use x="020" y="010" href="#cross-imperial"/>
+            <use x="000" y="020" href="#cross-imperial"/>
+            <use x="010" y="020" href="#cross-imperial"/>
+            <use x="020" y="020" href="#cross-imperial"/>
+        </svg>   <!--crosses-imperial    -->
+        <!-- ............................................................... -->
+        <svg
+            id="lines"
+            overflow="visible"
+            stroke-linecap="butt"
+            x="-2.12"
+            y="-2.12"
+            >
+            <line x1="0" y1="000" x2="010" y2="000" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="010" x2="020" y2="010" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="020" x2="030" y2="020" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="030" x2="040" y2="030" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="040" x2="050" y2="040" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="050" x2="060" y2="050" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="060" x2="070" y2="060" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="070" x2="080" y2="070" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="080" x2="090" y2="080" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="090" x2="100" y2="090" stroke-width="0.005" stroke="black"/>
+            <line x1="0" y1="100" x2="110" y2="100" stroke-width="0.005" stroke="black"/>
+        </svg>   <!--lines               -->
+        <!-- ............................................................... -->
+        <svg
+            id="squares-grid-1"
+            overflow="visible"
+            shape-rendering="geometricPrecision"
+            x="-2.12"
+            y="-2.12"
+            >
+            <rect x="0" y="0" width="1" height="1" fill="pink"   />
+            <rect x="0" y="1" width="1" height="1" fill="hotpink"/>
+            <rect x="0" y="2" width="1" height="1" fill="pink"   />
+            <rect x="1" y="0" width="1" height="1" fill="hotpink"/>
+            <rect x="1" y="1" width="1" height="1" fill="pink"   />
+            <rect x="1" y="2" width="1" height="1" fill="hotpink"/>
+            <rect x="2" y="0" width="1" height="1" fill="pink"   />
+            <rect x="2" y="1" width="1" height="1" fill="hotpink"/>
+            <rect x="2" y="2" width="1" height="1" fill="pink"   />
+        </svg>   <!--squares-grid-1      -->
+        <!-- ............................................................... -->
+        <svg
+            id="squares-grid-10"
+            overflow="visible"
+            shape-rendering="geometricPrecision"
+            x="-2.12"
+            y="-2.12"
+            >
+            <rect x="00" y="00" width="10" height="10" fill="pink"   />
+            <rect x="10" y="00" width="10" height="10" fill="hotpink"/>
+            <rect x="20" y="00" width="10" height="10" fill="pink"   />
+            <rect x="00" y="10" width="10" height="10" fill="hotpink"/>
+            <rect x="10" y="10" width="10" height="10" fill="pink"   />
+            <rect x="20" y="10" width="10" height="10" fill="hotpink"/>
+            <rect x="00" y="20" width="10" height="10" fill="pink"   />
+            <rect x="10" y="20" width="10" height="10" fill="hotpink"/>
+            <rect x="20" y="20" width="10" height="10" fill="pink"   />
+        </svg>   <!--squares-grid-10     -->
+        <!-- ............................................................... -->
+        <svg
+            id="squares-grid-30"
+            overflow="visible"
+            shape-rendering="geometricPrecision"
+            x="-2.12"
+            y="-2.12"
+            >
+            <rect x="00" y="00" width="30" height="30" fill="pink"   />
+            <rect x="30" y="00" width="30" height="30" fill="hotpink"/>
+            <rect x="60" y="00" width="30" height="30" fill="pink"   />
+            <rect x="00" y="30" width="30" height="30" fill="hotpink"/>
+            <rect x="30" y="30" width="30" height="30" fill="pink"   />
+            <rect x="60" y="30" width="30" height="30" fill="hotpink"/>
+            <rect x="00" y="60" width="30" height="30" fill="pink"   />
+            <rect x="30" y="60" width="30" height="30" fill="hotpink"/>
+            <rect x="60" y="60" width="30" height="30" fill="pink"   />
+        </svg>   <!--squares-grid-30     -->
+        <!-- ............................................................... -->
+        <svg
+            id="paths-square"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".1"
+            stroke-linecap="round"
+            fill-rule="evenodd"
+            >
+            <path d="
+                     M 15  0 L 30 15 L 15 30 L 0 15 Z
+                     M  0 0 V 30 L 30 0 V 30 L 0 0
+                     M 15 30 L 30 0 H 0 Z
+                     M 15  0 L 30 30 H  0 Z
+                     M  0 15 L 30  0 V 30 Z
+                     M 30 15 L  0 30 V  0 Z
+                     M  0 0 H 30 L 0 30 H 30 L 0 0 Z
+                     M  0 0 H 30 L 0 30 H 30 L 0 0 Z
+                    "
+            />
+        </svg>   <!--paths-square-->
+        <!-- ............................................................... -->
+        <svg
+            id="paths-arc"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".1"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            >
+            <path d="M 0  0 A 15 15 0 1 0 30  0
+                     M 0 30 A 15 15 0 1 1 30 30
+                     M 0  0 A 15 15 0 1 1  0 30
+                     M 30 0 A 15 15 0 1 0 30 30"
+            />
+        </svg>   <!--paths-arc-->
+        <!-- ............................................................... -->
+        <svg
+            id="paths-curve-cubic"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".1"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            >
+            <path d="
+                     M  0,  0 C  10,  40,  20,  40 30,  0
+                     M  0, 30 C  10, -10,  20, -10 30, 30
+                     M  0,  0 C  40,  10,  40,  20 0,  30
+                     M 30,  0 C -10,  10, -10,  20 30, 30
+                    "
+            />
+        </svg>   <!--paths-curve-cubic-->
+        <!-- ............................................................... -->
+        <svg
+            id="paths-curve-quadratic"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".1"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            >
+            <path d="
+                     M  0,  0 Q   15,  40 30,  0
+                     M  0, 30 Q   15, -10 30, 30
+                     M  0,  0 Q   40,  15 0,  30
+                     M 30,  0 Q  -10,  15 30, 30
+                    "
+            />
+        </svg>   <!--paths-curve-quadratic-->
+        <!-- ............................................................... -->
+        <svg
+            id="paths-curve-combo"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".1"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            >
+            <path d="
+                     M  0,  0 Q   15,  40 30,  0
+                     M  0, 30 Q   15, -10 30, 30
+                     M  0,  0 Q   40,  15 0,  30
+                     M 30,  0 Q  -10,  15 30, 30
+                     M  0,  0 C  10,  40,  20,  40 30,  0
+                     M  0, 30 C  10, -10,  20, -10 30, 30
+                     M  0,  0 C  40,  10,  40,  20 0,  30
+                     M 30,  0 C -10,  10, -10,  20 30, 30
+                    "
+            />
+        </svg>   <!--paths-curve-quadratic-->
+        <!-- ............................................................... -->
+        <svg
+            id="circles-grid-30"
+            overflow="visible"
+            shape-rendering="geometricPrecision"
+            x="-2.12"
+            y="-2.12"
+            >
+            <use x="2.12" y="2.12" href="#squares-grid-30"/>
+
+            <circle cx="15" cy="15" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="45" cy="15" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="75" cy="15" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="15" cy="45" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="45" cy="45" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="75" cy="45" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="15" cy="75" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="45" cy="75" r="15" fill="lightskyblue"   opacity="1"/>
+            <circle cx="75" cy="75" r="15" fill="lightskyblue"   opacity="1"/>
+
+            <circle cx="15" cy="15" r="1" fill="red"   opacity="1"/>
+            <circle cx="15" cy="15" r="0.25" fill="lightskyblue"   opacity="1"/>
+
+        </svg>   <!--circles-grid-30     -->
+        <!-- ............................................................... -->
+        <svg
+            id="rectangles"
+            overflow="visible"
+            fill="pink"
+            shape-rendering="geometricPrecision"
+            x="-2.12"
+            y="-2.12"
+            >
+            <rect x="0" y="000" width="010" height="1"/>
+            <rect x="0" y="010" width="020" height="1"/>
+            <rect x="0" y="020" width="030" height="1"/>
+            <rect x="0" y="030" width="040" height="1"/>
+            <rect x="0" y="040" width="050" height="1"/>
+            <rect x="0" y="050" width="060" height="1"/>
+            <rect x="0" y="060" width="070" height="1"/>
+            <rect x="0" y="070" width="080" height="1"/>
+            <rect x="0" y="080" width="090" height="1"/>
+            <rect x="0" y="090" width="100" height="1"/>
+            <rect x="0" y="100" width="110" height="1"/>
+        </svg>   <!--rectangles          -->
+        <!-- ............................................................... -->
+        <svg
+            id="circles-stack-small"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            >
+            <circle cx="0" cy="0" r="0.5" fill="lightskyblue" opacity="1"/>
+            <circle cx="0" cy="0" r=".25" fill="firebrick"    opacity="1"/>
+            <circle cx="0" cy="0" r=".05" fill="lightskyblue" opacity="1"/>
+        </svg>   <!--circles-stack-small -->
+        <!-- ............................................................... -->
+        <svg
+            id="circles-stack-large"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            >
+            <circle cx="0" cy="0" r="5" fill="lightskyblue" opacity="1"/>
+            <circle cx="0" cy="0" r="4" fill="firebrick"    opacity="1"/>
+            <circle cx="0" cy="0" r="3" fill="lightskyblue" opacity="1"/>
+            <circle cx="0" cy="0" r="2" fill="firebrick"    opacity="1"/>
+            <circle cx="0" cy="0" r="1" fill="lightskyblue" opacity="1"/>
+        </svg>   <!--circles-stack-large -->
+        <!-- ............................................................... -->
+        <svg
+            id="straight-line-curves-path"
+            overflow="visible"
+            x="-2.12"
+            y="-2.12"
+            stroke="dimgrey"
+            stroke-width=".005"
+            stroke-linecap="round"
+            fill-rule="evenodd"
+            >
+            <rect fill="none" stroke="none" width="30" height="30"/>
+            <path d="
+                     M 00 00 L 00 30        M 0 10 L 10 30        M 0 20 L 20 30
+                     M 00 01 L 01 30        M 0 11 L 11 30        M 0 21 L 21 30
+                     M 00 02 L 02 30        M 0 12 L 12 30        M 0 22 L 22 30
+                     M 00 03 L 03 30        M 0 13 L 13 30        M 0 23 L 23 30
+                     M 00 04 L 04 30        M 0 14 L 14 30        M 0 24 L 24 30
+                     M 00 05 L 05 30        M 0 15 L 15 30        M 0 25 L 25 30
+                     M 00 06 L 06 30        M 0 16 L 16 30        M 0 26 L 26 30
+                     M 00 07 L 07 30        M 0 17 L 17 30        M 0 27 L 27 30
+                     M 00 08 L 08 30        M 0 18 L 18 30        M 0 28 L 28 30
+                     M 00 09 L 09 30        M 0 19 L 19 30        M 0 29 L 29 30
+
+                     M 00 00 L 30 00        M 10 00 L 30 10       M 20 00 L 30 20
+                     M 01 00 L 30 01        M 11 00 L 30 11       M 21 00 L 30 21
+                     M 02 00 L 30 02        M 12 00 L 30 12       M 22 00 L 30 22
+                     M 03 00 L 30 03        M 13 00 L 30 13       M 23 00 L 30 23
+                     M 04 00 L 30 04        M 14 00 L 30 14       M 24 00 L 30 24
+                     M 05 00 L 30 05        M 15 00 L 30 15       M 25 00 L 30 25
+                     M 06 00 L 30 06        M 16 00 L 30 16       M 26 00 L 30 26
+                     M 07 00 L 30 07        M 17 00 L 30 17       M 27 00 L 30 27
+                     M 08 00 L 30 08        M 18 00 L 30 18       M 28 00 L 30 28
+                     M 09 00 L 30 09        M 19 00 L 30 19       M 29 00 L 30 29
+
+                     M 30 00 L 30 30        M 30 10 L 20 30       M 30 20 L 10 30
+                     M 30 01 L 29 30        M 30 11 L 19 30       M 30 21 L 09 30
+                     M 30 02 L 28 30        M 30 12 L 18 30       M 30 22 L 08 30
+                     M 30 03 L 27 30        M 30 13 L 17 30       M 30 23 L 07 30
+                     M 30 04 L 26 30        M 30 14 L 16 30       M 30 24 L 06 30
+                     M 30 05 L 25 30        M 30 15 L 15 30       M 30 25 L 05 30
+                     M 30 06 L 24 30        M 30 16 L 14 30       M 30 26 L 04 30
+                     M 30 07 L 23 30        M 30 17 L 13 30       M 30 27 L 03 30
+                     M 30 08 L 22 30        M 30 18 L 12 30       M 30 28 L 02 30
+                     M 30 09 L 21 30        M 30 19 L 11 30       M 30 29 L 01 30
+
+                     M 30 00 L 00 00        M 20 00 L 00 10        M 10 00 L 00 20
+                     M 29 00 L 00 01        M 19 00 L 00 11        M 09 00 L 00 21
+                     M 28 00 L 00 02        M 18 00 L 00 12        M 08 00 L 00 22
+                     M 27 00 L 00 03        M 17 00 L 00 13        M 07 00 L 00 23
+                     M 26 00 L 00 04        M 16 00 L 00 14        M 06 00 L 00 24
+                     M 25 00 L 00 05        M 15 00 L 00 15        M 05 00 L 00 25
+                     M 24 00 L 00 06        M 14 00 L 00 16        M 04 00 L 00 26
+                     M 23 00 L 00 07        M 13 00 L 00 17        M 03 00 L 00 27
+                     M 22 00 L 00 08        M 12 00 L 00 18        M 02 00 L 00 28
+                     M 21 00 L 00 09        M 11 00 L 00 19        M 01 00 L 00 29
+                    "
+            />
+        </svg>   <!--straight-line-curves-->
+        <!-- ............................................................... -->
+    </defs>
+    <!-- ................................................................... -->
+    <!-- Defs End                                                            -->
+    <!-- ................................................................... -->
+
+    <text fill="#303030" font-family ="Lato" font-size="1.4" stroke-width="0.5" x="15" y="10">X=15 Y=10</text>
+
+    <use y="050" x="020" href="#crosses-imperial"   />
+    <use y="100" x="020" href="#crosses-metric"     />
+    <use y="010" x="010" href="#print-area"         />
+    <use y="020" x="050" href="#rectangles"         />
+    <use y="020" x="055" href="#lines"              />
+    <use y="130" x="020" href="#squares-grid-1"     />
+    <use y="140" x="020" href="#squares-grid-10"    />
+    <use y="180" x="010" href="#squares-grid-30"    />
+    <use y="130" x="120" href="#circles-grid-1"     />
+    <use y="140" x="120" href="#circles-grid-10"    />
+    <use y="180" x="110" href="#circles-grid-30"    />
+    <use y="020" x="020" href="#circles-stack-small"/>
+    <use y="020" x="030" href="#circles-stack-large"/>
+    <use y="180" x="110" href="#paths-square"          fill="none"/>
+    <use y="210" x="140" href="#paths-arc"             fill="none"/>
+    <use y="240" x="170" href="#paths-curve-cubic"     fill="none"/>
+    <use y="240" x="110" href="#paths-curve-quadratic" fill="none"/>
+    <use y="180" x="170" href="#paths-curve-combo"     fill="none"       />
+    <use y="140" x="170" href="#paths-arc"             fill="purple"        />
+    <use y="140" x="140" href="#paths-square"          fill="brown"         />
+    <use y="140" x="110" href="#paths-curve-cubic"     fill="orchid"        />
+    <use y="140" x="080" href="#paths-curve-quadratic" fill="cornflowerblue"/>
+    <use y="140" x="050" href="#paths-curve-combo"     fill="crimson"       />
+    <use y="110" x="050" href="#paths-arc"             fill="purple"         opacity="0.5"/>
+    <use y="110" x="050" href="#paths-square"          fill="brown"          opacity="0.5"/>
+    <use y="110" x="050" href="#paths-curve-cubic"     fill="orchid"         opacity="0.5"/>
+    <use y="110" x="050" href="#paths-curve-quadratic" fill="cornflowerblue" opacity="0.5"/>
+    <use y="110" x="050" href="#paths-curve-combo"     fill="crimson"        opacity="0.5"/>
+    <use y="180" x="010" href="#straight-line-curves-path" fill="pink"      />
+    <use y="210" x="040" href="#straight-line-curves-path" fill="pink"      />
+    <use y="240" x="010" href="#straight-line-curves-path" fill="pink"      />
+    <use y="180" x="070" href="#straight-line-curves-path" fill="pink"      />
+    <use y="240" x="070" href="#straight-line-curves-path" fill="pink"      />
+    <use y="110" x="080" href="#straight-line-curves-path" fill="pink"      />
+</svg>

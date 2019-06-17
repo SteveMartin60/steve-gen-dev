@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <style type="text/css">
+
+	@page
+	{
+		size: 200mm 180mm;
+		margin: 0mm 0mm 0mm 0mm;
+	}
+
+	body
+	{
+		margin:0;
+		padding:0;
+	}
+
+	@media print
+	{
+		html, body
+        {
+			height:100%;
+			margin: 0 !important;
+			padding:0 !important;
+			overflow:hidden;
+		}
+	}
+  </style>
+
+</head>
+
+<body>
+<!-- ....................................................................... -->
+<!-- SVG Begins                                                              -->
+<!-- ....................................................................... -->
+<svg
+    xmlns   = "http://www.w3.org/2000/svg"
+    style   = "isolation:isolate"
+    viewBox = "0.00 0.095 200.0205 179.9125"
+    transform ="scale(1,-1)"
+    >
+    <!-- ................................................................... -->
+    <!-- Defs Begin                                                          -->
+    <!-- ................................................................... -->
+    <defs>
+        <!-- ............................................................... -->
+        <!-- Board Begins                                                    -->
+        <!-- ............................................................... -->
+        <svg id="board"
+            overflow="visible"
+            x="-15.24"
+            y="30.48"
+            >
+        <!-- ....................................................................... -->
+        <!-- SVG Begins                                                              -->
+        <!-- ....................................................................... -->
+            <!-- ................................................................... -->
+            <!-- Defs Begin                                                          -->
+            <!-- ................................................................... -->
+            <defs>
+                <!-- ............................................................... -->
+                <!-- Board Begins                                                    -->
+                <!-- ............................................................... -->
+                <svg id="board"
+                    overflow="visible"
+                    x="-15.24"
+                    y="30.48"
+                    >
+                    {{injectSVG}}
+                </svg>
+                <!-- ........................................................... -->
+                <!-- Board Ends                                                  -->
+                <!-- ........................................................... -->
+                <!-- Board Array Begins                                              -->
+                <!-- ............................................................... -->
+                <svg id="board-array"
+                    overflow="visible"
+                    >
+                    <use x="0"      y="0"     href="#board"/>
+                    <use x="35.48"  y="0"     href="#board"/>
+                    <use x="70.96"  y="0"     href="#board"/>
+                    <use x="106.44" y="0"     href="#board"/>
+                    <use x="141.92" y="0"     href="#board"/>
+                    <use x="0"      y="70.96" href="#board"/>
+                    <use x="35.48"  y="70.96" href="#board"/>
+                    <use x="70.96"  y="70.96" href="#board"/>
+                    <use x="106.44" y="70.96" href="#board"/>
+                    <use x="141.92" y="70.96" href="#board"/>
+                </svg>
+                <!-- ............................................................... -->
+                <!-- Board Array Ends                                                -->
+                <!-- ............................................................... -->
+                <!-- Markers Begin                                                -->
+                <!-- ............................................................... -->
+                <svg id="corner-markers"
+                    overflow="visible"
+                    >
+                    <use x="0"   y="0"   href="#circles-pink" opacity=".5"/>
+                    <use x="210" y="0"   href="#circles-pink" opacity=".5"/>
+                    <use x="210" y="297" href="#circles-pink" opacity=".5"/>
+                    <use x="0"   y="297" href="#circles-pink" opacity=".5"/>
+                    <text x="1" y="-2"     font-size="4" transform ="scale(1,-1)" >0,   297</text>
+                    <text x="1" y="-293"   font-size="4" transform ="scale(1,-1)" >0,     0</text>
+                    <text x="195" y="-293" font-size="4" transform ="scale(1,-1)" >210,   0</text>
+                    <text x="195" y="-2"   font-size="4" transform ="scale(1,-1)" >210, 297</text>
+                </svg>
+                <!-- ............................................................... -->
+                <svg id="dimension-markers"
+                    overflow="visible"
+                    >
+                    <text x="63" y="-157"     font-size="4" transform ="scale(1,-1) rotate(270, 63, -157)" >5.0mm</text>
+                    <path id="path-5.0"
+                          stroke="none"
+                          fill="black"
+                          d="
+                                M 59.52 155    l  2 -1.0 v 2.0 M 60 154.9 h 2.5 v .2 h -2.5
+                                M 64.52 155    l -2 -1.0 v 2.0 M 28.04 19.9 h -5 v .2 h 5
+                            "
+                    />
+                    <text x="39" y="-120"     font-size="4" transform ="scale(1,-1)" >10.0mm</text>
+                    <path id="path-10.0"
+                          stroke="none"
+                          fill="black"
+                          d="
+                                M 45 126.48 l -1.0 -2.5 h 2.0 l -1  2.5 m 0 -2 h -0.1 v -1 h 0.2
+                                M 45 116.48 l -1.0  2.5 h 2.0 l -1 -2.5 m 0  2 h -0.1 v  1 h 0.2
+                            "
+                    />
+                    <text x="7" y="-19"     font-size="4" transform ="scale(1,-1)" >29.04mm</text>
+                    <path id="path-29.04"
+                          stroke="none"
+                          fill="black"
+                          d="
+                                M 0     20    l  2.5 -1.0 v 2.0 M 1 19.9 h 5 v .2 h -5
+                                M 29.04 20    l -2.5 -1.0 v 2.0 M 28.04 19.9 h -5 v .2 h 5
+                            "
+                    />
+                    <text x="23" y="-31"    font-size="4" transform ="scale(1,-1)" >55.52mm</text>
+                    <path id="path-55.52"
+                          stroke="none"
+                          fill="black"
+                          d="
+                                M 29.04 55.52 l -1.0 -2.5 h 2.0 l -1  2.5 m 0 -2 h -0.2 v -18 h 0.2
+                                M 29.04  0    l -1.0  2.5 h 2.0 l -1 -2.5 m 0  2 h -0.2 v  27 h 0.2
+                            "
+                    />
+                    <text x="4" y="-137"    font-size="4" transform ="scale(1,-1)" >131.92mm</text>
+                    <path id="path-131.92"
+                          stroke="none"
+                          fill="black"
+                          d="
+                                M 13 187.44 l -1.0 -2.5 h 2.0 l -1  2.5 m 0 -2 h -0.1 v -45 h 0.2
+                                M 13  55.52 l -1.0  2.5 h 2.0 l -1 -2.5 m 0  2 h -0.1 v  78 h 0.2
+                            "
+                    />
+                    <text x="60" y="-209"    font-size="4" transform ="scale(1,-1)" >172.4mm</text>
+                    <path id="path-172.4"
+                          stroke="none"
+                          fill="black"
+                          d="M 201.44 210  l -2.5 -1.0 v 2.0 M 200.44 209.9 h -124 v .2 h 124
+                             M 29.04  210  l  2.5 -1.0 v 2.0 M 30.04 209.9 h 30 v .2 h -30
+                            "
+                    />
+                    <line x1="0" x2="80"  y1="55.52"  y2="55.52" stroke="black"  stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="29.04" x2="80"  y1="116.44" y2="116.44" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="29.04" x2="80"  y1="126.52" y2="126.52" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="29.04"  x2="29.04"  y1="215" y2="140" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="201.49" x2="201.49" y1="215" y2="140" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="-0.05" x2="-0.05"  y1="0" y2="55.52" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                    <line x1="0" x2="297"  y1="187.49" y2="187.49" stroke="black" stroke-width="0.1"  shape-rendering="crispEdges"/>
+                </svg>
+                <!-- ............................................................... -->
+                <svg id="rect-labels-column"
+                    overflow="visible"
+                    y="0.1515"
+                    opacity="0.4"
+                    >
+                    <rect x="0" y="0"     width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="2.54"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="5.08"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="7.62"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="10.16" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="12.7"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="15.24" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="17.78" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="20.32" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="22.86" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="25.4"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="27.94" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="30.48" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="33.02" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="35.56" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="38.1"  width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                    <rect x="0" y="40.64" width="5.35" height="2.24" fill="blue" opacity="0.5"/>
+                </svg>
+                <!-- ............................................................... -->
+                <svg id="rects-simple"
+                    overflow="visible"
+                    >
+                    <rect x="0" y="0"   width="1"  height="1"   fill="red"         opacity="0.75"/>
+                    <rect x="1" y="1"   width="2"  height="2"   fill="green"       opacity="0.75"/>
+                    <rect x="3" y="3"   width="3"  height="3"   fill="blue"        opacity="0.75"/>
+                    <rect x="6" y="6"   width="6"  height="6"   fill="yellow"      opacity="0.75"/>
+                    <rect x="12" y="12" width="12" height="12"  fill="purple"      opacity="0.75"/>
+                    <rect x="24" y="24" width="24" height="24"  fill="dimgrey"     opacity="0.75"/>
+                    <rect x="48" y="48" width="48" height="48"  fill="saddlebrown" opacity="0.75"/>
+                    <rect x="10" y="100" width="100" height="20"  fill="hotpink"    opacity="1"/>
+                    <rect x="10" y="150" width="180" height="20"  fill="darkviolet" opacity="1"/>
+                    <rect x="10" y="10"  width="20"  height="160"  fill="darkviolet" opacity="1"/>
+                </svg>
+                <!-- ............................................................... -->
+                <svg id="board-marker-single"
+                    overflow="visible"
+                    >
+                    <rect x="0" y="0"     width="30.48" height="60.96"  fill="cornflowerblue" opacity="0.3"/>
+                    <text x="-20" y="22" font-size="4" transform="rotate(90, -16, 10) scale(1,-1)" >30.48mm x 60.96mm</text>
+                </svg>
+                <!-- ............................................................... -->
+                <!-- Markers End                                                     -->
+                <!-- ............................................................... -->
+                <!-- Markers Container Begins                                        -->
+                <!-- ............................................................... -->
+                <svg id="markers-container"
+                    overflow="visible"
+                    >
+                    <use x="0" y="0" href="#corner-markers"/>
+                    <use x="0" y="0" href="#dimension-markers"/>
+                    <use x="100"     y="97" href="#circles-pink"/>
+                    <use x="29.04" y="55.52" href="#rect-labels-column"/>
+                    <use x="20.04" y="55.52" href="#rect-labels-column"/>
+                    <rect x="3" y="55.52" width="5.35" height="42.88" fill="pink" opacity="0.5"/>
+                    <text x="34" y="13" font-size="4" transform="rotate(90, -16, 10) scale(1,-1)" >5.35mm x 42.88mm</text>
+                    <text x="30" y="25" font-size="4" transform="rotate(90, -16, 10) scale(1,-1)" >5.35mm x 2.24mm (Each)</text>
+                    <use x="29.04" y="126.48" href="#board-marker-single"/>
+                    <use x="64.52" y="55.52"  href="#board-marker-single"/>
+                    <use x="100"   y="126.48" href="#board-marker-single"/>
+                    <use x="0"   y="0" href="#rects-simple"/>
+                </svg>
+                <!-- ............................................................... -->
+                <!-- Markers Container Ends                                          -->
+                <!-- ............................................................... -->
+            </defs>
+            <!-- ................................................................... -->
+            <!-- Defs End                                                            -->
+            <!-- ................................................................... -->
+            <use x="13.8" y="24.04" href="#board-array"/>
+            <!--<use x="0" y="0" href="#markers-container"/>-->
+        </svg>
+        <!-- ........................................................... -->
+        <!-- Board Ends                                                  -->
+        <!-- ........................................................... -->
+        <!-- Board Array Begins                                              -->
+        <!-- ............................................................... -->
+        <svg id="board-array"
+            overflow="visible"
+            >
+            <use x="0"      y="0"     href="#board"/>
+            <use x="35.48"  y="0"     href="#board"/>
+            <use x="70.96"  y="0"     href="#board"/>
+            <use x="106.44" y="0"     href="#board"/>
+            <use x="141.92" y="0"     href="#board"/>
+            <use x="0"      y="70.96" href="#board"/>
+            <use x="35.48"  y="70.96" href="#board"/>
+            <use x="70.96"  y="70.96" href="#board"/>
+            <use x="106.44" y="70.96" href="#board"/>
+            <use x="141.92" y="70.96" href="#board"/>
+        </svg>
+        <!-- ............................................................... -->
+        <!-- Board Array Ends                                                -->
+        <!-- ............................................................... -->
+    </defs>
+    <!-- ................................................................... -->
+    <!-- Defs End                                                            -->
+    <!-- ................................................................... -->
+
+    <use x="13.8" y="24.04" href="#board-array"/>
+            <use x="35.48"  y="70.96" href="#board"/>
+
+</svg>
+
+</body>
+</html>

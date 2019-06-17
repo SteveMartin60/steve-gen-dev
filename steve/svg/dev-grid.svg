@@ -1,0 +1,168 @@
+<svg
+    xmlns  ="http://www.w3.org/2000/svg"
+    id     ="dev-grid" 
+    stroke="#303030" 
+    shape-rendering="crispEdges"
+    viewBox="-2410 -1710 4820 3420" 
+    width ="10000"
+    height="5000"
+    >
+    <!--
+    viewBox="-827.91 -500 1357.91 715" 
+    -->
+    <defs>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid-dots"
+            width ="10"
+            height="10"
+            patternUnits="userSpaceOnUse"
+            overflow   ="visible"
+            x="-0.5"
+            y="-0.5"
+            >
+            <circle cx="0.5" cy="0.5" r="0.5" fill="black" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default" opacity="0.5"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid"
+            width ="10"
+            height="10"
+            patternUnits="userSpaceOnUse"
+            overflow   ="visible"
+            >
+
+            <rect x="5" y="5" width="1" height="1" fill="url(#pattern-grid-dots)"  opacity="0.1"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid-major"
+            width ="10"
+            height="10"
+            patternUnits="userSpaceOnUse"
+            >
+            <line x1="0" x2="0" y1="-10" y2="10" stroke="black" stroke-width=".1"/>
+            <line y1="0" y2="0" x1="-10" x2="10" stroke="black" stroke-width=".1"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid-minor"
+            width ="5"
+            height="5"
+            patternUnits="userSpaceOnUse"
+            >
+            <line x1="0" x2="0" y1="-5" y2="5" stroke="grey" stroke-width=".1"/>
+            <line y1="0" y2="0" x1="-5" x2="5" stroke="grey" stroke-width=".1"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid-squares-major"
+            width ="2"
+            height="2"
+            patternUnits="userSpaceOnUse"
+            >
+            <rect x="0" y="0" width="1" height="1" fill="black"  opacity="0.1"/>
+            <rect x="1" y="0" width="1" height="1" fill="white"  opacity="0.1"/>
+            <rect x="0" y="1" width="1" height="1" fill="white"  opacity="0.1"/>
+            <rect x="1" y="1" width="1" height="1" fill="black"  opacity="0.1"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="pattern-grid-squares-minor"
+            width =".2"
+            height=".2"
+            patternUnits="userSpaceOnUse"
+            >
+            <rect x="0.0" y="0.0" width="0.1" height="0.1" fill="blue" opacity="0.2"/>
+            <rect x="0.1" y="0.0" width="0.1" height="0.1" fill="red"  opacity="0.2"/>
+            <rect x="0.0" y="0.1" width="0.1" height="0.1" fill="red"  opacity="0.2"/>
+            <rect x="0.1" y="0.1" width="0.1" height="0.1" fill="blue" opacity="0.2"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <svg
+            id             ="crosshairs"
+            overflow       ="visible"
+            stroke-width   ="0.2"
+            shape-rendering="crispEdges"
+            >
+            <line   x1="-900" x2="900" y1="0"    y2="0"  />
+            <line   x1="0"    x2="0"   y1="-600" y2="600"/>
+            <circle cx="0"    cy="0"   r="0.25"  fill="#ff0000" shape-rendering="geometricPrecision" stroke="none" opacity="0.5"/>
+            <circle cx="0"    cy="0"   r="0.25"  fill="#ff0000" shape-rendering="geometricPrecision" stroke="none" opacity="0.5"/>
+        </svg>
+        <svg id="crosshairs-black" overflow="visible" stroke="black"><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-red"   overflow="visible" stroke="red"  ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-blue"  overflow="visible" stroke="blue" ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-green" overflow="visible" stroke="green"><use href="#crosshairs"/></svg>
+<!-- ................................................................. -->
+    <!-- ............................................................. -->
+        <path id="arrow-head-large" d="M 0 0 l +20 -10  v +20" stroke="none" shape-rendering="geometricPrecision"/>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-control-interface-spi"
+            shape-rendering="geometricPrecision"
+            font-family="Consolas" 
+            stroke-linecap="round"
+            overflow="visible"
+            font-size="33"
+            text-anchor="end"
+            >
+            <line x1="-280" x2="-280" y1="-68" y2="90" stroke="#bcbec0" stroke-width="5.5"/>
+
+            <text  x="-290" y="-9.2" fill="#505050" stroke="none" >Control  </text>
+            <text  x="-290" y="+30"  fill="#505050" stroke="none" >Interface</text>
+
+            <line x1="-270" x2="-10" y1="-70" y2="-70" stroke="#f37021" stroke-width="5"/>
+            <line x1="-270" x2="-10" y1="-15" y2="-15" stroke="#d2ab67" stroke-width="5"/>
+            <line x1="-270" x2="-10" y1="+37" y2="+37" stroke="#d2ab67" stroke-width="5"/>
+            <line x1="-270" x2="-10" y1="+90" y2="+90" stroke="#939598" stroke-width="5"/>
+
+            <text  x="-75" y="-75" fill="#f37021" stroke="none" >SPI      </text>
+            <text  x="-75" y="-29" fill="#d2ab67" stroke="none" >WAKE_IN  </text>
+            <text  x="-75" y="+23" fill="#d2ab67" stroke="none" >WAKE_OUT </text>
+            <text  x="-75" y="+77" fill="#939598" stroke="none" >RST_N    </text>
+
+            <use x="0" y="-70" href="#arrow-head-large" fill="#f37021" transform="scale(-1, 1)"/>
+            <use x="0" y="-15" href="#arrow-head-large" fill="#d2ab67" transform="scale(-1, 1)"/>
+            <use x="0" y="+37" href="#arrow-head-large" fill="#d2ab67" transform="scale(-1, 1)"/>
+            <use x="0" y="+90" href="#arrow-head-large" fill="#939598" transform="scale(-1, 1)"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-control-interface-spi"
+            overflow="visible"
+            >
+            <rect x="-460" y="-100" width="460" height="200" fill="transparent" stroke="none"/> 
+            <use x="0" y="0" href="#symbol-control-interface-spi" />
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-physical-separator"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            stroke-linejoin="round"
+            >
+            <line x1="0" x2="0" y1="-100" y2="100" stroke-width="8" stroke="grey" stroke-dasharray="15, 20" shape-rendering="geometricPrecision"/>
+        </svg>
+    <!-- ................................................................. -->
+    </defs>
+    <!-- 
+    <rect id="diagramBackground" x="-900" y="-600" width="1800" height="1200"   fill="transparent" stroke="none" />  
+    <rect id="grid" x="-900" y="-600" width="1800" height="1200"   fill="url(#pattern-grid)" stroke="#303030" stroke-width="1" shape-rendering="crispEdges"/> 
+    -->
+
+    <rect id="grid" x="-900" y="-600" width="1800" height="1200"   fill="url(#pattern-grid-dots)" stroke="#303030" stroke-width="1" shape-rendering="crispEdges"/> 
+
+    <use href="#component-control-interface-spi" />
+
+    <!-- 
+    <rect class="grid" x="-750" y="-500" width="1500" height="1000" fill="url(#pattern-grid-major)"         opacity=".8"/> 
+    <rect class="grid" x="-750" y="-500" width="1500" height="1000" fill="url(#pattern-grid-minor)"         opacity=".3"/>
+    <rect class="grid" x="-750" y="-500" width="1500" height="1000" fill="url(#pattern-grid-squares-major)" opacity=".3"/>
+    -->
+
+    <use x="0" y="0" href="#crosshairs-blue" opacity="0.5"/>
+
+    <script href="../scripts/block-diagram.js"/>
+</svg>

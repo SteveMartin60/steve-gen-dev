@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="SYMBOL-HAND-WAVING.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="45.254834"
+         inkscape:cx="-4.4707611"
+         inkscape:cy="4.2622946"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false"
+         inkscape:snap-global="true">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997" />
+        <inkscape:grid
+             type="xygrid"
+             id="grid2214"
+             color="#000000"
+             opacity="0.03921569"
+             empcolor="#000000"
+             empopacity="0"
+             spacingx="1.27"
+             spacingy="1.27"
+             originx="-1.27"
+             originy="-1.27" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <rect
+         style="opacity:1;vector-effect:none;fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.14999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect13441"
+         width="1.4544002"
+         height="1.4500303"
+         x="-0.69829077"
+         y="-0.015266526"
+         ry="0.43747097"
+         rx="0.43884557" />
+    <line
+         id="line4022"
+         y2="0.28029358"
+         x2="-0.51770109"
+         y1="-0.64529115"
+         x1="-0.51752895"
+         style="stroke:#51abe4;stroke-width:0.31;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+         style="stroke:#51abe4;stroke-width:0.31;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x1="-0.15317956"
+         y1="-0.75284129"
+         x2="-0.15335169"
+         y2="0.17274345"
+         id="line14017" />
+    <line
+         id="line14019"
+         y2="0.17170991"
+         x2="0.21099772"
+         y1="-0.75387484"
+         x1="0.21117033"
+         style="stroke:#51abe4;stroke-width:0.31;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+         style="stroke:#51abe4;stroke-width:0.31;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x1="0.57551962"
+         y1="-0.57306063"
+         x2="0.57534748"
+         y2="0.35252392"
+         id="line14021" />
+    <line
+         style="stroke:#51abe4;stroke-width:0.3099995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x1="-1.0107616"
+         y1="0.26134384"
+         x2="-0.47296423"
+         y2="1.1869285"
+         id="line4022-6" />
+    <path
+         d="m 1.4208125,-0.52803587 -0.1658056,-0.61806673 -0.1647473,0.16474733 c -0.6088944,-0.60501393 -1.592086,-0.60466113 -2.2002749,0.00176 l -0.1453445,-0.14534463 -0.1654527,0.61806683 0.6180666,-0.1654528 -0.1658055,-0.1661583 c 0.5291667,-0.52705013 1.3874749,-0.52740293 1.9176999,-0.00141 l -0.1464027,0.14605 z"
+         style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="path29608-9"
+         inkscape:connector-curvature="0" />
+</svg>

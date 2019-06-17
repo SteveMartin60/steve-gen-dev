@@ -1,0 +1,198 @@
+
+    - version: 8
+        source_pushed: "2017-12-22T01:26:45Z"
+        created_at: 1499325040018
+        caption_zh: "MB2000A MCU蓝牙模块"
+        project: "cb22ccc3"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "57d34a88ba26c7ca7237f955068d26ca6eab4fc7"
+        caption_en: "MB2000A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328426
+        source_repo: "https://github.com/mesheven-eda/MB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        inventory_type: "inventory_counts"
+        id: "PCBA-MB2000A"
+    - version: 6
+        source_pushed: "2017-12-22T01:26:45Z"
+        created_at: 1499325040022
+        caption_zh: "MB2000B MCU蓝牙模块"
+        project: "cb22ccc3"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "57d34a88ba26c7ca7237f955068d26ca6eab4fc7"
+        caption_en: "MB2000B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328814
+        source_repo: "https://github.com/mesheven-eda/MB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        id: "PCBA-MB2000B"
+    - version: 9
+        source_pushed: "2018-06-29T10:09:39Z"
+        created_at: 1499325040025
+        caption_zh: "MB2001A MCU蓝牙模块"
+        project: "c11080b0"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "64dc03e6fcdaf556375477461829f6155dc364fb"
+        caption_en: "MB2001A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530268173843
+        source_repo: "https://github.com/mesheven-eda/MB2001"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-MB2001A"
+    - version: 8
+        source_pushed: "2018-06-29T10:09:39Z"
+        created_at: 1499325040012
+        caption_zh: "MB2001B MCU蓝牙模块"
+        project: "c11080b0"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "64dc03e6fcdaf556375477461829f6155dc364fb"
+        caption_en: "MB2001B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530268173836
+        source_repo: "https://github.com/mesheven-eda/MB2001"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-MB2001B"
+    - version: 5
+        source_pushed: "2017-12-22T02:37:57Z"
+        created_at: 1499325040029
+        caption_zh: "MB2002A MCU蓝牙模块"
+        project: "0217fa9d"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "00f139f5b0692bada1432e55e197a9ffe5050fcb"
+        caption_en: "MB2002A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334827
+        source_repo: "https://github.com/mesheven-eda/MB2002"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-MB2002A"
+    - version: 5
+        source_pushed: "2017-12-22T02:37:57Z"
+        created_at: 1499325040033
+        caption_zh: "MB2002B MCU蓝牙模块"
+        project: "0217fa9d"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "00f139f5b0692bada1432e55e197a9ffe5050fcb"
+        caption_en: "MB2002B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939335002
+        source_repo: "https://github.com/mesheven-eda/MB2002"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-MB2002B"
+    - version: 5
+        source_pushed: "2017-12-22T02:45:55Z"
+        created_at: 1499325040039
+        caption_zh: "MB3001A MCU-WiFi模块"
+        project: "e7ab9c38"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "10da555d5b3ec4f2ed82a3b887989188b94bd6b1"
+        caption_en: "MB3001A MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327390
+        source_repo: "https://github.com/mesheven-eda/MB3001"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-MB3001A"
+    - version: 5
+        source_pushed: "2017-12-22T02:45:55Z"
+        created_at: 1499325040036
+        caption_zh: "MB3001B MCU-WiFi模块"
+        project: "e7ab9c38"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "10da555d5b3ec4f2ed82a3b887989188b94bd6b1"
+        caption_en: "MB3001B MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326861
+        source_repo: "https://github.com/mesheven-eda/MB3001"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-MB3001B"
+    - version: 5
+        source_pushed: "2017-12-22T02:49:06Z"
+        created_at: 1499325040045
+        caption_zh: "MB3002A MCU-WiFi模块"
+        project: "37b1ecc3"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "7f58ecd9993189a82e19e3213783e392f2e10880"
+        caption_en: "MB3002A MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332908
+        source_repo: "https://github.com/mesheven-eda/MB3002"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-MB3002A"
+    - version: 7
+        source_pushed: "2017-12-22T02:49:06Z"
+        created_at: 1499325040054
+        caption_zh: "MB3002B MCU-WiFi模块"
+        project: "37b1ecc3"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "7f58ecd9993189a82e19e3213783e392f2e10880"
+        caption_en: "MB3002B MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333127
+        source_repo: "https://github.com/mesheven-eda/MB3002"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-MB3002B"
+    - version: 4
+        source_pushed: "2017-12-22T02:53:07Z"
+        created_at: 1513911078980
+        caption_zh: "MB4001以太网MCU模块"
+        project: "cf34fd53"
+        description_en: "Low-energy device-intelligence module with Ethernet"
+        source_commit: "257563ba45e4894680f70883b744b0bf8b1399e8"
+        caption_en: "MB4001 MCU-Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328470
+        source_repo: "https://github.com/mesheven-eda/MB4001"
+        organization: "5d36fdd4"
+        description_zh: "低功耗以太网设备智能模块"
+        id: "PCBA-MB4001"
+    - version: 6
+        source_pushed: "2017-12-22T03:03:41Z"
+        created_at: 1513911250725
+        caption_zh: "MB4002以太网MCU模块"
+        project: "8e20b392"
+        description_en: "High-performance device-intelligence module with Ethernet"
+        source_commit: "2ac4459727238d7744c1e9cffb6ecc7d821b8364"
+        caption_en: "MB4002 MCU-Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330566
+        source_repo: "https://github.com/mesheven-eda/MB4002"
+        organization: "5d36fdd4"
+        description_zh: "高性能以太网设备智能模块"
+        inventory_type: "inventory_counts"
+        id: "PCBA-MB4002"
+    - version: 2
+        source_pushed: "2018-08-03T02:01:52Z"
+        created_at: 1533011523121
+        caption_zh: "PCBA-TB_MCU_10X14 MCU_10X14 测试板"
+        project: "ab8l5wd5"
+        description_en: "MCU_10X14 test board"
+        source_commit: "8d07762e20c0961a0b0c10d30ac037cc79a119a5"
+        caption_en: "PCBA-TB_MCU_10X14 MCU_10X14 test board"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1533272923907
+        source_repo: "https://github.com/mesheven-eda/TB_MCU_10X14"
+        organization: "5d36fdd4"
+        description_zh: "MCU_10X14 测试板"
+        id: "PCBA-TB_MCU_10X14"

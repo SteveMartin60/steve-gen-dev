@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="SYMBOL-HUMIDITY.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="32"
+         inkscape:cx="-5.790566"
+         inkscape:cy="-4.7747448"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="true"
+         inkscape:bbox-nodes="true"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false"
+         inkscape:snap-global="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997"
+             enabled="false" />
+        <inkscape:grid
+             type="xygrid"
+             id="grid2214"
+             color="#000000"
+             opacity="0.03921569"
+             empcolor="#000000"
+             empopacity="0"
+             spacingx="1.27"
+             spacingy="1.27"
+             originx="-1.27"
+             originy="-1.27" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path
+         d="m 0.3461457,0.5897011 c -0.083608,0 -0.089958,0.1725083 -0.089958,0.225425 0,0.1128889 0.027517,0.2271889 0.089958,0.2271889 0.079728,0 0.088547,-0.1576917 0.088547,-0.225425 0,-0.05327 -0.00635,-0.2271889 -0.088547,-0.2271889"
+         style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="path29992"
+         inkscape:connector-curvature="0" />
+    <path
+         d="m -0.2665582,0.3102667 c 0,-0.068792 -0.00882,-0.2286 -0.088547,-0.2286 -0.066322,0 -0.090311,0.1171222 -0.090311,0.2268361 0,0.053975 0.0067,0.2289528 0.090311,0.2289528 0.079728,0 0.088547,-0.15875 0.088547,-0.2271889"
+         style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="path29996"
+         inkscape:connector-curvature="0" />
+    <path
+         d="m 0.3462515,1.1983857 c -0.1488722,0 -0.2448278,-0.1495778 -0.2448278,-0.3813528 0,-0.2307166 0.098425,-0.3855861 0.2448278,-0.3855861 0.1474611,0 0.2430639,0.1506361 0.2430639,0.3834695 0,0.2649361 -0.1224139,0.3834694 -0.2430639,0.3834694 m -0.5930194,0.033867 h -0.1950861 l 0.034572,-0.067028 0.6522861,-1.2738805 h 0.1950861 l -0.034572,0.067028 z m -0.3531306,-0.9196917 c 0,-0.2328333 0.098425,-0.3894666 0.2448278,-0.3894666 0.1474611,0 0.2430639,0.1513416 0.2430639,0.3852333 0,0.2677583 -0.1220611,0.3877028 -0.2430639,0.3877028 -0.1464028,0 -0.2448278,-0.1541639 -0.2448278,-0.3834695 m 0.5997222,-1.963561 c 0,0 -0.9151055,1.8817166 -0.9151055,2.3868943 0,0.5051778 0.4099278,0.9151056 0.9151055,0.9151056 0.5055306,0 0.9154583,-0.4099278 0.9154583,-0.9151056 0,-0.5051777 -0.9154583,-2.3868943 -0.9154583,-2.3868943"
+         style="fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         id="path30000"
+         inkscape:connector-curvature="0" />
+</svg>

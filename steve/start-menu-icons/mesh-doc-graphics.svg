@@ -1,0 +1,14 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    viewBox        ="-128 -128 256 256"
+    shape-rendering="geometricPrecision"
+    >
+<!-- ....................................................................... -->
+
+<!-- ....................................................................... -->
+    <rect x="-128px" y="-128px" width="256px" height="256px" fill="#ffe599" stroke="#666666" stroke-width="0.6"/>
+
+    <text x="0" y="-60" font-family="Lato" font-size="70" fill="darkgreen" text-anchor="middle">Mesh</text>
+    <text x="0" y="25"  font-family="Lato" font-size="70" fill="darkgreen" text-anchor="middle">Doc</text>
+    <text x="0" y="113" font-family="Lato" font-size="70" fill="darkgreen" text-anchor="middle">Graphics</text>
+</svg>

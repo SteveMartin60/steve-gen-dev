@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Advanced_IP_scanner>
+	<row status="alive" name="192.168.1.1" ip="192.168.1.1" manufacturer="TP-LINK TECHNOLOGIES CO.,LTD." mac="14:CF:92:A5:5F:F7" has_http="1" is_http8080="0" http_title="WindRiver-WebServer/4.7" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.131" ip="192.168.1.131" mac="00:69:07:47:2E:10" has_http="1" is_http8080="0" http_title="Web Controller" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.133" ip="192.168.1.133" mac="00:69:07:47:2E:1A" has_http="1" is_http8080="0" http_title="Web Controller" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.134" ip="192.168.1.134" manufacturer="Xiaomi Communications Co Ltd" mac="74:23:44:EA:03:56" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.140" ip="192.168.1.140" manufacturer="LG Electronics (Mobile Communications)" mac="8C:3A:E3:62:2A:42" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.141" ip="192.168.1.141" manufacturer="HUAWEI TECHNOLOGIES CO.,LTD" mac="74:A5:28:A7:81:E7" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.142" ip="192.168.1.142" mac="70:EF:00:22:7B:FC" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.145" ip="192.168.1.145" manufacturer="Apple, Inc." mac="F0:99:BF:37:65:F8" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.147" ip="192.168.1.147" manufacturer="Xiaomi Communications Co Ltd" mac="74:23:44:EA:03:56" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.154" os_version="Windows" ip="192.168.1.154" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DB:E4:DD" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="192.168.1.156" ip="192.168.1.156" manufacturer="vivo Mobile Communication Co., Ltd." mac="C4:66:99:32:54:A2" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.159" ip="192.168.1.159" mac="54:33:CB:4B:DF:1D" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.160" ip="192.168.1.160" mac="CC:2D:B7:A1:B3:86" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.163" ip="192.168.1.163" mac="00:00:00:00:00:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.164" ip="192.168.1.164" manufacturer="Apple, Inc." mac="54:4E:90:ED:BF:94" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.166" ip="192.168.1.166" manufacturer="ASUSTek COMPUTER INC." mac="10:BF:48:D7:C6:F8" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="192.168.1.198" ip="192.168.1.198" mac="B8:63:4D:5C:8D:48" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.21" ip="192.168.1.21" manufacturer="Synology Incorporated" mac="00:11:32:6A:04:B0" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="192.168.1.98" ip="192.168.1.98" manufacturer="Ubiquiti Networks Inc." mac="44:D9:E7:90:B0:42" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="3d-printer" os_version="Windows" ip="192.168.1.227" netbiosname="3D-PRINTER" netbiosgroup="CREATECOOL" manufacturer="REALTEK SEMICONDUCTOR CORP." mac="00:E0:4C:03:53:AD" date="2018-03-08 16:15:41 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="1" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="BRN001BA9D60F15" device_type="Printer" ip="192.168.1.81" netbiosname="BRN001BA9D60F15" manufacturer="Brother industries, LTD." mac="00:1B:A9:D6:0F:15" has_http="1" is_http8080="0" http_title="Brother HL-4570CDW series (Debut embedded httpd 1.20)" http_title_full="Brother HL-4570CDW series (Debut embedded httpd 1.20 Brother/HP printer http admin)" has_https="0" has_ftp="1" ftp_version="Brother/HP printer ftpd 1.13" has_rdp="0">
+	</row>
+	<row status="alive" name="CNC-PC" os_version="Windows" ip="192.168.1.136" netbiosname="CNC-PC" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:05:CF" date="2018-03-08 16:14:41 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="DESKTOP-3RG8TSJ" ip="192.168.1.129" manufacturer="Intel Corporate" mac="34:F3:9A:74:A8:C4" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="DESKTOP-LIE099E" ip="192.168.1.188" netbiosname="DESKTOP-LIE099E" netbiosgroup="WORKGROUP" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DD:8F:39" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="DESKTOP-UIJVU8F" ip="192.168.1.127" manufacturer="GUANGDONG OPPO MOBILE TELECOMMUNICATIONS CORP.,LTD" mac="44:04:44:BB:36:98" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="DESKTOP-UIJVU8F" ip="192.168.1.130" mac="54:33:CB:4B:DF:1D" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="DESKTOP-UIJVU8F" ip="192.168.1.137" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:69:87:A1" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="DESKTOP-VM69UN0" ip="192.168.1.180" manufacturer="Apple, Inc." mac="14:10:9F:D3:68:AB" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="Daphnis" ip="192.168.1.20" netbiosname="DAPHNIS" netbiosgroup="WORKGROUP" manufacturer="Synology Incorporated" mac="00:11:32:69:46:73" date="2018-03-08 16:14:47 UTC+08:00" has_http="1" is_http8080="0" http_title="Daphnis - Synology DiskStation (nginx)" http_title_full="Daphnis - Synology DiskStation (nginx)" has_https="1" https_version="Tunnel is ssl: nginx" https_version_full="Tunnel is ssl: nginx" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="Embedded-Build" os_version="Windows" ip="192.168.1.35" netbiosname="EMBEDDED-BUILD" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:A6:F0:F0" date="2018-03-08 16:14:18 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="FinanceServer" os_version="Windows" ip="192.168.1.83" netbiosname="FINANCESERVER" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:69:8D:B5" date="2018-03-08 16:14:00 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="HX-02-A" os_version="Windows" ip="192.168.1.174" netbiosname="HX-02-A" netbiosgroup="CREATECOOL" manufacturer="SHENZHEN JEHE TECHNOLOGY DEVELOPMENT CO., LTD." mac="24:1C:04:A0:8B:3F" date="2018-03-08 16:14:43 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="HX-02-B" os_version="Windows" ip="192.168.1.102" netbiosname="HX-02-B" netbiosgroup="CREATECOOL" manufacturer="SHENZHEN JEHE TECHNOLOGY DEVELOPMENT CO., LTD." mac="24:1C:04:A0:8B:C4" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="HX-02-C" os_version="Windows" ip="192.168.1.101" netbiosname="HX-02-C" netbiosgroup="CREATECOOL" manufacturer="SHENZHEN JEHE TECHNOLOGY DEVELOPMENT CO., LTD." mac="24:1C:04:A0:8B:B5" date="2018-03-08 16:14:43 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="HX-02-D" os_version="Windows" ip="192.168.1.100" netbiosname="HX-02-D" netbiosgroup="CREATECOOL" manufacturer="SHENZHEN JEHE TECHNOLOGY DEVELOPMENT CO., LTD." mac="24:1C:04:A0:91:BB" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="LEI-BIN" ip="192.168.1.109" manufacturer="Apple, Inc." mac="00:61:71:81:B2:CB" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="LEO-VM" ip="192.168.1.148" netbiosname="LEO-VM" netbiosgroup="WORKGROUP" manufacturer="PCS Systemtechnik GmbH" mac="08:00:27:EB:50:AD" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="MACBOOKAIR-CB6C" ip="192.168.1.111" netbiosname="MACBOOKAIR-CB6C" manufacturer="REALTEK SEMICONDUCTOR CORP." mac="00:E0:4C:36:0A:87" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="Mesheven" ip="192.168.1.234" manufacturer="REALTEK SEMICONDUCTOR CORP." mac="00:E0:4C:60:C3:D8" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="Mummys-Ipad-8" ip="192.168.1.229" manufacturer="Apple, Inc." mac="04:DB:56:E3:04:4E" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="Mummys-Ipad-8" ip="192.168.1.232" manufacturer="Apple, Inc." mac="04:DB:56:E3:04:4E" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="NM-PAD" ip="192.168.1.158" manufacturer="Apple, Inc." mac="D0:4F:7E:4E:12:51" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="NickMartin-New" ip="192.168.1.165" netbiosname="NICKMARTIN-NEW" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DD:DB:E1" date="2018-03-08 16:14:41 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="RDG015D78" ip="192.168.1.204" manufacturer="ROLAND DG CORPORATION" mac="00:40:AB:01:5D:78" has_http="1" is_http8080="0" has_https="1" https_version="Tunnel is OpenSSL SSLv3: unknown service" https_version_full="Tunnel is OpenSSL SSLv3: unknown service" has_ftp="1" ftp_version="ftp" has_rdp="0">
+	</row>
+	<row status="dead" name="Steves-iPhone-5" ip="192.168.1.146" manufacturer="Apple, Inc." mac="D8:96:95:63:25:5D" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="Steves-iPhone-6-Plus" ip="192.168.1.126" manufacturer="Apple, Inc." mac="FC:E9:98:E8:72:47" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="Titan" ip="192.168.1.103" netbiosname="TITAN" netbiosgroup="WORKGROUP" manufacturer="Synology Incorporated" mac="00:11:32:6A:07:5E" date="2018-03-08 16:15:30 UTC+08:00" has_http="1" is_http8080="0" http_title="Titan - Synology DiskStation (nginx)" http_title_full="Titan - Synology DiskStation (nginx)" has_https="1" https_version="Tunnel is ssl: nginx" https_version_full="Tunnel is ssl: nginx" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="Titan" ip="192.168.1.169" netbiosname="TITAN" netbiosgroup="WORKGROUP" manufacturer="Synology Incorporated" mac="00:11:32:6A:07:5E" date="2018-03-08 16:15:30 UTC+08:00" has_http="1" is_http8080="0" http_title="Titan - Synology DiskStation (nginx)" http_title_full="Titan - Synology DiskStation (nginx)" has_https="1" https_version="Tunnel is ssl: nginx" https_version_full="Tunnel is ssl: nginx" has_ftp="0" has_rdp="0">
+		<share name="Admin"/>
+		<share name="Backups"/>
+		<share name="Common"/>
+		<share name="Documentation"/>
+		<share name="Electronics"/>
+		<share name="Embedded Software"/>
+		<share name="Finance"/>
+		<share name="Graphics"/>
+		<share name="homes"/>
+		<share name="HR"/>
+		<share name="Industrial Design"/>
+		<share name="IT Management"/>
+		<share name="Manufacturing"/>
+		<share name="Manufacturing.Releases"/>
+		<share name="Operations"/>
+		<share name="Software"/>
+		<share name="web"/>
+		<share name="home"/>
+	</row>
+	<row status="alive" name="UVLaserCUT" os_version="Windows" ip="192.168.1.123" netbiosname="UVLASERCUT" netbiosgroup="CREATECOOL" manufacturer="Jetway Information Co., Ltd." mac="00:30:18:00:3B:2F" date="2018-03-08 16:17:46 UTC-08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="WangJia" ip="192.168.1.230" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D4:DB:3A" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="c832rbsx" ip="192.168.1.115" netbiosname="C832RBSX" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:09:85" date="2018-03-08 16:14:46 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="cathysun" ip="192.168.1.135" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DE:19:E4" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="ecr572jb" os_version="Windows" ip="192.168.1.212" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:05:C0" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="etye" ip="192.168.1.104" netbiosname="ETYE" netbiosgroup="WORKGROUP" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:F4:07" date="2018-03-08 16:14:42 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="etye" ip="192.168.1.112" netbiosname="ETYE" netbiosgroup="WORKGROUP" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:F4:17" date="2018-03-08 16:14:42 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="etye" ip="192.168.1.107" mac="70:EF:00:1A:AB:34" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="dead" name="etye" ip="192.168.1.108" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:F4:17" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="file-server-01" os_version="Windows" ip="192.168.1.118" netbiosname="FILE-SERVER-01" netbiosgroup="CREATECOOL" manufacturer="Super Micro Computer, Inc." mac="0C:C4:7A:48:47:B0" date="2018-03-08 16:14:42 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+		<share name="C"/>
+		<share name="Dropbox (Mesheven)"/>
+		<share name="Storage"/>
+	</row>
+	<row status="alive" name="finserver" os_version="Windows" ip="192.168.1.189" netbiosname="FINSERVER" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:69:86:E6" date="2018-03-08 16:14:35 UTC+08:00" has_http="1" is_http8080="0" http_title="Microsoft IIS httpd 10.0" http_title_full="Microsoft IIS httpd 10.0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="kevin-zhang" os_version="Windows" ip="192.168.1.121" netbiosname="KEVIN-ZHANG" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D4:FD:D9" date="2018-03-08 08:14:30 UTC±00:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="kristine-xu" os_version="Windows" ip="192.168.1.155" netbiosname="KRISTINE-XU" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D3:7D:8E" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="leeyons-li" os_version="Windows" ip="192.168.1.152" netbiosname="LEEYONS-LI" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D1:54:50" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="leeyons-li" ip="192.168.1.125" mac="54:33:CB:A6:20:2A" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="lei-bin" ip="192.168.1.143" netbiosname="LEI-BIN" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DE:F6:05" date="2018-03-08 16:14:41 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="leo-steiner" os_version="Windows" ip="192.168.1.214" netbiosname="LEO-STEINER" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D4:FD:89" date="2018-03-08 16:15:28 UTC+08:00" has_http="0" is_http8080="0" has_https="1" https_version="Tunnel is ssl: unknown service" https_version_full="Tunnel is ssl: unknown service" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="li-qingwei" os_version="Windows" ip="192.168.1.199" netbiosname="LI-QINGWEI" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D5:0A:4C" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="lisa-li" os_version="Windows" ip="192.168.1.238" netbiosname="LISA-LI" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D3:0B:48" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="manizheh" os_version="Windows" ip="192.168.1.200" netbiosname="MANIZHEH" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D5:0A:7E" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="mayo-yang" os_version="Windows" ip="192.168.1.139" netbiosname="MAYO-YANG" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:69:87:CF" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="mesh-db-01" os_version="Windows" ip="192.168.1.119" netbiosname="MESH-DB-01" netbiosgroup="WORKGROUP" manufacturer="ASUSTek COMPUTER INC." mac="30:85:A9:A4:21:66" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="mesh-db-02" os_version="Windows" ip="192.168.1.122" netbiosname="MESH-DB-02" netbiosgroup="CREATECOOL" manufacturer="ASUSTek COMPUTER INC." mac="10:BF:48:D7:31:63" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="mvcbx526" ip="192.168.1.177" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:05:D1" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="peggie-shen" os_version="Windows" ip="192.168.1.206" netbiosname="PEGGIE-SHEN" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D0:E1:AC" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="print-server" os_version="Windows" ip="192.168.1.161" netbiosname="PRINT-SERVER" netbiosgroup="CREATECOOL" manufacturer="Jetway Information Co., Ltd." mac="00:30:18:01:55:20" date="2018-03-08 16:14:52 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+		<share name="C"/>
+		<printer name="Brother PT-9700PC"/>
+		<printer name="Canon Pro9500 II series"/>
+	</row>
+	<row status="alive" name="print-server" os_version="Windows" ip="192.168.1.162" manufacturer="Jetway Information Co., Ltd." mac="00:30:18:01:55:20" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="shao-feng" ip="192.168.1.144" netbiosname="SHAO-FENG" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:6A:27:07" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="steve-martin" os_version="Windows" ip="192.168.1.110" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D4:FD:9E" user="STEVE-MARTIN\steve.martin" date="2018-03-08 16:14:30 UTC+08:00" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+		<share name="C"/>
+	</row>
+	<row status="dead" name="steve-martin" ip="192.168.1.211" manufacturer="Intel Corporate" mac="84:A6:C8:D5:7E:DD" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="wangjia" os_version="Windows" ip="192.168.1.231" netbiosname="WANGJIA" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:D4:DB:38" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="alive" name="z2sutm8k" os_version="Windows" ip="192.168.1.170" netbiosname="Z2SUTM8K" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:F4:01" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+	<row status="dead" name="za5hf6nw" ip="192.168.1.242" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="94:DE:80:6B:27:92" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="0">
+	</row>
+	<row status="alive" name="zou-qingyou" os_version="Windows" ip="192.168.1.120" netbiosname="ZOU-QINGYOU" netbiosgroup="CREATECOOL" manufacturer="GIGA-BYTE TECHNOLOGY CO.,LTD." mac="90:2B:34:DC:03:19" has_http="0" is_http8080="0" has_https="0" has_ftp="0" has_rdp="1" rdp_version="Microsoft Terminal Service">
+	</row>
+</Advanced_IP_scanner>

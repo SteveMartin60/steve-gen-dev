@@ -1,0 +1,2412 @@
+
+    - version: 5
+        source_pushed: "2017-12-25T09:13:16Z"
+        created_at: 1495448992829
+        caption_zh: "带TFT LCD和手势传感器的副版PCBA-AB0001"
+        project: "94a2bab8"
+        description_en: "UI Board, 16-bit LCD-TFT, gesture sensors "
+        source_commit: "eb7a92095c0c07e7c4ab2e28ad2146dfc1ee20a8"
+        caption_en: "PCBA-AB0001 TFT-LCD Gesture Sense"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330464
+        source_repo: "https://github.com/mesheven-eda/AB0001"
+        organization: "5d36fdd4"
+        description_zh: "带16位TFT LCD和手势传感器的UI板"
+        id: "PCBA-AB0001"
+    - version: 5
+        source_pushed: "2017-12-25T09:11:30Z"
+        created_at: 1495448992852
+        caption_zh: "SD001的扩展连接板PCBA-AB0002"
+        project: "3925106b"
+        description_en: "Docking connector board for SD001"
+        source_commit: "7cdf2499339e13ff05cb28c891acc437381342e4"
+        caption_en: "PCBA-AB0002 SD001 Docking Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332761
+        source_repo: "https://github.com/mesheven-eda/AB0002"
+        organization: "5d36fdd4"
+        description_zh: "用于SD001的扩展连接板"
+        id: "PCBA-AB0002"
+    - version: 6
+        source_pushed: "2017-12-25T09:10:37Z"
+        currency: "CNY"
+        created_at: 1495448992833
+        caption_zh: "SD002/3的电源连接副板PCBA-AB0004"
+        project: "af3b4d40"
+        description_en: "Battery connector board with power switch for SD002/3"
+        source_commit: "a40ca89db832fe7aa6caf23c7260f0dbe18e08d6"
+        caption_en: "PCBA-AB0004 SD002/3 Power Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939331818
+        source_repo: "https://github.com/mesheven-eda/AB0004"
+        organization: "5d36fdd4"
+        description_zh: "用于SD002/3带电源开关的电池连接板"
+        id: "PCBA-AB0004"
+    - version: 5
+        source_pushed: "2017-12-25T09:13:37Z"
+        created_at: 1495448992861
+        caption_zh: "PSU-MB0005 USB-MB2100的副板PCBA-AB0005"
+        project: "7bda6244"
+        description_en: "USB power board with MB0005 Alkaline battery PSU, MB2100 USB"
+        source_commit: "4082cd4cf2c078db2b9a44ae52b375b681f27f67"
+        caption_en: "PCBA-AB0005 PSU-MB0005 USB-MB2100"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330901
+        source_repo: "https://github.com/mesheven-eda/AB0005"
+        organization: "5d36fdd4"
+        description_zh: "带MB0005碱性电池PSU和MB2100的USB电源板"
+        id: "PCBA-AB0005"
+    - version: 5
+        source_pushed: "2017-12-25T09:07:34Z"
+        created_at: 1495448992849
+        caption_zh: "RP板扩展板PCBA-AB0008"
+        project: "60759d30"
+        description_en: "Extender for Mesheven RP-board Development"
+        source_commit: "647af5ef35c7496d2f9a5bf248217e26159ed244"
+        caption_en: "PCBA-AB0008 RP-Board Extender"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939331181
+        source_repo: "https://github.com/mesheven-eda/AB0008"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥RP板开发的扩展板"
+        id: "PCBA-AB0008"
+    - version: 7
+        source_pushed: "2017-12-25T09:13:54Z"
+        created_at: 1495448992875
+        caption_zh: "PSU-MB0006 USB-MB2100的副板PCBA-AB0009"
+        project: "9fc75b79"
+        description_en: "USB Power board with MB0006 Lithium battery PSU, MB2100 USB"
+        source_commit: "9ab4ffe04797459313eb710b524ab8dc684eb358"
+        caption_en: "PCBA-AB0009 PSU-MB0006 USB-MB2100"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329796
+        source_repo: "https://github.com/mesheven-eda/AB0009"
+        organization: "5d36fdd4"
+        description_zh: "带MB0006锂电池PSU和MB2100的USB电源板"
+        cost_type: "costs_none"
+        id: "PCBA-AB0009"
+    - version: 5
+        source_pushed: "2017-12-26T06:24:06Z"
+        created_at: 1495448992840
+        caption_zh: "MX的Pogo针连接板"
+        project: "311d19ae"
+        description_en: "Pogo-pin Connector board for Mesheven MX Devices"
+        source_commit: "2d8e3a20c284121bb34c68e346989452b92d1286"
+        caption_en: "PCBA-AB0010 MX Pogo Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332933
+        source_repo: "https://github.com/mesheven-eda/AB0010"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥MX设备的Pogo针连接板"
+        id: "PCBA-AB0010"
+    - version: 4
+        source_pushed: "2017-12-26T06:23:51Z"
+        created_at: 1495448992836
+        caption_zh: "MX的智能板PCBA-AB0011"
+        project: "4bba4e11"
+        description_en: "Intelligent sub-system board for Mesheven MX Devices"
+        source_commit: "5d31198e7546655c15caa0da07c765938ceef74e"
+        caption_en: "PCBA-AB0011 MX Intelligence Board"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554132973
+        source_repo: "https://github.com/mesheven-eda/AB0011"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥MX设备的智能子系统板"
+        id: "PCBA-AB0011"
+    - version: 5
+        source_pushed: "2017-12-25T09:01:42Z"
+        created_at: 1495448992855
+        caption_zh: "HX002的前面板PCBA-AB0013"
+        project: "04c37a9b"
+        description_en: "Front panel controller for Mesheven HX002"
+        source_commit: "5614efbe5c70f8f28f14c8d41710ba90c7947db5"
+        caption_en: "PCBA-AB0013 HX002 Front Panel"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334556
+        source_repo: "https://github.com/mesheven-eda/AB0013"
+        organization: "5d36fdd4"
+        description_zh: "用于HX00智能主机的辅助电路板"
+        id: "PCBA-AB0013"
+    - version: 5
+        source_pushed: "2017-12-25T09:00:38Z"
+        created_at: 1495448992884
+        caption_zh: "PCBA-AB0014 蜂鸣器"
+        project: "effb7499"
+        description_en: "Plugin buzzer board"
+        source_commit: "a5794046bf9451f9105b1a0b8435be5b34fbb1bf"
+        caption_en: "PCBA-AB0014 Buzzer"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326820
+        source_repo: "https://github.com/mesheven-eda/AB0014"
+        organization: "5d36fdd4"
+        description_zh: "即插蜂鸣器板"
+        id: "PCBA-AB0014"
+    - version: 2
+        created_at: 1495448992843
+        caption_zh: "PCBA-AB0015 传感器设备USB扩展坞"
+        project: "d2796b01"
+        description_en: "Sensor Device USB Docking Board"
+        caption_en: "PCBA-AB0015 Sensor Device USB Docking Board"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1517989640628
+        organization: "5d36fdd4"
+        description_zh: "传感器设备USB扩展坞"
+        id: "PCBA-AB0015"
+    - version: 7
+        source_pushed: "2017-12-25T08:57:54Z"
+        created_at: 1495448992867
+        caption_zh: "SW001的Pogo连接板PCBA-AB0016"
+        project: "6bde9a2b"
+        description_en: "Pogo-pin connection board for SW001"
+        source_commit: "0ae5ad8839996a46dcdaeeeed21fcbe51266bb06"
+        caption_en: "PCBA-AB0016 SW001 Pogo Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330913
+        source_repo: "https://github.com/mesheven-eda/AB0016"
+        organization: "5d36fdd4"
+        description_zh: "用于SW001的Pogo针连接板"
+        cost_type: "costs_none"
+        id: "PCBA-AB0016"
+    - version: 5
+        source_pushed: "2017-12-25T08:56:35Z"
+        created_at: 1495448992846
+        caption_zh: "PCBA-AB0017 SW001扩展坞板"
+        project: "01c0efa9"
+        description_en: "Docking station board for SW001"
+        source_commit: "a865023f36302809d1af386b88b08287b981ba6e"
+        caption_en: "PCBA-AB0017 SW001 Docking Station"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334775
+        source_repo: "https://github.com/mesheven-eda/AB0017"
+        organization: "5d36fdd4"
+        description_zh: "用于SW001的扩展坞板"
+        id: "PCBA-AB0017"
+    - version: 6
+        source_pushed: "2017-12-25T08:55:53Z"
+        created_at: 1495448992858
+        caption_zh: "MB2100USB模块的包装板PCBA-AB0018"
+        project: "ca4b873f"
+        description_en: "USB board for MB2100 USB, vertical mount"
+        source_commit: "da025296e5c093f1fd54098096751e5020d74c20"
+        caption_en: "PCBA-AB0018 Wrapper for MB2100 USB"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328517
+        source_repo: "https://github.com/mesheven-eda/AB0018"
+        organization: "5d36fdd4"
+        description_zh: "MB2100USB模块的USB板，垂直放置"
+        id: "PCBA-AB0018"
+    - version: 6
+        source_pushed: "2017-12-25T08:54:19Z"
+        created_at: 1495448992887
+        caption_zh: "PCBA-AB0019带MB0019扬声器"
+        project: "d47ec3e5"
+        description_en: "Plugin board with MB0019 speaker, horizontal mount"
+        source_commit: "dea6c16ebf700f55931cd7c78686203403f4d93a"
+        caption_en: "PCBA-AB0019 Speaker-MB0019"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327892
+        source_repo: "https://github.com/mesheven-eda/AB0019"
+        organization: "5d36fdd4"
+        description_zh: "带MB0019扬声器模块的即插板，水平放置"
+        id: "PCBA-AB0019"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448992864
+        caption_zh: "PCBA-AC001 AC-001功率控制器"
+        project: "8f49d1fe"
+        description_en: "2KW cloud-managed Solid-State-Relay controller"
+        source_commit: "f60edeb1f56a9acf7ede453453c327c566221488"
+        caption_en: "PCBA-AC001 AC-001"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330607
+        source_repo: "https://github.com/mesheven-eda/AC001"
+        organization: "5d36fdd4"
+        description_zh: "2千瓦云控智能功率控制器"
+        id: "PCBA-AC001"
+    - version: 5
+        source_pushed: "2017-12-22T03:47:44Z"
+        created_at: 1513914366924
+        caption_zh: "PCBA-BB-CO-ME2 一氧化碳传感器和控制器"
+        project: "c69b3659"
+        description_en: "Carbon Monoxide (CO) sensor emBoard Plugin"
+        source_commit: "e5c2826b881af8300b8ce21c68e3b58edd563e35"
+        caption_en: "PCBA-BB-CO-ME2 Carbon Monoxide Sensor & Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328542
+        source_repo: "https://github.com/mesheven-eda/BB-CO-ME2"
+        organization: "5d36fdd4"
+        description_zh: "一氧化碳传感器em板插件"
+        id: "PCBA-BB-CO-ME2"
+    - version: 5
+        source_pushed: "2017-12-22T03:55:12Z"
+        created_at: 1513914800598
+        caption_zh: "PCBA-BB-PIR-RE200B 红外感应插件"
+        project: "8bf11678"
+        description_en: "PIR (Passive Infra-Red) sensor"
+        source_commit: "fc34659aa9cb8a818806b6f9003659995068196f"
+        caption_en: "PCBA-BB-PIR-RE200B PIR Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330489
+        source_repo: "https://github.com/mesheven-eda/BB-PIR-RE200B"
+        organization: "5d36fdd4"
+        description_zh: "红外感应插件"
+        id: "PCBA-BB-PIR-RE200B"
+    - version: 5
+        source_pushed: "2017-12-22T03:58:26Z"
+        created_at: 1513915000333
+        caption_zh: "PCBA-BB-PM2-GP2Y1010AU0F PM2.5监测传感器"
+        project: "a6a7363d"
+        description_en: "BB-PM2-GP2Y1010AU0F PM2.5 Sensor with Fan"
+        source_commit: "74a5e82f274f59459e0e710c6c619b5158a01014"
+        caption_en: "PCBA-BB-PM2-GP2Y1010AU0F"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329271
+        source_repo: "https://github.com/mesheven-eda/BB-PM2-GP2Y1010AU0F"
+        organization: "5d36fdd4"
+        description_zh: "带有风扇的PM2.5监测传感器"
+        id: "PCBA-BB-PM2-GP2Y1010AU0F"
+    - version: 2
+        source_pushed: "2018-01-23T07:08:09Z"
+        created_at: 1519470900142
+        project: "e8092590"
+        description_en: "Ethernet 10/100 connector board with PoE, RJ45, Magnetics"
+        source_commit: "5a042803b51386652bfda8e033de7b1424277a4c"
+        caption_en: "PCBA-BB-POE 10/100 Ethernet Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326937
+        source_repo: "https://github.com/mesheven-eda/BB-POE"
+        organization: "5d36fdd4"
+        id: "PCBA-BB-POE"
+    - version: 5
+        source_pushed: "2017-12-22T03:36:29Z"
+        created_at: 1513850515440
+        caption_zh: "PCBA-BB-SENSE-HTS221TR 温度，湿度"
+        project: "8066771d"
+        description_en: "HTS221TR, I2C-based, temperature and humidity sensor"
+        source_commit: "87197910e0c11a20884a4edb8156e31e51bd7046"
+        caption_en: "PCBA-BB-SENSE-HTS221TR Temperature, Humidity"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330907
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-HTS221TR"
+        organization: "5d36fdd4"
+        description_zh: "HTS221TR, I2C接口协议，温度和湿度传感器"
+        id: "PCBA-BB-SENSE-HTS221TR"
+    - version: 5
+        source_pushed: "2017-12-22T03:38:53Z"
+        created_at: 1513854917776
+        caption_zh: "PCBA-BB-SENSE-LIS3DHTR 3轴加速度"
+        project: "e0063ef9"
+        description_en: "LIS3DHTR, I2C-based, 3-axis accelerometer"
+        source_commit: "91fa6b07760bf09220c293ce5aa9bd10539e763c"
+        caption_en: "PCBA-BB-SENSE-LIS3DHTR 3-Axis Accelerometer"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326795
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LIS3DHTR"
+        organization: "5d36fdd4"
+        description_zh: "LIS3DHTR, I2C接口协议，3轴加速度传感器"
+        id: "PCBA-BB-SENSE-LIS3DHTR"
+    - version: 5
+        source_pushed: "2017-12-22T03:39:09Z"
+        created_at: 1513854841101
+        caption_zh: "PCBA-BB-SENSE-LIS3MDLTR 3轴磁场传感器"
+        project: "ffbec95e"
+        description_en: "LIS3MDLTR, I2C-based,3-axis magnetometer"
+        source_commit: "27bb1be95ece8571ef40a77312726d7fa233b7e1"
+        caption_en: "PCBA-BB-SENSE-LIS3MDLTR 3-Axis Magnetometer"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326915
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LIS3MDLTR"
+        organization: "5d36fdd4"
+        description_zh: "LIS3MDLTR, I2C接口协议，3轴磁场传感器"
+        id: "PCBA-BB-SENSE-LIS3MDLTR"
+    - version: 5
+        source_pushed: "2017-12-22T03:39:27Z"
+        created_at: 1513854718041
+        caption_zh: "PCBA-BB-SENSE-LPS25HTR 气压"
+        project: "eddfe36c"
+        description_en: "LPS25HTR, I2C-based, barometric pressure sensor"
+        source_commit: "0e82a2e5555b26bc91bc75694b5d7c8b3d512752"
+        caption_en: "PCBA-BB-SENSE-LPS25HTR Pressure"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326801
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LPS25HTR"
+        organization: "5d36fdd4"
+        description_zh: "LPS25HTR, I2C接口协议，气压传感器"
+        id: "PCBA-BB-SENSE-LPS25HTR"
+    - version: 5
+        source_pushed: "2017-12-22T03:39:46Z"
+        created_at: 1513855078603
+        caption_zh: "PCBA-BB-SENSE-LSM6DS33TR 3轴加速度，陀螺仪"
+        project: "002f4818"
+        description_en: "LSM6DS33TR, I2C-based, 3-axis accelerometer and gyroscope"
+        source_commit: "061769ef9ff252fe9502241ef38db497cb0be7f0"
+        caption_en: "PCBA-BB-SENSE-LSM6DS33TR 3-Axis Accelerometer, Gyro"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334801
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LSM6DS33TR"
+        organization: "5d36fdd4"
+        description_zh: "LSM6DS33TR, I2C接口协议，3轴加速度传感器，陀螺仪"
+        id: "PCBA-BB-SENSE-LSM6DS33TR"
+    - version: 5
+        source_pushed: "2017-12-22T03:40:05Z"
+        created_at: 1513855125927
+        caption_zh: "PCBA-BB-SENSE-LTR303ALS 环境光"
+        project: "837fc35b"
+        description_en: "LTR303ALS-01, I2C-based, ambient light sensor"
+        source_commit: "986f9067463c2507743eff0f89a736c238eb5731"
+        caption_en: "PCBA-BB-SENSE-LTR303ALS Ambient Light"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939331572
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LTR303ALS"
+        organization: "5d36fdd4"
+        description_zh: "LTR303ALS-01, I2C接口协议，环境光传感器"
+        id: "PCBA-BB-SENSE-LTR303ALS"
+    - version: 5
+        source_pushed: "2017-12-22T03:40:33Z"
+        created_at: 1513855231343
+        caption_zh: "PCBA-BB-SENSE-LTR91400 环境光，姿态，接近传感器"
+        project: "51a110b7"
+        description_en: "LTR-91400,I2C-based, proximity, light, gesture sensor"
+        source_commit: "0515f3b9c490c2406839197d66293fc5103f8fab"
+        caption_en: "PCBA-BB-SENSE-LTR91400 Proximity, Light, Gesture"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332177
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-LTR91400"
+        organization: "5d36fdd4"
+        description_zh: "LTR-91400 I2C接口，环境光，姿态，接近传感器"
+        id: "PCBA-BB-SENSE-LTR91400"
+    - version: 5
+        source_pushed: "2017-12-22T03:40:54Z"
+        created_at: 1513855302083
+        caption_zh: "PCBA-BB-SENSE-MCP9808T 温度"
+        project: "0c6a6eac"
+        description_en: "MCP9808T-E/M I2C-based, temperature sensor"
+        source_commit: "482a7a0121dd3bcd9cc6be009752f883d2fcc619"
+        caption_en: "PCBA-BB-SENSE-MCP9808T Temperature"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334466
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-MCP9808T"
+        organization: "5d36fdd4"
+        description_zh: "MCP9808T-E/M, I2C接口协议，温度传感器"
+        id: "PCBA-BB-SENSE-MCP9808T"
+    - version: 5
+        source_pushed: "2017-12-22T03:41:12Z"
+        created_at: 1513855366873
+        caption_zh: "PCBA-BB-SENSE-SHT30DISB 温度，湿度"
+        project: "db2382e1"
+        description_en: "SHT30-DIS-B I2C-based, temperature and humidity sensor"
+        source_commit: "cf8a7f8e09acc27ff0851740fd8c181230e4eb03"
+        caption_en: "PCBA-BB-SENSE-SHT30DISB Temperature, Humidity"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326810
+        source_repo: "https://github.com/mesheven-eda/BB-SENSE-SHT30DISB"
+        organization: "5d36fdd4"
+        description_zh: "SHT30-DIS-B I2C接口协议，温度和湿度传感器"
+        id: "PCBA-BB-SENSE-SHT30DISB"
+    - version: 1
+        source_pushed: "2018-05-23T03:13:12Z"
+        created_at: 1527143341209
+        caption_zh: "PCBA-BB-SOCKET-SPI 主SPI接插件"
+        project: "qa5g735x"
+        description_en: "Host board for plugin sensors or other SPI/SWD BBs"
+        source_commit: "554e84c1481f874f454d1f266a17a1426c3cf409"
+        caption_en: "PCBA-BB-SOCKET-SPI HOST SPI SOCKET"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015243445
+        source_repo: "https://github.com/mesheven-eda/BB-SOCKET-SPI"
+        organization: "5d36fdd4"
+        description_zh: "传感器或者其它SPI/SWD扩展板的主插板"
+        id: "PCBA-BB-SOCKET-SPI"
+    - version: 5
+        source_pushed: "2017-12-22T03:41:32Z"
+        created_at: 1513855420518
+        caption_zh: "PCBA-BB-TOUCH-MTCH6301 触摸控制器em板插件"
+        project: "05abbf13"
+        description_en: "Touch Controller with Single and Dual multi-touch capability, in two editions, with and without back lights"
+        source_commit: "ed8d4e7acb08791a95c4b732834561a828c8be46"
+        caption_en: "PCBA-BB-TOUCH-MTCH6301 Capacitive Touch Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334637
+        source_repo: "https://github.com/mesheven-eda/BB-TOUCH-MTCH6301"
+        organization: "5d36fdd4"
+        description_zh: "多点触控能力的触摸控制器em板插件，双版本，带背光和不带背光"
+        id: "PCBA-BB-TOUCH-MTCH6301"
+    - version: 5
+        source_pushed: "2017-12-22T03:42:36Z"
+        created_at: 1495448992870
+        caption_zh: "PCBA-BB-VOC-GM502 VOC传感器"
+        project: "5472c5ea"
+        description_en: "Plugin with a VOC (Volatile Organic Compound) Sensor"
+        source_commit: "fc5de72ad3593b1170dfdfc11acec1be2fd33225"
+        caption_en: "PCBA-BB-VOC-GM502 VOC Sensor GM502"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939331279
+        source_repo: "https://github.com/mesheven-eda/BB-VOC-GM502"
+        organization: "5d36fdd4"
+        description_zh: "VOC（有机挥发性气体）传感器em板插件"
+        id: "PCBA-BB-VOC-GM502"
+    - version: 5
+        source_pushed: "2017-12-22T03:42:52Z"
+        created_at: 1495448992872
+        caption_zh: "PCBA-BB-VOC-MP901 VOC传感器"
+        project: "7c62a05f"
+        description_en: "Plugin with a VOC (Volatile Organic Compound) Sensor"
+        source_commit: "cf6cedcb488a06e8050b8ccae942e6c0c389a375"
+        caption_en: "PCBA-BB-VOC-MP901 VOC Sensor MP901"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330903
+        source_repo: "https://github.com/mesheven-eda/BB-VOC-MP901"
+        organization: "5d36fdd4"
+        description_zh: "VOC（有机挥发性气体）传感器em板插件"
+        id: "PCBA-BB-VOC-MP901"
+    - version: 4
+        source_pushed: "2017-11-21T02:59:29Z"
+        created_at: 1495448993169
+        caption_zh: "PCBA-BB0005 USB电池充电及3.3V、5V供电em板插件"
+        project: "1210965d"
+        description_en: "USB battery charger and power supply for rechargeable lithium battery, with 3.3V and 5V outputs"
+        source_commit: "60378c790f1354fa1773da969eec7f1d3efd704c"
+        caption_en: "PCBA-BB0005 USB Battery Charger and 3.3V & 5V Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334068
+        source_repo: "https://github.com/mesheven-eda/BB0005"
+        organization: "5d36fdd4"
+        description_zh: "USB锂电池充放电em板插件，带3.3V及5V输出"
+        id: "PCBA-BB0005"
+    - version: 4
+        source_pushed: "2017-11-13T03:43:18Z"
+        created_at: 1495448993217
+        caption_zh: "PCBA-BB0006 电池电源管理em板插件"
+        project: "33eb6552"
+        description_en: "Dual output, 5.0V and 3.3V, battery power manager"
+        source_commit: "52498cb8a86a04f06456377bafb5f4ee3ba27bc0"
+        caption_en: "PCBA-BB0006 Battery Power Manager"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333374
+        source_repo: "https://github.com/mesheven-eda/BB0006"
+        organization: "5d36fdd4"
+        description_zh: "3.3V及5V双输出，电池电源管理em板插件"
+        id: "PCBA-BB0006"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:02Z"
+        created_at: 1495448993209
+        caption_zh: "PCBA-BB0008 16通道脉宽调制LED控制器em板插件"
+        project: "81197f93"
+        description_en: "16-Channel I2C LED Controller driving 16x single-color or 4x RGBA LEDs"
+        source_commit: "fa09f2507a305d7957cde55d3094ecda6b358fe0"
+        caption_en: "PCBA-BB0008 16x PWM LED Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330812
+        source_repo: "https://github.com/mesheven-eda/BB0008"
+        organization: "5d36fdd4"
+        description_zh: "16通道I2C LED控制器em板插件，驱动16通道单色或4通道RGB LED"
+        id: "PCBA-BB0008"
+    - version: 4
+        source_pushed: "2017-11-13T03:36:54Z"
+        created_at: 1495448993257
+        caption_zh: "PCBA-BB0011 9轴运动传感器em板插件"
+        project: "133da54d"
+        description_en: "Intelligent motion detector providing motion (linear & rotational), direction (compass heading), and altitude (via barometric pressure) information over SPI"
+        source_commit: "531213e80ab65f441f9467c98c80bc3ed49b5e06"
+        caption_en: "PCBA-BB0011 9-Axis Motion Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334105
+        source_repo: "https://github.com/mesheven-eda/BB0011"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口智能运动传感器em板插件带线性、旋转、方向和高度感知功能"
+        id: "PCBA-BB0011"
+    - version: 4
+        source_pushed: "2017-11-29T06:26:51Z"
+        created_at: 1495448993313
+        caption_zh: "PCBA-BB0015 USB 3.0集线器模块em板插件，4端口CDP模式"
+        project: "b45661a7"
+        description_en: "4-port USB 3.0 hub with comprehensive USB charging support, one upstream and four downstream USB 3.0 ports"
+        source_commit: "ebf497f423a634ffdbde876ba64c4d257caa917d"
+        caption_en: "PCBA-BB0015 4-Port USB 3.0 Hub"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332021
+        source_repo: "https://github.com/mesheven-eda/BB0015"
+        organization: "5d36fdd4"
+        description_zh: "4端口USB3.0集线器em板插件带USB充电支持，1路上行4路下行"
+        id: "PCBA-BB0015"
+    - version: 4
+        source_pushed: "2017-11-13T03:43:28Z"
+        created_at: 1495448993311
+        caption_zh: "PCBA-BB0016 3.3V及5V双电源供电模块em板插件"
+        project: "02a561c2"
+        description_en: "Dual power supply with 24V input and 3.3V and 5V outputs"
+        source_commit: "2090d1f60f9bf6dee411bbca5c2cb5094a209f24"
+        caption_en: "PCBA-BB0016 3.3V/5V Dual Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334587
+        source_repo: "https://github.com/mesheven-eda/BB0016"
+        organization: "5d36fdd4"
+        description_zh: "双路电源供电模块em板插件，24V输入，3.3V和5V输出"
+        id: "PCBA-BB0016"
+    - source_pushed: "2018-07-13T11:34:04Z"
+        version: 5
+        created_at: 1495448993669
+        caption_zh: "PCBA-BB0017 USB接口到UART串口和SWD调试口转换模块em板插件"
+        project: "42b4b2a8"
+        description_en: "USB to UART & SWD programming and debugging peripheral"
+        source_commit: "bc1057170c3d4ac2c7b42a09a787c053ee80630c"
+        caption_en: "PCBA-BB0017 USB Interface with UART & SWD"
+        item_type: "assembled_pcb"
+        state: "active"
+        source_repo: "https://github.com/mesheven-eda/BB0017"
+        updated_at: 1531481971258
+        organization: "5d36fdd4"
+        description_zh: "USB接口到UART串口和SWD调试口转换模块em板插件"
+        id: "PCBA-BB0017"
+    - version: 3
+        source_pushed: "2017-11-13T03:41:34Z"
+        created_at: 1495448993316
+        caption_zh: "PCBA-BB0022 7端口USB2.0集线器em板插件"
+        project: "8905cb1b"
+        description_en: "7-Port USB 2.0 Hub with in-built LED indicators for each channel, and charging support for all channels"
+        source_commit: "04d4efac31142a85997fb91a2e656b0b77e1930f"
+        caption_en: "PCBA-BB0022 7-Port USB 2.0 Hub"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554134423
+        source_repo: "https://github.com/mesheven-eda/BB0022"
+        organization: "5d36fdd4"
+        description_zh: "7端口USB2.0集线器em板插件，每通道带内置LED指示及充电功能"
+        id: "PCBA-BB0022"
+    - version: 4
+        source_pushed: "2017-11-13T03:36:37Z"
+        created_at: 1495448993321
+        caption_zh: "PCBA-BB0026 RFID读写器em板插件"
+        project: "98e03492"
+        description_en: "RFID Controller with SPI up to 10 Mbit/sec and an operating distance up to 50 mm"
+        source_commit: "9199400dda553ca736541cd3c78e52252a6ea430"
+        caption_en: "PCBA-BB0026 RFID Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329821
+        source_repo: "https://github.com/mesheven-eda/BB0026"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口RFID读写器em板插件，速度可达10Mbps,传输距离可达50mm"
+        id: "PCBA-BB0026"
+    - version: 4
+        source_pushed: "2018-05-31T09:12:27Z"
+        created_at: 1495448993308
+        caption_zh: "PCBA-BB0028 带1.2W音频放大的声效单元em板插件"
+        project: "5ebcc3c3"
+        description_en: "SPI controlled sound-effects unit with a 1.2W audio amplifier"
+        source_commit: "dc46871da592449a69d1df0e06cae765393a4bd8"
+        caption_en: "PCBA-BB0028 Sound-Effects Unit with 1.2W Audio Amp"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015242875
+        source_repo: "https://github.com/mesheven-eda/BB0028"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口的带1.2W音频放大的声效单元em板插件"
+        id: "PCBA-BB0028"
+    - version: 1
+        source_pushed: "2018-05-31T03:58:09Z"
+        created_at: 1528015242831
+        caption_zh: "BB0030 16路 单色LED 控制驱动器"
+        project: "4lkuhl7c"
+        description_en: "16x 60mA LED Controller-Driver with 16x Mono LEDs"
+        source_commit: "207a6cae18d71fc8040d8a3f7680f24759863995"
+        caption_en: "BB0030 16x Mono LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505362
+        source_repo: "https://github.com/mesheven-eda/BB0030-MONO"
+        organization: "5d36fdd4"
+        description_zh: "带有16路LED的 单色LED 控制驱动器"
+        id: "PCBA-BB0030-MONO"
+    - version: 2
+        source_pushed: "2018-05-29T11:34:22Z"
+        created_at: 1521079170670
+        project: "vszb3e9e"
+        description_en: "16x 60mA LED Controller-Driver with 5x RGB, 1x Mono LED"
+        source_commit: "a053e50e8a529d3fdd0968551aa91eeafeae8fe6"
+        caption_en: "BB0030 5x RGB, 1x Mono LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015243497
+        source_repo: "https://github.com/mesheven-eda/BB0030-RGB"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0030-RGB"
+    - version: 2
+        source_pushed: "2018-05-29T11:35:06Z"
+        created_at: 1521079170669
+        project: "7etl8aqm"
+        description_en: "16x 60mA LED Controller-Driver with 4x RGBW LEDs"
+        source_commit: "d8d339eb43c86a8c80772cdbaa09bed713dc8149"
+        caption_en: "BB0030 4x RGBW LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015242826
+        source_repo: "https://github.com/mesheven-eda/BB0030-RGBW"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0030-RGBW"
+    - version: 1
+        source_pushed: "2018-05-29T11:56:39Z"
+        created_at: 1528015242833
+        project: "c78n4hvx"
+        description_en: "32x 60mA LED Controller-Driver with 32x Mono LEDs"
+        source_commit: "0a994bcebe28f218e20d34c25ca9fa99ed4c6152"
+        caption_en: "BB0031 32x Mono LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505376
+        source_repo: "https://github.com/mesheven-eda/BB0031-MONO"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0031-MONO"
+    - version: 1
+        source_pushed: "2018-05-29T11:56:46Z"
+        created_at: 1528015243414
+        project: "zlvnhhkh"
+        description_en: "32x 60mA LED Controller-Driver with 10x RGB, 2x Mono LEDs"
+        source_commit: "a204b41cc99fc933eea3fc117a98a586ecaf7f5d"
+        caption_en: "BB0031 10x RGB, 2x Mono LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505974
+        source_repo: "https://github.com/mesheven-eda/BB0031-RGB"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0031-RGB"
+    - version: 1
+        source_pushed: "2018-05-29T11:35:55Z"
+        created_at: 1528015242840
+        project: "52rusb6q"
+        description_en: "32x 60mA LED Controller-Driver with 8x RGBW LEDs"
+        source_commit: "5c9ea1cb897ec610899e7e98dc7f322c6794c88a"
+        caption_en: "BB0031 8x RGBW LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505393
+        source_repo: "https://github.com/mesheven-eda/BB0031-RGBW"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0031-RGBW"
+    - version: 1
+        source_pushed: "2018-05-29T11:56:57Z"
+        created_at: 1528015242795
+        project: "6b4tvz4w"
+        description_en: "48x 60mA LED Controller-Driver with 48x Mono LEDs"
+        source_commit: "98d232a9e9884a8aaf09b1b0afa11150f21fd3cf"
+        caption_en: "BB0032 48x Mono LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505403
+        source_repo: "https://github.com/mesheven-eda/BB0032-MONO"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0032-MONO"
+    - version: 1
+        source_pushed: "2018-05-29T11:36:49Z"
+        created_at: 1528015242843
+        project: "5ddkc9u3"
+        description_en: "48x 60mA LED Controller-Driver with 16x RGB LEDs"
+        source_commit: "e00f40fa9ea8e48303cb797a5473896a1e85f233"
+        caption_en: "BB0032 16x RGB LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505388
+        source_repo: "https://github.com/mesheven-eda/BB0032-RGB"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0032-RGB"
+    - version: 1
+        source_pushed: "2018-05-29T11:57:14Z"
+        created_at: 1528015243396
+        project: "ed5xtfyd"
+        description_en: "48x 60mA LED Controller-Driver with 12x RGBW LEDs"
+        source_commit: "396f153ee28656a6e61c41582e6ae03fc8317b46"
+        caption_en: "BB0032 12x RGBW LED Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528015505945
+        source_repo: "https://github.com/mesheven-eda/BB0032-RGBW"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0032-RGBW"
+    - version: 3
+        source_pushed: "2017-11-14T09:58:44Z"
+        created_at: 1495448993517
+        caption_zh: "PCBA-BB0035 USB3接口以太网适配器em板插件"
+        project: "8b8b7bb5"
+        description_en: "USB 3.0 to Gigabit Ethernet adaptor With built-in USB 3.0 upstream port and Ethernet port"
+        source_commit: "aefdeb9bdfd2bd2eda114cb23521b409875518a9"
+        caption_en: "PCBA-BB0035 USB 3.0 to Gigabit Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554134519
+        source_repo: "https://github.com/mesheven-eda/BB0035"
+        organization: "5d36fdd4"
+        description_zh: "USB3接口以太网适配器em板插件，带内置USB3.0上行端口和以太网端口"
+        id: "PCBA-BB0035"
+    - version: 3
+        source_pushed: "2017-11-24T08:13:01Z"
+        created_at: 1495448993527
+        caption_zh: "PCBA-BB0039 5V/3.3V电源模块em板插件"
+        project: "46405144"
+        description_en: "Power supply with 5V and dual 3.3V outputs"
+        source_commit: "1ae711d66b25f8655bff66dd1e21883bc8a60106"
+        caption_en: "PCBA-BB0039 5V/3.3V Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554132682
+        source_repo: "https://github.com/mesheven-eda/BB0039"
+        organization: "5d36fdd4"
+        description_zh: "1路5V输出2路3.3V输出的电源模块em板插件"
+        id: "PCBA-BB0039"
+    - version: 4
+        source_pushed: "2017-11-24T08:13:15Z"
+        created_at: 1495448993587
+        caption_zh: "PCBA-BB0043 3路输出电源模块em板插件"
+        project: "3c06a885"
+        description_en: "3 output power supply with 5V and 3.3V outputs and an always-on 3.3V supply"
+        source_commit: "d11120fe8eedee6ab040c12d4eeb9f41428f1a48"
+        caption_en: "PCBA-BB0043 3 Output Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332717
+        source_repo: "https://github.com/mesheven-eda/BB0043"
+        organization: "5d36fdd4"
+        description_zh: "3路输出电源模块em板插件，带5V和3.3V输出及一路常开3.3V输出"
+        id: "PCBA-BB0043"
+    - version: 4
+        source_pushed: "2018-01-23T04:22:44Z"
+        created_at: 1495448993582
+        caption_zh: "PCBA-BB0045 直流电机控制器em板插件"
+        project: "4d286885"
+        description_en: "4x 2A DC Motor Driver"
+        source_commit: "9da68e7db7fab0e7d2fa565a84a5e661921c8fa1"
+        caption_en: "PCBA-BB0045 4x 2A DC Motor Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334947
+        source_repo: "https://github.com/mesheven-eda/BB0045"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口4路直流电机控制器em板插件"
+        id: "PCBA-BB0045"
+    - version: 3
+        source_pushed: "2017-11-17T07:02:09Z"
+        created_at: 1495448993633
+        caption_zh: "PCBA-BB0048 USB音频模块em板插件"
+        project: "12e2daaa"
+        description_en: "USB 2.0 compliant general purpose USB to Audio device with support for headphones speakers"
+        source_commit: "fe8383846199b7c62a6e63e2c666a4399a2119f8"
+        caption_en: "PCBA-BB0048 USB 2.0 Audio Interface"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554131193
+        source_repo: "https://github.com/mesheven-eda/BB0048"
+        organization: "5d36fdd4"
+        description_zh: "USB2.0接口通用音频模块em板插件，可用于耳机及扬声器"
+        id: "PCBA-BB0048"
+    - version: 4
+        source_pushed: "2018-02-18T06:22:18Z"
+        created_at: 1495448993624
+        caption_zh: "PCBA-BB0049 3路直流步进电机驱动器em板插件"
+        project: "d9a3a35f"
+        description_en: "33-Axis stepper motor driver with a maximum load of up to 24V at 1.6A per driver"
+        source_commit: "3b6a9356c267d65f7765583dfbfd5f2c74e363e6"
+        caption_en: "PCBA-BB0049 3-Axis 1.6A Stepper Motion Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326875
+        source_repo: "https://github.com/mesheven-eda/BB0049"
+        organization: "5d36fdd4"
+        description_zh: "3路双极性直流步进电机驱动器em板插件，最大负载24V 1.6"
+        id: "PCBA-BB0049"
+    - version: 2
+        source_pushed: "2018-01-23T04:21:49Z"
+        created_at: 1519470899943
+        caption_zh: "PCBA-BB0051 4通道数字隔离器"
+        project: "35e411cf"
+        description_en: "4-Channel Digital Isolator, 10 Mbps, 1000V Isolation"
+        source_commit: "50415f89c3481b14b430f67a877c54ee526a3385"
+        caption_en: "PCBA-BB0051 4x Digital Isolator"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332988
+        source_repo: "https://github.com/mesheven-eda/BB0051"
+        organization: "5d36fdd4"
+        description_zh: "4通道数字隔离器, 10 Mbps, 1000V"
+        id: "PCBA-BB0051"
+    - version: 1
+        source_pushed: "2017-09-25T04:53:44Z"
+        created_at: 1519470900127
+        caption_zh: "PCBA-BB0052"
+        project: "c3b53f7e"
+        description_en: "3-Channel + 1-Channel Digital Isolators, 10 Mbps, 1000V Isolation"
+        source_commit: "ef1e7f7ec672c946e2b2a1387ecc71e612d24c3d"
+        caption_en: "PCBA-BB0052 3x + 1x Digital Isolators"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554135805
+        source_repo: "https://github.com/mesheven-eda/BB0052"
+        organization: "5d36fdd4"
+        id: "PCBA-BB0052"
+    - version: 5
+        source_pushed: "2018-06-13T02:02:18Z"
+        created_at: 1495448993643
+        caption_zh: "PCBA-BB0053 USB接口WiFi模块em板插件"
+        project: "23c59bbd"
+        description_en: "150Mbps USB 2.0 to WiFi interface"
+        source_commit: "88f04c51c1ab31c0da36bfc02ef20abd5229cd9e"
+        caption_en: "PCBA-BB0053 USB 2.0 WiFi Interface"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1529377597275
+        source_repo: "https://github.com/mesheven-eda/BB0053"
+        organization: "5d36fdd4"
+        description_zh: "150Mbps USB到WiFi转换模块em板插件"
+        id: "PCBA-BB0053"
+    - version: 10
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039979
+        caption_zh: "PCBA-BB2000A MX插件[MB2000A]"
+        project: "53926d4b"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2000A MX-Plugin [MB2000A]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971224
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        id: "PCBA-BB2000A"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325040006
+        caption_zh: "PCBA-BB2000B MX插件 [MB2000B]"
+        project: "53926d4b"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2000B MX-Plugin [MB2000B]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971554
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        id: "PCBA-BB2000B"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039984
+        caption_zh: "PCBA-BB2001A MX插件 [MB2001A]"
+        project: "53926d4b"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2001A MX-Plugin [MB2001A]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971219
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-BB2001A"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039987
+        caption_zh: "PCBA-BB2001B MX插件 [MB2001B]"
+        project: "53926d4b"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2001B MX-Plugin [MB2001B]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971563
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-BB2001B"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325040009
+        caption_zh: "PCBA-BB2002A MX插件[MB2002A]"
+        project: "53926d4b"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2002A MX-Plugin[MB2002A]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971241
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-BB2002A"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039993
+        caption_zh: "PCBA-BB2002B MX插件 [MB2002B]"
+        project: "53926d4b"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB2002B MX-Plugin [MB2002B]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971561
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-BB2002B"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039990
+        caption_zh: "PCBA-BB3001A MX插件 [MB3001A]"
+        project: "53926d4b"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB3001A MX-Plugin [MB3001A]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971558
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-BB3001A"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325039995
+        caption_zh: "PCBA-BB3001B MX插件 [MB3001B]"
+        project: "53926d4b"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB3001B MX-Plugin [MB3001B]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971574
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-BB3001B"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325040003
+        caption_zh: "PCBA-BB3002A MX插件 [MB3002A]"
+        project: "53926d4b"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB3002A MX-Plugin [MB3002A]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971556
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-BB3002A"
+    - version: 8
+        source_pushed: "2018-07-09T10:53:32Z"
+        created_at: 1499325040000
+        caption_zh: "PCBA-BB3002B MX插件 [MB3002B]"
+        project: "53926d4b"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "62eda72f89c9dd6e6c533a7712fe06ad4390bd71"
+        caption_en: "PCBA-BB3002B MX-Plugin [MB3002B]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971610
+        source_repo: "https://github.com/mesheven-eda/BB2000"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-BB3002B"
+    - version: 12
+        source_pushed: "2018-07-09T10:51:57Z"
+        created_at: 1513917710311
+        caption_zh: "PCBA-BB4001 MX插件 [MB4001]"
+        project: "50a0f599"
+        description_en: "Low-energy device-intelligence module with Ethernet"
+        source_commit: "f4b2fd0185d0437d4b6fc06c955aedfc1c3e0db2"
+        caption_en: "PCBA-BB4001 MX-Plugin [MB4001]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971221
+        source_repo: "https://github.com/mesheven-eda/BB4000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗以太网设备智能模块"
+        id: "PCBA-BB4001"
+    - version: 12
+        source_pushed: "2018-07-09T10:51:57Z"
+        created_at: 1513917710314
+        caption_zh: "PCBA-BB4002 MX插件 [MB4002]"
+        project: "50a0f599"
+        description_en: "High-performance device-intelligence module with Ethernet"
+        source_commit: "f4b2fd0185d0437d4b6fc06c955aedfc1c3e0db2"
+        caption_en: "PCBA-BB4002 MX-Plugin [MB4002]"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971215
+        source_repo: "https://github.com/mesheven-eda/BB4000"
+        organization: "5d36fdd4"
+        description_zh: "高性能以太网设备智能模块"
+        id: "PCBA-BB4002"
+    - version: 3
+        source_pushed: "2017-11-14T09:58:57Z"
+        created_at: 1495448993674
+        caption_zh: "PCBA-BB9001 云控设备连接器em板插件"
+        project: "80d16218"
+        description_en: "Connector board for Cloud-Managed Devices"
+        source_commit: "1d138a7c11b04149497c3b94a87bb73d4f2c4300"
+        caption_en: "PCBA-BB9001 Cloud-Managed Devices Connector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554134122
+        source_repo: "https://github.com/mesheven-eda/BB9001"
+        organization: "5d36fdd4"
+        description_zh: "云控设备的连接em板插件"
+        id: "PCBA-BB9001"
+    - version: 4
+        source_pushed: "2017-11-06T01:16:25Z"
+        created_at: 1495448993677
+        caption_zh: "PCBA-BB9002 单色显示em板插件"
+        project: "1505798d"
+        description_en: "Monochrome Display for use with Mesheven Edge Devices"
+        source_commit: "65bc6ce6070da2f3b46c46f4c6f4884c874460dd"
+        caption_en: "PCBA-BB9002 Monochrome OLED Display"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334074
+        source_repo: "https://github.com/mesheven-eda/BB9002"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥端点设备的单色OLED显示em板插件"
+        id: "PCBA-BB9002"
+    - version: 4
+        source_pushed: "2017-12-13T01:07:59Z"
+        created_at: 1495448993655
+        caption_zh: "PCBA-BB9003 彩色显示em板插件"
+        project: "b2fc6e9a"
+        description_en: "320x240 RGB TFT display with backlight"
+        source_commit: "35e70d31c573f45c99af48d291b5952625b5ea99"
+        caption_en: "PCBA-BB9003 320x240 RGB TFT Color Display"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329196
+        source_repo: "https://github.com/mesheven-eda/BB9003"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥端点设备的彩色液晶显示em板插件"
+        id: "PCBA-BB9003"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993694
+        caption_zh: "PCBA-BB9004 接近传感器"
+        project: "4a29ab50"
+        description_en: "Proximity Sensor is designed for use with the MX-001 emBoard"
+        source_commit: "62b40ba64f0ad0f6dba884c66e4a496ebd60cf3c"
+        caption_en: "PCBA-BB9004 Proximity Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332358
+        source_repo: "https://github.com/mesheven-eda/BB9004"
+        organization: "5d36fdd4"
+        description_zh: "用于MX-001 em板的接近传感器"
+        id: "PCBA-BB9004"
+    - version: 4
+        source_pushed: "2017-11-13T03:41:57Z"
+        created_at: 1495448993698
+        caption_zh: "PCBA-BB9005 触觉振动器"
+        project: "0695010d"
+        description_en: "Haptic Vibrator is designed for use with the MX-001 emBoard"
+        source_commit: "086aecddb1c790db6662ac34f6f9ccdf047d509a"
+        caption_en: "PCBA-BB9005 Haptic Vibrator"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334533
+        source_repo: "https://github.com/mesheven-eda/BB9005"
+        organization: "5d36fdd4"
+        description_zh: "触觉振动器em板插件"
+        id: "PCBA-BB9005"
+    - version: 4
+        source_pushed: "2018-02-15T08:39:47Z"
+        created_at: 1495448993703
+        caption_zh: "PCBA-BB9006 PM2.5传感器"
+        project: "2b703c6e"
+        description_en: "PM2.5 Sensor is designed for use with the MX-001 emBoard"
+        source_commit: "444f82dbfaf0808d506c0882350c5c2f592a322c"
+        caption_en: "PCBA-BB9006 PM2.5 Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333382
+        source_repo: "https://github.com/mesheven-eda/BB9006"
+        organization: "5d36fdd4"
+        description_zh: "PM2.5传感器em板插件"
+        id: "PCBA-BB9006"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:02Z"
+        created_at: 1495448993691
+        caption_zh: "PCBA-BB9007 红外传感器"
+        project: "e735ad0f"
+        description_en: "PIR (Passive Infrared) Sensor is designed for use with the MX-001 emBoard"
+        source_commit: "6cc4072a24873d07dee726584c14051235342f9e"
+        caption_en: "PCBA-BB9007 PIR Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326828
+        source_repo: "https://github.com/mesheven-eda/BB9007"
+        organization: "5d36fdd4"
+        description_zh: "红外传感器em板插件"
+        id: "PCBA-BB9007"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:00Z"
+        created_at: 1495448993765
+        caption_zh: "PCBA-BB9008 扬声器"
+        project: "eebce42b"
+        description_en: "Speaker mounted on a board designed to work with the MX-001 emBoard"
+        source_commit: "1c314cb0000d282908203453e304ad2ed44ce641"
+        caption_en: "PCBA-BB9008 Speaker"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326778
+        source_repo: "https://github.com/mesheven-eda/BB9008"
+        organization: "5d36fdd4"
+        description_zh: "扬声器em板插件"
+        id: "PCBA-BB9008"
+    - version: 2
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993775
+        caption_zh: "PCBA-BB9009 2.5A 5V电源em板插件"
+        project: "cc1bcd74"
+        description_en: "High current, 2.5A power supply that accepts up to 28V input with a highly regulated 5V output"
+        source_commit: "8ffbdf23d457a42ae0ce1946a234fadc16da33ce"
+        caption_en: "PCBA-BB9009 2.5A 5V Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554136118
+        source_repo: "https://github.com/mesheven-eda/BB9009"
+        organization: "5d36fdd4"
+        description_zh: "大电流2.5A 5V电源em板插件，接受0-28V输入"
+        id: "PCBA-BB9009"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993808
+        caption_zh: "PCBA-BB9010 LED大功率驱动"
+        project: "a219bdc0"
+        description_en: "LED Power Driver for use with Mesheven Edge Devices"
+        source_commit: "bc19466d649fd80c6f5e27ba9ed1ceea4aea01f6"
+        caption_en: "PCBA-BB9010 LED Power Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329813
+        source_repo: "https://github.com/mesheven-eda/BB9010"
+        organization: "5d36fdd4"
+        description_zh: "用于创享桥端点设备的LED大功率驱动"
+        id: "PCBA-BB9010"
+    - version: 4
+        source_pushed: "2017-11-10T06:40:01Z"
+        created_at: 1495448993770
+        caption_zh: "PCBA-BB9011 蜂鸣器"
+        project: "fe57f1c5"
+        description_en: "Buzzer mounted on a board designed to work with the MX-001 emBoard"
+        source_commit: "5f8c04cce22df8f5aa63c94118625c91e5660874"
+        caption_en: "PCBA-BB9011 Buzzer"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327669
+        source_repo: "https://github.com/mesheven-eda/BB9011"
+        organization: "5d36fdd4"
+        description_zh: "蜂鸣器em板插件"
+        id: "PCBA-BB9011"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993891
+        caption_zh: "PCBA-BB9013 2.4寸TFT LCD"
+        project: "1e155b2e"
+        description_en: "TFT display with backlight designed to work with the MX-001 emBoard"
+        source_commit: "7c8c35f07d7aa025b7da96335c679809544f0fbc"
+        caption_en: "PCBA-BB9013 2.4 Inch TFT LCD"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334029
+        source_repo: "https://github.com/mesheven-eda/BB9013"
+        organization: "5d36fdd4"
+        description_zh: "2.4寸TFT LCD em板插件"
+        id: "PCBA-BB9013"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:00Z"
+        created_at: 1495448993842
+        caption_zh: "PCBA-BB9015 SPI接口1.1寸，128*36像素OLED显示"
+        project: "10289c6b"
+        description_en: "1.1 inch, 128*36 SPI OLED display"
+        source_commit: "5da93ad2dc1fdf5bc52412cb3edfbb696b4a033b"
+        caption_en: "PCBA-BB9015 1.1 inch, 128*36 SPI OLED"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334102
+        source_repo: "https://github.com/mesheven-eda/BB9015"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口1.1寸，128*36像素OLED显示em板插件"
+        id: "PCBA-BB9015"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993924
+        caption_zh: "PCBA-BB9017 LED台灯驱动，带PWM及模拟调光"
+        project: "0519f8bf"
+        description_en: "LED Lamp Driver with PWM or Analog Dimming"
+        source_commit: "81aff4a3cd10500ba93a5a74c074dabb6e4e477f"
+        caption_en: "PCBA-BB9017 LED Lamp Driver with PWM or Analog Dimming"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334682
+        source_repo: "https://github.com/mesheven-eda/BB9017"
+        organization: "5d36fdd4"
+        description_zh: "LED台灯驱动，带PWM及模拟调光em板插件"
+        id: "PCBA-BB9017"
+    - version: 6
+        source_pushed: "2018-01-04T07:21:51Z"
+        created_at: 1495448994273
+        caption_zh: "PCBA-BB9018 "
+        project: "cee4722e"
+        description_en: "Machine motherboard for SODIMM PC"
+        source_commit: "0cb20c587f733f7cdf8d864a9e60d103fe805288"
+        caption_en: "PCBA-BB9018 SODIMM Machine"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328203
+        source_repo: "https://github.com/mesheven-eda/BB9018"
+        organization: "5d36fdd4"
+        id: "PCBA-BB9018"
+    - version: 4
+        source_pushed: "2017-11-14T09:59:09Z"
+        created_at: 1495448993943
+        caption_zh: "PCBA-BB9019 BB-9017A的载板"
+        project: "df9246fe"
+        description_en: "Carrier board for the BB-9017A LED Lamp Power Driver"
+        source_commit: "28623612c0272ae4fa84890106ff078920b702a1"
+        caption_en: "PCBA-BB9019 Carrier Board for BB-9017"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327073
+        source_repo: "https://github.com/mesheven-eda/BB9019"
+        organization: "5d36fdd4"
+        description_zh: "BB-9017A LED台灯驱动的载板"
+        id: "PCBA-BB9019"
+    - version: 2
+        source_pushed: "2018-01-23T05:20:23Z"
+        created_at: 1519470900127
+        caption_zh: "PCBA-BB9020 3.7V锂电池BB板"
+        project: "d8508d3a"
+        description_en: "BB9020 3.7V lithium battery"
+        source_commit: "f05cc0316145b202809144e2a5750a0fd3ffbe4a"
+        caption_en: "PCBA-BB9020 3.7V Lithium Battery"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326881
+        source_repo: "https://github.com/mesheven-eda/BB9020"
+        organization: "5d36fdd4"
+        description_zh: "BB9020 3.7V锂电池BB板"
+        id: "PCBA-BB9020"
+    - version: 2
+        source_pushed: "2018-01-23T05:20:34Z"
+        created_at: 1519470899946
+        caption_zh: "PCBA-BB9021 2节 AAA碱性电池"
+        project: "4dfbd91d"
+        description_en: "BB with 2x AAA Alkaline Batteries"
+        source_commit: "8448af83c58beae6cf6d1f2a4ed22575e46f99d8"
+        caption_en: "PCBA-BB9021 2x AAA Batteries"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332222
+        source_repo: "https://github.com/mesheven-eda/BB9021"
+        organization: "5d36fdd4"
+        description_zh: "带有2节 AAA碱性电池的面包板"
+        id: "PCBA-BB9021"
+    - version: 2
+        source_pushed: "2017-11-06T01:16:37Z"
+        created_at: 1519470899949
+        caption_zh: "PCBA-BB9022 OLED显示板 128x32"
+        project: "522b3ef4"
+        description_en: "Monochrome 128x32 SPI OLED Display"
+        source_commit: "26b6590939ba6c237579480af01a01586fa43d02"
+        caption_en: "PCBA-BB9022 OLED Display 128x32"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332170
+        source_repo: "https://github.com/mesheven-eda/BB9022"
+        organization: "5d36fdd4"
+        description_zh: "单色 182x32像素 SPI通讯接口的OLED 显示板"
+        id: "PCBA-BB9022"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448994025
+        caption_zh: "PCBA-CS2000 CS-2000核心子系统"
+        project: "16fb301e"
+        description_en: "Core sub-system board for Mesheven MCU"
+        source_commit: "7f6ef852ac9e22a0d3338925c1c951524a49f02e"
+        caption_en: "PCBA-CS2000 Core Sub-System"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334112
+        source_repo: "https://github.com/mesheven-eda/CS2000"
+        organization: "5d36fdd4"
+        description_zh: "创享桥低功耗蓝牙核心子系统"
+        id: "PCBA-CS2000"
+    - version: 4
+        source_pushed: "2018-02-24T09:43:35Z"
+        created_at: 1495448993929
+        caption_zh: "PCBA-DT001 USB开发者工具"
+        project: "343fd0a3"
+        description_en: "USB-based device for developing and debugging Mesheven hardware that has no USB interface"
+        source_commit: "6a58c1324685922850c99bddc26e1213fd5288d7"
+        caption_en: "PCBA-DT001 USB Developer Tool"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333237
+        source_repo: "https://github.com/mesheven-eda/DT001"
+        organization: "5d36fdd4"
+        description_zh: "用于开发不带USB接口的创享桥硬件的USB接口开发工具"
+        id: "PCBA-DT001"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:02Z"
+        created_at: 1495448994016
+        caption_zh: "PCBA-HX001 HX-001智能主机（创享盒）"
+        project: "b4906019"
+        description_en: "DIN Rail Mount Intelligent Machine with Quad-Core Atom Processor, 2GB RAM, 32GB SSD"
+        source_commit: "e21f7ab25acb9144f04af28dad7d615fb3e449bc"
+        caption_en: "PCBA-HX001 DIN Rail Mount Mesh-Machine"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329260
+        source_repo: "https://github.com/mesheven-eda/HX001"
+        organization: "5d36fdd4"
+        description_zh: "HX-001智能主机，四核处理器，2GB内存，32GB闪存"
+        id: "PCBA-HX001"
+    - version: 3
+        source_pushed: "2017-05-21T09:44:01Z"
+        created_at: 1495448993988
+        caption_zh: "PCBA-LC001 LC-001 16通道LED控制器"
+        project: "e57460b7"
+        description_en: "16 Channel, cloud-controlled, LED controller"
+        source_commit: "38e24de7b6ab753243394fe108c2eca9df4b8271"
+        caption_en: "PCBA-LC001 16x 30V 1A LED Driver-Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554137009
+        source_repo: "https://github.com/mesheven-eda/LC001"
+        organization: "5d36fdd4"
+        description_zh: "云控16通道LED控制器"
+        id: "PCBA-LC001"
+    - version: 5
+        source_pushed: "2018-08-01T09:56:21Z"
+        created_at: 1528015505327
+        caption_zh: "PCBA-MB0001 4路 单刀单掷智能继电器控制器"
+        project: "7xa6crs9"
+        description_en: "4x SPST Smart-Relay Controller with current sense"
+        source_commit: "b2529e9486b295a9ceaa7dc6b33b518135decb15"
+        caption_en: "PCBA-MB0001 4x SPST Smart-Relay Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1533272923918
+        source_repo: "https://github.com/mesheven-eda/MB0001"
+        organization: "5d36fdd4"
+        description_zh: "4路 带有电流侦测功能的单刀单掷智能继电器控制器"
+        id: "PCBA-MB0001"
+    - version: 13
+        source_pushed: "2018-06-22T04:10:59Z"
+        created_at: 1495448994056
+        caption_zh: "PCBA-MB0003 触摸控制器"
+        project: "1a1d8169"
+        description_en: "Single-touch capacitive touch controller with gesture sensing"
+        source_commit: "3abc2335536fc2ca5d12187a0a01deb806fd2ecc"
+        caption_en: "PCBA-MB0003 Capacitive Touch Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530177273917
+        source_repo: "https://github.com/mesheven-eda/MB0003"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0003"
+    - version: 13
+        source_pushed: "2018-06-22T04:20:11Z"
+        created_at: 1495448994001
+        project: "d4000753"
+        description_en: "USB battery charger and power supply for rechargeable lithium battery, with 2A 3.3V and 5V outputs"
+        source_commit: "b97bb436d88702e5ba1655a3cfe6193ac5b8e923"
+        caption_en: "PCBA-MB0005 USB Lithium Battery Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530177274224
+        source_repo: "https://github.com/mesheven-eda/MB0005"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0005"
+    - version: 10
+        source_pushed: "2018-06-22T04:24:51Z"
+        created_at: 1495448994006
+        project: "1fffdbf7"
+        description_en: "USB battery manager and power supply for alkaline battery, with 3.3V and 5V outputs"
+        source_commit: "626af88bf9426497c1c3347ed70991d9ff04b57a"
+        caption_en: "PCBA-MB0006 USB Alkaline Battery Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530177273909
+        source_repo: "https://github.com/mesheven-eda/MB0006"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0006"
+    - version: 11
+        source_pushed: "2018-07-12T02:22:31Z"
+        created_at: 1495448994060
+        caption_zh: "PCBA-MB0008 16通道脉宽调制LED控制器"
+        project: "4bc050ac"
+        description_en: "16x PWM LED Controller"
+        source_commit: "ed1318dfdc402b88473412454cfb9d706158703c"
+        caption_en: "PCBA-MB0008 16x PWM LED Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971231
+        source_repo: "https://github.com/mesheven-eda/MB0008"
+        organization: "5d36fdd4"
+        description_zh: "16通道I2C LED控制器，驱动16通道单色或4通道RGB LED"
+        id: "PCBA-MB0008"
+    - version: 10
+        source_pushed: "2018-07-12T02:24:44Z"
+        created_at: 1495448994108
+        caption_zh: "PCBA-MB0011 9轴运动传感器"
+        project: "67165825"
+        description_en: "Motion sensor with accelerometer, gyroscope, compass and barometric altitude sensor"
+        source_commit: "9a7c4a71c23ff973563e2709d054018a3a17bd2f"
+        caption_en: "PCBA-MB0011 9-Axis Motion Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971612
+        source_repo: "https://github.com/mesheven-eda/MB0011"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0011"
+    - version: 4
+        source_pushed: "2018-06-29T10:09:39Z"
+        created_at: 1530267018792
+        caption_zh: "PCBA-MB0014 MCU蓝牙模块"
+        project: "c11080b0"
+        description_en: "General Purpose Remote IO"
+        source_commit: "64dc03e6fcdaf556375477461829f6155dc364fb"
+        caption_en: "MB0014 Remote GPIO"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971849
+        source_repo: "https://github.com/mesheven-eda/MB2001"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-MB0014"
+    - version: 7
+        source_pushed: "2018-07-10T03:01:53Z"
+        created_at: 1495448994124
+        caption_zh: "PCBA-MB0015 USB 3.0集线器模块，4端口CDP模式"
+        project: "6552705e"
+        description_en: "4-port USB 3.0 hub with comprehensive USB charging support, 1 upstream & 4 downstream USB 3.0 ports"
+        source_commit: "cf9cf0b2e9c5fdfb46466b529bf00f3eab2ea8e1"
+        caption_en: "PCBA-MB0015 4-Port USB 3.0 Hub"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971646
+        source_repo: "https://github.com/mesheven-eda/MB0015"
+        organization: "5d36fdd4"
+        description_zh: "4端口USB3.0集线器带USB充电支持，1路上行4路下行"
+        id: "PCBA-MB0015"
+    - version: 11
+        source_pushed: "2018-06-22T06:42:49Z"
+        created_at: 1495448994144
+        project: "87f2e36c"
+        description_en: "USB Power supply with additional 2x 40V inputs, 2A 3.3V and 2A 5V outputs"
+        source_commit: "27aea8ecec53f99cc590655f08d9766807f3bcff"
+        caption_en: "PCBA-MB0016 USB, Multiple input Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530177274085
+        source_repo: "https://github.com/mesheven-eda/MB0016"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0016"
+    - source_pushed: "2018-08-02T04:33:27Z"
+        version: 10
+        created_at: 1495448994864
+        caption_zh: "PCBA-MB0017 USB接口到UART串口和SWD调试口转换模块"
+        project: "b9e2beba"
+        description_en: "USB to UART & SWD programming and debugging peripheral"
+        source_commit: "83ad4da3d11b71025a68b5ab40348c9d14bdf18d"
+        caption_en: "PCBA-MB0017 USB Interface with UART and SWD"
+        item_type: "assembled_pcb"
+        state: "active"
+        source_repo: "https://github.com/mesheven-eda/MB0017"
+        updated_at: 1533272923910
+        organization: "5d36fdd4"
+        description_zh: "USB接口到UART串口和SWD调试口转换模块"
+        id: "PCBA-MB0017"
+    - version: 13
+        source_pushed: "2018-08-02T06:36:34Z"
+        created_at: 1521079170665
+        project: "fb77nxgl"
+        description_en: "USB ESD protector and configurable current limiter"
+        source_commit: "0c11b6e3ac436db691b58d4efe6cc705d3d3b8af"
+        caption_en: "PCBA-MB0018 USB Protector"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1533272923914
+        source_repo: "https://github.com/mesheven-eda/MB0018"
+        organization: "5d36fdd4"
+        description_zh: "USB信号静电防护&共模滤波和可配置电流值的限流模块"
+        id: "PCBA-MB0018"
+    - version: 12
+        source_pushed: "2018-07-12T02:31:11Z"
+        created_at: 1495448994294
+        caption_zh: "PCBA-MB0020"
+        project: "341cf932"
+        description_en: "Power-IO Expander, with 8x Protected 500mA Outputs"
+        source_commit: "129677fecdb44ece479e38d1cc907e72312b64ad"
+        caption_en: "PCBA-MB0020 Power-IO Expander"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971265
+        source_repo: "https://github.com/mesheven-eda/MB0020"
+        organization: "5d36fdd4"
+        description_zh: "MB0020"
+        id: "PCBA-MB0020"
+    - version: 13
+        source_pushed: "2018-07-26T09:42:55Z"
+        created_at: 1495448994380
+        caption_zh: "PCBA-MB0022 4端口USB2.0集线器模块"
+        project: "faaee53e"
+        description_en: "4-Port USB 2.0 Hub with in-built LED indicators for each channel, and charging support for all channels"
+        source_commit: "01d6111878df9426cca71287c5ae7cdab5b944fe"
+        caption_en: "PCBA-MB0022 4-Port USB 2.0 Hub"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1532995688221
+        source_repo: "https://github.com/mesheven-eda/MB0022"
+        organization: "5d36fdd4"
+        description_zh: "4端口USB2.0集线器，每通道带内置LED指示及充电功能"
+        id: "PCBA-MB0022"
+    - version: 7
+        source_pushed: "2018-07-12T02:36:58Z"
+        created_at: 1495448994284
+        caption_zh: "PCBA-MB0023 红外感应控制器"
+        project: "15aec62d"
+        description_en: "PIR (Passive Infra-Red) sensor controller"
+        source_commit: "1aec5076fd5a2aa94079743d7fb58b98b95a77cc"
+        caption_en: "PCBA-MB0023 PIR Sensor Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971268
+        source_repo: "https://github.com/mesheven-eda/MB0023"
+        organization: "5d36fdd4"
+        description_zh: "红外感应控制器"
+        id: "PCBA-MB0023"
+    - version: 12
+        source_pushed: "2018-07-10T08:54:42Z"
+        created_at: 1495448994417
+        caption_zh: "PCBA-MB0026 RFID读写器"
+        project: "e97375da"
+        description_en: "Secure RFID Reader-Writer"
+        source_commit: "e9992459e02421622f64b21fe5e780d72ec6ba88"
+        caption_en: "PCBA-MB0026 RFID Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481972017
+        source_repo: "https://github.com/mesheven-eda/MB0026"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0026"
+    - version: 11
+        source_pushed: "2018-07-11T09:58:32Z"
+        created_at: 1495448994424
+        project: "8fb343ea"
+        description_en: "Sound-effects unit with audio amplifier"
+        source_commit: "35b3737061f42145ac2550fc7c955ec758f66848"
+        caption_en: "PCBA-MB0028 Sound-Effect"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971840
+        source_repo: "https://github.com/mesheven-eda/MB0028"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0028"
+    - version: 16
+        source_pushed: "2018-07-11T09:42:39Z"
+        created_at: 1520584138826
+        caption_zh: "MB0030 16通道60mA LED控制器"
+        project: "y4yuw464"
+        description_en: "16-channel x 60mA intelligent LED controller-driver"
+        source_commit: "93e0323fd879c4cd5d5bb52792447859f8f5ad1d"
+        caption_en: "MB0030 16x 60mA LED Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481972196
+        source_repo: "https://github.com/mesheven-eda/MB0031"
+        organization: "5d36fdd4"
+        description_zh: "16通道60毫安智能LED控制器驱动"
+        id: "PCBA-MB0030"
+    - version: 11
+        source_pushed: "2018-07-11T09:42:39Z"
+        created_at: 1520584138817
+        caption_zh: "PCBA-MB0031 32通道60mA LED控制器"
+        project: "y4yuw464"
+        description_en: "32-channel x 60mA intelligent LED controller-driver"
+        source_commit: "93e0323fd879c4cd5d5bb52792447859f8f5ad1d"
+        caption_en: "PCBA-MB0031 32x 60mA LED Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481972202
+        source_repo: "https://github.com/mesheven-eda/MB0031"
+        organization: "5d36fdd4"
+        description_zh: "32通道60毫安智能LED控制器驱动"
+        id: "PCBA-MB0031"
+    - version: 10
+        source_pushed: "2018-07-12T03:13:27Z"
+        created_at: 1495448994427
+        caption_zh: "PCBA-MB0032 48通道60mA LED控制器"
+        project: "d892ce99"
+        description_en: "48-channel x 60mA intelligent LED controller-driver"
+        source_commit: "9bc7a8b9977945a7c2ff48bb079f0b695c8de084"
+        caption_en: "PCBA-MB0032 48x 60mA LED Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481972010
+        source_repo: "https://github.com/mesheven-eda/MB0032"
+        organization: "5d36fdd4"
+        description_zh: "48通道60毫安智能LED控制器驱动"
+        id: "PCBA-MB0032"
+    - version: 7
+        source_pushed: "2018-07-10T02:35:51Z"
+        created_at: 1495448994508
+        caption_zh: "PCBA-MB0035 USB3接口以太网适配器"
+        project: "6b8a0bbb"
+        description_en: "USB 3.0 to Gigabit Ethernet adaptor With built-in USB 3.0 upstream port and Ethernet port"
+        source_commit: "dae74b07268b131aab45941b8c0edf13209de799"
+        caption_en: "PCBA-MB0035 USB 3.0 Gigabit Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971628
+        source_repo: "https://github.com/mesheven-eda/MB0035"
+        organization: "5d36fdd4"
+        description_zh: "USB3接口以太网适配器，带内置USB3.0上行端口和以太网端口"
+        id: "PCBA-MB0035"
+    - version: 5
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448994505
+        caption_zh: "PCBA-MB0037 用于Atom CPU的HDMI接口模块"
+        project: "2a69fca4"
+        description_en: "HDMI interface designed for use in the HX-001 Intel-Atom based Mesheven Intelligent Machine"
+        source_commit: "b6bf64a0b16133bd469f959e45aad2b702192a31"
+        caption_en: "PCBA-MB0037 HDMI Interface for Atom CPU"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528018939095
+        source_repo: "https://github.com/mesheven-eda/MB0037"
+        organization: "5d36fdd4"
+        description_zh: "用于基于Intel Atom处理器的HX-001创享盒的HDMI接口模块"
+        id: "PCBA-MB0037"
+    - version: 13
+        source_pushed: "2018-06-28T04:21:12Z"
+        created_at: 1495448994488
+        project: "86bc8080"
+        description_en: "Intelligent Power Manager, 9-18V input, 9V-1A, 5V-3A, 3V3-3A outputs"
+        source_commit: "c67848b5e5515e086629772d33436a42aced0858"
+        caption_en: "PCBA-MB0039 Power Manager 9V,5V,3V3"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530177274077
+        source_repo: "https://github.com/mesheven-eda/MB0039"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0039"
+    - version: 7
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448994619
+        caption_zh: "PCBA-MB0043 3路输出电源模块"
+        project: "b8808ae7"
+        description_en: "3 output power supply with 5V and 3.3V outputs and an always-on 3.3V supply"
+        source_commit: "19b1877d4f65843d32ccf6205f5923e0c273fc9f"
+        caption_en: "PCBA-MB0043 3 Output Power Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1529558795875
+        source_repo: "https://github.com/mesheven-eda/MB0043"
+        organization: "5d36fdd4"
+        description_zh: "3路输出电源模块带5V和3.3V输出及一路常开3.3V输出"
+        id: "PCBA-MB0043"
+    - version: 9
+        source_pushed: "2018-07-12T03:19:01Z"
+        created_at: 1495448994717
+        caption_zh: "PCBA-MB0045 直流电机控制器"
+        project: "18bc3fd5"
+        description_en: "SPI 4x DC Motor Driver"
+        source_commit: "405d60e3efd26a9cd7522cc56a58b97bbcadc60d"
+        caption_en: "PCBA-MB0045 DC Motor Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971254
+        source_repo: "https://github.com/mesheven-eda/MB0045"
+        organization: "5d36fdd4"
+        description_zh: "SPI接口4路直流电机控制器"
+        id: "PCBA-MB0045"
+    - version: 8
+        source_pushed: "2018-07-12T03:05:55Z"
+        created_at: 1495448994785
+        caption_zh: "PCBA-MB0048 USB音频模块"
+        project: "9860f98c"
+        description_en: "USB 2.0 compliant general purpose USB to Audio device with support for headphones speakers"
+        source_commit: "cf3168f5d18da8fa9228d08c4de98ecf29fadb82"
+        caption_en: "PCBA-MB0048 USB Audio"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971835
+        source_repo: "https://github.com/mesheven-eda/MB0048"
+        organization: "5d36fdd4"
+        description_zh: "USB2.0接口通用音频模块，可用于耳机及扬声器"
+        id: "PCBA-MB0048"
+    - version: 12
+        source_pushed: "2018-07-12T02:00:08Z"
+        created_at: 1495448994743
+        project: "cee46991"
+        description_en: "3-Axis motion controller with integrated stepper motor drivers"
+        source_commit: "3e371e7753193da69e5b1ca3102ad4be5b22227e"
+        caption_en: "PCBA-MB0049 3-Axis Integrated Motion Controller-Driver"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481972041
+        source_repo: "https://github.com/mesheven-eda/MB0049"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0049"
+    - version: 7
+        source_pushed: "2018-01-25T01:44:09Z"
+        created_at: 1495448994789
+        project: "021d5e7d"
+        description_en: "4-channel digital isolator 4x A->B, 1000V, 10MHz"
+        source_commit: "86938c2cef69f8d3ada81ead806f630f144435dd"
+        caption_en: "PCBA-MB0051 4x Digital Isolator, 4:0"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528018938988
+        source_repo: "https://github.com/mesheven-eda/MB0051"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0051"
+    - version: 7
+        source_pushed: "2018-01-25T01:46:23Z"
+        created_at: 1495448994794
+        project: "40fc2be2"
+        description_en: "4-channel digital isolator 3x A->B, 1x B->A, 1000V, 10MHz"
+        source_commit: "0c95efff1b86f9a53424739bc06302c98556b5d0"
+        caption_en: "PCBA-MB0052 4x Digital Isolator, 3:1"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528018939125
+        source_repo: "https://github.com/mesheven-eda/MB0052"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0052"
+    - version: 5
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448994808
+        caption_zh: "PCBA-MB0053 USB接口WiFi模块"
+        project: "db0c4a26"
+        description_en: "USB to WiFi conversion with speed up to 150Mbps"
+        source_commit: "91ce263db5031109ef916e83ccd8cd95a5c593fb"
+        caption_en: "PCBA-MB0053 USB to WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528018938476
+        source_repo: "https://github.com/mesheven-eda/MB0053"
+        organization: "5d36fdd4"
+        description_zh: "150Mbps USB到WiFi转换模块"
+        id: "PCBA-MB0053"
+    - version: 4
+        source_pushed: "2018-03-23T09:58:24Z"
+        created_at: 1519470899953
+        project: "8802e220"
+        description_en: "General purpose CPLD with Altera MAXV 5M80ZE64C5N"
+        source_commit: "b161b26d1f32aad84fc09cf47662ead8b924e38b"
+        caption_en: "PCBA-MB0059 MAXV CPLD 5M80ZE64C5N"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1528018938899
+        source_repo: "https://github.com/mesheven-eda/MB0059"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0059"
+    - version: 5
+        source_pushed: "2018-07-12T03:43:57Z"
+        created_at: 1519470900127
+        caption_zh: "PCBA-MB0061 数字-模拟 输入输出扩展器"
+        project: "89218d40"
+        description_en: "Digital-Analog IO Expander"
+        source_commit: "ed89a62647e779acad7761c3fe92974a88c4d89b"
+        caption_en: "PCBA-MB0061 Digital-Analog IO Expander"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1531481971823
+        source_repo: "https://github.com/mesheven-eda/MB0061"
+        organization: "5d36fdd4"
+        description_zh: "数字-模拟 输入输出扩展器"
+        id: "PCBA-MB0061"
+    - version: 2
+        source_pushed: "2018-03-14T01:48:26Z"
+        created_at: 1519470899951
+        project: "6f23c7e9"
+        description_en: "General purpose CPLD with Lattice ispMACH LC4032V"
+        source_commit: "9429e038db9d315a6d8aade26da6b59997316eee"
+        caption_en: "PCBA-MB0062 ispMACH CPLD LC4032V"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1521079170740
+        source_repo: "https://github.com/mesheven-eda/MB0062"
+        organization: "5d36fdd4"
+        id: "PCBA-MB0062"
+    - version: 8
+        source_pushed: "2017-12-22T01:26:45Z"
+        created_at: 1499325040018
+        caption_zh: "MB2000A MCU蓝牙模块"
+        project: "cb22ccc3"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "57d34a88ba26c7ca7237f955068d26ca6eab4fc7"
+        caption_en: "MB2000A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328426
+        source_repo: "https://github.com/mesheven-eda/MB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        inventory_type: "inventory_counts"
+        id: "PCBA-MB2000A"
+    - version: 6
+        source_pushed: "2017-12-22T01:26:45Z"
+        created_at: 1499325040022
+        caption_zh: "MB2000B MCU蓝牙模块"
+        project: "cb22ccc3"
+        description_en: "Low-Energy device-intelligence module with BLE"
+        source_commit: "57d34a88ba26c7ca7237f955068d26ca6eab4fc7"
+        caption_en: "MB2000B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328814
+        source_repo: "https://github.com/mesheven-eda/MB2000"
+        organization: "5d36fdd4"
+        description_zh: "低功耗蓝牙智能模块"
+        id: "PCBA-MB2000B"
+    - version: 9
+        source_pushed: "2018-06-29T10:09:39Z"
+        created_at: 1499325040025
+        caption_zh: "MB2001A MCU蓝牙模块"
+        project: "c11080b0"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "64dc03e6fcdaf556375477461829f6155dc364fb"
+        caption_en: "MB2001A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530268173843
+        source_repo: "https://github.com/mesheven-eda/MB2001"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-MB2001A"
+    - version: 8
+        source_pushed: "2018-06-29T10:09:39Z"
+        created_at: 1499325040012
+        caption_zh: "MB2001B MCU蓝牙模块"
+        project: "c11080b0"
+        description_en: "Mid-Level device-intelligence module with BLE"
+        source_commit: "64dc03e6fcdaf556375477461829f6155dc364fb"
+        caption_en: "MB2001B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1530268173836
+        source_repo: "https://github.com/mesheven-eda/MB2001"
+        organization: "5d36fdd4"
+        description_zh: "主流蓝牙智能模块"
+        id: "PCBA-MB2001B"
+    - version: 5
+        source_pushed: "2017-12-22T02:37:57Z"
+        created_at: 1499325040029
+        caption_zh: "MB2002A MCU蓝牙模块"
+        project: "0217fa9d"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "00f139f5b0692bada1432e55e197a9ffe5050fcb"
+        caption_en: "MB2002A MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334827
+        source_repo: "https://github.com/mesheven-eda/MB2002"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-MB2002A"
+    - version: 5
+        source_pushed: "2017-12-22T02:37:57Z"
+        created_at: 1499325040033
+        caption_zh: "MB2002B MCU蓝牙模块"
+        project: "0217fa9d"
+        description_en: "High-Performance device-intelligence module with BLE"
+        source_commit: "00f139f5b0692bada1432e55e197a9ffe5050fcb"
+        caption_en: "MB2002B MCU-BLE"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939335002
+        source_repo: "https://github.com/mesheven-eda/MB2002"
+        organization: "5d36fdd4"
+        description_zh: "高性能蓝牙智能模块"
+        id: "PCBA-MB2002B"
+    - version: 5
+        source_pushed: "2017-12-22T02:45:55Z"
+        created_at: 1499325040039
+        caption_zh: "MB3001A MCU-WiFi模块"
+        project: "e7ab9c38"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "10da555d5b3ec4f2ed82a3b887989188b94bd6b1"
+        caption_en: "MB3001A MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327390
+        source_repo: "https://github.com/mesheven-eda/MB3001"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-MB3001A"
+    - version: 5
+        source_pushed: "2017-12-22T02:45:55Z"
+        created_at: 1499325040036
+        caption_zh: "MB3001B MCU-WiFi模块"
+        project: "e7ab9c38"
+        description_en: "Mid-Level device-intelligence module with WiFi"
+        source_commit: "10da555d5b3ec4f2ed82a3b887989188b94bd6b1"
+        caption_en: "MB3001B MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326861
+        source_repo: "https://github.com/mesheven-eda/MB3001"
+        organization: "5d36fdd4"
+        description_zh: "主流WiFi智能模块"
+        id: "PCBA-MB3001B"
+    - version: 5
+        source_pushed: "2017-12-22T02:49:06Z"
+        created_at: 1499325040045
+        caption_zh: "MB3002A MCU-WiFi模块"
+        project: "37b1ecc3"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "7f58ecd9993189a82e19e3213783e392f2e10880"
+        caption_en: "MB3002A MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332908
+        source_repo: "https://github.com/mesheven-eda/MB3002"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-MB3002A"
+    - version: 7
+        source_pushed: "2017-12-22T02:49:06Z"
+        created_at: 1499325040054
+        caption_zh: "MB3002B MCU-WiFi模块"
+        project: "37b1ecc3"
+        description_en: "High-Performance device-intelligence module with WiFi"
+        source_commit: "7f58ecd9993189a82e19e3213783e392f2e10880"
+        caption_en: "MB3002B MCU-WiFi"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333127
+        source_repo: "https://github.com/mesheven-eda/MB3002"
+        organization: "5d36fdd4"
+        description_zh: "高性能WiFi智能模块"
+        id: "PCBA-MB3002B"
+    - version: 4
+        source_pushed: "2017-12-22T02:53:07Z"
+        created_at: 1513911078980
+        caption_zh: "MB4001以太网MCU模块"
+        project: "cf34fd53"
+        description_en: "Low-energy device-intelligence module with Ethernet"
+        source_commit: "257563ba45e4894680f70883b744b0bf8b1399e8"
+        caption_en: "MB4001 MCU-Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328470
+        source_repo: "https://github.com/mesheven-eda/MB4001"
+        organization: "5d36fdd4"
+        description_zh: "低功耗以太网设备智能模块"
+        id: "PCBA-MB4001"
+    - version: 6
+        source_pushed: "2017-12-22T03:03:41Z"
+        created_at: 1513911250725
+        caption_zh: "MB4002以太网MCU模块"
+        project: "8e20b392"
+        description_en: "High-performance device-intelligence module with Ethernet"
+        source_commit: "2ac4459727238d7744c1e9cffb6ecc7d821b8364"
+        caption_en: "MB4002 MCU-Ethernet"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939330566
+        source_repo: "https://github.com/mesheven-eda/MB4002"
+        organization: "5d36fdd4"
+        description_zh: "高性能以太网设备智能模块"
+        inventory_type: "inventory_counts"
+        id: "PCBA-MB4002"
+    - version: 5
+        source_pushed: "2018-04-26T06:13:06Z"
+        created_at: 1520584138529
+        project: "3gj5kpl7"
+        description_en: "intelligent module for ME2 sensors - Current Measurement"
+        source_commit: "f556f7e4049658fd3134e1f4c4549e83878d0b0a"
+        caption_en: "PCBA-MB8001 ME2 Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1527143341256
+        source_repo: "https://github.com/mesheven-eda/MB8001"
+        organization: "5d36fdd4"
+        description_zh: "智能ME2传感器模块，电流测量型"
+        id: "PCBA-MB8001"
+    - version: 5
+        source_pushed: "2018-04-18T08:13:42Z"
+        created_at: 1520584138537
+        project: "fc5lt83p"
+        description_en: "intelligent module for ME3 sensors - Current Measurement"
+        source_commit: "a695c83abe6b26ea6b0fcb3467ac23bc84fbaf1e"
+        caption_en: "PCBA-MB8002 ME3 Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1527143342042
+        source_repo: "https://github.com/mesheven-eda/MB8002"
+        organization: "5d36fdd4"
+        description_zh: "智能ME3传感器模块，电流测量型"
+        id: "PCBA-MB8002"
+    - version: 5
+        source_pushed: "2018-04-18T08:14:09Z"
+        created_at: 1520584138553
+        project: "qalbju43"
+        description_en: "intelligent module for ME4 sensors - Current Measurement"
+        source_commit: "1f59c87122e0b341cfd43557097cdc11681c638a"
+        caption_en: "PCBA-MB8003 ME4 Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1527143341826
+        source_repo: "https://github.com/mesheven-eda/MB8003"
+        organization: "5d36fdd4"
+        description_zh: "智能ME4传感器模块，电流测量型"
+        id: "PCBA-MB8003"
+    - version: 4
+        source_pushed: "2018-04-18T08:45:33Z"
+        created_at: 1520584138793
+        project: "u2w9m7yp"
+        description_en: "Intelligent module for MG type sensors - Voltage Measurement"
+        source_commit: "244e6ea3f25397225f05595e9826d73285f00f28"
+        caption_en: "PCBA-MB8004 MG Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1527143341830
+        source_repo: "https://github.com/mesheven-eda/MB8004"
+        organization: "5d36fdd4"
+        description_zh: "智能MG传感器模块，电压测量型"
+        id: "PCBA-MB8004"
+    - version: 4
+        source_pushed: "2018-04-08T09:43:58Z"
+        created_at: 1520584138545
+        project: "lucdrjd4"
+        description_en: "Intelligent module for MQ type sensors - Resistance Measurement"
+        source_commit: "429d9c56673ecc84063bf67dff0492905ca2a3dd"
+        caption_en: "PCBA-MB8005 MQ Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1524026244378
+        source_repo: "https://github.com/mesheven-eda/MB8005"
+        organization: "5d36fdd4"
+        description_zh: "智能MQ传感器模块，电阻测量型"
+        id: "PCBA-MB8005"
+    - version: 4
+        source_pushed: "2018-04-09T02:14:42Z"
+        created_at: 1520584138560
+        project: "thdgwn7y"
+        description_en: "Intelligent module for MP type sensors - Resistance Measurement"
+        source_commit: "72e253f735c64d89cbb1d7b53c91e842e5ddaa08"
+        caption_en: "PCBA-MB8006 MP Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1524026244224
+        source_repo: "https://github.com/mesheven-eda/MB8006"
+        organization: "5d36fdd4"
+        description_zh: "智能MP传感器模块，电阻测量型"
+        id: "PCBA-MB8006"
+    - version: 4
+        source_pushed: "2018-01-12T01:14:15Z"
+        created_at: 1495448995024
+        caption_zh: "PCBA-MX001产品组装平台"
+        project: "2089502d"
+        description_en: "Platforms for assembling edge-devices and embedded intelligent-machines by Mesheven"
+        source_commit: "28a0be91d922ae24f9c7e36c519862fdfc9faeb2"
+        caption_en: "PCBA-MX001 Product Assembly Platform"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554131682
+        source_repo: "https://github.com/mesheven-eda/MX001"
+        organization: "5d36fdd4"
+        description_zh: "端点设备和嵌入式智能主机组装平台"
+        id: "PCBA-MX001"
+    - version: 6
+        source_pushed: "2017-12-29T09:58:35Z"
+        created_at: 1495448995032
+        project: "314ed8b9"
+        description_en: "RP prototyping board with 16x RGB LEDs"
+        source_commit: "5b4b6032537188edba0537357926adbcaa125fa4"
+        caption_en: "PCBA-RP000 Prototyping"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333359
+        source_repo: "https://github.com/mesheven-eda/RP000"
+        organization: "5d36fdd4"
+        id: "PCBA-RP000"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448995091
+        caption_zh: "PCBA-RP001 云控设备001"
+        project: "c87887bb"
+        description_en: "Cloud-Managed Programmable Power IO Controller with 16-Channel Extreme-IO"
+        source_commit: "f8d5da5c19292404ee0fd8335983cc9b58e07420"
+        caption_en: "PCBA-RP001 16x Extreme IO"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328535
+        source_repo: "https://github.com/mesheven-eda/RP001"
+        organization: "5d36fdd4"
+        description_zh: "创享桥云控可编程16通道IO功率控制器"
+        id: "PCBA-RP001"
+    - version: 4
+        source_pushed: "2017-05-21T09:45:44Z"
+        created_at: 1495448995099
+        caption_zh: "PCBA-RP002 云控设备002"
+        project: "67156dc5"
+        description_en: "Cloud-Managed 8x 5A, 30VDC Power Relays"
+        source_commit: "1c89bd240a76b48843215e15775b591ba57104be"
+        caption_en: "PCBA-RP002 8x Power Relays"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939332131
+        source_repo: "https://github.com/mesheven-eda/RP002"
+        organization: "5d36fdd4"
+        description_zh: "创享桥云控8通道5A 30VDC继电器"
+        id: "PCBA-RP002"
+    - version: 4
+        source_pushed: "2017-05-21T09:45:45Z"
+        created_at: 1495448995095
+        caption_zh: "PCBA-RP003 云控设备003"
+        project: "be1999ea"
+        description_en: "Cloud-Managed 8x 10A, 24V, Low Side MOSFET with 8x RGB LEDS"
+        source_commit: "5f4ba0359aad1549b065dae0d7a880939817ee06"
+        caption_en: "PCBA-RP003 8x 10A Low-Side MOSFET"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329098
+        source_repo: "https://github.com/mesheven-eda/RP003"
+        organization: "5d36fdd4"
+        description_zh: "创享桥云控8通道10A 24V 下桥MOSFET控制器"
+        id: "PCBA-RP003"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448995264
+        caption_zh: "PCBA-RP004 CM-004"
+        project: "2b2a0931"
+        description_en: "Cloud-Managed, precision electronic DC load"
+        source_commit: "e921223244c5ac034ff1084af36f9699608a2d41"
+        caption_en: "PCBA-RP004 4x Precision Load"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333642
+        source_repo: "https://github.com/mesheven-eda/RP004"
+        organization: "5d36fdd4"
+        description_zh: "云控高精度电子直流负载"
+        id: "PCBA-RP004"
+    - version: 2
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995274
+        caption_zh: "PCBA-RP005 CM-005"
+        project: "b67fc8d2"
+        description_en: "Cloud-Managed, Precision linear DC power supply"
+        source_commit: "8e27f5692bbb454c2fb008b86cefcaa64cf160cf"
+        caption_en: "PCBA-RP005 4x Precision DC Supply"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554135376
+        source_repo: "https://github.com/mesheven-eda/RP005"
+        organization: "5d36fdd4"
+        description_zh: "云控高精度线性直流电源"
+        id: "PCBA-RP005"
+    - version: 4
+        source_pushed: "2017-05-21T09:45:45Z"
+        created_at: 1495448995232
+        caption_zh: "PCBA-RP006 CM-006"
+        project: "edbcaf82"
+        description_en: "Cloud-Managed 3-axis 4A, 24V, Micro-step, stepper motor controller/driver"
+        source_commit: "4c56d1ca589e13f1d461abb7cc81e1e39969164a"
+        caption_en: "PCBA-RP006 3-Axis Motion Controller"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939326892
+        source_repo: "https://github.com/mesheven-eda/RP006"
+        organization: "5d36fdd4"
+        description_zh: "云控三轴4A 24V微步步进电机控制器/驱动器"
+        id: "PCBA-RP006"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995304
+        caption_zh: "PCBA-SD001 智能传感立方"
+        project: "a2b4d22b"
+        description_en: "Rechargeable Smart-Sensor with docking station and LCD display, sensing motion, proximity, gestures, temperature, air pressure, humidity, ambient light, CO, PM2.5 and VOC (volatile organic compounds)"
+        source_commit: "4b3b67b3e102671f2af05547f8d7c1a719a8e2b6"
+        caption_en: "PCBA-SD001 Sensor Cube"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939329878
+        source_repo: "https://github.com/mesheven-eda/SD001"
+        organization: "5d36fdd4"
+        description_zh: "可充电带LCD显示智能传感立方，温度、气压、湿度、环境光、CO、PM2.5"
+        id: "PCBA-SD001"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448995291
+        caption_zh: "PCBA-SD003 智能传感器"
+        project: "03d3d171"
+        description_en: "Low-energy, battery-powered remote sensing device for temperature, air pressure, humidity, ambient light"
+        source_commit: "266799289ef8d5eaeef8b7ee78956affd39ac771"
+        caption_en: "PCBA-SD003 Remote Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939334551
+        source_repo: "https://github.com/mesheven-eda/SD003"
+        organization: "5d36fdd4"
+        description_zh: "创享桥低功耗电池供电远程感知设备，温度、气压、湿度、环境光"
+        id: "PCBA-SD003"
+    - version: 5
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995280
+        caption_zh: "PCBA-SD005 RFID读卡器"
+        project: "f2df0f60"
+        description_en: "Ethernet-Powered RFID reader with audio and visual feedback"
+        source_commit: "2591e20cf14ea57248051ee27890a1105b29a74c"
+        caption_en: "PCBA-SD005 RFID Reader"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939327037
+        source_repo: "https://github.com/mesheven-eda/SD005"
+        organization: "5d36fdd4"
+        description_zh: "创享桥以太网供电RFID读卡器，带声音和视觉回馈"
+        inventory_type: "inventory_instances"
+        id: "PCBA-SD005"
+    - version: 3
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995295
+        caption_zh: "PCBA-SD006 智能传感器"
+        project: "c11071ce"
+        description_en: "Small, low-energy, battery-powered remote sensing device for temperature, humidity, ambient light"
+        source_commit: "ef4eeeb0aef3f9d1c615aff06f224324573459e8"
+        caption_en: "PCBA-SD006 Remote Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554135609
+        source_repo: "https://github.com/mesheven-eda/SD006"
+        organization: "5d36fdd4"
+        description_zh: "小尺寸低功耗电池供电温湿度、环境光传感器"
+        id: "PCBA-SD006"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995283
+        caption_zh: "PCBA-SD007 占用传感器"
+        project: "26ac1ba7"
+        description_en: "Battery-powered sensor for occupancy, temperature, humidity, ambient light"
+        source_commit: "9a337d4d6741a6b0c271c7e736384f405892332a"
+        caption_en: "PCBA-SD007 Occupancy Sensor"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939333373
+        source_repo: "https://github.com/mesheven-eda/SD007"
+        organization: "5d36fdd4"
+        description_zh: "创享桥电池供电占用、温湿度、环境光传感器"
+        id: "PCBA-SD007"
+    - version: 3
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995299
+        caption_zh: "PCBA-SK2000 入门套件"
+        project: "2669d1c9"
+        description_en: "Starter kit with MB-2000 (MCU-BLE), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "24457fe5e5e16b20d9e56fd3250402213b463e06"
+        caption_en: "PCBA-SK2000 Starter Kit"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554131744
+        source_repo: "https://github.com/mesheven-eda/SK2000"
+        organization: "5d36fdd4"
+        description_zh: "基于MB-2000的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED, 按键开关"
+        id: "PCBA-SK2000"
+    - version: 3
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448995320
+        caption_zh: "PCBA-ST001 传感标签"
+        project: "da7b1bce"
+        description_en: "Low-energy portable tracker with sensors for motion, temperature, air pressure, humidity, ambient light"
+        source_commit: "4d1113fdd5083a2b283e4a7fed28b71c95884afb"
+        caption_en: "PCBA-ST001 Sensor Tag"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554136725
+        source_repo: "https://github.com/mesheven-eda/ST001"
+        organization: "5d36fdd4"
+        description_zh: "低功耗可携带传感标签，感知运动、温度、气压、湿度、环境光"
+        id: "PCBA-ST001"
+    - version: 4
+        source_pushed: "2017-05-21T09:44:03Z"
+        created_at: 1495448995315
+        caption_zh: "PCBA-SW001 8相控制面板"
+        project: "c543a1e3"
+        description_en: "Rechargeable, portable, 8-way control-panel"
+        source_commit: "c51e1c26d87de87bc18f3f3061d5da993755a189"
+        caption_en: "PCBA-SW001 8-Way Control-Panel"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1520939328987
+        source_repo: "https://github.com/mesheven-eda/SW001"
+        organization: "5d36fdd4"
+        description_zh: "可充电移动式8相控制面板"
+        id: "PCBA-SW001"
+    - version: 2
+        source_pushed: "2018-08-03T02:01:52Z"
+        created_at: 1533011523121
+        caption_zh: "PCBA-TB_MCU_10X14 MCU_10X14 测试板"
+        project: "ab8l5wd5"
+        description_en: "MCU_10X14 test board"
+        source_commit: "8d07762e20c0961a0b0c10d30ac037cc79a119a5"
+        caption_en: "PCBA-TB_MCU_10X14 MCU_10X14 test board"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1533272923907
+        source_repo: "https://github.com/mesheven-eda/TB_MCU_10X14"
+        organization: "5d36fdd4"
+        description_zh: "MCU_10X14 测试板"
+        id: "PCBA-TB_MCU_10X14"
+    - version: 3
+        source_pushed: "2017-05-21T09:44:04Z"
+        created_at: 1495448995339
+        caption_zh: "PCBA-UH001 8端口 USB3.0功率集线器"
+        project: "b9dd3ed5"
+        description_en: "8 Channel, cloud-controlled, USB 3.0 Power Hub"
+        source_commit: "444df453b6d5e9ba6920ca851345c37ecfda3cf6"
+        caption_en: "PCBA-UH001 8-Ch USB 3.0 Power Hub"
+        item_type: "assembled_pcb"
+        state: "active"
+        updated_at: 1519554135594
+        source_repo: "https://github.com/mesheven-eda/UH001"
+        organization: "5d36fdd4"
+        description_zh: "云控8通道USB3.0功率集线器"
+        id: "PCBA-UH001"

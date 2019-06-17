@@ -1,0 +1,56 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    stroke-width="0.035"
+    viewBox="-10.21 -4.085 20.42 8.17"
+    >
+    <defs>
+        <radialGradient
+            id="RadialGradientHole"
+            spreadMethod="pad"
+            >
+            <stop offset="000%" stop-color="#363636"/>
+            <stop offset="077%" stop-color="#2d2d2d"/>
+            <stop offset="085%" stop-color="#262626"/>
+            <stop offset="092%" stop-color="#1e1e1e"/>
+            <stop offset="098%" stop-color="#1a1b1b"/>
+            <stop offset="100%" stop-color="#303030"/> 
+        </radialGradient>
+   
+        <svg id="PAD-TH-M10"
+             overflow="visible">
+            <circle r=".846" fill="#dfdfdf" stroke="#656263" stroke-width="0.035"/>
+            <circle r=".483" fill="url(#RadialGradientHole)" stroke="#231f20" stroke-width="0.001"/>
+        </svg>
+    
+    </defs>
+    
+    <rect
+        width       ="+20.360"
+        height      ="+05.108" 
+        x           ="-10.180" 
+        y           ="-02.554" 
+        rx          ="+00.900"
+        ry          ="+00.900"
+        stroke-width="+00.076"
+        fill        ="#a7a5a6" 
+        stroke      ="#4f4c4d" 
+        />
+
+    <use x="-8.897" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="-6.355" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="-3.813" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="-1.271" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="+3.813" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="+6.355" y="-1.271" href="#PAD-TH-M10"/>
+    <use x="+8.897" y="-1.271" href="#PAD-TH-M10"/>
+    
+    <use x="-8.897" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="-6.355" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="-3.813" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="-1.271" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="+3.813" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="+6.355" y="+1.271" href="#PAD-TH-M10"/>
+    <use x="+8.897" y="+1.271" href="#PAD-TH-M10"/>
+    
+    <rect width="2.54" height="5.108" x=".001" y="-2.554" fill="#dfdfdf" stroke="#4f4c4d" stroke-miterlimit="10" stroke-width=".076"/>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "people": {
+    "themes": {
+      "default": {
+        "caption_en": "Default",
+        "count": 100
+      }
+    }
+  },
+  "organizations": {
+    "themes": {
+      "default": {
+        "caption_en": "Default",
+        "count": 16
+      }
+    }
+  },
+  "locations": {
+    "themes": {
+      "default": {
+        "caption_en": "Default",
+        "count": 16
+      }
+    }
+  },
+  "zones": {
+    "themes": {
+      "default": {
+        "caption_en": "Default",
+        "count": 16
+      }
+    }
+  },
+  "machines": {
+    "themes": {
+      "default": {
+        "caption_en": "Default",
+        "count": 1
+      },
+      "animal": {
+        "caption_en": "Animals",
+        "count": 6
+      },
+      "dinosaur": {
+        "caption_en": "Dinosaurs",
+        "count": 6
+      },
+      "robot": {
+        "caption_en": "Robots",
+        "count": 6
+      },
+      "texture": {
+        "caption_en": "Textures",
+        "count": 6
+      }
+    }
+  }
+}

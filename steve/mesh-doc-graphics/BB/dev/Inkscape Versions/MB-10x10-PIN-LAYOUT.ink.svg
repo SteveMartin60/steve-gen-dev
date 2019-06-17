@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="MB-10x10-PIN-LAYOUT.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="87.499507"
+         inkscape:cx="13.529424"
+         inkscape:cy="15.212101"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997" />
+        <inkscape:grid
+             type="xygrid"
+             id="grid2145"
+             originx="0"
+             originy="0"
+             spacingy="0.49999998"
+             spacingx="0.49999998" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <circle
+         r="0.375"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4753"
+         cy="-1.9999998"
+         cx="-3.9999998" />
+    <circle
+         cx="-2.9999998"
+         cy="-1.9999998"
+         id="circle4755"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         cx="3.0000002"
+         cy="-1.9999998"
+         id="circle4757"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4759"
+         cy="-1.9999998"
+         cx="4" />
+    <circle
+         cx="-3.9999998"
+         cy="-0.99999976"
+         id="circle4767"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4769"
+         cy="-0.99999976"
+         cx="-2.9999998" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4771"
+         cy="-0.99999976"
+         cx="3.0000002" />
+    <circle
+         cx="4"
+         cy="-0.99999976"
+         id="circle4773"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4777"
+         cy="2.3841858e-007"
+         cx="-3.9999998" />
+    <circle
+         cx="-2.9999998"
+         cy="2.3841858e-007"
+         id="circle4779"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         cx="3"
+         cy="4e-008"
+         id="circle4781"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4783"
+         cy="2.3841858e-007"
+         cx="4" />
+    <circle
+         cx="-3.9999998"
+         cy="1.0000002"
+         id="circle4787"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4789"
+         cy="1.0000002"
+         cx="-2.9999998" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4791"
+         cy="1.0000002"
+         cx="3.0000002" />
+    <circle
+         cx="4"
+         cy="1.0000002"
+         id="circle4793"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4797"
+         cy="2"
+         cx="-3.9999998" />
+    <circle
+         cx="-2.9999998"
+         cy="2.0000002"
+         id="circle4799"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         cx="3.0000002"
+         cy="2.0000002"
+         id="circle4801"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4803"
+         cy="2.0000002"
+         cx="4" />
+    <circle
+         r="0.375"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4628"
+         cy="-3.9999998"
+         cx="-3.9999998" />
+    <circle
+         cx="-2.9999998"
+         cy="-3.9999998"
+         id="circle4630"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4632"
+         cy="-3.9999998"
+         cx="-1.9999998" />
+    <circle
+         cx="-0.99999976"
+         cy="-3.9999998"
+         id="circle4634"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4636"
+         cy="-3.9999998"
+         cx="2.3841858e-007" />
+    <circle
+         cx="1.0000002"
+         cy="-3.9999998"
+         id="circle4638"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4640"
+         cy="-3.9999998"
+         cx="2.0000002" />
+    <circle
+         cx="3.0000002"
+         cy="-3.9999998"
+         id="circle4642"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4644"
+         cy="-3.9999998"
+         cx="4" />
+    <circle
+         cx="-3.9999998"
+         cy="-2.9999998"
+         id="circle4648"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4650"
+         cy="-2.9999998"
+         cx="-2.9999998" />
+    <circle
+         cx="-1.9999998"
+         cy="-2.9999998"
+         id="circle4652"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4654"
+         cy="-2.9999998"
+         cx="-0.99999976" />
+    <circle
+         cx="2.3841858e-007"
+         cy="-2.9999998"
+         id="circle4656"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4658"
+         cy="-2.9999998"
+         cx="1.0000002" />
+    <circle
+         cx="2.0000002"
+         cy="-2.9999998"
+         id="circle4660"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4662"
+         cy="-2.9999998"
+         cx="3.0000002" />
+    <circle
+         cx="4"
+         cy="-2.9999998"
+         id="circle4664"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle4668"
+         cy="3.0000002"
+         cx="-3.9999998" />
+    <circle
+         cx="-2.9999998"
+         cy="3.0000002"
+         id="circle4670"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4672"
+         cy="3.0000002"
+         cx="-1.9999998" />
+    <circle
+         cx="-0.99999976"
+         cy="3.0000002"
+         id="circle4674"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4676"
+         cy="3.0000002"
+         cx="2.3841858e-007" />
+    <circle
+         cx="1.0000002"
+         cy="3.0000002"
+         id="circle4678"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4680"
+         cy="3.0000002"
+         cx="2.0000002" />
+    <circle
+         cx="3.0000002"
+         cy="3.0000002"
+         id="circle4682"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4684"
+         cy="3.0000002"
+         cx="4" />
+    <circle
+         cx="-3.9999998"
+         cy="4"
+         id="circle4688"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4690"
+         cy="4"
+         cx="-2.9999998" />
+    <circle
+         cx="-1.9999998"
+         cy="4"
+         id="circle4692"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4694"
+         cy="4"
+         cx="-0.99999976" />
+    <circle
+         cx="2.3841858e-007"
+         cy="4"
+         id="circle4696"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4698"
+         cy="4"
+         cx="1.0000002" />
+    <circle
+         cx="2.0000002"
+         cy="4"
+         id="circle4700"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle4702"
+         cy="4"
+         cx="3.0000002" />
+    <circle
+         cx="4"
+         cy="4"
+         id="circle4704"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         cx="-3.9999998"
+         cy="-3.9999998"
+         id="circle15149"
+         style="opacity:1;vector-effect:none;fill:#efc247;fill-opacity:1;stroke:none;stroke-width:0.31358024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle2129"
+         cy="-3.9999998"
+         cx="-2.9999998" />
+    <circle
+         cx="-1.9999998"
+         cy="-3.9999998"
+         id="circle2131"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle2133"
+         cy="-3.9999998"
+         cx="-0.99999976" />
+    <circle
+         cx="2.3841858e-007"
+         cy="-3.9999998"
+         id="circle2135"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle2137"
+         cy="-3.9999998"
+         cx="1.0000002" />
+    <circle
+         cx="2.0000002"
+         cy="-3.9999998"
+         id="circle2139"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <circle
+         r="0.375"
+         style="fill:#efc247;stroke-width:0.31358024"
+         id="circle2141"
+         cy="-3.9999998"
+         cx="3.0000002" />
+    <circle
+         cx="4"
+         cy="-3.9999998"
+         id="circle2143"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.375" />
+    <rect
+         x="-4.8432097"
+         y="-4.8432097"
+         width="9.6864195"
+         height="9.6864195"
+         rx="0.69505602"
+         ry="0.69505602"
+         id="rect816"
+         style="fill:none;stroke:#666666;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+         cx="-4.5"
+         cy="-4.5"
+         id="Fiduciary"
+         style="fill:#efc247;stroke-width:0.31358024"
+         r="0.125" />
+    <text
+         x="-3.99301"
+         y="-3.9241514"
+         font-size="16px"
+         id="text875"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A1</text>
+    <text
+         x="-2.9943821"
+         y="-3.922765"
+         font-size="16px"
+         id="text877"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A2</text>
+    <text
+         x="-1.9944834"
+         y="-3.922765"
+         font-size="16px"
+         id="text879"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A3</text>
+    <text
+         x="-0.99747294"
+         y="-3.9248447"
+         font-size="16px"
+         id="text881"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A4</text>
+    <text
+         x="0.0099357208"
+         y="-3.9248447"
+         font-size="16px"
+         id="text883"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A5</text>
+    <text
+         x="1.006022"
+         y="-3.9248447"
+         font-size="16px"
+         id="text885"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A6</text>
+    <text
+         x="2.0077696"
+         y="-3.9248447"
+         font-size="16px"
+         id="text887"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A7</text>
+    <text
+         x="3.0068595"
+         y="-3.922765"
+         font-size="16px"
+         id="text889"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A8</text>
+    <text
+         x="4.0067587"
+         y="-3.922765"
+         font-size="16px"
+         id="text891"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">A19</text>
+    <text
+         x="-4.0015597"
+         y="-2.9241514"
+         font-size="16px"
+         id="text893"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B1</text>
+    <text
+         x="-3.0029318"
+         y="-2.9234581"
+         font-size="16px"
+         id="text895"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B2</text>
+    <text
+         x="-2.0030329"
+         y="-2.9255378"
+         font-size="16px"
+         id="text897"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B3</text>
+    <text
+         x="-1.0060225"
+         y="-2.9234581"
+         font-size="16px"
+         id="text899"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B4</text>
+    <text
+         x="0.0013861746"
+         y="-2.9255378"
+         font-size="16px"
+         id="text901"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B5</text>
+    <text
+         x="0.99747241"
+         y="-2.9255378"
+         font-size="16px"
+         id="text903"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B6</text>
+    <text
+         x="1.9992199"
+         y="-2.9234581"
+         font-size="16px"
+         id="text905"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B7</text>
+    <text
+         x="2.9983101"
+         y="-2.9255378"
+         font-size="16px"
+         id="text907"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B8</text>
+    <text
+         x="3.998209"
+         y="-2.9234581"
+         font-size="16px"
+         id="text909"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">B9</text>
+    <text
+         x="-3.9977469"
+         y="-1.9244981"
+         font-size="16px"
+         id="text911"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">C1</text>
+    <text
+         x="-2.9983823"
+         y="-1.9243824"
+         font-size="16px"
+         id="text913"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">C2</text>
+    <text
+         x="-3.998729"
+         y="-0.92415148"
+         font-size="16px"
+         id="text915"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">D1</text>
+    <text
+         x="-2.9993644"
+         y="-0.92345828"
+         font-size="16px"
+         id="text917"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">D2</text>
+    <text
+         x="-4.0040436"
+         y="0.07584849"
+         font-size="16px"
+         id="text919"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">E1</text>
+    <text
+         x="-3.004679"
+         y="0.076541692"
+         font-size="16px"
+         id="text921"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">E2</text>
+    <text
+         x="-4.0042748"
+         y="1.0758485"
+         font-size="16px"
+         id="text923"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">F1</text>
+    <text
+         x="-3.0049102"
+         y="1.0765417"
+         font-size="16px"
+         id="text925"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">F2</text>
+    <text
+         x="-3.9962449"
+         y="2.0755019"
+         font-size="16px"
+         id="text927"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">G1</text>
+    <text
+         x="-2.9968805"
+         y="2.0755019"
+         font-size="16px"
+         id="text929"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">G2</text>
+    <text
+         x="3.0016174"
+         y="-1.9244981"
+         font-size="16px"
+         id="text931"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">C8</text>
+    <text
+         x="4.0020218"
+         y="-1.9243826"
+         font-size="16px"
+         id="text933"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">C9</text>
+    <text
+         x="3.0006354"
+         y="-0.92449808"
+         font-size="16px"
+         id="text935"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">D8</text>
+    <text
+         x="4.0010395"
+         y="-0.92345828"
+         font-size="16px"
+         id="text937"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">D9</text>
+    <text
+         x="2.9953208"
+         y="0.075501882"
+         font-size="16px"
+         id="text939"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">E8</text>
+    <text
+         x="3.9957252"
+         y="0.076541692"
+         font-size="16px"
+         id="text941"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">E9</text>
+    <text
+         x="2.9950898"
+         y="1.0755018"
+         font-size="16px"
+         id="text943"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">F8</text>
+    <text
+         x="3.9954939"
+         y="1.0765417"
+         font-size="16px"
+         id="text945"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">F9</text>
+    <text
+         x="3.0031192"
+         y="2.0755019"
+         font-size="16px"
+         id="text947"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">G8</text>
+    <text
+         x="4.0035238"
+         y="2.0755019"
+         font-size="16px"
+         id="text949"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">G9</text>
+    <text
+         x="-3.9988444"
+         y="3.0758483"
+         font-size="16px"
+         id="text951"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H1</text>
+    <text
+         x="-3.0002162"
+         y="3.0765417"
+         font-size="16px"
+         id="text953"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H2</text>
+    <text
+         x="-2.0003176"
+         y="3.0744619"
+         font-size="16px"
+         id="text955"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H3</text>
+    <text
+         x="-1.0033071"
+         y="3.0765417"
+         font-size="16px"
+         id="text957"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H4</text>
+    <text
+         x="0.0041013951"
+         y="3.0744619"
+         font-size="16px"
+         id="text959"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H5</text>
+    <text
+         x="1.0001875"
+         y="3.0744619"
+         font-size="16px"
+         id="text961"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H6</text>
+    <text
+         x="2.001935"
+         y="3.0765417"
+         font-size="16px"
+         id="text963"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H7</text>
+    <text
+         x="3.001025"
+         y="3.0744619"
+         font-size="16px"
+         id="text965"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H8</text>
+    <text
+         x="4.0009236"
+         y="3.0765417"
+         font-size="16px"
+         id="text967"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">H9</text>
+    <text
+         x="-4.0029459"
+         y="4.0750394"
+         font-size="16px"
+         id="text969"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J1</text>
+    <text
+         x="-3.004318"
+         y="4.0750394"
+         font-size="16px"
+         id="text971"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J2</text>
+    <text
+         x="-2.0044193"
+         y="4.0745773"
+         font-size="16px"
+         id="text973"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J3</text>
+    <text
+         x="-1.0074087"
+         y="4.0750394"
+         font-size="16px"
+         id="text975"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J4</text>
+    <text
+         x="-1.8544281e-007"
+         y="4.0745773"
+         font-size="16px"
+         id="text977"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J5</text>
+    <text
+         x="0.996086"
+         y="4.0745773"
+         font-size="16px"
+         id="text979"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J6</text>
+    <text
+         x="1.9978334"
+         y="4.0750394"
+         font-size="16px"
+         id="text981"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J7</text>
+    <text
+         x="2.9969234"
+         y="4.0745773"
+         font-size="16px"
+         id="text983"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J8</text>
+    <text
+         x="3.9968226"
+         y="4.0750394"
+         font-size="16px"
+         id="text985"
+         style="font-size:0.23661484px;font-family:consolas;text-anchor:middle;fill:#282828;stroke-width:0.31358024">J9</text>
+</svg>

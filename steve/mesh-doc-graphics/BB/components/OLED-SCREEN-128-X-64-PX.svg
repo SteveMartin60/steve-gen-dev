@@ -1,0 +1,59 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-13.4 -10.23 26.788 20.459"
+    >
+    <defs>
+        <svg
+            id="COG-BLUE-4.5MM"
+            overflow="visible"
+            >
+            <circle r="1.5" fill="none" stroke="#51abe4" stroke-width=".75"/>
+            
+            <rect width="0.79" height="0.96" x="-.3950" y="+1.290" fill="#51abe4"/>
+            <rect width="0.79" height="0.96" x="-.3950" y="-2.250" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-0.395" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-0.395" fill="#51abe4"/>
+
+            <rect width="0.79" height="0.96" x="-0.395" y="+1.290" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.79" height="0.96" x="-0.395" y="-2.250" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+        </svg>
+    </defs>
+    
+    <rect width="24.00" height="00.80" x="-12.00" y="+09.429" fill="#303030" rx=".406" ry="1.982"/>
+    <rect width="26.70" height="19.26" x="-13.35" y="-10.185" fill="#4f4c4d" stroke="#303030" stroke-width=".088"/>
+    <rect width="25.70" height="14.40" x="-12.85" y="-09.853" fill="#303030" />
+    <rect width="21.75" height="10.86" x="-10.87" y="-08.085" fill="#433f40" />
+    <rect width="12.00" height="00.31" x="-06.00" y="+09.119" fill="#f89c0e" opacity="0.6" />
+
+    <use x="-6.55" y="-2.65" href="#COG-BLUE-4.5MM"/>
+    <use x="-5.10" y="-2.55" href="#COG-BLUE-4.5MM" transform="scale(0.65) rotate(20)"/>
+
+    <path
+        fill="#f89c0e" 
+        opacity="0.6"
+        d="
+            m -6.013, 9.43
+            v 0.148
+            c 0.41, -0.041, 0.564, 0.329, 0.542, 0.525
+            l -0.057, 0.126
+            h 11.03
+            l -0.062, -0.121
+            c -0.032 , -0.33, 0.27, -0.558, 0.547, -0.53
+            v -0.149
+            z"
+    />
+
+    <svg
+        overflow    ="visible"
+        fill        ="#51abe4"
+        font-family ="Lato" 
+        font-size   ="3.175" 
+        stroke-width="00.353" 
+        font-weight ="700" 
+        white-space ="normal" 
+        >
+        <text  x="0.546" y="-1.532">OLED</text>
+    </svg>
+</svg>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Component Grid</title>
+        <meta charset="utf-8">
+        <style>
+            /*............................................................... */
+            #c
+            {
+                margin           :0 auto; /*center aligned*/
+                padding          :0;
+                font-size        :0; /* Remember to change it back to normal font size if have captions */
+                list-style       :none;
+                background-color :ivory;
+                overflow-x       : hidden;
+                overflow-y       : hidden;
+            }
+            /*............................................................... */
+            #c li
+            {
+                display        : inline-block;
+                width          : 100%;
+                vertical-align : middle;
+                box-sizing     : border-box;
+                margin         : 0;
+                padding        : 0;
+            }
+            /*............................................................... */
+            .component
+            {
+                display  : flex;
+                position : relative;
+                overflow : visible;
+            }
+            /*............................................................... */
+            .c-img
+            {
+                display    : block;
+                width      : 100%;
+                height     : auto;
+                border     : none;
+                transform  : scale(1);
+                transition : all 1s;
+                z-index    : auto;
+            }
+            /*............................................................... */
+            #c li:hover .c-img
+            {
+                transform :scale(2.05);
+                z-index   : 1100;
+            }
+            /*............................................................... */
+            .c-text
+            {
+                display     : flex;
+                background  : ivory;
+                margin      : 10px;
+                padding     : 18px;
+                position    : absolute;
+                left        : 25%;
+                width       : 50%;
+                text-align  : center;
+                font-size   : 68px;
+                font-family : 'Lato Semibold', sans-serif;
+                top         : 150%;
+                color       : green;
+                opacity     : 0;
+                transition  : all .3s;
+                zoom        : 1;
+            }
+            /*............................................................... */
+            #c li:hover .c-text
+            {
+                opacity    : 0.81;
+                z-index    : 1200;
+                transition : all .8s;
+            }
+            /*............................................................... */
+        </style>
+    </head>
+
+    <body>
+
+        <script type="text/javascript" src="../bd-scripts/side-bar.js"></script>
+        <!--................................................................ -->
+    <ul id="c">
+        <li><a class="component" ><img class="c-img" alt="Battery Alkaline Pack"                       src="../bb-components/BATTERY-ALKALINE-PACK.svg"                      /><span class="c-text"> Battery Alkaline Pack                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Battery Alkaline Single"                     src="../bb-components/BATTERY-ALKALINE-SINGLE.svg"                    /><span class="c-text"> Battery Alkaline Single                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Battery Connector Alkaline"                  src="../bb-components/BATTERY-CONNECTOR-ALKALINE.svg"                 /><span class="c-text"> Battery Connector Alkaline                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Battery Connector Lithium"                   src="../bb-components/BATTERY-CONNECTOR-LITHIUM.svg"                  /><span class="c-text"> Battery Connector Lithium                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="BB Header P01 P02"                           src="../bb-components/BB-HEADER-P01-P02.svg"                          /><span class="c-text"> BB Header P01 P02                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="BB Host A Outline"                           src="../bb-components/BB-HOST-A-OUTLINE.svg"                          /><span class="c-text"> BB Host A Outline                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Box Header"                                  src="../bb-components/BOX-HEADER.svg"                                 /><span class="c-text"> Box Header                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Buzzer"                                      src="../bb-components/BUZZER.svg"                                     /><span class="c-text"> Buzzer                                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Cap 0603"                                    src="../bb-components/CAP-0603.svg"                                   /><span class="c-text"> Cap 0603                                    </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Cap 1206"                                    src="../bb-components/CAP-1206.svg"                                   /><span class="c-text"> Cap 1206                                    </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Decal BB Header P01 P02"                     src="../bb-components/DECAL-BB-HEADER-P01-P02.svg"                    /><span class="c-text"> Decal BB Header P01 P02                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Dual Headers"                                src="../bb-components/Dual-Headers.svg"                               /><span class="c-text"> Dual Headers                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Encoder"                                     src="../bb-components/ENCODER.svg"                                    /><span class="c-text"> Encoder                                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Haptic Vibrator"                             src="../bb-components/HAPTIC-VIBRATOR.svg"                            /><span class="c-text"> Haptic Vibrator                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="HDR2X5P254F_RA"                              src="../bb-components/HDR2X5P254F_RA.svg"                             /><span class="c-text"> HDR2X5P254F_RA                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="HDR2X5P254M_RA"                              src="../bb-components/HDR2X5P254M_RA.svg"                             /><span class="c-text"> HDR2X5P254M_RA                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="HSY 5050RGBC"                                src="../bb-components/HSY-5050RGBC.svg"                               /><span class="c-text"> HSY 5050RGBC                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="HSY 5050RGBW"                                src="../bb-components/HSY-5050RGBW.svg"                               /><span class="c-text"> HSY 5050RGBW                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="HSY B3628GB"                                 src="../bb-components/HSY-B3628GB.svg"                                /><span class="c-text"> HSY B3628GB                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper GND 3V3 5V0"                          src="../bb-components/JUMPER-GND-3V3-5V0.svg"                         /><span class="c-text"> Jumper GND 3V3 5V0                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper GND 3V3"                              src="../bb-components/JUMPER-GND-3V3.svg"                             /><span class="c-text"> Jumper GND 3V3                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper GND 5V0"                              src="../bb-components/JUMPER-GND-5V0.svg"                             /><span class="c-text"> Jumper GND 5V0                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper GND GND"                              src="../bb-components/JUMPER-GND-GND.svg"                             /><span class="c-text"> Jumper GND GND                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper I2C"                                  src="../bb-components/JUMPER-I2C.svg"                                 /><span class="c-text"> Jumper I2C                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Jumper Wake"                                 src="../bb-components/JUMPER-WAKE.svg"                                /><span class="c-text"> Jumper Wake                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LB310 G12P BOR"                              src="../bb-components/LB310-G12P-BOR.svg"                             /><span class="c-text"> LB310 G12P BOR                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LB310 G20P BOR"                              src="../bb-components/LB310-G20P-BOR.svg"                             /><span class="c-text"> LB310 G20P BOR                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LB335 G12S BOR"                              src="../bb-components/LB335-G12S-BOR.svg"                             /><span class="c-text"> LB335 G12S BOR                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LB335 G20S BOR"                              src="../bb-components/LB335-G20S-BOR.svg"                             /><span class="c-text"> LB335 G20S BOR                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LED RGB 1206 TZ S06RGB4VC"                   src="../bb-components/LED-RGB-1206-TZ-S06RGB4VC.svg"                  /><span class="c-text"> LED RGB 1206 TZ S06RGB4VC                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="LED RGB 1206"                                src="../bb-components/LED-RGB-1206.svg"                               /><span class="c-text"> LED RGB 1206                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Lithium Cell 2302"                           src="../bb-components/LITHIUM-CELL-2302.svg"                          /><span class="c-text"> Lithium Cell 2302                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Button 3V3"                            src="../bb-components/MX001-BUTTON-3V3.svg"                           /><span class="c-text"> MX001 Button 3V3                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Button 5V0"                            src="../bb-components/MX001-BUTTON-5V0.svg"                           /><span class="c-text"> MX001 Button 5V0                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Button Silver"                         src="../bb-components/MX001-BUTTON-SILVER.svg"                        /><span class="c-text"> MX001 Button Silver                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Button SPI"                            src="../bb-components/MX001-BUTTON-SPI.svg"                           /><span class="c-text"> MX001 Button SPI                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 DC Power 9~12V"                        src="../bb-components/MX001-DC-POWER-9~12V.svg"                       /><span class="c-text"> MX001 DC Power 9~12V                        </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Screen Only"                           src="../bb-components/MX001-SCREEN-ONLY.svg"                          /><span class="c-text"> MX001 Screen Only                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="MX001 Screen"                                src="../bb-components/MX001-SCREEN.svg"                               /><span class="c-text"> MX001 Screen                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="OLED Screen 128 X 32 PX"                     src="../bb-components/OLED-SCREEN-128-X-32-PX.svg"                    /><span class="c-text"> OLED Screen 128 X 32 PX                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="OLED Screen 128 X 64 PX"                     src="../bb-components/OLED-SCREEN-128-X-64-PX.svg"                    /><span class="c-text"> OLED Screen 128 X 64 PX                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="PAD TH Round 1.6MM"                          src="../bb-components/PAD-TH-ROUND-1.6MM.svg"                         /><span class="c-text"> PAD TH Round 1.6MM                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="PAD TH Square 1.6MM"                         src="../bb-components/PAD-TH-SQUARE-1.6MM.svg"                        /><span class="c-text"> PAD TH Square 1.6MM                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="PJ 358"                                      src="../bb-components/PJ-358.svg"                                     /><span class="c-text"> PJ 358                                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="PM2.5 Sensor"                                src="../bb-components/PM2.5-SENSOR.svg"                               /><span class="c-text"> PM2.5 Sensor                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Push Button 6x6"                             src="../bb-components/PUSH-BUTTON-6x6.svg"                            /><span class="c-text"> Push Button 6x6                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="QR Code MB Cutout Circle"                    src="../bb-components/QR-CODE-MB-CUTOUT-CIRCLE.svg"                   /><span class="c-text"> QR Code MB Cutout Circle                    </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="QR Code MB"                                  src="../bb-components/QR-CODE-MB.svg"                                 /><span class="c-text"> QR Code MB                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="RES 0603"                                    src="../bb-components/RES-0603.svg"                                   /><span class="c-text"> RES 0603                                    </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="RES 1206"                                    src="../bb-components/RES-1206.svg"                                   /><span class="c-text"> RES 1206                                    </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor ME2"                                  src="../bb-components/SENSOR-ME2.svg"                                 /><span class="c-text"> Sensor ME2                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor ME4"                                  src="../bb-components/SENSOR-ME4.svg"                                 /><span class="c-text"> Sensor ME4                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor MP 2"                                 src="../bb-components/SENSOR-MP-2.svg"                                /><span class="c-text"> Sensor MP 2                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor MP"                                   src="../bb-components/SENSOR-MP.svg"                                  /><span class="c-text"> Sensor MP                                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor MQ"                                   src="../bb-components/SENSOR-MQ.svg"                                  /><span class="c-text"> Sensor MQ                                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Sensor PIR RE200B"                           src="../bb-components/SENSOR-PIR-RE200B.svg"                          /><span class="c-text"> Sensor PIR RE200B                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SKT2X8P254SMD_3.7H 4+3"                      src="../bb-components/SKT2X8P254SMD_3.7H-4+3.svg"                     /><span class="c-text"> SKT2X8P254SMD_3.7H 4+3                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SOP 13F 39"                                  src="../bb-components/SOP-13F-39.svg"                                 /><span class="c-text"> SOP 13F 39                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SOP 30F 51"                                  src="../bb-components/SOP-30F-51.svg"                                 /><span class="c-text"> SOP 30F 51                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SOT23"                                       src="../bb-components/SOT23.svg"                                      /><span class="c-text"> SOT23                                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Speaker"                                     src="../bb-components/SPEAKER.svg"                                    /><span class="c-text"> Speaker                                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Gyroscope"                            src="../bb-components/SYMBOL-GYROSCOPE.svg"                           /><span class="c-text"> Symbol Gyroscope                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Hand Waving"                          src="../bb-components/SYMBOL-HAND-WAVING.svg"                         /><span class="c-text"> Symbol Hand Waving                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Headphones"                           src="../bb-components/SYMBOL-HEADPHONES.svg"                          /><span class="c-text"> Symbol Headphones                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Humidity"                             src="../bb-components/SYMBOL-HUMIDITY.svg"                            /><span class="c-text"> Symbol Humidity                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Microphone"                           src="../bb-components/SYMBOL-MICROPHONE.svg"                          /><span class="c-text"> Symbol Microphone                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Minus"                                src="../bb-components/SYMBOL-MINUS.svg"                               /><span class="c-text"> Symbol Minus                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Mute Microphone"                      src="../bb-components/SYMBOL-MUTE-MICROPHONE.svg"                     /><span class="c-text"> Symbol Mute Microphone                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Mute Speaker"                         src="../bb-components/SYMBOL-MUTE-SPEAKER.svg"                        /><span class="c-text"> Symbol Mute Speaker                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Plus Minus"                           src="../bb-components/SYMBOL-PLUS-MINUS.svg"                          /><span class="c-text"> Symbol Plus Minus                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Plus"                                 src="../bb-components/SYMBOL-PLUS.svg"                                /><span class="c-text"> Symbol Plus                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Running Man"                          src="../bb-components/SYMBOL-RUNNING-MAN.svg"                         /><span class="c-text"> Symbol Running Man                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Sensor Infrared"                      src="../bb-components/SYMBOL-SENSOR-INFRARED.svg"                     /><span class="c-text"> Symbol Sensor Infrared                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Sensor Pressure"                      src="../bb-components/SYMBOL-SENSOR-PRESSURE.svg"                     /><span class="c-text"> Symbol Sensor Pressure                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Sun"                                  src="../bb-components/SYMBOL-SUN.svg"                                 /><span class="c-text"> Symbol Sun                                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Symbol Temperature"                          src="../bb-components/SYMBOL-TEMPERATURE.svg"                         /><span class="c-text"> Symbol Temperature                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="TFT LCD 2.2"                                 src="../bb-components/TFT-LCD-2.2.svg"                                /><span class="c-text"> TFT LCD 2.2                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB 3 C HZ FM 4 FIX DIP SIG SMDDIP WO CRIMP" src="../bb-components/USB-3-C-HZ-FM-4-FIX-DIP-SIG-SMD-WO-CRIMP.svg"/><span class="c-text"> USB 3 C HZ FM 4 FIX DIP SIG SMDDIP WO CRIMP </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB MINI VF"                                 src="../bb-components/USB-MINI-VF.svg"                                /><span class="c-text"> USB MINI VF                                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB2 A VF"                                   src="../bb-components/USB2-A-VF.svg"                                  /><span class="c-text"> USB2 A VF                                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB3 A VF"                                   src="../bb-components/USB3-A-VF.svg"                                  /><span class="c-text"> USB3 A VF                                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB3 C VF"                                   src="../bb-components/USB3-C-VF.svg"                                  /><span class="c-text"> USB3 C VF                                   </span></a></li>
+    </ul>
+        <!--................................................................ -->
+<!--
+        <script>
+            //<![CDATA[
+                window.addEventListener("load", findComponentSVGElements, false);
+            //]]>
+        </script>
+-->
+    <!--.................................................................... -->
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="-7.115 -6.35 14.230 12.700"
+    gradientUnits="userSpaceOnUse"
+    >
+    <defs>
+        <radialGradient
+            id="RadialGradientSolderPad"
+            spreadMethod="pad"
+        >
+            <stop offset="0.000" stop-color="#3c3c3c"/>
+            <stop offset="0.067" stop-color="#4d4d4d"/>
+            <stop offset="0.181" stop-color="#5e5e5e"/>
+            <stop offset="1.000" stop-color="#f0f0f0"/>
+        </radialGradient>
+
+        <linearGradient
+            id="PinRightAngleDarkLight"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="1.640" height="1.64" x="-4.595" y="4.26" fill="#303030"/>
+
+    <rect width="1.600" height="1.60" x="-4.575" y="4.28" fill="#ebb300"/>
+
+    <rect width="7.357" height="0.64" x="-1.041" y="+4.76" fill="#cfa550"/>
+    <rect width="7.357" height="0.64" x="-1.041" y="+2.22" fill="#cfa550"/>
+    <rect width="7.357" height="0.64" x="-1.041" y="-0.32" fill="#cfa550"/>
+    <rect width="7.357" height="0.64" x="-1.041" y="-2.86" fill="#cfa550"/>
+    <rect width="7.357" height="0.64" x="-1.041" y="-5.40" fill="#cfa550"/>
+
+    <circle cx="-3.775" cy="+0.00" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="+2.54" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="-2.54" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="-5.08" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+5.08" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+2.54" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+0.00" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+0.00" r="+0.70" fill="#d0d0d0" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="-2.54" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="-5.08" r="+0.72" fill="#d0d0d0" stroke="#303030" stroke-width="0.2"/>
+
+    <circle cx="-3.775" cy="-5.08" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="-5.08" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="-2.54" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="-2.54" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="+0.00" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+0.00" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+2.54" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="+2.54" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-6.315" cy="+5.08" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+    <circle cx="-3.775" cy="+5.08" r="+0.70" fill="url(#RadialGradientSolderPad)" stroke="#ebb300" stroke-width="0.2"/>
+
+    <path fill="url(#PinRightAngleDarkLight)" d="M-6.584 -4.76 h4.513v -0.64h-4.513z"/>
+    <path fill="url(#PinRightAngleDarkLight)" d="M-6.584 +2.86 h4.513v -0.64h-4.513z"/>
+    <path fill="url(#PinRightAngleDarkLight)" d="M-6.584 +0.32 h4.513v -0.64h-4.513z"/>
+    <path fill="url(#PinRightAngleDarkLight)" d="M-6.584 -2.22 h4.513v -0.64h-4.513z"/>
+    <path fill="url(#PinRightAngleDarkLight)" d="M-6.584 +5.40 h4.513v -0.64h-4.513z"/>
+
+    <path fill="#e5b758" d="M 6.315 +4.76l 0.8 0.15 v 0.34l -.8.15z"/>
+    <path fill="#e5b758" d="M 6.315 +2.22l 0.8 0.15 v 0.34l -.8.15z"/>
+    <path fill="#e5b758" d="M 6.315 -0.32l 0.8 0.15 v 0.34l -.8.15z"/>
+    <path fill="#e5b758" d="M 6.315 -2.86l 0.8 0.15 v 0.34l -.8.15z"/>
+    <path fill="#e5b758" d="M 6.315 -5.4l  0.8 0.15 v 0.34l -.8.15z"/>
+
+    <path fill="none" stroke="#303030" stroke-width="0.02" d="M-6.593 -5.397 v 0.64 H 6.307l 0.799 -0.15 v -0.34l -0.799 -0.15 H -2.83z"/>
+    <path fill="none" stroke="#303030" stroke-width="0.02" d="M-6.593 -2.857 v 0.64 H 6.307l 0.799 -0.15 v -0.34l -0.799 -0.15 H -2.83z"/>
+    <path fill="none" stroke="#303030" stroke-width="0.02" d="M-6.593 -0.317 v 0.64 H 6.307l 0.799 -0.15 v -0.34l -0.799 -0.15 H -2.83z"/>
+    <path fill="none" stroke="#303030" stroke-width="0.02" d="M-6.593 +2.223 v 0.64 H 6.307l 0.799 -0.15 v -0.34l -0.799 -0.15 H -2.83z"/>
+    <path fill="none" stroke="#303030" stroke-width="0.02" d="M-6.593 +4.763 v 0.64 H 6.307l 0.799 -0.15 v -0.34l -0.799 -0.15 H -2.83z"/>
+
+    <rect width="2.54" height="12.7" x="-2.225" y="-6.35" fill="#4f4c4d"/>
+
+    <rect width="2.54" height="0.5" x="-2.225" y="+5.85" fill="#444141"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="+3.31" fill="#444141"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="+0.77" fill="#444141"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="-1.77" fill="#444141"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="-4.31" fill="#444141"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="+3.81" fill="#656263"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="+1.27" fill="#656263"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="-1.27" fill="#656263"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="-3.81" fill="#656263"/>
+    <rect width="2.54" height="0.5" x="-2.225" y="-6.35" fill="#656263"/>
+
+    <!-- Origin Markers -->
+    <line x1="1.832" x2="+0.567" y1="-.633" y2=".633" fill="none" stroke="#2e2aff" stroke-width=".006" paint-order="markers fill stroke"/>
+    <line x1="1.832" x2="+0.567" y1="0.633" y2="-.633" fill="none" stroke="#2e2aff" stroke-width=".006" paint-order="markers fill stroke"/>
+    <ellipse cx="1.199" fill="none" stroke="#2e2aff" stroke-width="0.005" rx="0.633" ry="0.633"/>
+    <line x1="0.315" x2="-.315"  y1="-.315" y2=".315" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+    <line x1="0.315" x2="-.315"  y1="0.315" y2="-.315" fill="none" stroke="#2eff28" stroke-width=".006" paint-order="markers fill stroke"/>
+    <ellipse cx="0"     fill="none" stroke="#2eff28" stroke-width="0.005" rx="0.315" ry="0.315"/>
+</svg>

@@ -1,0 +1,20 @@
+{
+    "project_id": "mesh-fonts",
+    "project_type": "software",
+    "caption_en": "Mesh Fonts",
+    "caption_zh": "Mesh字体",
+    "description_en": "Fonts for Mesheven browser apps",
+    "description_zh": "用于创享桥浏览器应用的字体",
+    "items": 
+    [
+        {
+            "id"             : "RTMB-MESH-FONTS",
+            "type"           : "rtm_browser",
+            "builder"        : "mesh-builder-browser",
+            "runtime_exports": 
+            {
+                "mesh-fonts": "index.js"
+            }
+        }
+    ]
+}

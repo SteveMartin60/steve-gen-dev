@@ -1,0 +1,16 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-2.65 -2.5025 5.3 5.005"
+    >
+    <rect width="5.3" height="0.9" x="-2.65" y="+1.15" fill="#ebb300"/>
+    <rect width="5.3" height="0.9" x="-2.65" y="-0.45" fill="#ebb300"/>
+    <rect width="5.3" height="0.9" x="-2.65" y="-2.05" fill="#ebb300"/>
+
+    <rect width="5.0" height="5.0" x="-2.5" y="-2.5" fill="#e9e9e9" stroke="#303030" stroke-width="0.005"/>
+
+    <circle r="2.25" fill="#d3d2d2"/>
+
+    <rect width="0.8" height="1.6" x="-1.6" y="-0.8" fill="#f46e6a"/>
+    <rect width="0.8" height="1.6" x="-0.4" y="-0.8" fill="#5bba7a"/>
+    <rect width="0.8" height="1.6" x="+0.8" y="-0.8" fill="#5cb5e9"/>
+</svg>

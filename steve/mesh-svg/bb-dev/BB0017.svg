@@ -1,0 +1,545 @@
+<svg
+    xmlns  ="http://www.w3.org/2000/svg"
+    style  ="isolation:isolate"
+    id     ="svg-bb"
+    viewBox="-12.7 -101.6 254 203.2"
+    >
+//..............................................................................
+
+//..............................................................................
+<defs>
+    //..........................................................................
+    <!--BB0017 Ends-->
+    //..........................................................................
+    <svg
+    id="BB0017"
+    overflow="visible"
+    >
+
+
+<g transform="translate(-8.89,0)" opacity="1"><g transform="rotate(0,0,0)"><g>
+<rect rx="0.5" ry= "0.5" x="-12.7" y="-15.24" width="25.4" height="30.48" stroke="none" fill="url(#grid10in)"  opacity="0.9"/>
+<g transform="translate(11.43,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#99cf2c">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            GND
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g>
+</g>
+</g>
+
+    <g transform="translate(8.89,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#51abe4">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            3V3
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(6.35,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            FULL
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+</g></g></g>
+
+<g transform="translate(3.81,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            LOW
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+</g></g></g>
+<g transform="translate(1.27,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            OC_N
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+</g></g></g>
+<g transform="translate(-1.27,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#d3d2d2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            A0
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g>
+</g>
+<g transform="translate(-3.81,8.89)" opacity="1"><g transform="rotate(0,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#d3d2d2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            A1
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(11.43,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#99cf2c">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            GND
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(8.89,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:black">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            5V
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(6.35,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            RST_N
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+</g></g></g>
+<g transform="translate(3.81,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#b3b2b2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+            SW
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+</g></g></g>
+<g transform="translate(1.27,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#d3d2d2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(-1.27,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#d3d2d2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(-3.81,-8.89)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+        <g fill-rule="evenodd" font-size="9pt"
+           style="stroke:none;stroke-width:0.1;fill:#d3d2d2">
+        </g>
+
+        <text
+            x="-4.8" y="0"
+            font-size          = "1.25"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(-90) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "start"
+            fill               = "black">
+
+        </text>
+
+    <g id="svgGroup" fill-rule="evenodd"
+        stroke= "none"
+        fill  = "#ebb300">
+
+    </g>
+
+
+    <circle cx="0" cy="0" r="0.65" fill="#D0D0D0" stroke="none"/>
+
+<use  href="#padEnd"  />
+</g></g></g>
+<g transform="translate(-0.305,0)" opacity="1"><g transform="rotate(180,0,0)"><g>
+
+    <g id="round-rect"
+        stroke = "none"
+        opacity ="1"
+        fill   = "#444141">
+        <path d="M -4.3 -5.3  H 4.3
+                 A 1 1 0 0 1 5.3 -4.3  V 4.3
+                 A 1 1 0 0 1 4.3 5.3  H -4.3
+                 A 1 1 0 0 1 -5.3 4.3  V -4.3
+                 A 1 1 0 0 1 -4.3 -5.3
+                 Z"/>
+    </g>
+
+
+    <circle cx="-4.3" cy="4.2" r="0.4" fill="#bdbcbc" stroke="none"/>
+
+
+        <text
+            x="0" y="-4"
+            font-size          = "1.15"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(0) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "middle"
+            fill               = "#bdbcbc">
+            MESHEVEN
+        </text>
+
+        <text
+            x="0" y="4"
+            font-size          = "1.15"
+            font-family        = "Lato"
+            font-weight        = "bold"
+            transform          = "rotate(0) scale(1,-1)"
+            alignment-baseline = "central"
+            text-anchor        = "middle"
+            fill               = "#bdbcbc">
+            MB0017.XX.X.X
+        </text>
+<g transform="translate(0,0)" opacity="1.0"><g transform="rotate(0,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#QR-CODE-MB"/>
+</g></g></g>
+</g></g></g>
+</g></g></g>
+<g transform="translate(-8.89,0)" opacity="1.0"><g transform="rotate(90,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#USB3C-VF"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(-8.89,10.16)" opacity="1.0"><g transform="rotate(0,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#push-button-30x40-2pin"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(12.7,0)" opacity="1.0"><g transform="rotate(90,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#HDR2X5P254M_RA"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(8.89,-7.112)" opacity="1.0"><g transform="rotate(0,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#led-0603-blue"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(8.89,7.112)" opacity="1.0"><g transform="rotate(0,0,0)"><g>
+<g transform="translate(0,0)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<use href="#led-0603-green"/>
+</g></g></g>
+</g></g></g>
+<g transform="translate(-8.89,13.47)" opacity="1"><g transform="rotate(0,0,0)"> <g transform="scale(1,-1)">
+<rect x="-3.5" y="-1.27" width="7" height="2.54" fill="#376f88"/>
+    <text x="0" y="0"
+        font-size          = "1.7"
+        font-family        = "Lato"
+        font-weight        = "bold"
+        dominant-baseline  = "central"
+        text-anchor        = "middle"
+        fill               = "white"
+    >BB0017</text>
+</g></g></g>
+
+    <line x1="-1.27" y1= "0" x2="1.27" y2="0" stroke="white" stroke-width="0.8" opacity="1"/>
+
+
+    <line x1="0" y1= "-1.27" x2="0" y2="1.27" stroke="white" stroke-width="0.8" opacity="1"/>
+
+
+    <line x1="-1.27" y1= "0" x2="1.27" y2="0" stroke="black" stroke-width="0.1" opacity="1"/>
+
+
+    <line x1="0" y1= "-1.27" x2="0" y2="1.27" stroke="black" stroke-width="0.1" opacity="1"/>
+
+<rect rx="0.5" ry= "0.5" x="-12.7" y="-15.24" width="25.4" height="30.48" stroke="#202020" stroke-width = "0.1" fill="none"  opacity="1"/>
+</g></g></g>
+
+
+
+
+
+
+
+
+    </svg>
+    //..........................................................................
+
+    //..........................................................................
+        <svg
+            id      ="board"
+            overflow="visible"
+            >
+            <!--<use x="0" y="0" href="#BB0017" transform="scale (-1, 1)"/>-->
+            <use x="5.51" y="-0" href="#BB0017"/>
+        </svg>
+    <!-- ................................................................... -->
+ </defs>
+//..............................................................................
+<!--BB0017 Ends-->
+//..............................................................................
+
+    <use
+        href="#board"
+        transform ="rotate(-90) scale(1, -1)"
+        >
+
+    </use>
+
+    <!--<rect x="-15.29" y="-16.125" width="30.58" height="32.25" stroke="none" fill="pink" opacity=".4"/>-->
+
+</svg>
+

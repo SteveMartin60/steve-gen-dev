@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html id="sidebar-html-top">
+    <!--.................................................................... -->
+    <head id="sidebar-head">
+        <style id="sidebar-style">
+            table, th, td
+            {
+                border         : none ;
+                border-collapse: collapse;
+                align-content  :center;
+                width:50%;
+                background:ivory
+            }
+            iframe
+            {
+                /*border         : 0.05em solid red ;*/
+                border-collapse: collapse;
+                align-content  :center;
+                background     :ivory
+            }
+            .container
+            {
+                border-collapse: collapse;
+                align-content  : center;
+                background     : transparent;
+                height         : 2950px
+            }
+            .thumb
+            {
+                border-collapse   : collapse;
+                border: 0.05em solid transparent;
+                border-top-color: lightslategray;
+                display           : inline-flex;
+                align-content     : center;
+                height            : 785px;
+                width             : 100%;
+                background        : ivory
+            }
+        </style>
+    </head>
+    <!--.................................................................... -->
+    <body id="sidebar-body">
+        <script id="sidebar-script-external" type="text/javascript" src="../bd-scripts/side-bar.js"></script>
+        <!--................................................................ -->
+
+        <div class="container" id="sidebar-div-container">
+
+            <table style="width:100%" id="sidebar-table">
+                <!--........................................................ -->
+                <tr>
+                    <td style="width: 30%;">
+                        <div id="sidebar-div-components">
+                            <embed
+                                src="component-grid-bd.html" class="emb" id="component-grid" name="Images" align="middle" frameborder="0" scrolling="auto" width="100%" height="2200px">
+                            </embed>
+                        </div>
+                    </td>
+                    <td style="width: 70%;">
+                        <div id="sidebar-div-diagrams">
+                            <embed
+                                src="diagram-grid-bd.html" class="emb"  type="image/svg+xml" id="diagram-grid" name="Diagrams" align="middle" frameborder="0" scrolling="auto" width="100%" height="2200px">
+                            </embed>
+                        </div>
+                    </td>
+                </tr>
+                <!--........................................................ -->
+            </table>
+        </div>
+        <!--................................................................ -->
+        <script id="sidebar-script-internal">
+            //<![CDATA[
+                window.addEventListener("load", findSidebarSVGElements, false);
+            //]]>
+        </script>
+    <!--.................................................................... -->
+    </body>
+</html>

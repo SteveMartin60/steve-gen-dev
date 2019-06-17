@@ -1,0 +1,53 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-10.088 -10.088 20.176 20.176"
+    >
+<!--
+    viewBox="-9 -4 2 2"
+    width ="20.176mm"
+    height="20.176mm"
+ -->
+    <defs>
+        <radialGradient
+            id="radialGradient-ME2"
+            >
+            <stop offset="0.97" stop-color="#ababab"/>
+            <stop offset="1.00" stop-color="#dddddd"/>
+        </radialGradient>
+
+        <svg
+            id="QR-CODE-SENSOR-96"
+            overflow="visible"
+            >
+            <path
+                fill="#e7e8e9" 
+                stroke="#231f20" 
+                stroke-width="0.035" 
+                d="
+                    m 0 1 
+                    a 1, 1, 0, 1, 1, 0, -2
+                    a 1, 1, 0, 0, 1, 0, +2
+                    z
+                    m -4.785, 3.785
+                    h +9.57
+                    v -9.57
+                    h -9.57
+                    z
+                  "
+            />
+
+            <path fill="#231f20" d="m -4.785 -4.785 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+            <path fill="#231f20" d="m +2.475 -4.785 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+            <path fill="#231f20" d="m -4.785 +2.475 v2.31 h 2.31 v -2.31 z m 0.33 0.33 h 1.65 v 1.65 h -1.65 z m 0.33 0.33 v 1 h 1 v -1 z"/>
+        </svg>
+    </defs>
+
+    <circle cx="0" cy="0" r="10.0" fill="#51abe4" stroke="#231f20" stroke-width="0.176"/>
+    
+    <circle cx="0" cy="0" r="8.0" fill="url(#radialGradient-ME2)" stroke="#231f20" stroke-width="0.176"/>
+
+    <circle cx="0" cy="0" r="7.7" fill="#f1f1f2"/>
+    <circle cx="0" cy="0" r="0.8" fill="#2081ab"/>
+
+    <use x="0" y="0" href="#QR-CODE-SENSOR-96" />
+</svg>

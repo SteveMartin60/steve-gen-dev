@@ -1,0 +1,70 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-25.3445 -4.444 50.689 8.888"
+    >
+<!--
+    viewBox="-2 1.7 3 3"
+-->
+    <defs>
+        <svg id = "pin-tip-m64"
+             overflow="visible">
+
+            <rect width="0.75" height="0.75" x="0.000" y="0.000" fill="#231f20" />
+            <rect width="0.71" height="0.71" x="0.020" y="0.020" fill="#272f2f" />
+            <rect width="0.67" height="0.67" x="0.040" y="0.040" fill="#ffffff" />
+            <rect width="0.34" height="0.34" x="0.205" y="0.205" fill="#ebb300" />  
+
+            <path fill="#c39500" d="m 0.041 0.041 h 0.67  l -0.166 +0.164 h -0.338z"/> <!-- Top    -->
+            <path fill="#c39500" d="m 0.041 0.710 h 0.67  l -0.166 -0.164 h -0.338z"/> <!-- Bottom -->
+            <path fill="#c39500" d="m 0.041 0.041 v 0.668 l +0.164 -0.162 v -0.341z"/> <!-- Left   -->
+            <path fill="#c39500" d="m 0.710 0.041 v 0.668 l -0.164 -0.162 v -0.341z"/> <!-- Right  -->
+        </svg>
+
+        <svg id = "body-box-header-50.6x8.8"
+            overflow="visible">
+            
+            <rect width="50.6" height="8.80" x="00.00" y="0.00" fill="#656263" stroke="#303033" stroke-width="0.088"/>
+            <rect width="49.6" height="7.80" x="00.50" y="0.50" fill="#393536" stroke="#303033" stroke-width="0.088"/>
+            <rect width="48.6" height="6.80" x="01.00" y="1.00" fill="#4f4c4d" stroke="#303033" stroke-width="0.088"/>
+            <rect width="04.5" height="0.9" x="23.05" y="07.85" fill="#4f4c4d" stroke="#303033" stroke-width="0.088"/>
+            <rect width="04.42" height="1.1" x="23.09" y="07.65" fill="#4f4c4d"/>
+        </svg>
+    </defs>
+
+    <use x="-25.3" y="-4.4" href="#body-box-header-50.6x8.8"/> 
+
+    <use x="-20.675" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-18.135" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-15.595" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-13.055" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-10.515" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-07.975" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-05.435" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-02.895" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-00.355" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+02.185" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+04.725" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+07.265" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+09.805" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+12.345" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+14.885" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+17.425" y="-1.717" href="#pin-tip-m64"/>
+    <use x="+19.965" y="-1.717" href="#pin-tip-m64"/>
+    <use x="-20.675" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-18.135" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-15.595" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-13.055" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-10.515" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-07.975" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-05.435" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-02.895" y="+0.823" href="#pin-tip-m64"/>
+    <use x="-00.355" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+02.185" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+04.725" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+07.265" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+09.805" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+12.345" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+14.885" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+17.425" y="+0.823" href="#pin-tip-m64"/>
+    <use x="+19.965" y="+0.823" href="#pin-tip-m64"/>
+</svg>

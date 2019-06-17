@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+
+        <style type="text/css">
+            @page
+            {
+                size: 210mm 297mm;
+                margin: 0mm 0mm 0mm 0mm;
+            }
+
+            body
+            {
+                margin:0;
+                padding:0;
+            }
+
+            @media print
+            {
+                html, body
+                {
+                    height:100%;
+                    margin: 0 !important;
+                    padding:0 !important;
+                    overflow:hidden;
+                }
+            }
+        </style>
+    </head>
+<body>
+<svg
+    xmlns   = "http://www.w3.org/2000/svg"
+    width   = "297.000mm"
+    height  = "210.000mm"
+    viewBox ="0 0 297 210"
+    stroke-linejoin="round"
+    transform ="scale(1,-1)"
+    >
+    <!-- ................................................................... -->
+    <!-- Style Begins                                                        -->
+    <!-- ................................................................... -->
+    <style>
+        .boardId
+        {
+            font-size          : 1.8px;
+            font-family        : Lato;
+            font-weight        : bold;
+            alignment-baseline : middle;
+            text-anchor        : central;
+            fill               : white;
+        }
+        @page
+        {
+            size: A4;
+            margin: 0;
+        }
+        @media print
+        {
+            html, body
+            {
+                width: 210mm;
+                height: 297mm;
+            }
+        }
+    </style>
+    <!-- ................................................................... -->
+    <!-- Defs Begin                                                          -->
+    <!-- ................................................................... -->
+  <defs>
+    <svg id="Y" overflow="visible" x="-32.598">
+      <defs>
+        <pattern id="d" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+          <svg>
+            <path fill="#d2ab67" d="M0 .07000000000000006v2.4h2.54V.07H0z"/>
+            <path fill="#cca053" d="M.47.47v1.6h1.6V.47H.47z"/>
+            <path fill="#c2903a" d="M.47.47v1.6l.4-.4v-.8h.8l.4-.4H-1.2z"/>
+            <path fill="#303030" d="M.87.87v.8h.8v-.8h-.8z"/>
+          </svg>
+        </pattern>
+        <pattern id="c" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+          <svg>
+            <path fill="#d8d8d8" d="M0 .07000000000000006v2.4h2.54V.07H0z"/>
+            <path fill="#cbcbcb" d="M.47.47v1.6h1.6V.47H.47z"/>
+            <path fill="#b9b9b9" d="M.47.47v1.6l.4-.4v-.8h.8l.4-.4H-1.2z"/>
+            <path fill="#303030" d="M.87.87v.8h.8v-.8h-.8z"/>
+          </svg>
+        </pattern>
+        <pattern id="b" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+          <svg>
+            <path fill="#f0f0f0" d="M0 .07000000000000006v2.4h2.54V.07H0z"/>
+            <path fill="#e3e3e3" d="M.47.47v1.6h1.6V.47H.47z"/>
+            <path fill="#d1d1d1" d="M.47.47v1.6l.4-.4v-.8h.8l.4-.4H-1.2z"/>
+            <path fill="#303030" d="M.87.87v.8h.8v-.8h-.8z"/>
+          </svg>
+        </pattern>
+        <pattern id="a" width="2.54" height="2.54" patternUnits="userSpaceOnUse">
+          <svg>
+            <path fill="#c4c4c4" d="M0 .07000000000000006v2.4h2.54V.07H0z"/>
+            <path fill="#b7b7b7" d="M.47.47v1.6h1.6V.47H.47z"/>
+            <path fill="#a5a5a5" d="M.47.47v1.6l.4-.4v-.8h.8l.4-.4H-1.2z"/>
+            <path fill="#303030" d="M.87.87v.8h.8v-.8h-.8z"/>
+          </svg>
+        </pattern>
+        <pattern id="e" width="1" height="1" patternUnits="userSpaceOnUse">
+          <path d="M0 0h1v1H0V0" fill="#f8f8f0" stroke="silver" stroke-width=".05"/>
+        </pattern>
+        <pattern id="f" width="1.27" height="1.27" patternUnits="userSpaceOnUse">
+          <path d="M0 0h1.27v1.27H0V0" fill="#f8f8f0" stroke="silver" stroke-width=".03"/>
+        </pattern>
+        <svg id="X" stroke="#4899c4" stroke-width=".4" stroke-linecap="round" overflow="visible" fill="none">
+          <path d="M-.1 2.1h2.4A1.3 1.3 0 0 0 3.6.8V-.8a1.3 1.3 0 0 0-1.3-1.3H-.1M-1.9-2.1h-.4a1.3 1.3 0 0 0-1.1.6M-1.9 2.1h-.4a1.3 1.3 0 0 1-1.1-.6M-3.7.8h.2V-.8h-.2V.8M-1.1-2.2h.2v.2h-.2v-.2M-1.1 2.2h.2V2h-.2v.2"/>
+        </svg>
+      </defs>
+      <defs>
+        <svg id="g" stroke-width=".006" fill="none" overflow="visible">
+          <path d="M.5-.5l-1 1M.5.5l-1-1"/>
+          <ellipse rx=".5" ry=".5"/>
+        </svg>
+        <linearGradient id="h" x2="5%" y2="50%">
+          <stop offset="0" stop-color="#deddde"/>
+          <stop offset="1" stop-color="#7b7979"/>
+        </linearGradient>
+        <radialGradient id="l" spreadMethod="pad">
+          <stop offset="0" stop-color="#fff"/>
+          <stop offset="1" stop-color="#3d3a3b"/>
+        </radialGradient>
+        <linearGradient id="i" x1="95%" y1="95%" x2="5%" y2="5%">
+          <stop offset="0" stop-color="#f2f2f2"/>
+          <stop offset=".441" stop-color="#f2f2f2"/>
+          <stop offset="1" stop-color="#484546"/>
+        </linearGradient>
+        <linearGradient id="j" x1="5%" y1="5%" x2="95%" y2="95%">
+          <stop offset="0" stop-color="#e9e9e9"/>
+          <stop offset="1" stop-color="#4f4c4d"/>
+        </linearGradient>
+        <linearGradient id="k" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#2c2829"/>
+          <stop offset="1" stop-color="#454142"/>
+        </linearGradient>
+        <svg id="W" overflow="visible">
+          <path fill="#4899c4" d="M-1.421.15h-.45v-.3h.45V-.6h.3v.45h.45v.3h-.45V.6h-.3zm.95-.15a.8.8 0 1 0-1.6-.001.8.8 0 0 0 1.6 0M.671-.15h1.2v.3h-1.2zm1.4.15a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+        </svg>
+      </defs>
+      <defs>
+        <radialGradient id="s" spreadMethod="pad">
+          <stop offset="0%" stop-color="#363636"/>
+          <stop offset="77%" stop-color="#2d2d2d"/>
+          <stop offset="85%" stop-color="#262626"/>
+          <stop offset="92%" stop-color="#1e1e1e"/>
+          <stop offset="98%" stop-color="#1a1b1b"/>
+          <stop offset="100%" stop-color="#303030"/>
+        </radialGradient>
+        <radialGradient id="m" spreadMethod="pad">
+          <stop offset="0" stop-color="#3c3c3c"/>
+          <stop offset=".067" stop-color="#4d4d4d"/>
+          <stop offset=".181" stop-color="#5e5e5e"/>
+          <stop offset="1" stop-color="#f0f0f0"/>
+        </radialGradient>
+        <linearGradient id="w" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#7e5c19"/>
+          <stop offset=".204" stop-color="#c58f27"/>
+          <stop offset="1" stop-color="#e5b758"/>
+        </linearGradient>
+        <circle id="o" r=".8" fill="url(#m)" stroke="#ebb300" stroke-width=".2"/>
+        <circle id="n" r=".9" fill="none" stroke="#303030" stroke-width=".02"/>
+        <path id="p" fill="#303030" d="M0 0h1.84v1.84H0z"/>
+        <path id="q" fill="#e5b758" d="M0 6l-.15.8h-.34L-.64 6z"/>
+        <path id="r" fill="none" stroke="#303030" stroke-width=".02" d="M0 0v6l.147.79h.35L.65 6V0z"/>
+        <svg id="y" overflow="visible">
+          <path fill="#505050" d="M-.4-.4h.8v.8h-.8z"/>
+          <use href="#n"/>
+          <use href="#o"/>
+        </svg>
+        <svg id="x" overflow="visible">
+          <use x="-.92" y="-.92" href="#p"/>
+          <path fill="#ebb300" d="M-.9-.9H.9V.9H-.9z"/>
+          <path fill="#505050" d="M-.4-.4h.8v.8h-.8z"/>
+          <use href="#o"/>
+        </svg>
+        <svg id="D" overflow="visible">
+          <path fill="#cfa550" d="M0 0h.64v6H0z"/>
+          <use x=".64" href="#q"/>
+          <use href="#r"/>
+        </svg>
+        <svg id="T" overflow="visible">
+          <circle r=".846" fill="#dfdfdf" stroke="#656263" stroke-width=".035"/>
+          <circle r=".483" fill="url(#s)" stroke="#231f20" stroke-width=".001"/>
+        </svg>
+        <svg id="u" overflow="visible">
+          <path fill="#231f20" d="M0 0h.75v.75H0z"/>
+          <path fill="#272f2f" d="M.02.02h.71v.71H.02z"/>
+          <path fill="#fff" d="M.04.04h.67v.67H.04z"/>
+          <path fill="#f4a72a" d="M.205.205h.34v.34h-.34z"/>
+          <path fill="#efc06d" d="M.041.041h.67L.545.205H.207z"/>
+          <path fill="#9d732c" d="M.041.71h.67L.545.546H.207z"/>
+          <path fill="#cb9a4b" d="M.041.041v.668L.205.547V.206z"/>
+          <path fill="#cb8e29" d="M.71.041v.668L.546.547V.206z"/>
+        </svg>
+        <svg id="v" overflow="visible">
+          <path fill="#fff" stroke="#303030" stroke-width=".03" d="M0 0h.53v.53H0z"/>
+          <path fill="#fbc961" d="M.015.015h.5l-.1.1h-.3l-.1-.1z"/>
+          <path fill="#cfa550" d="M.015.515h.5l-.1-.1h-.3l.1-.1z"/>
+          <path fill="#f0c05d" d="M.015.015v.5l.1-.1v-.3l.1.1zM.515.015v.5l-.1-.1v-.3l-.1.1z"/>
+          <path fill="#e5b758" d="M.115.115h.3v.3h-.3z"/>
+        </svg>
+        <svg id="t" overflow="visible">
+          <path fill="#231f20" d="M-.25-.25h.5v.5h-.5z"/>
+          <path fill="#272f2f" d="M-.225-.225h.45v.45h-.45z"/>
+          <path fill="#fff" d="M-.215-.215h.43v.43h-.43z"/>
+          <path fill="#ebb300" d="M-.11-.11h.22v.22h-.22z"/>
+          <path fill="#c39500" d="M-.22-.22l.11.11h.22l.11-.11M-.22-.22l.11.11v.22l-.11.11"/>
+          <path fill="#c39500" d="M-.22.22l.11-.11h.22l.11.11"/>
+          <path fill="#c39500" d="M.22.22L.11.11v-.22l.11-.11"/>
+        </svg>
+        <svg id="O" overflow="visible">
+          <path fill="#ebb300" d="M-.45-.45h.9v.9h-.9z"/>
+          <path fill="#696969" d="M-.42-.42h.84v.84h-.84z"/>
+          <use href="#t"/>
+        </svg>
+        <svg id="P" overflow="visible">
+          <circle r=".45" fill="#ebb300"/>
+          <circle r=".37" fill="#696969"/>
+          <use href="#t"/>
+        </svg>
+      </defs>
+      <defs>
+        <svg id="A" overflow="visible">
+          <path fill="#4f4c4d" stroke="#231f20" stroke-width=".088" d="M-6.6-8.5H6.6V0H-6.6z"/>
+        </svg>
+        <path id="B" fill="#656263" d="M0 0h.5v2.54H0z"/>
+        <path id="C" fill="#444141" d="M0 0h.5v2.54H0z"/>
+        <svg id="z" overflow="visible">
+          <path stroke="#303030" stroke-width=".02" fill="url(#w)" d="M0 0h.64v4.513H0z"/>
+        </svg>
+        <svg id="F" overflow="visible">
+          <path fill="#4f4c4d" d="M-6.35-2.54h12.7V0h-12.7z"/>
+          <use x="5.85" y="-2.54" href="#B"/>
+          <use x="3.31" y="-2.54" href="#B"/>
+          <use x=".77" y="-2.54" href="#B"/>
+          <use x="-1.77" y="-2.54" href="#B"/>
+          <use x="-4.31" y="-2.54" href="#B"/>
+          <use x="-6.35" y="-2.54" href="#C"/>
+          <use x="-3.81" y="-2.54" href="#C"/>
+          <use x="-1.27" y="-2.54" href="#C"/>
+          <use x="1.27" y="-2.54" href="#C"/>
+          <use x="3.81" y="-2.54" href="#C"/>
+        </svg>
+        <svg id="E" overflow="visible">
+          <path stroke="#303030" stroke-width=".02" fill="url(#w)" d="M0 0h.64v4.513H0z"/>
+        </svg>
+      </defs>
+      <defs>
+        <svg id="H" overflow="visible">
+          <rect x="-.55" y="-1.2" width="1.1" height="2.4" fill="url(#m)" stroke="#ebb300" rx=".55" ry=".55" stroke-width=".1"/>
+        </svg>
+        <svg id="I" overflow="visible">
+          <rect x="-.55" y="-1.05" width="1.1" height="2.1" fill="url(#m)" stroke="#ebb300" rx=".55" ry=".55" stroke-width=".1"/>
+        </svg>
+        <svg id="L" overflow="visible">
+          <rect x="-.55" y="-.8" width="1.1" height="1.6" fill="url(#m)" stroke="#ebb300" rx=".55" ry=".55" stroke-width=".1"/>
+        </svg>
+        <svg id="G" overflow="visible">
+          <path fill="#ebb300" stroke-width="0" d="M-.125-.475h.25v.95h-.25z"/>
+        </svg>
+        <svg id="K" overflow="visible">
+          <path fill="#231f20" d="M-.2-.2h.4v.4h-.4z"/>
+          <path fill="#272f2f" d="M-.19-.19h.38v.38h-.38z"/>
+          <path fill="#fff" d="M-.18-.18h.36v.36h-.36z"/>
+          <path fill="#ebb300" d="M-.1-.1h.2v.2h-.2z"/>
+          <path fill="#c39500" d="M-.18-.18h.36L.1-.1h-.2M.18-.18v.36L.1.1v-.2"/>
+          <path fill="#c39500" d="M.18.18h-.36L-.1.1h.2"/>
+          <path fill="#c39500" d="M-.18-.18v.36L-.1.1v-.2"/>
+        </svg>
+        <linearGradient id="N" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#b7b8b7"/>
+          <stop offset=".11" stop-color="#bcbcbc"/>
+          <stop offset=".2" stop-color="#bfc0bf"/>
+          <stop offset=".35" stop-color="#d3d4d3"/>
+          <stop offset=".5" stop-color="#c4c5c4"/>
+          <stop offset="1" stop-color="#babbba"/>
+        </linearGradient>
+        <svg id="J" overflow="visible">
+          <use y="-3.925" href="#G"/>
+          <use x=".5" y="-3.925" href="#G"/>
+          <use x="1" y="-3.925" href="#G"/>
+          <use x="1.5" y="-3.925" href="#G"/>
+          <use x="2" y="-3.925" href="#G"/>
+          <use x="2.5" y="-3.925" href="#G"/>
+          <use x="3" y="-3.925" href="#G"/>
+          <use x="3.5" y="-3.925" href="#G"/>
+          <use x="4" y="-3.925" href="#G"/>
+          <use x="4.5" y="-3.925" href="#G"/>
+          <use x="5" y="-3.925" href="#G"/>
+          <use x="5.5" y="-3.925" href="#G"/>
+        </svg>
+        <linearGradient id="M" y2="0%">
+          <stop offset="0" stop-color="#898a89"/>
+          <stop offset=".14" stop-color="#c2c3c2"/>
+          <stop offset=".16" stop-color="#c6c7c6"/>
+          <stop offset=".85" stop-color="#c6c7c6"/>
+          <stop offset=".89" stop-color="#cdcecd"/>
+          <stop offset="1" stop-color="#9a9b9a"/>
+        </linearGradient>
+        <linearGradient id="R" y2="0%">
+          <stop offset="0" stop-color="#898a89"/>
+          <stop offset=".01" stop-color="#c2c3c2"/>
+          <stop offset=".04" stop-color="#c6c7c6"/>
+          <stop offset=".97" stop-color="#c6c7c6"/>
+          <stop offset=".99" stop-color="#cdcecd"/>
+          <stop offset="1" stop-color="#9a9b9a"/>
+        </linearGradient>
+        <linearGradient id="Q" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#707070"/>
+          <stop offset=".25" stop-color="#acacac"/>
+          <stop offset="1" stop-color="#acacac"/>
+        </linearGradient>
+      </defs>
+      <defs>
+        <linearGradient id="S">
+          <stop offset="0" stop-color="#4f4c4d"/>
+          <stop offset=".298" stop-color="#deddde"/>
+          <stop offset=".399" stop-color="#444141"/>
+          <stop offset=".583" stop-color="#deddde"/>
+          <stop offset=".934" stop-color="#deddde"/>
+          <stop offset="1" stop-color="#231f20"/>
+        </linearGradient>
+        <linearGradient id="U" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#7b7979"/>
+          <stop offset=".161" stop-color="#7b7979"/>
+          <stop offset=".607" stop-color="#f4f4f4"/>
+          <stop offset=".858" stop-color="#7b7979"/>
+          <stop offset="1" stop-color="#7b7979"/>
+        </linearGradient>
+        <linearGradient id="V" x2="0%" y2="100%">
+          <stop offset="0" stop-color="#87531f"/>
+          <stop offset=".161" stop-color="#87531f"/>
+          <stop offset=".607" stop-color="#f4f4f4"/>
+          <stop offset=".858" stop-color="#875c2f"/>
+          <stop offset="1" stop-color="#875c2f"/>
+        </linearGradient>
+      </defs>
+      <g transform="rotate(-90 15.24 -15.24)">
+        <use href="#W" transform="matrix(1 0 0 -1 26.162 -5.3)"/>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="translate(29.21 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#4a6aa3"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 29.21 8.89)" alignment-baseline="central">
+          MISO
+        </text>
+        <path d="M-1.12 1v4.6l.75.75h.74l.75-.75V1H.9v4H-.9V1h-.22z" transform="translate(26.67 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#7b8fbc"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 26.67 8.89)" alignment-baseline="central">
+          SCLK
+        </text>
+        <path d="M-1.12 1v4.6l.75.75h.74l.75-.75V1H.9v4H-.9V1h-.22z" transform="translate(24.13 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#b0bad8"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 24.13 8.89)" alignment-baseline="central">
+          MOSI
+        </text>
+        <path d="M-1.12 1v4.6l.75.75h.74l.75-.75V1H.9v4H-.9V1h-.22z" transform="translate(21.59 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#a154a1"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 21.59 8.89)" alignment-baseline="central">
+          SCL
+        </text>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(19.05 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#bb87bc"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 19.05 8.89)" alignment-baseline="central">
+          SDA
+        </text>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(16.51 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 16.51 8.89)" alignment-baseline="central">
+          A18
+        </text>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(13.97 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 13.97 8.89)" alignment-baseline="central">
+          A17
+        </text>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(11.43 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 11.43 8.89)" alignment-baseline="central">
+          A16
+        </text>
+        <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(8.89 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+        <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 8.89 8.89)" alignment-baseline="central">
+          A15
+        </text>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(6.35 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 6.35 8.89)" alignment-baseline="central">
+            A14
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(3.81 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 3.81 8.89)" alignment-baseline="central">
+            A13
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(1.27 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 1.27 8.89)" alignment-baseline="central">
+            A12
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(-1.27 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 -1.27 8.89)" alignment-baseline="central">
+            A11
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="translate(-3.81 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#b3b2b2"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 -3.81 8.89)" alignment-baseline="central">
+            VBAT
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="translate(-6.35 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#a6ce39"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 -6.35 8.89)" alignment-baseline="central">
+            GND
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="translate(-8.89 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#2aa9e0"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 -8.89 8.89)" alignment-baseline="central">
+            3V3
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v4.6l.75.75h.74l.75-.75V1H.9v4H-.9V1h-.22z" transform="translate(-11.43 8.89)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#b3b2b2"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 -1 -1 0 -11.43 8.89)" alignment-baseline="central">
+            3V3X
+          </text>
+        </g>
+        <g>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 -5.715 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#d3d2d2"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 -11.43 -8.89)" alignment-baseline="central">
+            RSVD
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 -4.445 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#a6ce39"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 -8.89 -8.89)" alignment-baseline="central">
+            GND
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="rotate(180 -3.175 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#2aa9e0"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 -6.35 -8.89)" alignment-baseline="central">
+            3V3
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="rotate(180 -1.905 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#b3b2b2"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 -3.81 -8.89)" alignment-baseline="central">
+            RST-N
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 -.635 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 -1.27 -8.89)" alignment-baseline="central">
+            A10
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 .635 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 1.27 -8.89)" alignment-baseline="central">
+            A9
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 1.905 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 3.81 -8.89)" alignment-baseline="central">
+            A8
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 3.175 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 6.35 -8.89)" alignment-baseline="central">
+            A7
+          </text>
+          <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 4.445 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+          <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 8.89 -8.89)" alignment-baseline="central">
+            A6
+          </text>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 5.715 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 11.43 -8.89)" alignment-baseline="central">
+              A5
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 6.985 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 13.97 -8.89)" alignment-baseline="central">
+              A4
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 8.255 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#fcae69"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 16.51 -8.89)" alignment-baseline="central">
+              A3
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 9.525 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#d3d2d2"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 19.05 -8.89)" alignment-baseline="central">
+              A2
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 10.795 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#d3d2d2"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 21.59 -8.89)" alignment-baseline="central">
+              A1
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4H-.9V1h-.22z" transform="rotate(180 12.065 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#d3d2d2"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 24.13 -8.89)" alignment-baseline="central">
+              A0
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v5.35h2.24V1H.9v4.95l-.72-.72h-.36l-.72.72V1h-.22z" transform="rotate(180 13.335 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#d2ab67"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 26.67 -8.89)" alignment-baseline="central">
+              WAKE
+            </text>
+          </g>
+          <g>
+            <path d="M-1.12 1v4.6l.75.75h.74l.75-.75V1H.9v4H-.9V1h-.22z" transform="rotate(180 14.605 -4.445)" fill-rule="evenodd" font-size="12" stroke-width=".1" fill="#303030"/>
+            <text x="-4.8" font-size="1.25" font-family="Lato" font-weight="bold" transform="matrix(0 1 1 0 29.21 -8.89)" alignment-baseline="central">
+              VBUS
+            </text>
+          </g>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-3.6-1h7.2v2h-7.2z" transform="matrix(1 0 0 -1 26.035 5.2)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(1 0 0 -1 26.035 5.2)">
+            12V-PoE
+          </text>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-2.5-1h5v2h-5z" transform="matrix(1 0 0 -1 -6.16 -6.35)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(1 0 0 -1 -6.16 -6.35)">
+            UART
+          </text>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-2.5-1h5v2h-5z" transform="matrix(1 0 0 -1 -6.16 6.35)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(1 0 0 -1 -6.16 6.35)">
+            SWD
+          </text>
+        </g>
+        <g>
+          <use href="#X" transform="matrix(1 0 0 -1 -17.272 12.7)"/>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-2.54-1.2h5.08v2.4h-5.08z" transform="matrix(1 0 0 -1 -22.225 3.912)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(1 0 0 -1 -22.225 3.912)">
+            DFU
+          </text>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-2.54-1.2h5.08v2.4h-5.08z" transform="matrix(1 0 0 -1 -17.145 6.49)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(1 0 0 -1 -17.145 6.49)">
+            PWR
+          </text>
+        </g>
+        <g>
+          <path fill="#376f88" d="M-7.62-1.27H7.62v2.54H-7.62z" transform="matrix(0 1 1 0 -13.03 0)"/>
+          <text font-size="1.7" font-family="Lato" font-weight="bold" dominant-baseline="central" text-anchor="middle" fill="#fff" transform="matrix(0 1 1 0 -13.03 0)">
+            BB-MCU-ETH
+          </text>
+        </g>
+        <path stroke-width=".1" stroke="#000" opacity=".5" d="M-1.27 0h2.54M0-1.27v2.54"/>
+        <rect rx=".5" ry=".5" x="-30.48" y="-15.24" width="60.96" height="30.48" stroke="#202020" stroke-width=".1" fill="none"/>
+        <use x="2.117" y="-12.029" href="#cross-metric"/>
+      </g>
+    </svg>
+  </defs>
+  <use x="25" y="170" href="#Y"/>
+  <use x="65" y="170" href="#Y"/>
+  <use x="105" y="170" href="#Y"/>
+  <use x="145" y="170" href="#Y"/>
+  <use x="185" y="170" href="#Y"/>
+  <use x="225" y="170" href="#Y"/>
+  <use x="265" y="170" href="#Y"/>
+  <use x="25" y="105" href="#Y"/>
+  <use x="65" y="105" href="#Y"/>
+  <use x="105" y="105" href="#Y"/>
+  <use x="145" y="105" href="#Y"/>
+  <use x="185" y="105" href="#Y"/>
+  <use x="225" y="105" href="#Y"/>
+  <use x="265" y="105" href="#Y"/>
+  <use x="25" y="40" href="#Y"/>
+  <use x="65" y="40" href="#Y"/>
+  <use x="105" y="40" href="#Y"/>
+  <use x="145" y="40" href="#Y"/>
+  <use x="185" y="40" href="#Y"/>
+  <use x="225" y="40" href="#Y"/>
+  <use x="265" y="40" href="#Y"/>
+</svg>
+</body>
+</html>

@@ -1,0 +1,1161 @@
+[
+  {
+    "updated_at": 1547119684954,
+    "model": "mesh-lc001",
+    "version": 75703,
+    "created_at": 1511246789430,
+    "device": "vshfhttm",
+    "definition": "20a4e9a8384ce6619806bafe1ca8f681704e203faa5025cb67bf8ae7c842396e",
+    "owner": "5d36fdd4",
+    "registers": {
+      "ch11_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch07_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch10_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch00_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch15_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch15_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch02_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch08_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "advertise_mode": {
+        "type": "control",
+        "data_type": "advertise_mode",
+        "target": "whisper"
+      },
+      "ch05_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch03_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch01_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch09_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch05_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch14_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch13_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch08_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch13_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch15_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch15_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "primary_volts": {
+        "type": "metrics",
+        "data_type": "volt"
+      },
+      "ch05_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch10_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch12_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch10_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch09_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch15_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch06_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch14_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch13_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch10_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch02_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch12_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch01_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch11_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch04_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch12_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "front_brightness": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 50
+      },
+      "ch08_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch15_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch07_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch14_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch05_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ambient_lux": {
+        "type": "metrics",
+        "data_type": "lux"
+      },
+      "ch10_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch04_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch07_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch14_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_enable": {
+        "data_type": "boolean",
+        "target_at": 1547119684649,
+        "type": "control",
+        "target": true
+      },
+      "ch05_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch09_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch07_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch11_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch01_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch04_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch08_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch13_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch04_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch05_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch02_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch01_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch07_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch14_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch01_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch00_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch11_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch04_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "min_ramp_time": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 0
+      },
+      "ch04_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "utc": {
+        "type": "control",
+        "data_type": "datetime",
+        "target": 0
+      },
+      "ch01_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch00_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch07_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch06_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch08_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "report_base": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 0
+      },
+      "ch06_temperature": {
+        "type": "metrics",
+        "data_type": "celsius"
+      },
+      "ch11_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch12_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch12_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch13_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch14_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "front_dim": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch09_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch03_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch09_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch10_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "report_min": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 10
+      },
+      "ch13_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch06_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch06_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch06_current": {
+        "type": "metrics",
+        "data_type": "amp"
+      },
+      "ch11_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch09_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch08_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_fault": {
+        "type": "metrics",
+        "data_type": "channel_fault"
+      },
+      "ch03_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "report_max": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 10000
+      },
+      "ch12_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      }
+    },
+    "id": "mesh-lc001-vshfhttm"
+  },
+  {
+    "updated_at": 1524014496534,
+    "model": "mesh-lc001",
+    "version": 1023,
+    "created_at": 1521800099647,
+    "device": "yurxtbem",
+    "definition": "57116dcafa81208b581edfcb322f6549f767b7be902466e267a250d582646d2a",
+    "owner": "5d36fdd4",
+    "registers": {
+      "ch11_current": {
+        "data_type": "amp",
+        "actual": 0.46,
+        "actual_at": 1524014492132,
+        "type": "metrics"
+      },
+      "ch07_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch10_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch00_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch15_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch15_current": {
+        "data_type": "amp",
+        "actual": 0.66,
+        "actual_at": 1524014482084,
+        "type": "metrics"
+      },
+      "ch02_current": {
+        "data_type": "amp",
+        "actual": 0.5,
+        "actual_at": 1524014494140,
+        "type": "metrics"
+      },
+      "ch08_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "advertise_mode": {
+        "type": "control",
+        "data_type": "advertise_mode",
+        "target": "whisper"
+      },
+      "ch05_current": {
+        "data_type": "amp",
+        "actual": 0.48,
+        "actual_at": 1524014494140,
+        "type": "metrics"
+      },
+      "ch03_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch01_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch09_current": {
+        "data_type": "amp",
+        "actual": 0.56,
+        "actual_at": 1524014496150,
+        "type": "metrics"
+      },
+      "ch05_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch14_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch13_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch08_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch13_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch15_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch15_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "primary_volts": {
+        "data_type": "volt",
+        "actual": 24.5,
+        "actual_at": 1524014405770,
+        "type": "metrics"
+      },
+      "ch05_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch10_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch12_current": {
+        "data_type": "amp",
+        "actual": 0.36,
+        "actual_at": 1524014466006,
+        "type": "metrics"
+      },
+      "ch10_current": {
+        "data_type": "amp",
+        "actual": 0.44,
+        "actual_at": 1524014495146,
+        "type": "metrics"
+      },
+      "ch13_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch10_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch09_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch14_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch15_temperature": {
+        "data_type": "celsius",
+        "actual": 26.78,
+        "actual_at": 1524014496150,
+        "type": "metrics"
+      },
+      "ch06_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch14_temperature": {
+        "data_type": "celsius",
+        "actual": 26.82,
+        "actual_at": 1524014493136,
+        "type": "metrics"
+      },
+      "ch13_temperature": {
+        "data_type": "celsius",
+        "actual": 31.02,
+        "actual_at": 1524014496150,
+        "type": "metrics"
+      },
+      "ch10_temperature": {
+        "data_type": "celsius",
+        "actual": 25.74,
+        "actual_at": 1524014485095,
+        "type": "metrics"
+      },
+      "ch02_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch12_temperature": {
+        "data_type": "celsius",
+        "actual": 31.28,
+        "actual_at": 1524014488113,
+        "type": "metrics"
+      },
+      "ch01_current": {
+        "data_type": "amp",
+        "actual": 0.34,
+        "actual_at": 1524014493136,
+        "type": "metrics"
+      },
+      "ch11_temperature": {
+        "data_type": "celsius",
+        "actual": 25.68,
+        "actual_at": 1524014487110,
+        "type": "metrics"
+      },
+      "temperature": {
+        "data_type": "celsius",
+        "actual": 37,
+        "actual_at": 1524014405770,
+        "type": "metrics"
+      },
+      "ch04_current": {
+        "data_type": "amp",
+        "actual": 0.58,
+        "actual_at": 1524014495146,
+        "type": "metrics"
+      },
+      "ch12_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "front_brightness": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 50
+      },
+      "ch08_current": {
+        "data_type": "amp",
+        "actual": 0.5,
+        "actual_at": 1524014486100,
+        "type": "metrics"
+      },
+      "ch15_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch07_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch14_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch05_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ambient_lux": {
+        "data_type": "lux",
+        "actual": 10,
+        "actual_at": 1524014404762,
+        "type": "metrics"
+      },
+      "ch10_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch04_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch07_temperature": {
+        "data_type": "celsius",
+        "actual": 38.7,
+        "actual_at": 1524014492132,
+        "type": "metrics"
+      },
+      "ch14_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch05_temperature": {
+        "data_type": "celsius",
+        "actual": 29.66,
+        "actual_at": 1524014496150,
+        "type": "metrics"
+      },
+      "ch09_temperature": {
+        "data_type": "celsius",
+        "actual": 32.36,
+        "actual_at": 1524014493136,
+        "type": "metrics"
+      },
+      "ch07_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch11_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch01_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch04_temperature": {
+        "data_type": "celsius",
+        "actual": 30.48,
+        "actual_at": 1524014484090,
+        "type": "metrics"
+      },
+      "ch08_temperature": {
+        "data_type": "celsius",
+        "actual": 26.36,
+        "actual_at": 1524014491128,
+        "type": "metrics"
+      },
+      "ch13_current": {
+        "data_type": "amp",
+        "actual": 0.36,
+        "actual_at": 1524014488113,
+        "type": "metrics"
+      },
+      "ch04_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch05_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch03_temperature": {
+        "data_type": "celsius",
+        "actual": 33.04,
+        "actual_at": 1524014494140,
+        "type": "metrics"
+      },
+      "ch06_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch07_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch01_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch04_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch05_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch08_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch09_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch00_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch02_temperature": {
+        "data_type": "celsius",
+        "actual": 23.94,
+        "actual_at": 1524014487110,
+        "type": "metrics"
+      },
+      "ch02_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch01_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch07_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch14_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch01_temperature": {
+        "data_type": "celsius",
+        "actual": 28.86,
+        "actual_at": 1524014494140,
+        "type": "metrics"
+      },
+      "ch00_temperature": {
+        "data_type": "celsius",
+        "actual": 32.44,
+        "actual_at": 1524014493136,
+        "type": "metrics"
+      },
+      "ch11_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch04_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "min_ramp_time": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 0
+      },
+      "ch04_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "utc": {
+        "type": "control",
+        "data_type": "datetime",
+        "target": 0
+      },
+      "ch01_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch00_current": {
+        "data_type": "amp",
+        "actual": 0.5,
+        "actual_at": 1524014473034,
+        "type": "metrics"
+      },
+      "ch07_current": {
+        "data_type": "amp",
+        "actual": 0.5,
+        "actual_at": 1524014482084,
+        "type": "metrics"
+      },
+      "ch06_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch08_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "report_base": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 0
+      },
+      "ch06_temperature": {
+        "data_type": "celsius",
+        "actual": 32.34,
+        "actual_at": 1524014494140,
+        "type": "metrics"
+      },
+      "ch11_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch11_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch12_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch12_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch15_output": {
+        "type": "metrics",
+        "data_type": "relative_light"
+      },
+      "ch12_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch02_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch13_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch14_current": {
+        "data_type": "amp",
+        "actual": 0.58,
+        "actual_at": 1524014495146,
+        "type": "metrics"
+      },
+      "front_dim": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch09_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch03_current": {
+        "data_type": "amp",
+        "actual": 0.52,
+        "actual_at": 1524014484090,
+        "type": "metrics"
+      },
+      "ch09_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch10_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "report_min": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 10
+      },
+      "ch13_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch06_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch06_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "ch06_current": {
+        "data_type": "amp",
+        "actual": 0.4,
+        "actual_at": 1524014485095,
+        "type": "metrics"
+      },
+      "ch11_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch09_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      },
+      "ch08_level": {
+        "type": "control",
+        "data_type": "relative_light",
+        "target": 0
+      },
+      "ch00_fault": {
+        "data_type": "channel_fault",
+        "actual": 2,
+        "actual_at": 1524014306287,
+        "type": "metrics"
+      },
+      "ch03_fullscale": {
+        "type": "control",
+        "data_type": "percent",
+        "target": 100
+      },
+      "report_max": {
+        "type": "control",
+        "data_type": "millisecond",
+        "target": 10000
+      },
+      "ch12_enable": {
+        "type": "control",
+        "data_type": "boolean",
+        "target": true
+      }
+    },
+    "id": "mesh-lc001-yurxtbem"
+  }
+]

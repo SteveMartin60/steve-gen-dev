@@ -1,0 +1,38 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="-16.1 -16.1 32.2 32.2" 
+    >
+    <defs>
+        
+        <pattern
+            id    ="pattern2"
+            x     ="0.5"
+            y     ="0.5" 
+            width ="1.5"
+            height="1.5"
+            patternUnits="userSpaceOnUse"
+            patternTransform="rotate(45)"
+        >
+
+        <circle cx="1" cy="1" r="0.25" fill="#303030" />
+
+        </pattern>        
+        
+        <svg
+            id="SENSOR-HOLES-ME4"
+            overflow="visible"
+            >
+            
+            <circle r="7" fill="url(#pattern2)"/>
+        </svg>
+        
+    </defs>
+
+    <circle cx="0" cy="0" r="16.0" fill="#51abe4" stroke="#231f20" stroke-width="0.2"/>
+    <circle cx="0" cy="0" r="12.5" fill="#3c7da8" stroke="#231f20" stroke-width="0.2"/>
+    <circle cx="0" cy="0" r="10.0" fill="#51abe4" stroke="#231f20" stroke-width="0.2"/>
+    <circle cx="0" cy="0" r="08.0" fill="#438dbc" stroke="#231f20" stroke-width="0.2"/>
+    <circle cx="0" cy="0" r="07.5" fill="#bdbcbc" stroke="#231f20" stroke-width="0.2"/>
+
+    <use x="0" y="0" href="#SENSOR-HOLES-ME4" />
+</svg>

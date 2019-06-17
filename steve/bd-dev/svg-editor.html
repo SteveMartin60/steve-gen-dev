@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html id="doc-html-top">
+    <!--.................................................................... -->
+    <head id="doc-head">
+        <style id="doc-style">
+            iframe
+            {
+                border         : 0.05em solid lightslategray ;
+                border-collapse: collapse;
+                align-content  :center;
+            }
+            .editor
+            {
+                border         : 0.05em solid lightslategray ;
+                border-collapse: collapse;
+                align-content  :center;
+            }
+            .sidebar
+            {
+                border         : none ;
+                border-collapse: collapse;
+                align-content  : center;
+            }
+        </style>
+    </head>
+    <!--.................................................................... -->
+        <body id="doc-body">
+        <!--................................................................ -->
+        <script id="script-external" type="text/javascript" src="../bd-scripts/svg-editor.js"></script>
+        <!--................................................................ -->
+            <div class="editor" id="div-editor">
+                <iframe id="frame-editor"
+                        src="../bd-editor/block-diagram-editor.html" name="Editor" align="right" frameborder="0" scrolling="no" width="79%" height="3000">
+                </iframe>
+            </div>
+            <!--............................................................ -->
+            <div class="sidebar" id="div-sidebar">
+                <iframe id="frame-sidebar"
+                        src="side-bar.html" name="Images" align="left" frameborder="0" scrolling="no" width="19%" height="3000" >
+                </iframe>
+            </div>
+            <!-- ................................................................... -->
+            <script  id="script-internal">
+                //<![CDATA[
+                    window.addEventListener("load", findEditorSVGElements, false);
+                //]]>
+            </script>
+            <!-- ................................................................... -->
+        </body>
+    <!--.................................................................... -->
+</html>

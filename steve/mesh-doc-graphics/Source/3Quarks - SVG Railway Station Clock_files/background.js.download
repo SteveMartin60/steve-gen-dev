@@ -1,0 +1,25 @@
+/*!
+ * background.js
+ *
+ * Copyright 2010, Rüdiger Appel
+ * http://www.3quarks.com
+ * Published under Creative Commons 3.0 License.
+ *
+ * Date: 2010-06-01
+ * Version: 1.0.0
+ */
+
+$(document).ready(function() { 
+  if (document.cookie) {
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = $.trim(cookies[i]);
+      if (cookie.substr(0, 11) == 'Background=') {
+        var value = decodeURIComponent(cookie.substr(11));
+        //alert(value);
+        $('body').css('background', value);
+        break;
+      }
+    }
+  }
+});

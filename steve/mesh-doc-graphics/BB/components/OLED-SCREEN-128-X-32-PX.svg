@@ -1,0 +1,77 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-15.3045 -5.747 30.609 11.494"
+    >
+    <defs>
+        <svg
+            id="COG-BLUE-4.5MM"
+            overflow="visible"
+            >
+            <circle r="1.5" fill="none" stroke="#51abe4" stroke-width=".75"/>
+            
+            <rect width="0.79" height="0.96" x="-.3950" y="+1.290" fill="#51abe4"/>
+            <rect width="0.79" height="0.96" x="-.3950" y="-2.250" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-0.395" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-0.395" fill="#51abe4"/>
+
+            <rect width="0.79" height="0.96" x="-0.395" y="+1.290" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.79" height="0.96" x="-0.395" y="-2.250" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+        </svg>
+
+        <svg
+            id="COG-GREEN-4.5MM"
+            overflow="visible"
+            >
+            <circle r="1.5" fill="none" stroke="#90c667" stroke-width=".75"/>
+            
+            <rect width="0.79" height="0.96" x="-.3950" y="+1.290" fill="#90c667"/>
+            <rect width="0.79" height="0.96" x="-.3950" y="-2.250" fill="#90c667"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-0.395" fill="#90c667"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-0.395" fill="#90c667"/>
+
+            <rect width="0.79" height="0.96" x="-0.395" y="+1.290" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.79" height="0.96" x="-0.395" y="-2.250" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-.3950" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-.3950" fill="#90c667" transform="rotate(45)"/>
+        </svg>
+        
+    </defs>
+
+    <rect width="1" height="10.8" x="14.305" y="-5.4" fill="#393536" paint-order="markers fill stroke" rx=".5" ry=".508"/>
+    <rect width="29.991" height="11.494" x="-15.305" y="-5.747" fill="#51abe4" paint-order="markers fill stroke"/>
+
+    <path
+        fill="#191816"
+        d="
+            m -14.178 , -5.048
+            v 9.885
+            h 28.865
+            v -4.86
+            c -1.00, 0,-1.227, 0.078, -1.39, -0.39
+            c -0.126 ,-2.73 ,0.434 ,-2.65 ,-1.68 , -2.6
+            v-2.033
+            z
+            "
+        />
+
+    <use x="-7.20" y="02.4" href="#COG-GREEN-4.5MM" transform="scale(0.65) rotate(20)" fill="00ff00"/>
+
+    <use x="-8.95" y="-0.1" href="#COG-BLUE-4.5MM"/>
+<!--     
+    
+ -->    
+
+    <svg
+        overflow    ="visible"
+        fill        ="#51abe4"
+        font-family ="Lato" 
+        font-size   ="3.175" 
+        stroke-width="00.353" 
+        font-weight ="700" 
+        white-space ="normal" 
+        >
+        <text  x="-1.374" y="1.021">OLED</text>
+    </svg>
+</svg>

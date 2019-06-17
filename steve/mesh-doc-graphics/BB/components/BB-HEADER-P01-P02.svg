@@ -1,0 +1,43 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-2.54 -1.27 5.08 2.54"
+    
+    >
+    <defs>
+        <svg id = "pin-tip-bb-header"
+             overflow="visible">
+
+            <rect width="0.64" height="0.64" x="0.0" y="0.0" fill="#ffffff" />  
+            <rect width="0.44" height="0.44" x="0.1" y="0.1" fill="#ebb300" />  
+
+            <path fill="#c39500" d="m 0.64, 0.00 l -0.1, +0.1 h -0.44 l -0.1, -0.1z"/> <!-- Top    -->
+            <path fill="#c39500" d="m 0.00, 0.64 l +0.1, -0.1 h +0.44 l +0.1, +0.1z"/> <!-- Bottom -->
+            <path fill="#c39500" d="m 0.00, 0.00 l +0.1, +0.1 v +0.44 l -0.1, +0.1z"/> <!-- Left   -->
+            <path fill="#c39500" d="m 0.64, 0.64 l -0.1, -0.1 v -0.44 l +0.1, -0.1z"/> <!-- Right  -->
+        </svg>
+
+        <svg id = "pin-bb-header"
+             overflow="visible">
+
+            <path
+            fill="#393535"
+            d="
+                m 0, 0
+                h -1.54
+                l -0.5, -0.5
+                v -1.54
+                l 0.5, -0.5
+                h 1.54
+                l 0.5, 0.5
+                v 1.54
+                z
+            "/>
+
+            <use x="-1.09" y="-1.59" href="#pin-tip-bb-header"/>
+
+    </svg>
+    </defs>
+
+    <use x="-0.5" y="1.27" href="#pin-bb-header"/>
+    <use x="2.04" y="1.27" href="#pin-bb-header"/>
+</svg>

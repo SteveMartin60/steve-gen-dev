@@ -1,0 +1,108 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-24.092 -18.491 48.184 36.982"
+    >
+<!--
+    viewBox="17.65 -7.6 1 1"
+
+-->    
+    <!-- ...................................................................... -->
+    <!-- Defs Begin                                                             -->
+    <!-- ...................................................................... -->
+    <defs>
+        <svg id = "PIN-QFP32-0.5x0.265-H"
+             overflow="visible">
+            <rect width="0.500" height="0.267" fill="#cfa550"/>
+        </svg>
+
+        <svg id = "PIN-QFP32-0.5x0.265-V"
+             overflow="visible">
+            <rect width="0.267" height="0.500" fill="#cfa550"/>
+        </svg>
+
+        <svg id = "QFP32-5x5"
+             overflow="visible">
+            <use x="-0.50" y="0.500" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="1.034" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="1.568" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="2.102" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="2.636" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="3.170" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="3.704" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="-0.50" y="4.238" href="#PIN-QFP32-0.5x0.265-H"/>
+
+            <use x="0.500" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="1.034" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="1.568" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="2.102" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="2.636" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="3.170" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="3.704" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="4.238" y="-0.500" href="#PIN-QFP32-0.5x0.265-V"/>
+
+            <use x="0.500" y="5.000" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="1.034" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="1.568" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="2.102" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="2.636" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="3.170" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="3.704" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+            <use x="4.238" y="5.00" href="#PIN-QFP32-0.5x0.265-V"/>
+
+            <use x="5.000" y="0.500" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="1.034" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="1.568" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="2.102" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="2.636" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="3.170" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="3.704" href="#PIN-QFP32-0.5x0.265-H"/>
+            <use x="5.000" y="4.238" href="#PIN-QFP32-0.5x0.265-H"/>
+            
+            <rect width="5" height="5" x="0" y="0" fill="#393536"  />
+        </svg>
+
+        <svg id = "Footprint-DIP-Unknown"
+             overflow="visible">
+        
+            <rect width="6" height="9.8" x="0" y="0" fill="#656263" stroke="#303030" stroke-width=".088" rx="1.000" ry="1.000"/>
+
+            <circle cx="2.365" cy="7.44" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="3.635" cy="7.44" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="2.365" cy="6.17" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="3.635" cy="6.17" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="2.365" cy="4.90" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="3.635" cy="4.90" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="2.365" cy="3.63" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="3.635" cy="3.63" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="2.365" cy="2.36" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+            <circle cx="3.635" cy="2.36" r="0.325" fill="none" stroke="#cfa550" stroke-width="0.15"/>
+        </svg>
+
+
+    </defs>
+
+    <!-- ...................................................................... -->
+    <!-- Defs End                                                               -->
+    <!-- ...................................................................... -->
+
+    <rect width="48.008" height="36.806" x="-24.004" y="-18.403" fill="#918f90" stroke="#231f20" stroke-miterlimit="10" stroke-width=".176" paint-order="markers fill stroke"/>
+
+    <svg
+        overflow    ="visible"
+        fill        ="#ffffff" 
+        font-family ="Lato" 
+        font-size   ="04.04" 
+        stroke-width="00.353" 
+        font-weight ="400" 
+        white-space ="normal" 
+        >
+        <text  x="-12.467" y="+02.451">PM25-Sensor</text>
+        <text  x="-19.253" y="-12.181">Airflow    </text>
+        <text  x="+06.147" y="-12.181">Airflow    </text>
+    </svg>
+
+    <use x="15.6540" y="-1.504" href="#QFP32-5x5"  opacity="0.3"/>
+
+    <use x="15.146" y="-14.454" href="#Footprint-DIP-Unknown"/>
+
+</svg>

@@ -1,0 +1,147 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-4.95 -2.8 9.900 5.600"
+    >
+<!--
+    viewBox="-4 0.6 1 1"
+    viewBox="-4 0.6 1 1"
+ -->
+    <defs>
+        <linearGradient
+            id="GradientSolderedPinDarkLight"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#d0d0d0"/>
+            <stop offset="0.3500" stop-color="#e5e5e5"/>
+            <stop offset="0.650"  stop-color="#e5e5e5"/>
+            <stop offset="1.000" stop-color="#d0d0d0"/>
+        </linearGradient>
+        
+        <linearGradient
+            id="GradientSolderedPinDarkLight"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#d0d0d0"/>
+            <stop offset="1.000" stop-color="#f0f0f0"/>
+        </linearGradient>
+        
+        <linearGradient
+            id="PinLightDarkV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#ebb300"/>
+            <stop offset="0.600" stop-color="#c58f27"/>
+            <stop offset="0.88" stop-color="#7e5c19"/>
+            <stop offset="1.000" stop-color="#6f5116"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinLightDarkH"
+            spreadMethod="pad"
+            >
+            <stop offset="000%" stop-color="#e5b758"/>
+            <stop offset="080%" stop-color="#c58f27"/>
+            <stop offset="100%" stop-color="#7e5c19"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinDarkLightH"
+            spreadMethod="pad"
+            >
+            <stop offset="0.000" stop-color="#7e5c19"/>
+            <stop offset="0.204" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#e5b758"/>
+        </linearGradient>
+
+        <linearGradient
+            id="PinDarkLightV"
+            spreadMethod="pad"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#6f5116"/>
+            <stop offset="0.120" stop-color="#7e5c19"/>
+            <stop offset="0.404" stop-color="#c58f27"/>
+            <stop offset="1.000" stop-color="#ebb300"/>
+        </linearGradient>
+
+        <svg id = "PAD-LB335-SMD"
+             overflow="visible">
+            <rect width="0.35" height="1.8" x="0.00" y="0.0" fill="url(#GradientSolderedPinDarkLight)"/>
+            <rect width="0.25" height="1.4" x="0.05" y="0.2" fill="#ebb300"/>
+        </svg>
+
+        <svg id = "PIN-LB335-FEMALE"
+             overflow="visible"
+             >
+
+            <rect width="0.25" height="0.7" x="0" y="0.1" fill="#59481d"/>
+
+<!--             <path fill="#ebb300" d="m 0, 0.2 a 0.164, 0.11, 0, 0, 0, 0.250, 0 v -0.2 h -0.25"/>
+            <path fill="#ebb300" d="m 0, 0.7 a 0.164, 0.11, 0, 0, 1, 0.250, 0 v +0.2 h -0.25"/>
+ -->
+            <rect width="0.25" height="0.168" x="0" y="0" fill="#ebb300"/>
+            <rect width="0.25" height="0.168" x="0" y="0.703" fill="#ebb300"/>
+
+        </svg>
+
+    </defs>
+
+    <use x="-3.95" y="-0.04" href="#PAD-LB335-SMD"/>
+
+
+    <!-- External SMD Pins -->
+<!-- 
+ -->
+    <use x="+3.414" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="-3.786" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="+2.614" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="+1.814" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="+1.014" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="+0.214" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="-0.586" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="-1.386" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="-2.186" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="-2.986" y="1.00" href="#PAD-LB335-SMD"/>
+    <use x="+3.414" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="-3.786" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="+2.614" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="+1.814" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="+1.014" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="+0.214" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="-0.586" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="-1.386" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="-2.186" y="-2.8" href="#PAD-LB335-SMD"/>
+    <use x="-2.986" y="-2.8" href="#PAD-LB335-SMD"/>
+
+    <!-- Component Body -->
+    <rect width="9.9" height="4" x="-4.95" y="-1.993" fill="#4c4949"/>
+
+    <rect x="-4.181" y="-1.32" width="8.35" height="0.641" fill="#302928"/>
+    <rect x="-4.181" y="+0.68" width="8.35" height="0.641" fill="#302928"/>
+
+    <use x="-3.736" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="-2.936" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="-2.136" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="-1.336" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="-0.536" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="+0.264" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="+1.064" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="+1.864" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="+2.664" y="-1.450" href="#PIN-LB335-FEMALE"/>
+    <use x="+3.464" y="-1.450" href="#PIN-LB335-FEMALE"/>
+
+    <use x="-3.736" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="-2.936" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="-2.136" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="-1.336" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="-0.536" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="+0.264" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="+1.064" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="+1.864" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="+2.664" y="+0.565" href="#PIN-LB335-FEMALE"/>
+    <use x="+3.464" y="+0.565" href="#PIN-LB335-FEMALE"/>
+
+</svg>

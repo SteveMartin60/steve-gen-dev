@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="0.00099999993mm"
+   height="0.00099999993mm"
+   viewBox="0 0 0.00099999993 0.00099999995"
+   version="1.1"
+   id="svg23018"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="pins-spi-bb.svg">
+  <title
+     id="title27649">SPI Pins for BB</title>
+  <defs
+     id="defs23012" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="32"
+     inkscape:cx="13.233345"
+     inkscape:cy="-0.71730146"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata23015">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SPI Pins for BB</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="ComponentLayer"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.010752,-208.5529)">
+    <g
+       id="g6853"
+       transform="translate(28.347966,45.750131)"
+       inkscape:label="pins-spi-bb">
+      <title
+         id="title22976">SPI Pins for BB</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path8132"
+         style="fill:#fbc18c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="M 17.403709,164.07344 H 15.16357 v -2.54 h 2.240139 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8134"
+         style="fill:#fbc834;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="m 14.863356,164.07344 h -2.240139 v -2.54 h 2.240139 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8136"
+         style="fill:#f89c0e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="m 12.323356,164.07344 h -2.240139 v -2.54 h 2.240139 z" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8138"
+         style="fill:#f25c19;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="m 9.7833563,164.07344 h -2.240139 v -2.54 h 2.240139 z" />
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,17.183399,162.80348)"
+         id="g8140">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8142"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,-1.408 -1.143,-2.551 -2.551,-2.551 -1.409,0 -2.552,1.143 -2.552,2.551 0,1.409 1.143,2.552 2.552,2.552 C -1.143,2.552 0,1.409 0,0" />
+      </g>
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,14.643328,162.80348)"
+         id="g8144">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8146"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,-1.408 -1.142,-2.551 -2.551,-2.551 -1.409,0 -2.552,1.143 -2.552,2.551 0,1.409 1.143,2.552 2.552,2.552 C -1.142,2.552 0,1.409 0,0" />
+      </g>
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,12.103258,162.80348)"
+         id="g8148">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8150"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,-1.408 -1.142,-2.551 -2.551,-2.551 -1.409,0 -2.551,1.143 -2.551,2.551 0,1.409 1.142,2.552 2.551,2.552 C -1.142,2.552 0,1.409 0,0" />
+      </g>
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,9.5635403,162.80348)"
+         id="g8152">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8154"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 c 0,-1.408 -1.143,-2.551 -2.552,-2.551 -1.409,0 -2.551,1.143 -2.551,2.551 0,1.409 1.142,2.552 2.551,2.552 C -1.143,2.552 0,1.409 0,0" />
+      </g>
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,16.283569,163.30336)"
+         id="g8156">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8158"
+           style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C -0.783,0 -1.418,0.635 -1.418,1.418 -1.418,2.2 -0.783,2.835 0,2.835 0.782,2.835 1.417,2.2 1.417,1.418 1.417,0.635 0.782,0 0,0 m 0,3.686 c -1.253,0 -2.268,-1.016 -2.268,-2.268 0,-1.253 1.015,-2.269 2.268,-2.269 1.252,0 2.268,1.016 2.268,2.269 C 2.268,2.67 1.252,3.686 0,3.686" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path8160"
+         style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="M 16.603256,163.12306 H 15.96367 v -0.63959 h 0.639586 z" />
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,13.743498,163.30336)"
+         id="g8162">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8164"
+           style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C -0.783,0 -1.417,0.635 -1.417,1.418 -1.417,2.2 -0.783,2.835 0,2.835 0.782,2.835 1.417,2.2 1.417,1.418 1.417,0.635 0.782,0 0,0 m 0,3.686 c -1.253,0 -2.268,-1.016 -2.268,-2.268 0,-1.253 1.015,-2.269 2.268,-2.269 1.252,0 2.268,1.016 2.268,2.269 C 2.268,2.67 1.252,3.686 0,3.686" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path8166"
+         style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="M 14.063609,163.12306 H 13.42367 v -0.63959 h 0.639939 z" />
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,11.203428,163.30336)"
+         id="g8168">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8170"
+           style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C -0.783,0 -1.417,0.635 -1.417,1.418 -1.417,2.2 -0.783,2.835 0,2.835 0.783,2.835 1.417,2.2 1.417,1.418 1.417,0.635 0.783,0 0,0 m 0,3.686 c -1.252,0 -2.268,-1.016 -2.268,-2.268 0,-1.253 1.016,-2.269 2.268,-2.269 1.253,0 2.268,1.016 2.268,2.269 C 2.268,2.67 1.253,3.686 0,3.686" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path8172"
+         style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="M 11.523609,163.12306 H 10.88367 v -0.63959 h 0.639939 z" />
+      <g
+         transform="matrix(0.35277777,0,0,-0.35277777,8.6633573,163.30336)"
+         id="g8174">
+        <path
+           inkscape:connector-curvature="0"
+           id="path8176"
+           style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="M 0,0 C -0.782,0 -1.417,0.635 -1.417,1.418 -1.417,2.2 -0.782,2.835 0,2.835 0.783,2.835 1.418,2.2 1.418,1.418 1.418,0.635 0.783,0 0,0 m 0,3.686 c -1.252,0 -2.268,-1.016 -2.268,-2.268 0,-1.253 1.016,-2.269 2.268,-2.269 1.253,0 2.268,1.016 2.268,2.269 C 2.268,2.67 1.253,3.686 0,3.686" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path8178"
+         style="fill:#cba855;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="M 8.9832556,163.12306 H 8.3433172 v -0.63959 h 0.6399384 z" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="OriginLayer"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <circle
+       transform="translate(-37.010753,-208.5529)"
+       inkscape:label="origin-point"
+       r="0.00049999997"
+       cy="208.55339"
+       cx="37.011253"
+       id="circle2323"
+       style="opacity:1;vector-effect:none;fill:#e70ddc;fill-opacity:1;fill-rule:evenodd;stroke:#eb1fe9;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke">
+      <title
+         id="title2321">Origin Point</title>
+    </circle>
+  </g>
+</svg>

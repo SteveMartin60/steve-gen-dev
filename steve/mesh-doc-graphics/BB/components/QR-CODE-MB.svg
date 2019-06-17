@@ -1,0 +1,30 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-3.1 -3.1 6.2 6.2"
+    fill="#bdbcbc"
+    >
+    
+    <defs>
+        <svg
+            id="QR-CODE-MB-CUT-SQ-15"
+            overflow="visible"
+            >
+            <path
+                d="m -3.1, -3.1 v 6.2 h 6.2 v -6.2 z 
+                   m +0.2, +0.2 h 1.4 v 1.4 h -1.4 z 
+                   m +4.4, +0.0 h 1.4 v 1.4 h -1.4 z 
+                   m -4.4, +4.4 h 1.4 v 1.4 h -1.4 z
+                   M -0.75, -0.75
+                   h 1.5 v 1.5 h-1.5 v -1.5
+                   
+                  "
+            />
+    
+            <path d="m +1.7, -2.7 v 1h 1 v -1 z m 0.2, 0.2 h 0.6 v 0.6 h -0.6 z"/>
+            <path d="m -2.7, -2.7 v 1h 1 v -1 z m 0.2, 0.2 h 0.6 v 0.6 h -0.6 z"/>
+            <path d="m -2.7, +1.7 v 1h 1 v -1 z m 0.2, 0.2 h 0.6 v 0.6 h -0.6 z"/>
+        </svg>
+    </defs>
+    
+    <use x="0" y="0" href="#QR-CODE-MB-CUT-SQ-15"/>
+</svg>

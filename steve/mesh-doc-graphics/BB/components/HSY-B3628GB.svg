@@ -1,0 +1,14 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-1.75 -1.4 3.5 2.8"
+    >
+    <rect width="3.5" height="2.1" x="-1.75" y="-1.05" fill="#ebb300"/>
+    <rect width="3.3" height="2.8" x="-1.65" y="-1.40" fill="#a7a5a6"/>
+    
+    <path fill="#f36676"
+        stroke="#7b7979" 
+        stroke-miterlimit="10" 
+        stroke-width="0.088" 
+        d="M1.25-1.05h-2.5l-.3.3v1.5l.3.3h2.5l.3-.3v-1.5z"
+    />
+</svg>

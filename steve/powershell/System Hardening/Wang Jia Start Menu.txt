@@ -1,0 +1,7 @@
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+
+eTax@SH 3
+C:\eTax@SH\eTaxSH3\eTax.Form.exe -a
+
+SHECA UniClient
+C:\Program Files (x86)\Sheca\UniClient\UniClient.exe

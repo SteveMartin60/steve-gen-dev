@@ -1,0 +1,59 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-18.59 -25.49 37.177 50.976"
+    >
+    <defs>
+        <svg
+            id="COG-BLUE-4.5MM"
+            overflow="visible"
+            >
+            <circle r="1.5" fill="none" stroke="#51abe4" stroke-width="0.75"/>
+            
+            <rect width="0.79" height="0.96" x="-.3950" y="+1.290" fill="#51abe4"/>
+            <rect width="0.79" height="0.96" x="-.3950" y="-2.250" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-0.395" fill="#51abe4"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-0.395" fill="#51abe4"/>
+
+            <rect width="0.79" height="0.96" x="-0.395" y="+1.290" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.79" height="0.96" x="-0.395" y="-2.250" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-.3950" fill="#51abe4" transform="rotate(45)"/>
+        </svg>
+
+        <svg
+            id="COG-GREEN-4.5MM"
+            overflow="visible"
+            >
+            <circle r="1.5" fill="none" stroke="#90c667" stroke-width=".75"/>
+            
+            <rect width="0.79" height="0.96" x="-.3950" y="+1.290" fill="#90c667"/>
+            <rect width="0.79" height="0.96" x="-.3950" y="-2.250" fill="#90c667"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-0.395" fill="#90c667"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-0.395" fill="#90c667"/>
+
+            <rect width="0.79" height="0.96" x="-0.395" y="+1.290" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.79" height="0.96" x="-0.395" y="-2.250" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="-2.250" y="-.3950" fill="#90c667" transform="rotate(45)"/>
+            <rect width="0.96" height="0.79" x="+1.290" y="-.3950" fill="#90c667" transform="rotate(45)"/>
+        </svg>
+    </defs>
+
+    <rect width="37.001" height="50.80" x="-18.500" y="-25.4" fill="#393536" stroke="#231f20" stroke-width="0.176"/>
+    <rect width="34.484" height="45.95" x="-17.242" y="-23.9" fill="#656263" stroke="#231f20" stroke-width="0.176"/>
+
+    <use x="3.05" y="-0.45" href="#COG-GREEN-4.5MM" transform="scale(1.89)"/>
+
+    <use x="-1.29" y="-2.13" href="#COG-BLUE-4.5MM" transform="scale(2.83)"/>
+    
+    <svg
+        overflow    ="visible"
+        fill        ="#51abe4"
+        font-family ="Lato" 
+        font-size   ="3.175" 
+        stroke-width="00.353" 
+        font-weight ="700" 
+        white-space ="normal" 
+        >
+        <text  x="-6.183" y="9.548">TFT LCD</text>
+    </svg>
+</svg>

@@ -1,0 +1,85 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="-25.81 -12 51.620 24.000"
+    >
+    <defs>
+        <linearGradient 
+            id="GRADIENT-ALKALINE-BATTERY-TERMINAL" 
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#231f20"/>
+            <stop offset="0.093" stop-color="#f0f0f2"/>
+            <stop offset="0.249" stop-color="#f0f0f2"/>
+            <stop offset="0.455" stop-color="#1b2222"/>
+            <stop offset="0.698" stop-color="#ededee"/>
+            <stop offset="0.767" stop-color="#ededee"/>
+            <stop offset="0.848" stop-color="#ededee"/>
+            <stop offset="1.000" stop-color="#231f20"/>
+        </linearGradient>
+
+        <linearGradient 
+            x2="0%" y2="100%"
+            id="GRADIENT-ALKALINE-BATTERY-BODY" 
+            >
+            <stop offset="0.000" stop-color="#248598"/>
+            <stop offset="0.124" stop-color="#5fa9c3"/>
+            <stop offset="0.224" stop-color="#77bdd9"/>
+            <stop offset="0.324" stop-color="#55a2ba"/>
+            <stop offset="0.424" stop-color="#368fa4"/>
+            <stop offset="0.524" stop-color="#2f8b9e"/>
+            <stop offset="0.624" stop-color="#57a3bb"/>
+            <stop offset="0.724" stop-color="#82c6e2"/>
+            <stop offset="0.824" stop-color="#89cce7"/>
+            <stop offset="0.924" stop-color="#509db5"/>
+            <stop offset="1.000" stop-color="#278598"/>
+        </linearGradient>
+
+    </defs>
+
+    <path fill="#31aad7" d="m -25.81, -12v +1.5 h +0.2 c 0,     -0.715, 0.585, -1.3,   1.3, -1.3 v -0.2 h -1.3z"/>
+    <path fill="#31aad7" d="m -25.81, +12v -1.5 h +0.2 c 0,     +0.715, 0.585, +1.3,   1.3, +1.3 v +0.2 h -1.3z"/>
+    <path fill="#31aad7" d="m +25.81, +12h -1.5 v -0.2 c 0.715, +0,     1.3,   -0.585, 1.3, -1.3 h +0.2 v +1.3z"/>
+    <path fill="#31aad7" d="m +25.81, -12h -1.5 v +0.2 c 0.715, +0,     1.3,   +0.585, 1.3, +1.3 h +0.2 v -1.3z"/>
+
+    <line x1="-22.995" x2="+23.00" y1="+11.750" y2="+11.750" stroke="#31aad7" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+    <line x1="-22.995" x2="+23.00" y1="-11.750" y2="-11.750" stroke="#31aad7" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+    <line x1="-25.560" x2="-25.56" y1="-09.495" y2="+09.619" stroke="#31aad7" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+    <line x1="+25.560" x2="+25.56" y1="-09.495" y2="+09.619" stroke="#31aad7" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
+
+    <ellipse cx="-21.080" cy="-5.616" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.00"/>
+    <ellipse cx="+21.080" cy="+5.631" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.00"/>
+    <ellipse cx="-23.462" cy="-5.616" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.500"/>
+    <ellipse cx="-22.862" cy="-5.616" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.375"/>
+    <ellipse cx="-22.262" cy="-5.616" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.250"/>
+    <ellipse cx="-21.680" cy="-5.616" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.125"/>
+    <ellipse cx="+23.462" cy="+5.630" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.500"/>
+    <ellipse cx="+22.862" cy="+5.630" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.375"/>
+    <ellipse cx="+22.262" cy="+5.630" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.250"/>
+    <ellipse cx="+21.680" cy="+5.630" fill="none" stroke="#bcbec0" stroke-width="0.265" rx="0.3" ry="2.125"/>
+
+    <rect width="2.151" height="4" x="21.278" y="-7.608" fill="url(#GRADIENT-ALKALINE-BATTERY-TERMINAL)" stroke="#231f20" stroke-width=".088" rx=".3" ry=".329"/>
+    <rect width="2.151" height="4" x="-23.429" y="3.608" fill="url(#GRADIENT-ALKALINE-BATTERY-TERMINAL)" stroke="#231f20" stroke-width=".088" rx=".3" ry=".329"/>
+
+    <rect width="2.151" height="5.297" x="-21.08" y="-8.298" fill="url(#GRADIENT-ALKALINE-BATTERY-TERMINAL)" stroke="#231f20" stroke-width=".088" rx=".372" ry=".447"/>
+    <rect width="2.151" height="5.297" x="18.929" y="+3.002" fill="url(#GRADIENT-ALKALINE-BATTERY-TERMINAL)" stroke="#231f20" stroke-width=".088" rx=".372" ry=".447"/>
+
+    <rect width="43" height="10.2" x="-20.771" y="-10.75" fill="url(#GRADIENT-ALKALINE-BATTERY-BODY)" stroke="#6d6f71" stroke-width="0.176"/>
+    <rect width="43" height="10.2" x="-22.229" y="+0.551" fill="url(#GRADIENT-ALKALINE-BATTERY-BODY)" stroke="#6d6f71" stroke-width="0.176"/>
+
+    <rect width="0.6" height="2" x="-24.661" y="-6.63" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="2" x="-24.661" y="4.597" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="2" x="+24.066" y="-6.63" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="2" x="+24.066" y="4.631" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+
+    <rect width="0.6" height="4" x="-24.062" y="-7.630" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="4" x="-24.062" y="+3.597" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="4" x="+23.467" y="-7.630" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+    <rect width="0.6" height="4" x="+23.467" y="+3.630" fill="#fbb03f" stroke="#231f20" stroke-width="0.088"/>
+
+    <text x="-16.008" y="6.471" fill="#ffffff" stroke-width=".353" font-family="Myriad Pro Light" font-size="3.135" font-weight="600" style="line-height:normal;-inkscape-font-specification:MyriadPro-Semibold;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0" transform="scale(1.00028 .99972)" white-space="normal">
+        <tspan x="-16.008" y="6.471" font-family="Myriad Pro" font-size="3.527" font-weight="normal" style="line-height:normal;-inkscape-font-specification:'Myriad Pro';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0">Alkaline Battery-AAA</tspan>
+    </text>
+    <text x="-16.008" y="6.471" fill="#ffffff" stroke-width=".353" font-family="Myriad Pro Light" font-size="3.135" font-weight="600" style="line-height:normal;-inkscape-font-specification:MyriadPro-Semibold;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0" transform="scale(-1.00028 -.99972)" white-space="normal">
+        <tspan x="-16.008" y="6.471" font-family="Myriad Pro" font-size="3.527" font-weight="normal" style="line-height:normal;-inkscape-font-specification:'Myriad Pro';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;shape-padding:0">Alkaline Battery-AAA</tspan>
+    </text>
+</svg>

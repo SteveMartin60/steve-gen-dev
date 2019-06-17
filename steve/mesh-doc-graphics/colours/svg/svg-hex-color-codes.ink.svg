@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="361.244mm"
+     height="680.156mm"
+     viewBox="0 0 1024 1928"
+     version="1.2"
+     id="svg7921"
+     sodipodi:docname="SVG-Hex-Color-Codes.ink.svg"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)">
+    <metadata
+         id="metadata7925">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Qt Svg Document</dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <sodipodi:namedview
+         pagecolor="#ffffff"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         objecttolerance="10"
+         gridtolerance="10"
+         guidetolerance="10"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:window-width="640"
+         inkscape:window-height="480"
+         id="namedview7923"
+         showgrid="false"
+         inkscape:zoom="0.23600773"
+         inkscape:cx="112.87202"
+         inkscape:cy="1689.4535"
+         inkscape:current-layer="svg7921"
+         inkscape:showpageshadow="false"
+         borderlayer="true" />
+    <title
+         id="title4389">Qt Svg Document</title>
+    <desc
+         id="desc4391">Generated with Qt</desc>
+    <defs
+         id="defs4393" />
+    <path
+         d="M 0,0 H 1024 V 1928 H 0 V 0"
+         id="path4395"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="M 0,0 H 1024 V 1928 H 0 V 0"
+         id="path4397"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,8 h 81 V 47 H 262 V 8"
+         id="path4401"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,8 h 81 V 47 H 597 V 8"
+         id="path4405"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,8 h 82 V 47 H 933 V 8"
+         id="path4409"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00008b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,47 h 81 V 86 H 262 V 47"
+         id="path4413"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#0000cd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,47 h 81 V 86 H 597 V 47"
+         id="path4417"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,47 h 82 V 86 H 933 V 47"
+         id="path4421"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#006400;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,86 h 81 v 39 H 262 V 86"
+         id="path4425"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,86 h 81 v 39 H 597 V 86"
+         id="path4429"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,86 h 82 v 39 H 933 V 86"
+         id="path4433"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#008b8b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,125 h 81 v 39 h -81 v -39"
+         id="path4437"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00bfff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,125 h 81 v 39 h -81 v -39"
+         id="path4441"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00ced1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,125 h 82 v 39 h -82 v -39"
+         id="path4445"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00fa9a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,164 h 81 v 39 h -81 v -39"
+         id="path4449"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,164 h 81 v 39 h -81 v -39"
+         id="path4453"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00ff7f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,164 h 82 v 39 h -82 v -39"
+         id="path4457"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,203 h 81 v 39 h -81 v -39"
+         id="path4459"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,203 h 81 v 39 h -81 v -39"
+         id="path4463"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#191970;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,203 h 82 v 39 h -82 v -39"
+         id="path4467"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#1e90ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,242 h 81 v 39 h -81 v -39"
+         id="path4471"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#20b2aa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,242 h 81 v 39 h -81 v -39"
+         id="path4475"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#228b22;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,242 h 82 v 39 h -82 v -39"
+         id="path4479"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#2e8b57;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,281 h 81 v 39 h -81 v -39"
+         id="path4483"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#2f4f4f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,281 h 81 v 39 h -81 v -39"
+         id="path4485"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#2f4f4f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,281 h 82 v 39 h -82 v -39"
+         id="path4489"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#32cd32;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,320 h 81 v 39 h -81 v -39"
+         id="path4493"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#3cb371;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,320 h 81 v 39 h -81 v -39"
+         id="path4497"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#40e0d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,320 h 82 v 39 h -82 v -39"
+         id="path4501"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#4169e1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,359 h 81 v 39 h -81 v -39"
+         id="path4505"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#4682b4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,359 h 81 v 39 h -81 v -39"
+         id="path4509"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#483d8b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,359 h 82 v 39 h -82 v -39"
+         id="path4513"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#48d1cc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,398 h 81 v 39 h -81 v -39"
+         id="path4517"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#4b0082;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,398 h 81 v 39 h -81 v -39"
+         id="path4521"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#556b2f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,398 h 82 v 39 h -82 v -39"
+         id="path4525"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#5f9ea0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,437 h 81 v 39 h -81 v -39"
+         id="path4529"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#6495ed;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,437 h 81 v 39 h -81 v -39"
+         id="path4533"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#66cdaa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,437 h 82 v 39 h -82 v -39"
+         id="path4537"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,476 h 81 v 39 h -81 v -39"
+         id="path4539"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,476 h 81 v 39 h -81 v -39"
+         id="path4543"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#6a5acd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,476 h 82 v 39 h -82 v -39"
+         id="path4547"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#6b8e23;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,515 h 81 v 39 h -81 v -39"
+         id="path4551"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#708090;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,515 h 81 v 39 h -81 v -39"
+         id="path4553"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#708090;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,515 h 82 v 39 h -82 v -39"
+         id="path4557"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#778899;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,554 h 81 v 39 h -81 v -39"
+         id="path4559"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#778899;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,554 h 81 v 39 h -81 v -39"
+         id="path4563"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#7b68ee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,554 h 82 v 39 h -82 v -39"
+         id="path4567"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#7cfc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,593 h 81 v 39 h -81 v -39"
+         id="path4571"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#7fff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,593 h 81 v 39 h -81 v -39"
+         id="path4575"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#7fffd4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,593 h 82 v 39 h -82 v -39"
+         id="path4579"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,632 h 81 v 39 h -81 v -39"
+         id="path4583"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#800080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,632 h 81 v 39 h -81 v -39"
+         id="path4587"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,632 h 82 v 39 h -82 v -39"
+         id="path4591"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,671 h 81 v 39 h -81 v -39"
+         id="path4593"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,671 h 81 v 39 h -81 v -39"
+         id="path4597"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#87ceeb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,671 h 82 v 39 h -82 v -39"
+         id="path4601"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#87cefa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,710 h 81 v 39 h -81 v -39"
+         id="path4605"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#8a2be2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,710 h 81 v 39 h -81 v -39"
+         id="path4609"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#8b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,710 h 82 v 39 h -82 v -39"
+         id="path4613"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#8b008b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,749 h 81 v 39 h -81 v -39"
+         id="path4617"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#8b4513;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,749 h 81 v 39 h -81 v -39"
+         id="path4621"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#8fbc8f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,749 h 82 v 39 h -82 v -39"
+         id="path4625"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#90ee90;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,788 h 81 v 39 h -81 v -39"
+         id="path4629"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#9370db;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,788 h 81 v 39 h -81 v -39"
+         id="path4633"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#9400d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,788 h 82 v 39 h -82 v -39"
+         id="path4637"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#98fb98;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,827 h 81 v 39 h -81 v -39"
+         id="path4641"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#9932cc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,827 h 81 v 39 h -81 v -39"
+         id="path4645"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#9acd32;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,827 h 82 v 39 h -82 v -39"
+         id="path4649"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#a0522d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,866 h 81 v 39 h -81 v -39"
+         id="path4653"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#a52a2a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,866 h 81 v 39 h -81 v -39"
+         id="path4657"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#a9a9a9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,866 h 82 v 39 h -82 v -39"
+         id="path4659"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#a9a9a9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,905 h 81 v 39 h -81 v -39"
+         id="path4663"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#add8e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,905 h 81 v 39 h -81 v -39"
+         id="path4667"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#adff2f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,905 h 82 v 39 h -82 v -39"
+         id="path4671"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#afeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,944 h 81 v 39 h -81 v -39"
+         id="path4675"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#b0c4de;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,944 h 81 v 39 h -81 v -39"
+         id="path4679"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#b0e0e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,944 h 82 v 39 h -82 v -39"
+         id="path4683"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#b22222;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,983 h 81 v 39 h -81 v -39"
+         id="path4687"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#b8860b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,983 h 81 v 39 h -81 v -39"
+         id="path4691"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ba55d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,983 h 82 v 39 h -82 v -39"
+         id="path4695"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#bc8f8f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1022 h 81 v 39 h -81 v -39"
+         id="path4699"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#bdb76b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1022 h 81 v 39 h -81 v -39"
+         id="path4703"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#c0c0c0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1022 h 82 v 39 h -82 v -39"
+         id="path4707"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#c71585;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1061 h 81 v 39 h -81 v -39"
+         id="path4711"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#cd5c5c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1061 h 81 v 39 h -81 v -39"
+         id="path4715"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#cd853f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1061 h 82 v 39 h -82 v -39"
+         id="path4719"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#d2691e;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1100 h 81 v 39 h -81 v -39"
+         id="path4723"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#d2b48c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1100 h 81 v 39 h -81 v -39"
+         id="path4727"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1100 h 82 v 39 h -82 v -39"
+         id="path4729"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1139 h 81 v 39 h -81 v -39"
+         id="path4733"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#d8bfd8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1139 h 81 v 39 h -81 v -39"
+         id="path4737"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#da70d6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1139 h 82 v 39 h -82 v -39"
+         id="path4741"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#daa520;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1178 h 81 v 39 h -81 v -39"
+         id="path4745"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#db7093;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1178 h 81 v 39 h -81 v -39"
+         id="path4749"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#dc143c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1178 h 82 v 39 h -82 v -39"
+         id="path4753"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1217 h 81 v 39 h -81 v -39"
+         id="path4757"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#dda0dd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1217 h 81 v 39 h -81 v -39"
+         id="path4761"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#deb887;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1217 h 82 v 39 h -82 v -39"
+         id="path4765"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#e0ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1256 h 81 v 39 h -81 v -39"
+         id="path4769"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#e6e6fa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1256 h 81 v 39 h -81 v -39"
+         id="path4773"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#e9967a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1256 h 82 v 39 h -82 v -39"
+         id="path4777"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ee82ee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1295 h 81 v 39 h -81 v -39"
+         id="path4781"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#eee8aa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1295 h 81 v 39 h -81 v -39"
+         id="path4785"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f08080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1295 h 82 v 39 h -82 v -39"
+         id="path4789"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f0e68c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1334 h 81 v 39 h -81 v -39"
+         id="path4793"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f0f8ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1334 h 81 v 39 h -81 v -39"
+         id="path4797"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f0fff0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1334 h 82 v 39 h -82 v -39"
+         id="path4801"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f0ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1373 h 81 v 39 h -81 v -39"
+         id="path4805"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f4a460;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1373 h 81 v 39 h -81 v -39"
+         id="path4809"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f5deb3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1373 h 82 v 39 h -82 v -39"
+         id="path4813"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f5f5dc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1412 h 81 v 39 h -81 v -39"
+         id="path4817"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1412 h 81 v 39 h -81 v -39"
+         id="path4821"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f5fffa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1412 h 82 v 39 h -82 v -39"
+         id="path4825"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#f8f8ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1451 h 81 v 39 h -81 v -39"
+         id="path4829"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fa8072;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1451 h 81 v 39 h -81 v -39"
+         id="path4833"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#faebd7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1451 h 82 v 39 h -82 v -39"
+         id="path4837"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#faf0e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1490 h 81 v 39 h -81 v -39"
+         id="path4841"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fafad2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1490 h 81 v 39 h -81 v -39"
+         id="path4845"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fdf5e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1490 h 82 v 39 h -82 v -39"
+         id="path4849"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1529 h 81 v 39 h -81 v -39"
+         id="path4853"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1529 h 81 v 39 h -81 v -39"
+         id="path4855"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1529 h 82 v 39 h -82 v -39"
+         id="path4859"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff1493;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1568 h 81 v 39 h -81 v -39"
+         id="path4863"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff4500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1568 h 81 v 39 h -81 v -39"
+         id="path4867"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff6347;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1568 h 82 v 39 h -82 v -39"
+         id="path4871"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff69b4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1607 h 81 v 39 h -81 v -39"
+         id="path4875"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff7f50;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1607 h 81 v 39 h -81 v -39"
+         id="path4879"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ff8c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1607 h 82 v 39 h -82 v -39"
+         id="path4883"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffa07a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1646 h 81 v 39 h -81 v -39"
+         id="path4887"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffa500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1646 h 81 v 39 h -81 v -39"
+         id="path4891"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffb6c1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1646 h 82 v 39 h -82 v -39"
+         id="path4895"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffc0cb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1685 h 81 v 39 h -81 v -39"
+         id="path4899"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffd700;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1685 h 81 v 39 h -81 v -39"
+         id="path4903"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffdab9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1685 h 82 v 39 h -82 v -39"
+         id="path4907"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffdead;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1724 h 81 v 39 h -81 v -39"
+         id="path4911"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffe4b5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1724 h 81 v 39 h -81 v -39"
+         id="path4915"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffe4c4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1724 h 82 v 39 h -82 v -39"
+         id="path4919"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffe4e1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1763 h 81 v 39 h -81 v -39"
+         id="path4923"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffebcd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1763 h 81 v 39 h -81 v -39"
+         id="path4927"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffefd5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1763 h 82 v 39 h -82 v -39"
+         id="path4931"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fff0f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1802 h 81 v 39 h -81 v -39"
+         id="path4935"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fff5ee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1802 h 81 v 39 h -81 v -39"
+         id="path4939"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fff8dc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1802 h 82 v 39 h -82 v -39"
+         id="path4943"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fffacd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1841 h 81 v 39 h -81 v -39"
+         id="path4947"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fffaf0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1841 h 81 v 39 h -81 v -39"
+         id="path4951"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fffafa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1841 h 82 v 39 h -82 v -39"
+         id="path4955"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 262,1880 h 81 v 39 h -81 v -39"
+         id="path4959"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffffe0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 597,1880 h 81 v 39 h -81 v -39"
+         id="path4963"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#fffff0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <path
+         d="m 933,1880 h 82 v 39 h -82 v -39"
+         id="path4967"
+         inkscape:connector-curvature="0"
+         style="font-style:normal;font-weight:400;font-size:medium;font-family:Helvetica;vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel" />
+    <text
+         xml:space="preserve"
+         x="38"
+         y="33"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7327"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">black(Safe 16 Hex3) #000000</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="42"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7331"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="411"
+         y="33"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7335"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">navy(16) #000080</text>
+    <text
+         xml:space="preserve"
+         x="743.5"
+         y="33"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7337"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkblue #00008B</text>
+    <text
+         xml:space="preserve"
+         x="59.5"
+         y="72"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7339"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumblue #0000CD</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="81"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7343"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="375"
+         y="72"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7347"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">blue(Safe 16 Hex3) #0000FF</text>
+    <text
+         xml:space="preserve"
+         x="740.5"
+         y="72"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7349"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkgreen #006400</text>
+    <text
+         xml:space="preserve"
+         x="73.5"
+         y="111"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7351"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">green(16) #008000</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="120"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7355"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="415.5"
+         y="111"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7359"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">teal(16) #008080</text>
+    <text
+         xml:space="preserve"
+         x="740.5"
+         y="111"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7361"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkcyan #008B8B</text>
+    <text
+         xml:space="preserve"
+         x="59"
+         y="150"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7363"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">deepskyblue #00BFFF</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="159"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7367"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="386.5"
+         y="150"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7371"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkturquoise #00CED1</text>
+    <text
+         xml:space="preserve"
+         x="703"
+         y="150"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7373"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumspringgreen #00FA9A</text>
+    <text
+         xml:space="preserve"
+         x="40.5"
+         y="189"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7375"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lime(Safe 16 Hex3) #00FF00</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="198"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7379"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="397"
+         y="189"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7383"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">springgreen #00FF7F</text>
+    <text
+         xml:space="preserve"
+         x="685.5"
+         y="189"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7385"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">cyan(Safe 16=aqua Hex3) #00FFFF</text>
+    <text
+         xml:space="preserve"
+         x="35.5"
+         y="228"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7387"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">aqua(Safe 16 Hex3) #00FFFF</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="237"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7391"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="395.5"
+         y="228"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7395"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">midnightblue #191970</text>
+    <text
+         xml:space="preserve"
+         x="734"
+         y="228"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7397"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">dodgerblue #1E90FF</text>
+    <text
+         xml:space="preserve"
+         x="55.5"
+         y="267"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7399"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightseagreen #20B2AA</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="276"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7403"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="401"
+         y="267"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7407"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">forestgreen #228B22</text>
+    <text
+         xml:space="preserve"
+         x="743.5"
+         y="267"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7409"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">seagreen #2E8B57</text>
+    <text
+         xml:space="preserve"
+         x="55.5"
+         y="306"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7411"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkslategray #2F4F4F</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="315"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7415"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="391"
+         y="306"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7419"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkslategrey #2F4F4F</text>
+    <text
+         xml:space="preserve"
+         x="739"
+         y="306"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7421"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">limegreen #32CD32</text>
+    <text
+         xml:space="preserve"
+         x="45"
+         y="345"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7423"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumseagreen #3CB371</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="354"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7427"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="405"
+         y="345"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7431"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">turquoise #40E0D0</text>
+    <text
+         xml:space="preserve"
+         x="742.5"
+         y="345"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7433"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">royalblue #4169E1</text>
+    <text
+         xml:space="preserve"
+         x="75"
+         y="384"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7435"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">steelblue #4682B4</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="393"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7439"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="391"
+         y="384"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7443"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkslateblue #483D8B</text>
+    <text
+         xml:space="preserve"
+         x="710.5"
+         y="384"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7445"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumturquoise #48D1CC</text>
+    <text
+         xml:space="preserve"
+         x="83"
+         y="423"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7447"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">indigo #4B0082</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="432"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7451"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="387"
+         y="423"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7455"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkolivegreen #556B2F</text>
+    <text
+         xml:space="preserve"
+         x="739"
+         y="423"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7457"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">cadetblue #5F9EA0</text>
+    <text
+         xml:space="preserve"
+         x="50.5"
+         y="462"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7459"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">cornflowerblue #6495ED</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="471"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7463"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="364"
+         y="462"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7467"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumaquamarine #66CDAA</text>
+    <text
+         xml:space="preserve"
+         x="748"
+         y="462"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7469"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">dimgrey #696969</text>
+    <text
+         xml:space="preserve"
+         x="77"
+         y="501"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7471"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">dimgray #696969</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="510"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7475"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="403"
+         y="501"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7479"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">slateblue #6A5ACD</text>
+    <text
+         xml:space="preserve"
+         x="741"
+         y="501"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7481"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">olivedrab #6B8E23</text>
+    <text
+         xml:space="preserve"
+         x="75.5"
+         y="540"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7483"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">slategrey #708090</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="549"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7487"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="410"
+         y="540"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7491"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">slategray #708090</text>
+    <text
+         xml:space="preserve"
+         x="708"
+         y="540"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7493"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightslategray(Hex3) #778899</text>
+    <text
+         xml:space="preserve"
+         x="38"
+         y="579"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7495"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightslategrey(Hex3) #778899</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="588"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7499"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="379"
+         y="579"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7503"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumslateblue #7B68EE</text>
+    <text
+         xml:space="preserve"
+         x="735.5"
+         y="579"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7505"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lawngreen #7CFC00</text>
+    <text
+         xml:space="preserve"
+         x="66.5"
+         y="618"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7507"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">chartreuse #7FFF00</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="627"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7511"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="394.5"
+         y="618"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7515"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">aquamarine #7FFFD4</text>
+    <text
+         xml:space="preserve"
+         x="736.5"
+         y="618"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7517"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">maroon(16) #800000</text>
+    <text
+         xml:space="preserve"
+         x="70"
+         y="657"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7519"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">purple(16) #800080</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="666"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7523"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="412"
+         y="657"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7527"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">olive(16) #808000</text>
+    <text
+         xml:space="preserve"
+         x="747.5"
+         y="657"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7529"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">gray(16) #808080</text>
+    <text
+         xml:space="preserve"
+         x="77.5"
+         y="696"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7531"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">grey(16) #808080</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="705"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7535"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="408"
+         y="696"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7539"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">skyblue #87CEEB</text>
+    <text
+         xml:space="preserve"
+         x="728.5"
+         y="696"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7541"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightskyblue #87CEFA</text>
+    <text
+         xml:space="preserve"
+         x="68"
+         y="735"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7543"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">blueviolet #8A2BE2</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="744"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7547"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="411"
+         y="735"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7551"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkred #8B0000</text>
+    <text
+         xml:space="preserve"
+         x="727.5"
+         y="735"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7553"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkmagenta #8B008B</text>
+    <text
+         xml:space="preserve"
+         x="60"
+         y="774"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7555"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">saddlebrown #8B4513</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="783"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7559"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="389"
+         y="774"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7563"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkseagreen #8FBC8F</text>
+    <text
+         xml:space="preserve"
+         x="739"
+         y="774"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7565"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightgreen #90EE90</text>
+    <text
+         xml:space="preserve"
+         x="52"
+         y="813"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7567"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumpurple #9370DB</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="822"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7571"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="404"
+         y="813"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7575"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkviolet #9400D3</text>
+    <text
+         xml:space="preserve"
+         x="740.5"
+         y="813"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7577"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">palegreen #98FB98</text>
+    <text
+         xml:space="preserve"
+         x="63"
+         y="852"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7579"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkorchid #9932CC</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="861"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7583"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="394"
+         y="852"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7587"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">yellowgreen #9ACD32</text>
+    <text
+         xml:space="preserve"
+         x="750.5"
+         y="852"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7589"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">sienna #A0522D</text>
+    <text
+         xml:space="preserve"
+         x="77"
+         y="891"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7591"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">brown #A52A2A</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="900"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7595"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="402.5"
+         y="891"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7599"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkgray #A9A9A9</text>
+    <text
+         xml:space="preserve"
+         x="738.5"
+         y="891"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7601"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkgrey #A9A9A9</text>
+    <text
+         xml:space="preserve"
+         x="68.5"
+         y="930"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7603"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightblue #ADD8E6</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="939"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7607"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="393"
+         y="930"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7611"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">greenyellow #ADFF2F</text>
+    <text
+         xml:space="preserve"
+         x="721"
+         y="930"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7613"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">paleturquoise #AFEEEE</text>
+    <text
+         xml:space="preserve"
+         x="54.5"
+         y="969"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7615"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightsteelblue #B0C4DE</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="978"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7619"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="395.5"
+         y="969"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7623"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">powderblue #B0E0E6</text>
+    <text
+         xml:space="preserve"
+         x="745"
+         y="969"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7625"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">firebrick #B22222</text>
+    <text
+         xml:space="preserve"
+         x="51.5"
+         y="1008"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7627"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkgoldenrod #B8860B</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1017"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7631"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="385.5"
+         y="1008"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7635"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumorchid #BA55D3</text>
+    <text
+         xml:space="preserve"
+         x="733.5"
+         y="1008"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7637"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">rosybrown #BC8F8F</text>
+    <text
+         xml:space="preserve"
+         x="63"
+         y="1047"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7639"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkkhaki #BDB76B</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1056"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7643"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="403.5"
+         y="1047"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7647"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">silver(16) #C0C0C0</text>
+    <text
+         xml:space="preserve"
+         x="717"
+         y="1047"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7649"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mediumvioletred #C71585</text>
+    <text
+         xml:space="preserve"
+         x="64.5"
+         y="1086"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7651"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">indianred #CD5C5C</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1095"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7655"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="419.5"
+         y="1086"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7659"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">peru #CD853F</text>
+    <text
+         xml:space="preserve"
+         x="741"
+         y="1086"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7661"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">chocolate #D2691E</text>
+    <text
+         xml:space="preserve"
+         x="89"
+         y="1125"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7663"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">tan #D2B48C</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1134"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7667"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="404"
+         y="1125"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7671"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightgray #D3D3D3</text>
+    <text
+         xml:space="preserve"
+         x="740"
+         y="1125"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7673"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightgrey #D3D3D3</text>
+    <text
+         xml:space="preserve"
+         x="79"
+         y="1164"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7675"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">thistle #D8BFD8</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1173"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7679"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="412.5"
+         y="1164"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7683"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">orchid #DA70D6</text>
+    <text
+         xml:space="preserve"
+         x="735.5"
+         y="1164"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7685"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">goldenrod #DAA520</text>
+    <text
+         xml:space="preserve"
+         x="58.5"
+         y="1203"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7687"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">palevioletred #DB7093</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1212"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7691"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="407.5"
+         y="1203"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7695"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">crimson #DC143C</text>
+    <text
+         xml:space="preserve"
+         x="730.5"
+         y="1203"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7697"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">gainsboro #DCDCDC</text>
+    <text
+         xml:space="preserve"
+         x="78"
+         y="1242"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7699"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">plum #DDA0DD</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1251"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7703"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="398.5"
+         y="1242"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7707"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">burlywood #DEB887</text>
+    <text
+         xml:space="preserve"
+         x="739.5"
+         y="1242"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7709"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightcyan #E0FFFF</text>
+    <text
+         xml:space="preserve"
+         x="70"
+         y="1281"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7711"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lavender #E6E6FA</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1290"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7715"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="396.5"
+         y="1281"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7719"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darksalmon #E9967A</text>
+    <text
+         xml:space="preserve"
+         x="752"
+         y="1281"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7721"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">violet #EE82EE</text>
+    <text
+         xml:space="preserve"
+         x="48.5"
+         y="1320"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7723"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">palegoldenrod #EEE8AA</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1329"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7727"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="407.5"
+         y="1320"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7731"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightcoral #F08080</text>
+    <text
+         xml:space="preserve"
+         x="752"
+         y="1320"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7733"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">khaki #F0E68C</text>
+    <text
+         xml:space="preserve"
+         x="72"
+         y="1359"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7735"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">aliceblue #F0F8FF</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1368"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7739"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="402"
+         y="1359"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7743"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">honeydew #F0FFF0</text>
+    <text
+         xml:space="preserve"
+         x="752"
+         y="1359"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7745"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">azure #F0FFFF</text>
+    <text
+         xml:space="preserve"
+         x="60"
+         y="1398"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7747"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">sandybrown #F4A460</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1407"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7751"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="414"
+         y="1398"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7755"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">wheat #F5DEB3</text>
+    <text
+         xml:space="preserve"
+         x="752.5"
+         y="1398"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7757"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">beige #F5F5DC</text>
+    <text
+         xml:space="preserve"
+         x="62.5"
+         y="1437"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7759"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">whitesmoke #F5F5F5</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1446"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7763"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="398"
+         y="1437"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7767"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mintcream #F5FFFA</text>
+    <text
+         xml:space="preserve"
+         x="735.5"
+         y="1437"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7769"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">ghostwhite #F8F8FF</text>
+    <text
+         xml:space="preserve"
+         x="78.5"
+         y="1476"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7771"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">salmon #FA8072</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1485"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7775"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="388.5"
+         y="1476"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7779"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">antiquewhite #FAEBD7</text>
+    <text
+         xml:space="preserve"
+         x="754"
+         y="1476"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7781"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">linen #FAF0E6</text>
+    <text
+         xml:space="preserve"
+         x="26.5"
+         y="1515"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7783"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightgoldenrodyellow #FAFAD2</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1524"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7787"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="411.5"
+         y="1515"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7791"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">oldlace #FDF5E6</text>
+    <text
+         xml:space="preserve"
+         x="713.5"
+         y="1515"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7793"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">red(Safe 16 Hex3) #FF0000</text>
+    <text
+         xml:space="preserve"
+         x="28.5"
+         y="1554"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7795"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">fuchsia(Safe 16 Hex3) #FF00FF</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1563"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7799"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="364"
+         y="1545"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7803"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">magenta(Safe 16=fuchsia Hex3)</text>
+    <text
+         xml:space="preserve"
+         x="438.5"
+         y="1563"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7805"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">#FF00FF</text>
+    <text
+         xml:space="preserve"
+         x="742.5"
+         y="1554"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7807"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">deeppink #FF1493</text>
+    <text
+         xml:space="preserve"
+         x="68.5"
+         y="1593"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7809"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">orangered #FF4500</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1602"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7813"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="415"
+         y="1593"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7817"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">tomato #FF6347</text>
+    <text
+         xml:space="preserve"
+         x="746"
+         y="1593"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7819"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">hotpink #FF69B4</text>
+    <text
+         xml:space="preserve"
+         x="85.5"
+         y="1632"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7821"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">coral #FF7F50</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1641"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7825"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="396.5"
+         y="1632"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7829"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">darkorange #FF8C00</text>
+    <text
+         xml:space="preserve"
+         x="731"
+         y="1632"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7831"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightsalmon #FFA07A</text>
+    <text
+         xml:space="preserve"
+         x="78"
+         y="1671"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7833"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">orange #FFA500</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1680"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7837"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="404.5"
+         y="1671"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7841"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightpink #FFB6C1</text>
+    <text
+         xml:space="preserve"
+         x="753"
+         y="1671"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7843"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">pink #FFC0CB</text>
+    <text
+         xml:space="preserve"
+         x="87"
+         y="1710"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7845"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">gold #FFD700</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1719"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7849"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="399"
+         y="1710"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7853"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">peachpuff #FFDAB9</text>
+    <text
+         xml:space="preserve"
+         x="725"
+         y="1710"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7855"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">navajowhite #FFDEAD</text>
+    <text
+         xml:space="preserve"
+         x="69.5"
+         y="1749"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7857"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">moccasin #FFE4B5</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1758"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7861"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="413"
+         y="1749"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7865"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">bisque #FFE4C4</text>
+    <text
+         xml:space="preserve"
+         x="739"
+         y="1749"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7867"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">mistyrose #FFE4E1</text>
+    <text
+         xml:space="preserve"
+         x="40"
+         y="1788"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7869"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">blanchedalmond #FFEBCD</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1797"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7873"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="392"
+         y="1788"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7877"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">papayawhip #FFEFD5</text>
+    <text
+         xml:space="preserve"
+         x="724"
+         y="1788"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7879"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lavenderblush #FFF0F5</text>
+    <text
+         xml:space="preserve"
+         x="74"
+         y="1827"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7881"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">seashell #FFF5EE</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1836"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7885"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="406.5"
+         y="1827"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7889"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">cornsilk #FFF8DC</text>
+    <text
+         xml:space="preserve"
+         x="723"
+         y="1827"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7891"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lemonchiffon #FFFACD</text>
+    <text
+         xml:space="preserve"
+         x="63"
+         y="1866"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7893"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">floralwhite #FFFAF0</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1875"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7897"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="415"
+         y="1866"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7901"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">snow #FFFAFA</text>
+    <text
+         xml:space="preserve"
+         x="701.5"
+         y="1866"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7903"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">yellow(Safe 16 Hex3) #FFFF00</text>
+    <text
+         xml:space="preserve"
+         x="63.5"
+         y="1905"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7905"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">lightyellow #FFFFE0</text>
+    <text
+         xml:space="preserve"
+         x="264"
+         y="1914"
+         font-size="16"
+         font-weight="400"
+         font-style="normal"
+         id="text7909"
+         style="font-style:normal;font-weight:400;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"> </text>
+    <text
+         xml:space="preserve"
+         x="418"
+         y="1905"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7913"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">ivory #FFFFF0</text>
+    <text
+         xml:space="preserve"
+         x="702.5"
+         y="1905"
+         font-size="16"
+         font-weight="700"
+         font-style="normal"
+         id="text7915"
+         style="font-style:normal;font-weight:700;font-size:16px;font-family:'Times New Roman';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">white(Safe 16 Hex3) #FFFFFF</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-1.421 -1.435 2.842 2.870"
+    >
+
+    <defs>
+        <line
+            id="symbol-finger"
+            x1="0" 
+            x2="0" 
+            y1="0" 
+            y2="0.925" 
+            stroke="#51abe4" 
+            stroke-linecap="round" 
+            stroke-width="0.31"
+        />
+    </defs>
+        
+    <rect width="1.454" height="1.45" x="-0.698" y="-0.015" fill="#51abe4" rx="0.439" ry="0.437"/>
+
+    <path
+        fill="#51abe4" 
+        d="
+            m +1.420, -0.528
+            l -0.165, -0.618
+            l -0.165, +0.165
+            a +1.560, +1.560, 0, 0, 0, -2.2, 0.001
+            l -0.145, -0.145
+            l -0.166, +0.618
+            l +0.618, -0.165
+            l -0.166, -0.166
+            a +1.362, +1.362, 0, 0, 1, 1.919, -0.002
+            l -0.146, +0.146
+            z
+          "
+    />
+    <use x="-0.518" y="-0.644" href="#symbol-finger"/>
+    <use x="-0.153" y="-0.760" href="#symbol-finger"/>
+    <use x="+0.211" y="-0.760" href="#symbol-finger"/>
+    <use x="+0.576" y="-0.575" href="#symbol-finger"/>
+
+    <use x="-1.385" y="0.155" href="#symbol-finger" transform="rotate(-30, -1.0, -0.5)"/>
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

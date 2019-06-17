@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="SYMBOL-GYROSCOPE.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="45.254834"
+         inkscape:cx="-1.5535655"
+         inkscape:cy="4.9825339"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false"
+         inkscape:snap-global="false"
+         inkscape:measure-start="-3.50331e-016,5.72154"
+         inkscape:measure-end="-5.86855e-016,1.85869">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997"
+             enabled="false" />
+        <inkscape:grid
+             type="xygrid"
+             id="grid2214"
+             color="#000000"
+             opacity="0.03921569"
+             empcolor="#000000"
+             empopacity="0"
+             spacingx="1.27"
+             spacingy="1.27"
+             originx="-1.27"
+             originy="-1.27" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <circle
+         r="1.419"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#51abe4;stroke-width:0.25400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle15151"
+         cy="-1.9073486e-008"
+         cx="-2.220446e-016" />
+    <ellipse
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#51abe4;stroke-width:0.25400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle15151-6"
+         cy="-0.00021817208"
+         cx="-2.220446e-016"
+         rx="0.97899997"
+         ry="0.373" />
+    <ellipse
+         cx="-0.00021803379"
+         cy="-1.9073486e-008"
+         id="ellipse9909"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#51abe4;stroke-width:0.25400001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         rx="0.373"
+         ry="0.97899997" />
+    <line
+         id="line4022"
+         y2="-1.0220671"
+         x2="-1.0231006"
+         y1="-1.2720671"
+         x1="-1.2731006"
+         style="stroke:#51abe4;stroke-width:0.212;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+         style="stroke:#51abe4;stroke-width:0.212;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x1="1.0265805"
+         y1="1.0249306"
+         x2="1.2764392"
+         y2="1.2747979"
+         id="line10677" />
+</svg>

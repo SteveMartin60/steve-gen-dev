@@ -1,0 +1,590 @@
+
+    - version: 3
+        source_pushed: "2018-01-10T07:03:07Z"
+        created_at: 1515148252355
+        caption_zh: "AC-001功率控制器"
+        project: "kv4g2lge"
+        description_en: "2KW cloud-managed Solid-State-Relay controller"
+        source_commit: "2e75a82811535bb17e14e084e0d8babef183a3b7"
+        state: "active"
+        caption_en: "AC-001"
+        updated_at: 1519553080224
+        source_repo: "https://github.com/mesheven-devices/mesh-device-ac"
+        description_zh: "2千瓦云控智能功率控制器"
+        owner: "5d36fdd4"
+        family: "mesh-ac"
+        id: "mesh-ac001"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252381
+        caption_zh: "云控设备000"
+        project: "cb55c208"
+        description_en: "Cloud-Managed Endpoint with prototyping area and 16x RGB LEDs"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-000"
+        updated_at: 1519553079994
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "创享桥云控设备000，原型端点控制设备"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm000"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252383
+        caption_zh: "云控设备001"
+        project: "cb55c208"
+        description_en: "Cloud-Managed Programmable Power IO Controller with 16-Channel Extreme-IO"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-001"
+        updated_at: 1519553079995
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "创享桥云控可编程16通道IO功率控制器"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm001"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252362
+        caption_zh: "云控设备002"
+        project: "cb55c208"
+        description_en: "Cloud-Managed 8x 5A, 30VDC Power Relays"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-002"
+        updated_at: 1519553080026
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "创享桥云控8通道5A 30VDC继电器"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm002"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252364
+        caption_zh: "云控设备003"
+        project: "cb55c208"
+        description_en: "Cloud-Managed 8x 10A, 24V, Low Side MOSFET with 8x RGB LEDS"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-003"
+        updated_at: 1519553080041
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "创享桥云控8通道10A 24V MOSFET控制器"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm003"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252372
+        caption_zh: "CM-004"
+        project: "cb55c208"
+        description_en: "Cloud-Managed, precision electronic DC load"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-004"
+        updated_at: 1519553080026
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "云控高精度电子直流负载"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm004"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252365
+        caption_zh: "CM-005"
+        project: "cb55c208"
+        description_en: "Cloud-Managed, Precision linear DC power supply"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-005"
+        updated_at: 1519553080041
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "云控高精度线性直流电源"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm005"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252406
+        caption_zh: "CM-006"
+        project: "cb55c208"
+        description_en: "Cloud-Managed 3-axis 4A, 24V, Microstep, stepper motor controller/driver"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-006"
+        updated_at: 1519553080041
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "云控三轴4A 24V微步步进电机控制器/驱动器"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm006"
+    - version: 2
+        source_pushed: "2018-01-11T02:40:00Z"
+        created_at: 1515148252408
+        caption_zh: "CM-007"
+        project: "cb55c208"
+        description_en: "Cloud-Managed, 4x Brushless DC motor controller"
+        source_commit: "c105b2a1ad8c1b13863f5d62280668ddd6a5629e"
+        state: "active"
+        caption_en: "CM-007"
+        updated_at: 1519553080041
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cm"
+        description_zh: "云控4通道无刷直流电机控制器"
+        owner: "5d36fdd4"
+        family: "mesh-cm"
+        id: "mesh-cm007"
+    - version: 2
+        source_pushed: "2018-02-21T10:22:24Z"
+        created_at: 1515148252384
+        caption_zh: "CS-2000核心子系统"
+        project: "235fe76b"
+        description_en: "Low-energy core sub-system board with BLE"
+        source_commit: "6a944cb2bbc8f80637999588c434e35e00eb3f8a"
+        state: "active"
+        caption_en: "CS-2000 Core Sub-System"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cs"
+        description_zh: "创享桥低功耗蓝牙核心子系统"
+        owner: "5d36fdd4"
+        family: "mesh-cs"
+        id: "mesh-cs2000"
+    - version: 2
+        source_pushed: "2018-02-21T10:22:24Z"
+        created_at: 1515148252370
+        caption_zh: "CS-2001核心子系统"
+        project: "235fe76b"
+        description_en: "Mid-Level core sub-system board with BLE"
+        source_commit: "6a944cb2bbc8f80637999588c434e35e00eb3f8a"
+        state: "active"
+        caption_en: "CS-2001 Core Sub-System"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cs"
+        description_zh: "创享桥主流蓝牙核心子系统"
+        owner: "5d36fdd4"
+        family: "mesh-cs"
+        id: "mesh-cs2001"
+    - version: 2
+        source_pushed: "2018-02-21T10:22:24Z"
+        created_at: 1515148252409
+        caption_zh: "CS-2002核心子系统"
+        project: "235fe76b"
+        description_en: "High-performance core sub-system board with BLE"
+        source_commit: "6a944cb2bbc8f80637999588c434e35e00eb3f8a"
+        state: "active"
+        caption_en: "CS-2002 Core Sub-System"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cs"
+        description_zh: "创享桥高性能蓝牙核心子系统"
+        owner: "5d36fdd4"
+        family: "mesh-cs"
+        id: "mesh-cs2002"
+    - version: 2
+        source_pushed: "2018-02-21T10:22:24Z"
+        created_at: 1515148252411
+        caption_zh: "CS-3001核心子系统"
+        project: "235fe76b"
+        description_en: "Mid-Level core sub-system board with WiFi"
+        source_commit: "6a944cb2bbc8f80637999588c434e35e00eb3f8a"
+        state: "active"
+        caption_en: "CS-3001 Core Sub-System"
+        updated_at: 1519553079463
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cs"
+        description_zh: "创享桥主流WiFi核心子系统"
+        owner: "5d36fdd4"
+        family: "mesh-cs"
+        id: "mesh-cs3001"
+    - version: 2
+        source_pushed: "2018-02-21T10:22:24Z"
+        created_at: 1515148252415
+        caption_zh: "CS-3002核心子系统"
+        project: "235fe76b"
+        description_en: "High-performance core sub-system board with WiFi"
+        source_commit: "6a944cb2bbc8f80637999588c434e35e00eb3f8a"
+        state: "active"
+        caption_en: "CS-3002 Core Sub-System"
+        updated_at: 1519553079494
+        source_repo: "https://github.com/mesheven-devices/mesh-device-cs"
+        description_zh: "创享桥高性能WiFi子系统"
+        owner: "5d36fdd4"
+        family: "mesh-cs"
+        id: "mesh-cs3002"
+    - version: 3
+        source_pushed: "2018-03-11T06:17:07Z"
+        created_at: 1515148252371
+        caption_zh: "ET-001 8x 以太网供电交换机"
+        project: "a9a04cd9"
+        description_en: "8-Port, cloud-managed, PoE Ethernet Switch"
+        source_commit: "943756f4fce06491b3e6a831485a882d8464c819"
+        caption_en: "ET-001 8x PoE Switch"
+        state: "active"
+        updated_at: 1521079170771
+        source_repo: "https://github.com/mesheven-devices/mesh-device-et"
+        description_zh: "8端口云控以太网供电交换机"
+        owner: "5d36fdd4"
+        family: "mesh-et"
+        id: "mesh-et001"
+    - updated_at: 1515148252401
+        version: 0
+        created_at: 1515148252401
+        caption_zh: "GW-001 USB蓝牙网关"
+        description_zh: "USB蓝牙网关"
+        description_en: "USB-BLE Gateway"
+        owner: "5d36fdd4"
+        family: "mesh-gw"
+        id: "mesh-gw001"
+        state: "active"
+        caption_en: "GW-001 USB-BLE"
+    - version: 2
+        source_pushed: "2018-01-11T02:35:29Z"
+        created_at: 1515148252379
+        caption_zh: "HX-001智能主机"
+        project: "da1e7cf4"
+        description_en: "HX-001 Intelligent Machine with Quad-Core Atom Processor, 2GB RAM, 32GB SSD"
+        source_commit: "f58a9e491c700b719b426c13bc2233528398df48"
+        state: "active"
+        caption_en: "HX-001 Mesh-Machine"
+        updated_at: 1519553080177
+        source_repo: "https://github.com/mesheven-devices/mesh-device-hx"
+        description_zh: "HX-001智能主机，四核处理器，2GB内存，32GB闪存"
+        owner: "5d36fdd4"
+        family: "mesh-hx"
+        id: "mesh-hx001"
+    - version: 2
+        source_pushed: "2018-01-11T02:35:29Z"
+        created_at: 1515148252404
+        caption_zh: "HX-002智能主机"
+        project: "da1e7cf4"
+        description_en: "HX-002 Intelligent Machine with Dual-Core i5 CPU, 8GB RAM, 64GB SSD"
+        source_commit: "f58a9e491c700b719b426c13bc2233528398df48"
+        state: "active"
+        caption_en: "HX-002 Mesh-Machine"
+        updated_at: 1519553080209
+        source_repo: "https://github.com/mesheven-devices/mesh-device-hx"
+        description_zh: "HX-002智能主机，双核i5处理器，8GB内存，64GB闪存"
+        owner: "5d36fdd4"
+        family: "mesh-hx"
+        id: "mesh-hx002"
+    - version: 8
+        source_pushed: "2018-05-08T04:35:10Z"
+        created_at: 1515148252421
+        caption_zh: "LC-001 16通道LED控制器"
+        project: "139eab80"
+        description_en: "16 Channel, cloud-controlled, LED controller"
+        source_commit: "424bfc50867ad5e4119d5c759652fc1272f3d434"
+        state: "active"
+        caption_en: "LC-001 16x LED Controller"
+        updated_at: 1527143341248
+        source_repo: "https://github.com/mesheven-devices/mesh-device-lc"
+        description_zh: "云控16通道LED控制器"
+        owner: "5d36fdd4"
+        family: "mesh-lc"
+        id: "mesh-lc001"
+    - version: 3
+        source_pushed: "2018-05-08T04:35:10Z"
+        created_at: 1515580583060
+        caption_zh: "LC-001 8通道LED控制器[模拟]"
+        project: "139eab80"
+        description_en: "8 Channel, cloud-controlled, LED controller"
+        source_commit: "424bfc50867ad5e4119d5c759652fc1272f3d434"
+        caption_en: "LC-001 8x LED Controller [SIM]"
+        state: "active"
+        updated_at: 1527143341271
+        source_repo: "https://github.com/mesheven-devices/mesh-device-lc"
+        description_zh: "云控8通道LED控制器"
+        owner: "5d36fdd4"
+        family: "mesh-lc"
+        id: "mesh-lc002"
+    - updated_at: 1515148252390
+        version: 0
+        created_at: 1515148252390
+        caption_zh: "LM-001智能LED阵列台灯"
+        description_zh: "可充电智能台灯 搭载加速度、角速度、指南针、温湿度、光照强度以及电源控制功能"
+        description_en: "Rechargeable Smart-Lamp with motion and light sensing"
+        owner: "5d36fdd4"
+        family: "mesh-lm"
+        id: "mesh-lm001"
+        state: "active"
+        caption_en: "LM-001 Smart LED Array Lamp"
+    - version: 2
+        source_pushed: "2018-01-11T02:35:58Z"
+        created_at: 1515148252418
+        caption_zh: "MX-001组装平台"
+        project: "708a1d04"
+        description_en: "Platform for assembling edge-devices and embedded intelligent-machines"
+        source_commit: "f90d7b9a482b7c7e085777dcec9698828bf96eff"
+        caption_en: "MX-001 Assembly Platform"
+        state: "active"
+        updated_at: 1519553079498
+        source_repo: "https://github.com/mesheven-devices/mesh-device-mx"
+        description_zh: "端点设备和嵌入式智能主机组装平台"
+        owner: "5d36fdd4"
+        family: "mesh-mx"
+        id: "mesh-mx001"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252430
+        caption_zh: "SD-001智能传感立方"
+        project: "1bf02e5e"
+        description_en: "Rechargeable Smart-Sensor with docking station and LCD display, sensing motion, proximity, gestures, temperature, air pressure, humidity, ambient light, CO, PM2.5 and VOC (volatile organic compounds)"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        state: "active"
+        caption_en: "SD-001 Sensor Cube"
+        updated_at: 1519553079151
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "可充电带LCD显示智能传感立方，温度、气压、湿度、环境光、CO、PM2.5"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd001"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252397
+        caption_zh: "SD-002智能传感器"
+        project: "1bf02e5e"
+        description_en: "Low-energy, battery-powered remote sensing device for temperature, air pressure, humidity, ambient light, CO, PM2.5"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        state: "active"
+        caption_en: "SD-002 Sensor"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "创享桥低功耗电池供电远程感知设备，温度、气压、湿度、环境光、CO、PM2.5"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd002"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252431
+        caption_zh: "SD-003智能传感器"
+        project: "1bf02e5e"
+        description_en: "Low-energy, battery-powered remote sensing device for temperature, air pressure, humidity, ambient light"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        state: "active"
+        caption_en: "SD-003 Sensor"
+        updated_at: 1519553079132
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "创享桥低功耗电池供电远程感知设备，温度、气压、湿度、环境光"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd003"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252432
+        caption_zh: "SD-004占用传感器"
+        project: "1bf02e5e"
+        description_en: "PoE sensor for occupancy, temperature, humidity, ambient light"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        caption_en: "SD-004 Occupancy Sensor"
+        state: "active"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "创享桥以太网供电占用、温湿度、环境光传感器"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd004"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252436
+        caption_zh: "SD-005 RFID读卡器"
+        project: "1bf02e5e"
+        description_en: "Ethernet-Powered RFID reader with audio and visual feedback"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        state: "active"
+        caption_en: "SD-005 RFID reader"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "创享桥以太网供电RFID读卡器，带声音和视觉回馈"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd005"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252399
+        caption_zh: "SD-006智能传感器"
+        project: "1bf02e5e"
+        description_en: "Small, low-energy, battery-powered remote sensing device for temperature, humidity, ambient light"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        state: "active"
+        caption_en: "SD-006 Sensor"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "小尺寸低功耗电池供电温湿度、环境光传感器"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd006"
+    - version: 2
+        source_pushed: "2018-01-11T02:39:34Z"
+        created_at: 1515148252413
+        caption_zh: "SD-007占用传感器"
+        project: "1bf02e5e"
+        description_en: "Battery-powered sensor for occupancy, temperature, humidity, ambient light"
+        source_commit: "064dad3371980d153da19b6b5afd95a299b5de1a"
+        caption_en: "SD-007 Occupancy Sensor"
+        state: "active"
+        updated_at: 1519553079152
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sd"
+        description_zh: "创享桥电池供电占用、温湿度、环境光传感器"
+        owner: "5d36fdd4"
+        family: "mesh-sd"
+        id: "mesh-sd007"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252437
+        caption_zh: "SK2000入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB2000 (MCU-BLE), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        state: "active"
+        caption_en: "SK2000 Starter Kit"
+        updated_at: 1519553079762
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB2000(MCU-BLE)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED, 按键开关"
+        firmware: "mesh-device-sk2000.0.0.2"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk2000"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252439
+        caption_zh: "SK2001入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB2001 (MCU-BLE), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        state: "active"
+        caption_en: "SK2001 Starter Kit"
+        updated_at: 1519553079778
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB2001(MCU-BLE)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED, 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk2001"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252420
+        caption_zh: "SK2002入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB2002 (MCU-BLE), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        state: "active"
+        caption_en: "SK2002 Starter Kit"
+        updated_at: 1519553079778
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB2002(MCU-BLE)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED, 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk2002"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252440
+        caption_zh: "SK3001入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB3001 (MCU-WiFi), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        state: "active"
+        caption_en: "SK3001 Starter Kit"
+        updated_at: 1519553079778
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB3001(MCU-WiFi)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED, 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk3001"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252407
+        caption_zh: "SK3002入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB3002 (MCU-WiFi), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        state: "active"
+        caption_en: "SK3002 Starter Kit"
+        updated_at: 1519553079778
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB3002(MCU-WiFi)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk3002"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252441
+        caption_zh: "SK4001入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB4001 (MCU-Ethernet), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        caption_en: "SK4001 Starter Kit"
+        state: "active"
+        updated_at: 1519553079778
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB4001(MCU-以太网)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk4001"
+    - version: 2
+        source_pushed: "2018-02-22T06:09:13Z"
+        created_at: 1515148252442
+        caption_zh: "SK4002入门套件"
+        project: "adf8ee9c"
+        description_en: "Starter kit with MB4002 (MCU-Ethernet), temperature, light, motion sensors, buzzer, RGB LED, PB-Switch"
+        source_commit: "166d3f5af37349c4411d90a417859b9740656b61"
+        caption_en: "SK4002 Starter Kit"
+        state: "active"
+        updated_at: 1519553079892
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sk"
+        description_zh: "基于MB4002(MCU-以太网)的入门套件, 带运动传感器，温度及光传感器，蜂鸣器，RGB LED 按键开关"
+        owner: "5d36fdd4"
+        family: "mesh-sk"
+        id: "mesh-sk4002"
+    - version: 3
+        source_pushed: "2018-03-16T03:59:24Z"
+        created_at: 1515148252443
+        caption_zh: "ST-001传感标签"
+        project: "55dfaf24"
+        description_en: "Low-energy portable tracker with sensors for motion, temperature, air pressure, humidity, ambient light"
+        source_commit: "1402ed1955a4ff6e8739b40023ff09324fabee12"
+        state: "active"
+        caption_en: "ST-001 Sensor Tag"
+        updated_at: 1524015593593
+        source_repo: "https://github.com/mesheven-devices/mesh-device-st"
+        description_zh: "低功耗可携带传感标签，感知运动、温度、气压、湿度、环境光"
+        owner: "5d36fdd4"
+        family: "mesh-st"
+        id: "mesh-st001"
+    - version: 2
+        source_pushed: "2018-01-11T02:37:14Z"
+        created_at: 1515148252427
+        caption_zh: "SW-001 8相控制面板[模拟]"
+        project: "719e9e0f"
+        description_en: "Rechargeable, portable, 8-way control-panel"
+        source_commit: "04a2239935893ae0798ed186d06474fa76969880"
+        state: "active"
+        caption_en: "SW-001 8-Way Control-Panel [SIM]"
+        updated_at: 1519553079507
+        source_repo: "https://github.com/mesheven-devices/mesh-device-sw"
+        description_zh: "可充电移动式8相控制面板"
+        owner: "5d36fdd4"
+        family: "mesh-sw"
+        id: "mesh-sw001"
+    - updated_at: 1515148252414
+        version: 0
+        created_at: 1515148252414
+        caption_zh: "TS-001触控开关"
+        description_zh: "可充电触控开关，带环境传感器"
+        description_en: "Rechargeable touch switch with ambient environment sensors"
+        owner: "5d36fdd4"
+        family: "mesh-ts"
+        id: "mesh-ts001"
+        state: "active"
+        caption_en: "TS-001 Touch Switch"
+    - version: 2
+        source_pushed: "2018-01-11T02:35:04Z"
+        created_at: 1515148252428
+        caption_zh: "UH-001 8通道 USB3.0功率集线器"
+        project: "b7527ed1"
+        description_en: "8 Channel, cloud-controlled, USB 3.0 Power Hub"
+        source_commit: "05057c94854e0ccf9e620428917554a82e414046"
+        state: "active"
+        caption_en: "UH-001 8-Ch USB-3 Power Hub"
+        updated_at: 1519553079930
+        source_repo: "https://github.com/mesheven-devices/mesh-device-uh"
+        description_zh: "云控8通道USB3.0功率集线器"
+        owner: "5d36fdd4"
+        family: "mesh-uh"
+        id: "mesh-uh001"

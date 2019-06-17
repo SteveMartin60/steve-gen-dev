@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="TFT-LCD-2.2.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="1.8101934"
+         inkscape:cx="-137.99185"
+         inkscape:cy="-44.269665"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="false"
+         inkscape:bbox-nodes="false"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false"
+         inkscape:snap-others="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999999"
+             spacingy="0.99999999" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <rect
+         style="opacity:1;vector-effect:none;fill:#393536;fill-opacity:1;stroke:#231f20;stroke-width:0.17638889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect61042"
+         width="37.00061"
+         height="50.79961"
+         x="-18.500414"
+         y="-25.399609"
+         rx="0"
+         ry="0" />
+    <rect
+         ry="0"
+         rx="0"
+         y="-23.901001"
+         x="-17.241776"
+         height="45.949612"
+         width="34.483612"
+         id="rect61067"
+         style="opacity:1;vector-effect:none;fill:#656263;fill-opacity:1;stroke:#231f20;stroke-width:0.17638889;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <path
+         inkscape:connector-curvature="0"
+         id="path543921"
+         style="fill:#51addc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="m -3.622922,-2.837746 c -1.7610667,0 -3.1887584,-1.4276917 -3.1887584,-3.1887584 0,-1.7607139 1.4276917,-3.1884055 3.1887584,-3.1884055 1.7607139,0 3.18840558,1.4276916 3.18840558,3.1884055 0,1.7610667 -1.42769168,3.1887584 -3.18840558,3.1887584 m 6.3768112,-2.0704528 v -2.2362583 h -1.1828639 c -0.1368778,-0.638175 -0.3891139,-1.2319 -0.73271949,-1.7624778 l 0.83819999,-0.8378473 -1.58079722,-1.5815028 -0.83820001,0.8382 c -0.53057777,-0.343253 -1.12430277,-0.595489 -1.76247777,-0.732367 v -1.182864 h -2.2362584 v 1.182864 c -0.638175,0.136878 -1.2319,0.389114 -1.7624778,0.732367 l -0.8378472,-0.8382 -1.58115,1.5815028 0.8382,0.8378473 c -0.3436055,0.5305778 -0.5958417,1.1243028 -0.7327194,1.7624778 h -1.182864 v 2.2362583 h 1.182864 c 0.1368777,0.6378222 0.3891139,1.2319 0.7327194,1.7624778 l -0.8382,0.8378472 1.58115,1.58115004 0.8378472,-0.83820004 c 0.5305778,0.3436056 1.1243028,0.5958417 1.7624778,0.73271948 v 1.1828639 h 2.2362584 v -1.1828639 c 0.638175,-0.13687778 1.2319,-0.38911388 1.76247777,-0.73271948 l 0.83820001,0.83820004 1.58079722,-1.58115004 -0.83819999,-0.8378472 c 0.34360559,-0.5305778 0.59584169,-1.1246556 0.73271949,-1.7624778 z" />
+    <path
+         inkscape:connector-curvature="0"
+         id="path543925"
+         style="fill:#90c667;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+         d="m 5.748444,1.295011 c -1.1736917,0 -2.1254861,-0.95144167 -2.1254861,-2.12548612 0,-1.17404448 0.9517944,-2.12583888 2.1254861,-2.12583888 1.1740445,0 2.1258389,0.9517944 2.1258389,2.12583888 0,1.17404445 -0.9517944,2.12548612 -2.1258389,2.12548612 m 4.251678,-1.38006668 v -1.49083892 h -0.7888113 c -0.091017,-0.42545 -0.2596445,-0.8212666 -0.4882445,-1.1751028 l 0.5588,-0.5588 -1.0544527,-1.0541 -0.5584473,0.5588 c -0.3538361,-0.2286 -0.7496527,-0.396875 -1.1751028,-0.4882444 v -0.7884584 h -1.4904861 v 0.7884584 c -0.42545,0.091369 -0.8212666,0.2596444 -1.1751028,0.4882444 l -0.5584472,-0.5588 -1.0544528,1.0541 0.5584473,0.5588 c -0.2286,0.3538362 -0.396875,0.7496528 -0.4878917,1.1751028 h -0.7888111 v 1.49083892 h 0.7888111 c 0.091017,0.42509723 0.2592917,0.82126668 0.4878917,1.17474998 l -0.5584473,0.5588 1.0544528,1.0541 0.5584472,-0.5588 c 0.3538362,0.2289528 0.7496528,0.3972278 1.1751028,0.4882445 v 0.7888111 h 1.4904861 v -0.7888111 c 0.4254501,-0.091017 0.8212667,-0.2592917 1.1751028,-0.4882445 l 0.5584473,0.5588 1.0544527,-1.0541 -0.5588,-0.5588 c 0.2286,-0.3534833 0.3972278,-0.74965275 0.4882445,-1.17474998 z" />
+    <text
+         y="9.5483847"
+         x="-6.1826773"
+         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.17500043px;font-family:Lato;-inkscape-font-specification:Lato-Bold;writing-mode:lr-tb;fill:#51abe4;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277781"
+         id="text543929">
+        <tspan
+             style="stroke-width:0.35277781"
+             x="-6.1826773 -4.2935519 -2.5123763 -0.62325227 -0.010475538 1.5039984 3.6331544"
+             y="9.5483847"
+             sodipodi:role="line"
+             id="tspan543927">TFT LCD</tspan>
+    </text>
+</svg>

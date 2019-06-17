@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="1mm"
+     height="1mm"
+     viewBox="0 0 0.99999999 1"
+     version="1.1"
+     id="svg128421"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)"
+     sodipodi:docname="SPEAKER.ink.svg">
+    <title
+         id="title133027">Default Mesheven SVG Template</title>
+    <defs
+         id="defs128415" />
+    <sodipodi:namedview
+         id="base"
+         pagecolor="#f8f8f0"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:zoom="5.6568543"
+         inkscape:cx="15.846957"
+         inkscape:cy="-0.99346983"
+         inkscape:document-units="mm"
+         inkscape:current-layer="svg128421"
+         showgrid="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         showborder="true"
+         units="mm"
+         inkscape:snap-bbox="true"
+         inkscape:bbox-paths="true"
+         inkscape:bbox-nodes="true"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:snap-nodes="false"
+         inkscape:snap-object-midpoints="true"
+         borderlayer="true"
+         inkscape:showpageshadow="false">
+        <inkscape:grid
+             type="xygrid"
+             id="grid2212"
+             originx="0"
+             originy="0"
+             spacingx="0.99999997"
+             spacingy="0.99999997" />
+    </sodipodi:namedview>
+    <metadata
+         id="metadata128418">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Default Mesheven SVG Template</dc:title>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Mesheven Limited</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>English</dc:language>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <rect
+         style="opacity:1;vector-effect:none;fill:#4f4c4d;fill-opacity:1;stroke:#303030;stroke-width:0.09974792;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect49737"
+         width="26"
+         height="16"
+         x="-13"
+         y="-8"
+         ry="1.9658821"
+         rx="2.0096607" />
+    <text
+         y="4.1295562"
+         x="-7.6888595"
+         style="font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.23333359px;font-family:'Lato Black';-inkscape-font-specification:Lato-Black;writing-mode:lr-tb;fill:#a7a5a6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277781"
+         id="text37966">
+        <tspan
+             style="stroke-width:0.35277781"
+             x="-7.6888595 -5.394393 -2.9475269 -0.64459312 1.6371738 3.9481525 6.2510843"
+             y="4.1295562"
+             sodipodi:role="line"
+             id="tspan37964">Speaker</tspan>
+    </text>
+    <circle
+         style="display:inline;opacity:1;vector-effect:none;fill:#cba855;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="circle910"
+         cx="7.6198301"
+         cy="-5.4602056"
+         r="0.80000001" />
+    <circle
+         r="0.80000001"
+         cy="-5.4602056"
+         cx="-7.6202393"
+         id="circle50649"
+         style="display:inline;opacity:1;vector-effect:none;fill:#cba855;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+    <circle
+         style="display:inline;opacity:1;vector-effect:none;fill:#a7a5a6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="circle50651"
+         cx="-11.400184"
+         cy="-2.0000672"
+         r="0.80000001" />
+    <circle
+         r="0.80000001"
+         cy="-2.0000672"
+         cx="11.40001"
+         id="circle50667"
+         style="display:inline;opacity:1;vector-effect:none;fill:#a7a5a6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.35277781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+</svg>

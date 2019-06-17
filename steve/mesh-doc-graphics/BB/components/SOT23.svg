@@ -1,0 +1,29 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-1.912 -1.51 3.422 3.02"
+    >
+    <path
+        fill="none"
+        stroke="#4899c4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="0.2"
+        d=" m -1.812 -0.303 v -1.0 h 1.0"
+    />
+    <rect width="0.8" height="1.0" x="-0.40" y="-1.51" fill="#ebb300"/>
+    <rect width="0.8" height="1.0" x="+0.55" y="+0.51" fill="#ebb300"/>
+    <rect width="0.8" height="1.0" x="-1.35" y="+0.51" fill="#ebb300"/>
+    <rect width="0.6" height="0.8" x="-0.30" y="-1.41" fill="#bdbcbc"/>
+    <rect width="0.6" height="0.8" x="-1.25" y="+0.61" fill="#bdbcbc"/>
+    <rect width="0.6" height="0.8" x="+0.65" y="+0.61" fill="#bdbcbc"/>
+
+    <rect
+        width       ="+2.932"
+        height      ="+1.912" 
+        x           ="-1.466" 
+        y           ="-0.956"
+        stroke-width="+0.088"
+        fill        ="#656263"
+        stroke      ="#303030"
+    />
+</svg>

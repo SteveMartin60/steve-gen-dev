@@ -1,0 +1,57 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-6.072 -2.227 12.144 4.454"
+    >
+    <defs>
+        <linearGradient
+            id="HAPTIC-VIBRATOR.gradient-grey"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#7b7979"/>
+            <stop offset="0.161" stop-color="#7b7979"/>
+            <stop offset="0.607" stop-color="#f4f4f4"/>
+            <stop offset="0.858" stop-color="#7b7979"/>
+            <stop offset="1.000" stop-color="#7b7979"/>
+        </linearGradient>
+
+        <linearGradient
+            id="HAPTIC-VIBRATOR.gradient-brown"
+            x2="0%" y2="100%"
+            >
+            <stop offset="0.000" stop-color="#87531f"/>
+            <stop offset="0.161" stop-color="#87531f"/>
+            <stop offset="0.607" stop-color="#f4f4f4"/>
+            <stop offset="0.858" stop-color="#875c2f"/>
+            <stop offset="1.000" stop-color="#875c2f"/>
+        </linearGradient>
+
+    </defs>
+
+    <circle cy="+1.514" cx="5.585" r="0.229" fill="#a47343"/>
+    <circle cy="-1.514" cx="5.585" r="0.229" fill="#a47343"/>
+
+    <rect width="2.452" height="2.452" x="-2.395" y="-1.234" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088" rx=".305" ry=".298"/>
+    <rect width="0.902" height="2.223" x="+5.126" y="-1.099" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088" rx=".301" ry=".286"/>
+
+    <rect width="3.061" height="2.782" x="-5.946" y="-1.396" fill="#bdbcbc" stroke="#303030" stroke-width="0.088"/>
+    <rect width="1.290" height="4.366" x="+3.918" y="-2.183" fill="#303030" stroke="#303030" stroke-width="0.088"/>
+    <rect width="6.897" height="4.204" x="-1.315" y="-2.106" fill="#918f90" stroke="#303030" stroke-width="0.088"/>
+    <rect width="6.897" height="3.595" x="-1.315" y="-1.797" fill="#d3d2d2" stroke="#303030" stroke-width="0.088"/>
+    <rect width="6.897" height="2.782" x="-1.315" y="-1.396" fill="#f4f4f4" stroke="#303030" stroke-width="0.088"/>
+
+    <rect width="0.648" height="0.572" x="-3.056" y="-0.286" fill="url(#HAPTIC-VIBRATOR.gradient-brown)" stroke="#303030" stroke-width="0.088"/>
+    <rect width="3.138" height="1.207" x="-6.028" y="-0.600" fill="url(#HAPTIC-VIBRATOR.gradient-grey)" stroke="#303030" stroke-width="0.088"/>
+
+    <svg
+        overflow    ="visible"
+        fill        ="#303030" 
+        font-family ="Lato" 
+        font-size   ="1.411" 
+        stroke-width="0.353" 
+        font-weight ="600" 
+        white-space ="normal" 
+        >
+        <text x="+0.025" y="-0.151">Haptic</text>
+        <text x="-0.442" y="+1.17" >Vibrator</text>
+    </svg>
+</svg>

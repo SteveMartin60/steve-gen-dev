@@ -1,0 +1,48 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="-1 -1 2 2"
+    >
+    <!-- width="1mm" -->
+    <!-- height="1mm" -->
+    <defs>
+        <radialGradient
+            id="c" 
+            gradientUnits="userSpaceOnUse" 
+            gradientTransform="matrix(.00603 -.00177 .00176 .00602 -4.388 -1.385)" 
+            cx="600.08" 
+            cy="491.401" 
+            fx="600.08" 
+            fy="491.401" 
+            r="150.47"
+            >
+            <stop offset="0" stop-color="#6196ff"/>
+            <stop offset="1" stop-color="#039"/>
+        </radialGradient>
+
+        <linearGradient
+            id="d" 
+            gradientUnits="userSpaceOnUse" 
+            gradientTransform="matrix(.0062 0 0 .0062 -5.02 -1.918)" 
+            x1="742.881" 
+            y1="140.339" 
+            x2="787.881" 
+            y2="257.797"
+            >
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        
+        <svg
+            id="BUTTON-BLUE-GLASS"
+            overflow="visible"
+            >
+            <circle cx="0" cy="0" r="1" fill="url(#c)" />
+            
+            <path d="M-.05-.927c-.748.048-1.008.95-.818.848 0 0 .289-.223.712-.38.429-.16.73-.173.73-.173C.76-.69.272-.947-.05-.927z" fill="url(#d)"/>
+        </svg>
+        
+    </defs>
+
+        <use x="0" y="0" href="#BUTTON-BLUE-GLASS"/>
+
+</svg>

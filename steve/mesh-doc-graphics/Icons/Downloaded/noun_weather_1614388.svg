@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 60 70"
+   version="1.1"
+   x="0px"
+   y="0px"
+   id="svg4353"
+   sodipodi:docname="noun_weather_1614388.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata4359">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4357" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     id="namedview4355"
+     showgrid="false"
+     inkscape:zoom="9.2571429"
+     inkscape:cx="30"
+     inkscape:cy="30.679012"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4353" />
+  <title
+     id="title4325">007 - Weather</title>
+  <desc
+     id="desc4327">Created with Sketch.</desc>
+  <g
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+     id="g4345"
+     transform="translate(1,-3)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4329"
+       d="m 48,38 c -1.470689,0.0013 -2.922787,0.328741 -4.25165,0.95886 0.777577,-3.060643 -0.320159,-6.292144 -2.801109,-8.245871 C 38.466291,28.759263 35.06749,28.449781 32.27447,29.92328 30.729685,25.625567 26.877681,22.578532 22.33977,22.064674 17.801858,21.550816 13.366052,23.659367 10.899387,27.502836 8.4327216,31.346305 8.3635359,36.257269 10.72095,40.1687 7.3618312,39.513753 3.921963,40.820931 1.8455389,43.541426 -0.23088522,46.261922 -0.58439693,49.924767 0.93342202,52.992154 2.451241,56.05954 5.5776274,58.000445 9,58 H 48 C 53.522847,58 58,53.522847 58,48 58,42.477153 53.522847,38 48,38 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4331"
+       d="M 15.19,23.5 V 23.49 C 15.491291,21.376609 16.201164,19.342094 17.28,17.5 20.588916,11.762046 26.929842,8.4690874 33.526861,9.0627071 40.12388,9.6563268 45.775085,14.028374 48.006505,20.264864 50.237925,26.501354 48.643018,33.466064 43.92,38.11" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4333"
+       d="M 32,9 V 4" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4335"
+       d="M 23.5,11.27757 21,6.94744" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4337"
+       d="M 17.27757,17.5 12.94744,15" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4339"
+       d="m 49,26 h 5" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4341"
+       d="M 46.72243,17.5 51.05256,15" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4343"
+       d="M 40.5,11.27757 43,6.94744" />
+  </g>
+</svg>

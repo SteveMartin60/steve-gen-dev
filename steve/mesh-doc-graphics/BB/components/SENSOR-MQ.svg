@@ -1,0 +1,64 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-9.588 -9.588 19.176 19.176"
+    >
+    <defs>
+        <radialGradient id="c">
+            <stop offset="0.000" stop-color="#d5d4d5"/>
+            <stop offset="0.081" stop-color="#d5d4d5"/>
+            <stop offset="1.000" stop-color="#9c9a9b"/>
+        </radialGradient>
+
+        <radialGradient id="b">
+            <stop offset="0.000" stop-color="#7d7b7b"/>
+            <stop offset="0.450" stop-color="#e9e9e9"/>
+            <stop offset="0.495" stop-color="#e9e9e9"/>
+            <stop offset="1.000" stop-color="#676465"/>
+        </radialGradient>
+
+        <radialGradient id="a">
+            <stop offset="0.000" stop-color="#bdbcbc"/>
+            <stop offset="0.450" stop-color="#e9e9e9"/>
+            <stop offset="1.000" stop-color="#918f90"/>
+        </radialGradient>
+
+        <svg 
+            id="DIAGONAL-X4"
+            overflow="visible"
+            >
+            <path
+                fill="none" 
+                stroke="#231f20" 
+                stroke-width="0.353" 
+                opacity="0.5"
+                d="
+                    m 5.657, -5.656 l -11.313, 11.312 m 0, -11.312 l 11.312, 11.312 m 2.344,-5.656 h-16 m 8,-8 v16
+                  "
+            />
+        </svg>
+        </defs>
+    
+    <circle cx="0" cy="0" r="9.5" fill="#bdbcbc" stroke="#231f20" stroke-width="0.176 "/>
+
+    <circle cx="0" cy="0" r="9.0" fill="url(#a)" stroke="#231f20" stroke-width="0.176 "/>
+
+    <circle cx="0" cy="0" r="8.0" fill="url(#b)" stroke="#231f20" stroke-width="0.176 "/>
+
+    <use x="0" y="0" href="#DIAGONAL-X4"                      />
+    <use x="0" y="0" href="#DIAGONAL-X4" transform="rotate(07.5)"/>
+    <use x="0" y="0" href="#DIAGONAL-X4" transform="rotate(15.0)"/>
+    <use x="0" y="0" href="#DIAGONAL-X4" transform="rotate(22.5)"/>
+    <use x="0" y="0" href="#DIAGONAL-X4" transform="rotate(30.0)"/>
+    <use x="0" y="0" href="#DIAGONAL-X4" transform="rotate(37.5)"/>
+    
+    <circle r="7.0" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+    <circle r="7.5" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+    <circle r="5.5" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+    <circle r="6.0" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+    <circle r="5.0" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+    <circle r="6.5" fill="none" stroke="#231f20" stroke-width=".353" opacity=".5"/>
+
+    <circle cx="0" cy="0" r="5" fill="url(#c)"/>
+</svg>
+
+

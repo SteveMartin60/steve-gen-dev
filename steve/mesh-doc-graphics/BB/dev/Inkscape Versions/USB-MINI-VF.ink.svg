@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="-3.968 -2.068 7.936 4.13"
+     width="7.936mm"
+     height="4.13mm"
+     version="1.1"
+     id="svg39892"
+     sodipodi:docname="USB-MINI-VF.ink.svg"
+     inkscape:version="0.92.3 (2405546, 2018-03-11)">
+    <metadata
+         id="metadata39898">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs
+         id="defs39896" />
+    <sodipodi:namedview
+         pagecolor="#ffffff"
+         bordercolor="#ff0000"
+         borderopacity="1"
+         objecttolerance="10"
+         gridtolerance="10"
+         guidetolerance="10"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:window-width="640"
+         inkscape:window-height="480"
+         id="namedview39894"
+         showgrid="true"
+         inkscape:document-units="mm"
+         inkscape:showpageshadow="false"
+         borderlayer="true"
+         inkscape:zoom="26.913915"
+         inkscape:cx="13.753391"
+         inkscape:cy="5.7292071"
+         inkscape:current-layer="svg39892">
+        <inkscape:grid
+             type="xygrid"
+             id="grid40443"
+             spacingx="1"
+             spacingy="1" />
+    </sodipodi:namedview>
+    <rect
+         width="7.936"
+         height="4.136"
+         x="-3.968"
+         y="-2.068"
+         fill="#231f20"
+         rx="0.82"
+         ry="0.82"
+         id="rect39874" />
+    <path
+         fill="#9c9a9a"
+         stroke="#242021"
+         stroke-width="0.035"
+         d="             m 3.15, -1.95             c 0.386, 0, 0.7, 0.314, 0.7, 0.7             v 0.798             a 0.69, 0.69, 0, 0, 1, -0.217, 0.507             l -0.213, 0.212             a 0.323, 0.323, 0, 0, 0, -0.088, 0.194             v 0.788             a 0.701, 0.701, 0, 0, 1, -0.7, 0.701             h -5.266             a 0.701, 0.701, 0, 0, 1, -0.7, -0.7             v -0.77             a 0.32, 0.32, 0, 0, 0, -0.076, -0.202             l -0.236, -0.235             a 0.688, 0.688, 0, 0, 1, -0.205, -0.512             v -0.782             a 0.7, 0.7, 0, 0, 1, 0.7 , -0.7             z           "
+         id="path39876" />
+    <path
+         fill="#353132"
+         stroke="#242021"
+         stroke-width="0.035"
+         d="         m -3.433, -0.169         l 0.224, 0.224         a 0.602, 0.602, 0, 0, 1, 0.176, 0.424         v 0.77         c 0, 0.221, 0.179, 0.4, 0.4, 0.4          h 5.266         a 0.4, 0.4, 0, 0, 0, 0.4, -0.4         v -0.769         a 0.599, 0.599, 0, 0, 1, 0.177, -0.425         l 0.224, -0.224         a 0.407, 0.407, 0, 0, 0, 0.118, -0.283         v -0.797          a 0.402, 0.402, 0, 0, 0, -0.401, -0.402         h -6.3         a 0.4, 0.4, 0, 0, 0, -0.4, 0.402         v 0.797         a 0.404, 0.404, 0, 0, 0, 0.117, 0.283         z       "
+         id="path39878" />
+    <path
+         fill="#252928"
+         stroke="#242021"
+         stroke-width="0.035"
+         d="             m -2.35, -0.8             h 4.7             v 0.8             l -0.8, 0.8             h -3.1             l -0.8,-0.8             z           "
+         id="path39880" />
+    <rect
+         width="0.4"
+         height="0.6"
+         y="-0.50"
+         x="-0.949"
+         fill="#cba855"
+         stroke="#242021"
+         stroke-width="0.035"
+         id="rect39882" />
+    <rect
+         width="0.4"
+         height="0.6"
+         y="-0.50"
+         x="-0.200"
+         fill="#cba855"
+         stroke="#242021"
+         stroke-width="0.035"
+         id="rect39884" />
+    <rect
+         width="0.4"
+         height="0.6"
+         y="-0.50"
+         x="+0.550"
+         fill="#cba855"
+         stroke="#242021"
+         stroke-width="0.035"
+         id="rect39886" />
+    <rect
+         width="0.4"
+         height="0.6"
+         y="-0.50"
+         x="+1.299"
+         fill="#cba855"
+         stroke="#242021"
+         stroke-width="0.035"
+         id="rect39888" />
+    <rect
+         width="0.4"
+         height="0.6"
+         y="-0.50"
+         x="-1.699"
+         fill="#cba855"
+         stroke="#242021"
+         stroke-width="0.035"
+         id="rect39890" />
+</svg>

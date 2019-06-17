@@ -1,0 +1,1956 @@
+{
+    "version": 9,
+    "source_pushed": "2019-05-10T07:09:48Z",
+    "created_at": "2018-08-24T04:58:03.331Z",
+    "caption_zh": "MB0025 LED亮度驱动",
+    "project": "XJMS-RFQ5-E4GG",
+    "description_en": "Dual 40-Watt Power LED Dimmer-Driver",
+    "source_commit": "36c3dddcd399b4d45c5d0437cf61ab41f2156ba7",
+    "children": [
+        {
+            "designator": "C1",
+            "item": "CMPT-0406-0001",
+            "id": "ummp6nyr",
+            "info": {
+                "unique_id_path": "TMOQTANL/VMTXRJDT",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.55,
+                "location_y": 19.56,
+                "logical_designator": "C1",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C2",
+            "item": "CMPT-0406-0001",
+            "id": "lnlr6fd7",
+            "info": {
+                "unique_id_path": "TMOQTANL/EHOPKSWC",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.55,
+                "location_y": 14.71,
+                "logical_designator": "C2",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C3",
+            "item": "CMPT-0406-0001",
+            "id": "zgt28fpj",
+            "info": {
+                "unique_id_path": "TMOQTANL/CMNQEKLS",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 16.935,
+                "location_y": 13.45,
+                "logical_designator": "C3",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C4",
+            "item": "CMPT-0406-0001",
+            "id": "ghwrfay9",
+            "info": {
+                "unique_id_path": "TMOQTANL/XNKHAPTP",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 16.935,
+                "location_y": 19.01,
+                "logical_designator": "C4",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C5",
+            "item": "CMPT-0406-0001",
+            "id": "w26gqrmv",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCHJSODS",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 8.55,
+                "location_y": 15.31,
+                "logical_designator": "C5",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C6",
+            "item": "CMPT-0406-0001",
+            "id": "ut443un6",
+            "info": {
+                "unique_id_path": "TMOQTANL/IDVEBHRL",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 16.9349,
+                "location_y": 14.1,
+                "logical_designator": "C6",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C7",
+            "item": "CMPT-0406-0001",
+            "id": "dvzbkh9s",
+            "info": {
+                "unique_id_path": "TMOQTANL/IRMUQUVU",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 90,
+                "location_x": 13.85,
+                "location_y": 11.3809,
+                "logical_designator": "C7",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C11",
+            "item": "CMPT-0406-0001",
+            "id": "2qkuvhq4",
+            "info": {
+                "unique_id_path": "TMOQTANL/LYVMAHKS/MVDPEBHF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 16.935,
+                "location_y": 19.56,
+                "logical_designator": "C2",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C12",
+            "item": "CMPT-0406-0001",
+            "id": "afk4nb5h",
+            "info": {
+                "unique_id_path": "TMOQTANL/LCDUQCNL/MVDPEBHF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 18.65,
+                "location_y": 16.01,
+                "logical_designator": "C2",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C13",
+            "item": "CMPT-0406-0001",
+            "id": "jgqafgew",
+            "info": {
+                "unique_id_path": "TMOQTANL/CHSDKBOC/MVDPEBHF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.5401,
+                "location_y": 13.45,
+                "logical_designator": "C2",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C14",
+            "item": "CMPT-0406-0001",
+            "id": "4eajp6rg",
+            "info": {
+                "unique_id_path": "TMOQTANL/ROHTTQIP/MVDPEBHF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.5501,
+                "location_y": 18.38,
+                "logical_designator": "C2",
+                "comment": "C0201X5R104K250NTA",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C15",
+            "item": "CMPT-0406-0039",
+            "id": "3dwaetul",
+            "info": {
+                "unique_id_path": "TMOQTANL/BTTDTGDI/DAREYKSW",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 21.3001,
+                "location_y": 17.36,
+                "logical_designator": "C1",
+                "comment": "0201X104K100NT",
+                "physical_path": "MB0025-TOP/MB0025/DELAY",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C16",
+            "item": "CMPT-0403-0009",
+            "id": "6sbfnlff",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/HUSGYCNN",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0805(2012)100_L",
+                "rotation": 270,
+                "location_x": 13.972,
+                "location_y": 4.01,
+                "logical_designator": "C1",
+                "comment": "C0805X5R475K500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C17",
+            "item": "CMPT-0405-0070",
+            "id": "ug5qa5hn",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/VLMIFWHP",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)33_L",
+                "rotation": 270,
+                "location_x": 21.4,
+                "location_y": 28.31,
+                "logical_designator": "C2",
+                "comment": "C0402X7R104k500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C18",
+            "item": "CMPT-0404-0021",
+            "id": "25jjzt8d",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/PAJHDERF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0603(1608)100_L",
+                "rotation": 270,
+                "location_x": 21.26,
+                "location_y": 18.79,
+                "logical_designator": "C5",
+                "comment": "CL10A105KB8NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C19",
+            "item": "CMPT-0405-0025",
+            "id": "5mq7umsa",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/GISYFDDU",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 270,
+                "location_x": 21.4,
+                "location_y": 29.91,
+                "logical_designator": "C3",
+                "comment": "C0402X5R105K250NTB",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C20",
+            "item": "CMPT-0405-0077",
+            "id": "23sadxvl",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/QYVCPFTG",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 180,
+                "location_x": 18.35,
+                "location_y": 30.96,
+                "logical_designator": "C4",
+                "comment": "CL05B471KB5NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C21",
+            "item": "CMPT-0403-0009",
+            "id": "sd7pdc93",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/HUSGYCNN",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0805(2012)100_L",
+                "rotation": 180,
+                "location_x": 14.95,
+                "location_y": 31.16,
+                "logical_designator": "C1",
+                "comment": "C0805X5R475K500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C22",
+            "item": "CMPT-0405-0070",
+            "id": "mqygc6r7",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/VLMIFWHP",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)33_L",
+                "rotation": 270,
+                "location_x": 21.4,
+                "location_y": 3.11,
+                "logical_designator": "C2",
+                "comment": "C0402X7R104k500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C23",
+            "item": "CMPT-0404-0021",
+            "id": "q8dnb86v",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/PAJHDERF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0603(1608)100_L",
+                "rotation": 90,
+                "location_x": 21.26,
+                "location_y": 14.23,
+                "logical_designator": "C5",
+                "comment": "CL10A105KB8NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C24",
+            "item": "CMPT-0405-0025",
+            "id": "j669t7jq",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/GISYFDDU",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 90,
+                "location_x": 21.4,
+                "location_y": 4.72,
+                "logical_designator": "C3",
+                "comment": "C0402X5R105K250NTB",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C25",
+            "item": "CMPT-0405-0077",
+            "id": "j8h54kmz",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/QYVCPFTG",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 0,
+                "location_x": 18.4,
+                "location_y": 2.06,
+                "logical_designator": "C4",
+                "comment": "CL05B471KB5NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C26",
+            "item": "CMPT-0403-0009",
+            "id": "anm7fgcu",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/HUSGYCNN",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0805(2012)100_L",
+                "rotation": 90,
+                "location_x": 11.428,
+                "location_y": 28.86,
+                "logical_designator": "C1",
+                "comment": "C0805X5R475K500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C27",
+            "item": "CMPT-0405-0070",
+            "id": "uvgtyj45",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/VLMIFWHP",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)33_L",
+                "rotation": 90,
+                "location_x": 4.056,
+                "location_y": 4.72,
+                "logical_designator": "C2",
+                "comment": "C0402X7R104k500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C28",
+            "item": "CMPT-0404-0021",
+            "id": "lzp69lzu",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/PAJHDERF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0603(1608)100_L",
+                "rotation": 90,
+                "location_x": 4.15,
+                "location_y": 14.23,
+                "logical_designator": "C5",
+                "comment": "CL10A105KB8NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C29",
+            "item": "CMPT-0405-0025",
+            "id": "br3hd8jj",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/GISYFDDU",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 90,
+                "location_x": 4.05,
+                "location_y": 3.11,
+                "logical_designator": "C3",
+                "comment": "C0402X5R105K250NTB",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C30",
+            "item": "CMPT-0405-0077",
+            "id": "latlmlzt",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/QYVCPFTG",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 0,
+                "location_x": 7,
+                "location_y": 2.06,
+                "logical_designator": "C4",
+                "comment": "CL05B471KB5NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C31",
+            "item": "CMPT-0403-0009",
+            "id": "s2m3u8mu",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/HUSGYCNN",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0805(2012)100_L",
+                "rotation": 0,
+                "location_x": 10.45,
+                "location_y": 1.83,
+                "logical_designator": "C1",
+                "comment": "C0805X5R475K500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C32",
+            "item": "CMPT-0405-0070",
+            "id": "yaqwuqkf",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/VLMIFWHP",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)33_L",
+                "rotation": 90,
+                "location_x": 4.05,
+                "location_y": 29.91,
+                "logical_designator": "C2",
+                "comment": "C0402X7R104k500NT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C33",
+            "item": "CMPT-0404-0021",
+            "id": "825rbae6",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/PAJHDERF",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0603(1608)100_L",
+                "rotation": 270,
+                "location_x": 4.15,
+                "location_y": 18.79,
+                "logical_designator": "C5",
+                "comment": "CL10A105KB8NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C34",
+            "item": "CMPT-0405-0025",
+            "id": "t4p5v2t2",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/GISYFDDU",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 270,
+                "location_x": 4.05,
+                "location_y": 28.31,
+                "logical_designator": "C3",
+                "comment": "C0402X5R105K250NTB",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C35",
+            "item": "CMPT-0405-0077",
+            "id": "agxeyk64",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/QYVCPFTG",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0402(1005)60_L",
+                "rotation": 180,
+                "location_x": 7.05,
+                "location_y": 30.96,
+                "logical_designator": "C4",
+                "comment": "CL05B471KB5NNNC",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C36",
+            "item": "CMPT-0406-0043",
+            "id": "ahmx5k7x",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/JFXNVQMJ",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 7.0499,
+                "location_y": 17.01,
+                "logical_designator": "C1",
+                "comment": "C0201X7R103K160NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C37",
+            "item": "CMPT-0406-0039",
+            "id": "wmg3peqx",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/XVIMKNMO",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 16.95,
+                "location_y": 31.06,
+                "logical_designator": "C2",
+                "comment": "0201X104K100NT",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C38",
+            "item": "CMPT-0406-0038",
+            "id": "dx5ah4sd",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/MDVFXLKL",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 16.95,
+                "location_y": 31.66,
+                "logical_designator": "C3",
+                "comment": "C0201C0G330J500NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C39",
+            "item": "CMPT-0406-0043",
+            "id": "6a3sw42d",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/JFXNVQMJ",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 13.506,
+                "location_y": 5.72,
+                "logical_designator": "C1",
+                "comment": "C0201X7R103K160NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C40",
+            "item": "CMPT-0406-0039",
+            "id": "aqaa8s8t",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/XVIMKNMO",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 17,
+                "location_y": 1.36,
+                "logical_designator": "C2",
+                "comment": "0201X104K100NT",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C41",
+            "item": "CMPT-0406-0038",
+            "id": "6p362cp7",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/MDVFXLKL",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 17,
+                "location_y": 2.01,
+                "logical_designator": "C3",
+                "comment": "C0201C0G330J500NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C42",
+            "item": "CMPT-0406-0043",
+            "id": "ptw8eql5",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/JFXNVQMJ",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 4.1499,
+                "location_y": 16.21,
+                "logical_designator": "C1",
+                "comment": "C0201X7R103K160NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C43",
+            "item": "CMPT-0406-0039",
+            "id": "bwet96k7",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/XVIMKNMO",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 8.4,
+                "location_y": 2.01,
+                "logical_designator": "C2",
+                "comment": "0201X104K100NT",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C44",
+            "item": "CMPT-0406-0038",
+            "id": "y77hqv8m",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/MDVFXLKL",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 8.4,
+                "location_y": 1.36,
+                "logical_designator": "C3",
+                "comment": "C0201C0G330J500NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C45",
+            "item": "CMPT-0406-0043",
+            "id": "jksc88yw",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/JFXNVQMJ",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 180,
+                "location_x": 21.3001,
+                "location_y": 16.21,
+                "logical_designator": "C1",
+                "comment": "C0201X7R103K160NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C46",
+            "item": "CMPT-0406-0039",
+            "id": "su55rk9n",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/XVIMKNMO",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.45,
+                "location_y": 31.06,
+                "logical_designator": "C2",
+                "comment": "0201X104K100NT",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "C47",
+            "item": "CMPT-0406-0038",
+            "id": "mqphxls2",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/MDVFXLKL",
+                "symbol": "CAP_NP",
+                "footprint": "CAPC0201(0603)X30L",
+                "rotation": 0,
+                "location_x": 8.45,
+                "location_y": 31.66,
+                "logical_designator": "C3",
+                "comment": "C0201C0G330J500NTA",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D1",
+            "item": "CMPT-0201-0092",
+            "id": "6xscaufs",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/BSMPTQCE",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 90,
+                "location_x": 13.2882,
+                "location_y": 26.339,
+                "logical_designator": "D2",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D2",
+            "item": "CMPT-0201-0092",
+            "id": "a6kswevk",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/TSAQINCT",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 270,
+                "location_x": 13.2882,
+                "location_y": 24.521,
+                "logical_designator": "D3",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D3",
+            "item": "CMPT-0201-0092",
+            "id": "vub2fn5d",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/GNYDDIJR",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 0,
+                "location_x": 20.219,
+                "location_y": 31.21,
+                "logical_designator": "D1",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D4",
+            "item": "CMPT-0201-0092",
+            "id": "z5w4ujky",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/BSMPTQCE",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 90,
+                "location_x": 13.2882,
+                "location_y": 9.043,
+                "logical_designator": "D2",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D5",
+            "item": "CMPT-0201-0092",
+            "id": "gs46kgxx",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/TSAQINCT",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 270,
+                "location_x": 13.2882,
+                "location_y": 7.231,
+                "logical_designator": "D3",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D6",
+            "item": "CMPT-0201-0092",
+            "id": "bb5sqxgg",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/GNYDDIJR",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 180,
+                "location_x": 20.3935,
+                "location_y": 1.81,
+                "logical_designator": "D1",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D7",
+            "item": "CMPT-0201-0092",
+            "id": "u3zwqv3l",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/BSMPTQCE",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 270,
+                "location_x": 12.1123,
+                "location_y": 7.231,
+                "logical_designator": "D2",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D8",
+            "item": "CMPT-0201-0092",
+            "id": "mc6v6gkf",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/TSAQINCT",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 90,
+                "location_x": 12.1123,
+                "location_y": 9.043,
+                "logical_designator": "D3",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D9",
+            "item": "CMPT-0201-0092",
+            "id": "kpxbjmnw",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/GNYDDIJR",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 180,
+                "location_x": 5.1815,
+                "location_y": 1.81,
+                "logical_designator": "D1",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D10",
+            "item": "CMPT-0201-0092",
+            "id": "fffgllmh",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/BSMPTQCE",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 270,
+                "location_x": 12.1123,
+                "location_y": 24.5209,
+                "logical_designator": "D2",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D11",
+            "item": "CMPT-0201-0092",
+            "id": "ffrwzxg2",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/TSAQINCT",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 90,
+                "location_x": 12.1123,
+                "location_y": 26.3385,
+                "logical_designator": "D3",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "D12",
+            "item": "CMPT-0201-0092",
+            "id": "zr5qw656",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/GNYDDIJR",
+                "symbol": "DIOD-SCHOTTKY",
+                "footprint": "X3-WLB1608-2",
+                "rotation": 0,
+                "location_x": 5.0065,
+                "location_y": 31.21,
+                "logical_designator": "D1",
+                "comment": "SDM2U40CSP-7B",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "J1",
+            "item": "CMPT-0301-0013",
+            "id": "rybef9h3",
+            "info": {
+                "unique_id_path": "CAIKXWNT",
+                "symbol": "HDR_1X13",
+                "footprint": "BB-HEADER-P01-P13",
+                "rotation": 270,
+                "location_x": 1.27,
+                "location_y": 16.51,
+                "logical_designator": "J1",
+                "comment": "BB-HEADER-P01-P13",
+                "physical_path": "MB0025-TOP",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "J2",
+            "item": "CMPT-0301-1013",
+            "id": "nlv27z76",
+            "info": {
+                "unique_id_path": "IPBXINKE",
+                "symbol": "BB-HEADER-P14-P26",
+                "footprint": "BB-HEADER-P14-P26",
+                "rotation": 270,
+                "location_x": 24.13,
+                "location_y": 16.51,
+                "logical_designator": "J2",
+                "comment": "BB-HEADER-P01-P13",
+                "physical_path": "MB0025-TOP",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "L1",
+            "item": "CMPT-0605-0022",
+            "id": "pdjmxfw3",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/YEJXXMAC",
+                "symbol": "IND_INDUCTOR-2",
+                "footprint": "WPL6530H150MT",
+                "rotation": 0,
+                "location_x": 17.85,
+                "location_y": 24.2,
+                "logical_designator": "L1",
+                "comment": "WPL6530H150MT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "L2",
+            "item": "CMPT-0605-0022",
+            "id": "ahfteblc",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/YEJXXMAC",
+                "symbol": "IND_INDUCTOR-2",
+                "footprint": "WPL6530H150MT",
+                "rotation": 0,
+                "location_x": 17.85,
+                "location_y": 8.82,
+                "logical_designator": "L1",
+                "comment": "WPL6530H150MT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "L3",
+            "item": "CMPT-0605-0022",
+            "id": "ffn8dytj",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/YEJXXMAC",
+                "symbol": "IND_INDUCTOR-2",
+                "footprint": "WPL6530H150MT",
+                "rotation": 180,
+                "location_x": 7.55,
+                "location_y": 8.82,
+                "logical_designator": "L1",
+                "comment": "WPL6530H150MT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "L4",
+            "item": "CMPT-0605-0022",
+            "id": "bg8mgxt2",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/YEJXXMAC",
+                "symbol": "IND_INDUCTOR-2",
+                "footprint": "WPL6530H150MT",
+                "rotation": 180,
+                "location_x": 7.55,
+                "location_y": 24.2,
+                "logical_designator": "L1",
+                "comment": "WPL6530H150MT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R1",
+            "item": "CMPT-0506-0001",
+            "id": "8r76hbf9",
+            "info": {
+                "unique_id_path": "TMOQTANL/WMCHNDHW",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 18.65,
+                "location_y": 16.91,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R2",
+            "item": "CMPT-0502-0024",
+            "id": "3g3m9gj4",
+            "info": {
+                "unique_id_path": "TMOQTANL/GUAIOWRM",
+                "symbol": "RES.A1",
+                "footprint": "RESC0603(1608)_L",
+                "rotation": 270,
+                "location_x": 5.32,
+                "location_y": 18.79,
+                "logical_designator": "R2",
+                "comment": "RR1608L0R01FT",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R3",
+            "item": "CMPT-0506-0002",
+            "id": "ntblkrck",
+            "info": {
+                "unique_id_path": "TMOQTANL/JGKESJJQ",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 8.55,
+                "location_y": 19.01,
+                "logical_designator": "R3",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R4",
+            "item": "CMPT-0506-0065",
+            "id": "kv93vbsa",
+            "info": {
+                "unique_id_path": "TMOQTANL/BABVFFDK",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 16.935,
+                "location_y": 15.31,
+                "logical_designator": "R4",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R5",
+            "item": "CMPT-0502-0024",
+            "id": "5t624sxu",
+            "info": {
+                "unique_id_path": "TMOQTANL/DXKDGLQY",
+                "symbol": "RES.A1",
+                "footprint": "RESC0603(1608)_L",
+                "rotation": 270,
+                "location_x": 5.32,
+                "location_y": 14.23,
+                "logical_designator": "R5",
+                "comment": "RR1608L0R01FT",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R6",
+            "item": "CMPT-0506-0002",
+            "id": "b4ewzndc",
+            "info": {
+                "unique_id_path": "TMOQTANL/JDAGWVBQ",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 8.54,
+                "location_y": 14.1,
+                "logical_designator": "R6",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R7",
+            "item": "CMPT-0502-0024",
+            "id": "jmq4fc4e",
+            "info": {
+                "unique_id_path": "TMOQTANL/VXILRHOR",
+                "symbol": "RES.A1",
+                "footprint": "RESC0603(1608)_L",
+                "rotation": 90,
+                "location_x": 20.11,
+                "location_y": 14.23,
+                "logical_designator": "R7",
+                "comment": "RR1608L0R01FT",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R8",
+            "item": "CMPT-0506-0065",
+            "id": "ubssger3",
+            "info": {
+                "unique_id_path": "TMOQTANL/TTPXOXYE",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 4.15,
+                "location_y": 15.66,
+                "logical_designator": "R8",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R9",
+            "item": "CMPT-0506-0002",
+            "id": "gzzsbbj7",
+            "info": {
+                "unique_id_path": "TMOQTANL/YMTXGGKH",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 16.935,
+                "location_y": 14.71,
+                "logical_designator": "R9",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R10",
+            "item": "CMPT-0506-0001",
+            "id": "4xekf9pp",
+            "info": {
+                "unique_id_path": "TMOQTANL/NVSFMLML",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 90,
+                "location_x": 13.7,
+                "location_y": 20.61,
+                "logical_designator": "R10",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R11",
+            "item": "CMPT-0506-0001",
+            "id": "bw2uceca",
+            "info": {
+                "unique_id_path": "TMOQTANL/INOPHRJP",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 90,
+                "location_x": 11.75,
+                "location_y": 20.61,
+                "logical_designator": "R11",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R12",
+            "item": "CMPT-0502-0024",
+            "id": "4y8v2lvv",
+            "info": {
+                "unique_id_path": "TMOQTANL/XPLQDIUE",
+                "symbol": "RES.A1",
+                "footprint": "RESC0603(1608)_L",
+                "rotation": 90,
+                "location_x": 20.11,
+                "location_y": 18.79,
+                "logical_designator": "R12",
+                "comment": "RR1608L0R01FT",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R13",
+            "item": "CMPT-0506-0002",
+            "id": "nzuzaphk",
+            "info": {
+                "unique_id_path": "TMOQTANL/IPVKWYIU",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 16.935,
+                "location_y": 18.38,
+                "logical_designator": "R13",
+                "comment": "R0201RXG1003F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R14",
+            "item": "CMPT-0506-0001",
+            "id": "2dguuy8v",
+            "info": {
+                "unique_id_path": "TMOQTANL/BTTDTGDI/QTWLVRLU",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 16.935,
+                "location_y": 17.61,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/DELAY",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R15",
+            "item": "CMPT-0501-0043",
+            "id": "jznxslvx",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/RATTSXIO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0805(2012)_L",
+                "rotation": 90,
+                "location_x": 13.972,
+                "location_y": 28.86,
+                "logical_designator": "R1",
+                "comment": "RR2012(0805)L0R10FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R16",
+            "item": "CMPT-0506-0137",
+            "id": "j4dlxmeb",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/YETHFWQP",
+                "symbol": "RES",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 18.35,
+                "location_y": 31.66,
+                "logical_designator": "R2",
+                "comment": "RR0201L2702FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R17",
+            "item": "CMPT-0501-0043",
+            "id": "urleyxsd",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/RATTSXIO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0805(2012)_L",
+                "rotation": 180,
+                "location_x": 14.95,
+                "location_y": 1.832,
+                "logical_designator": "R1",
+                "comment": "RR2012(0805)L0R10FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R18",
+            "item": "CMPT-0506-0137",
+            "id": "gxxznyq9",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/YETHFWQP",
+                "symbol": "RES",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 18.4,
+                "location_y": 1.36,
+                "logical_designator": "R2",
+                "comment": "RR0201L2702FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R19",
+            "item": "CMPT-0501-0043",
+            "id": "zrtrf46e",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/RATTSXIO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0805(2012)_L",
+                "rotation": 270,
+                "location_x": 11.428,
+                "location_y": 4.01,
+                "logical_designator": "R1",
+                "comment": "RR2012(0805)L0R10FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R20",
+            "item": "CMPT-0506-0137",
+            "id": "h3cckgsv",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/YETHFWQP",
+                "symbol": "RES",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 7,
+                "location_y": 1.36,
+                "logical_designator": "R2",
+                "comment": "RR0201L2702FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R21",
+            "item": "CMPT-0501-0043",
+            "id": "d7fvh9jl",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/RATTSXIO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0805(2012)_L",
+                "rotation": 0,
+                "location_x": 10.45,
+                "location_y": 31.16,
+                "logical_designator": "R1",
+                "comment": "RR2012(0805)L0R10FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R22",
+            "item": "CMPT-0506-0137",
+            "id": "letv4h7k",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/YETHFWQP",
+                "symbol": "RES",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 7.05,
+                "location_y": 31.66,
+                "logical_designator": "R2",
+                "comment": "RR0201L2702FT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R23",
+            "item": "CMPT-0506-0001",
+            "id": "pwllx5zl",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/AUXBAOPK",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 7.05,
+                "location_y": 15.96,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R24",
+            "item": "CMPT-0506-0001",
+            "id": "9y7kxwm3",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/BFAEQSAO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 8.55,
+                "location_y": 17.51,
+                "logical_designator": "R2",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R25",
+            "item": "CMPT-0506-0001",
+            "id": "dkmw3a7a",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/AUXBAOPK",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 90,
+                "location_x": 11.55,
+                "location_y": 11.381,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R26",
+            "item": "CMPT-0506-0001",
+            "id": "qfl7rwem",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/BFAEQSAO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 11.956,
+                "location_y": 5.72,
+                "logical_designator": "R2",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R27",
+            "item": "CMPT-0506-0001",
+            "id": "gm2zxwrx",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/AUXBAOPK",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 4.15,
+                "location_y": 17.36,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R28",
+            "item": "CMPT-0506-0001",
+            "id": "9pnlf85u",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/BFAEQSAO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 0,
+                "location_x": 4.15,
+                "location_y": 16.81,
+                "logical_designator": "R2",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R29",
+            "item": "CMPT-0506-0001",
+            "id": "k2q44evc",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/AUXBAOPK",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 21.3,
+                "location_y": 15.66,
+                "logical_designator": "R1",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "R30",
+            "item": "CMPT-0506-0001",
+            "id": "kh5bkfmq",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/BFAEQSAO",
+                "symbol": "RES.A1",
+                "footprint": "RESC0201(0603)_L",
+                "rotation": 180,
+                "location_x": 21.3,
+                "location_y": 16.81,
+                "logical_designator": "R2",
+                "comment": "R0201RXG1002F20LTZ",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U1",
+            "item": "CMPT-0100-0140",
+            "id": "jpl8yk4k",
+            "info": {
+                "unique_id_path": "TMOQTANL/WBPQAQEG",
+                "symbol": "SINGLE_BUFF_6P_ENL",
+                "footprint": "DFN1410",
+                "rotation": 270,
+                "location_x": 16.985,
+                "location_y": 16.51,
+                "logical_designator": "U1",
+                "comment": "74LVCE1G125FZ4-7",
+                "physical_path": "MB0025-TOP/MB0025",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U2",
+            "item": "CMPT-0106-0057",
+            "id": "769tlun2",
+            "info": {
+                "unique_id_path": "TMOQTANL/LYVMAHKS/TWTGSXXO",
+                "symbol": "INA214AIR",
+                "footprint": "QFN40P180X140X55-10L",
+                "rotation": 270,
+                "location_x": 18.535,
+                "location_y": 18.68,
+                "logical_designator": "U1",
+                "comment": "INA214AIR",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U3",
+            "item": "CMPT-0106-0057",
+            "id": "vzgxthw9",
+            "info": {
+                "unique_id_path": "TMOQTANL/LCDUQCNL/TWTGSXXO",
+                "symbol": "INA214AIR",
+                "footprint": "QFN40P180X140X55-10L",
+                "rotation": 270,
+                "location_x": 18.535,
+                "location_y": 14.39,
+                "logical_designator": "U1",
+                "comment": "INA214AIR",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U4",
+            "item": "CMPT-0106-0057",
+            "id": "rdxphhv5",
+            "info": {
+                "unique_id_path": "TMOQTANL/CHSDKBOC/TWTGSXXO",
+                "symbol": "INA214AIR",
+                "footprint": "QFN40P180X140X55-10L",
+                "rotation": 90,
+                "location_x": 6.913,
+                "location_y": 14.39,
+                "logical_designator": "U1",
+                "comment": "INA214AIR",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U5",
+            "item": "CMPT-0106-0057",
+            "id": "wzd5nuum",
+            "info": {
+                "unique_id_path": "TMOQTANL/ROHTTQIP/TWTGSXXO",
+                "symbol": "INA214AIR",
+                "footprint": "QFN40P180X140X55-10L",
+                "rotation": 90,
+                "location_x": 6.913,
+                "location_y": 18.68,
+                "logical_designator": "U1",
+                "comment": "INA214AIR",
+                "physical_path": "MB0025-TOP/MB0025/CurrentSense_LED0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U6",
+            "item": "CMPT-0102-0066",
+            "id": "fmmj44eb",
+            "info": {
+                "unique_id_path": "TMOQTANL/MSQTGEXL/KRYYSLBC",
+                "symbol": "TPS92515",
+                "footprint": "MSOP-10EP",
+                "rotation": 180,
+                "location_x": 17.85,
+                "location_y": 29.06,
+                "logical_designator": "U1",
+                "comment": "TPS92515DGQT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U7",
+            "item": "CMPT-0102-0066",
+            "id": "p4c77dv9",
+            "info": {
+                "unique_id_path": "TMOQTANL/DSKEESTR/KRYYSLBC",
+                "symbol": "TPS92515",
+                "footprint": "MSOP-10EP",
+                "rotation": 180,
+                "location_x": 17.85,
+                "location_y": 3.96,
+                "logical_designator": "U1",
+                "comment": "TPS92515DGQT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U8",
+            "item": "CMPT-0102-0066",
+            "id": "cz7vmest",
+            "info": {
+                "unique_id_path": "TMOQTANL/MAIVMCBU/KRYYSLBC",
+                "symbol": "TPS92515",
+                "footprint": "MSOP-10EP",
+                "rotation": 0,
+                "location_x": 7.55,
+                "location_y": 3.96,
+                "logical_designator": "U1",
+                "comment": "TPS92515DGQT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U9",
+            "item": "CMPT-0102-0066",
+            "id": "6y96sppm",
+            "info": {
+                "unique_id_path": "TMOQTANL/CCPWCIUJ/KRYYSLBC",
+                "symbol": "TPS92515",
+                "footprint": "MSOP-10EP",
+                "rotation": 0,
+                "location_x": 7.55,
+                "location_y": 29.0599,
+                "logical_designator": "U1",
+                "comment": "TPS92515DGQT",
+                "physical_path": "MB0025-TOP/MB0025/LED Driver_0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U10",
+            "item": "CMPT-0108-0046",
+            "id": "lwv3qd2v",
+            "info": {
+                "unique_id_path": "TMOQTANL/OHHMOIMJ/OULIYJFK",
+                "symbol": "TMP103",
+                "footprint": "TMP103",
+                "rotation": 180,
+                "location_x": 12.725,
+                "location_y": 20.585,
+                "logical_designator": "U1",
+                "comment": "TMP103BYFFR",
+                "physical_path": "MB0025-TOP/MB0025/TEMP_SENSE",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U11",
+            "item": "CMPT-0104-0063",
+            "id": "zs4fw6qh",
+            "info": {
+                "unique_id_path": "TMOQTANL/WTMGWQOQ/GWUMMHUK",
+                "symbol": "STM32F051KXU",
+                "footprint": "QFN50P500X500X60_HS-33N",
+                "rotation": 180,
+                "location_x": 12.7,
+                "location_y": 16.51,
+                "logical_designator": "U1",
+                "comment": "STM32F051K6U7TR",
+                "physical_path": "MB0025-TOP/MB0025/MCU",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U12",
+            "item": "CMPT-0204-0040",
+            "id": "7rzq58jz",
+            "info": {
+                "unique_id_path": "TMOQTANL/UBABXDDN/LJKOIDTS",
+                "symbol": "SINGLE_INV_6P",
+                "footprint": "DFN1410",
+                "rotation": 270,
+                "location_x": 8.65,
+                "location_y": 16.51,
+                "logical_designator": "U1",
+                "comment": "SGM7SZ04YUDL6G/TR",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC3",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U13",
+            "item": "CMPT-0204-0040",
+            "id": "bm3fucab",
+            "info": {
+                "unique_id_path": "TMOQTANL/RSMKPMCA/LJKOIDTS",
+                "symbol": "SINGLE_INV_6P",
+                "footprint": "DFN1410",
+                "rotation": 180,
+                "location_x": 12.7,
+                "location_y": 10.86,
+                "logical_designator": "U1",
+                "comment": "SGM7SZ04YUDL6G/TR",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC2",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U14",
+            "item": "CMPT-0204-0040",
+            "id": "7nxqk5q5",
+            "info": {
+                "unique_id_path": "TMOQTANL/GKPPPQQM/LJKOIDTS",
+                "symbol": "SINGLE_INV_6P",
+                "footprint": "DFN1410",
+                "rotation": 90,
+                "location_x": 5.72,
+                "location_y": 16.51,
+                "logical_designator": "U1",
+                "comment": "SGM7SZ04YUDL6G/TR",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC1",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        },
+        {
+            "designator": "U15",
+            "item": "CMPT-0204-0040",
+            "id": "mp7fknec",
+            "info": {
+                "unique_id_path": "TMOQTANL/DPEUSOOC/LJKOIDTS",
+                "symbol": "SINGLE_INV_6P",
+                "footprint": "DFN1410",
+                "rotation": 270,
+                "location_x": 19.99,
+                "location_y": 16.51,
+                "logical_designator": "U1",
+                "comment": "SGM7SZ04YUDL6G/TR",
+                "physical_path": "MB0025-TOP/MB0025/PWM-DAC0",
+                "layer": "Bottom",
+                "component_kind": "Standard"
+            }
+        }
+    ],
+    "caption_en": "MB0025 LED Dimmer-Driver",
+    "item_type": "pcb_element",
+    "state": "active",
+    "updated_at": "2019-05-21T02:37:37.868Z",
+    "source_repo": "https://github.com/mesheven-eda/MB0025",
+    "organization": "5d36fdd4",
+    "description_zh": "双路40瓦功率LED亮度驱动",
+    "params": {},
+    "id": "PCBA-MB0025",
+    "type": "item",
+    "approve_prototype": "not_approved",
+    "approve_production": "not_approved",
+    "approval_supply": "new",
+    "approval_design": "new",
+    "currency": "USD",
+    "inventory_type": "inventory_counts",
+    "inventory_count": 0,
+    "source": "cloud",
+    "bom_count": 107
+}
