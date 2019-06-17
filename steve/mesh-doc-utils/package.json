@@ -1,0 +1,20 @@
+{
+  "name": "mesh-doc-utils",
+  "version": "0.0.2",
+  "description": "Mesheven documentation utilities",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesheven-core/mesh-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mesheven-core/mesh-markdown/issues"
+  },
+  "homepage": "https://github.com/mesheven-core/mesh-markdown#readme",
+  "private": false,
+  "dependencies": {
+    "fs-readdir-recursive": "^1.1.0",
+    "klaw-sync": "^4.0.0"
+  }
+}

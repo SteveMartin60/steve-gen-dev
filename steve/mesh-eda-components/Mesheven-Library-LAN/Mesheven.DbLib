@@ -1,0 +1,40 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=DRIVER={PostgreSQL Unicode};DATABASE=mesh-ad-dblib;SERVER=192.168.1.101;PORT=5432;UID=postgres;PWD=F85yEqz3;SSLmode=allow;ReadOnly=0;Protocol=7.4;FakeOidIndex=0;ShowOidColumn=0;RowVersioning=0;ShowSystemTables=0;ConnSettings=;Fetch=100;UnknownSizes=0;MaxVarcharSize=255;MaxLongVarcharSize=8190;Debug=0;CommLog=0;UseDeclareFetch=0;TextAsLongVarchar=1;UnknownsAsLongVarchar=0;BoolsAsChar=1;Parse=0;ExtraSysTablePrefixes=;LFConversion=1;UpdatableCursors=1;TrueIsMinus1=0;BI=0;ByteaAsLongVarBinary=1;UseServerSidePrepare=1;LowerCaseIdentifier=0;GssAuthUseGSS=0;XaOpt=1
+AddMode=2
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote="
+RightQuote="
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=Footprints;Symbols
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=ALTIUM
+LastFocusedTable=ALL
+[Table1]
+SchemaName=
+TableName=ALL
+Enabled=True
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=ALL.ID|TableNameOnly=ALL|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=ALL.Description|TableNameOnly=ALL|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=ALL.Footprint|TableNameOnly=ALL|FieldNameOnly=Footprint|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=ALL.Symbol|TableNameOnly=ALL|FieldNameOnly=Symbol|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=ALL.Footprint_Path|TableNameOnly=ALL|FieldNameOnly=Footprint_Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=ALL.Symbol_Path|TableNameOnly=ALL|FieldNameOnly=Symbol_Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
