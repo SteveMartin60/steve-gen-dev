@@ -1,0 +1,14 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-3.538 -4.138 7.076 8.276"
+    id                = "conn-m25-vf-green"
+    stroke            = "#231f20"
+    stroke-miterlimit = "10"
+    overflow          = "visible">
+
+    <rect width="7.0"  height="8.2" x="-3.5"  y="-4.1" fill="#246839" stroke-width=".08" />
+    <rect width="0.5"  height="0.5" x="-1.5"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+    <rect width="0.5"  height="0.5" x="+1.0"  y="-0.3" fill="#cfa550" stroke-width=".04" />
+
+    <path fill="#40bb6a" stroke-width="0.08" d="M1.3 3.3v-1h-4v-4h.95v-.8h-.55v-.8h1.9v.8h-.55v.8h1.9v-.8H.4v-.8h1.9v.8h-.55v.8h.95v5zm2.2-7.4h-7v8.2h7z"/>
+</svg>

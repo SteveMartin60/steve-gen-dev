@@ -1,0 +1,61 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="0 0 200 300"
+    shape-rendering="geometricPrecision"
+    caption        ="Temperature Sensor"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="symbol-sensor-temperature"
+            overflow       ="visible"
+            stroke         ="dimgrey"
+            fill           ="none"
+            stroke-linecap ="round"
+            isDisplay      ="true"
+            >
+            <rect x="-0" y="0" width="200" height="300" fill="#ffe599" stroke="#666666" stroke-width="0.6"/>
+
+            <circle cx="70" cy="231" r="40" fill="dimgrey" stroke="none"/>
+
+
+            <path fill="none" stroke-width="12.5" d="m 30 195 A 54 54 0 1 0 110 195"  stroke="dimgrey"/>    
+
+            <path fill="none" stroke-width="12.5" d="m 30 50 A 9 9 0 0 1 110 50"    stroke="dimgrey"/> 
+
+            <line x1="30"  x2="30"  y1="50"  y2="195" stroke-width="12.5" /> 
+            <line x1="110" x2="110" y1="50"  y2="195" stroke-width="12.5" /> 
+
+            <line x1="70" x2="70" y1="50"  y2="235"   stroke-width="47"/>
+
+            <line x1="135"  x2="185"  y1="50"  y2="50"  stroke-width="15"/>
+            <line x1="135"  x2="165"  y1="115"  y2="115"  stroke-width="15"/>
+            <line x1="135"  x2="185"  y1="180"  y2="180"  stroke-width="15"/>
+
+            <rect x="0" y="0" width="10" height="10" fill="magenta" class="origin-marker" stroke="none"/>
+
+            <circle cx="0" cy="0" r="3" fill="coral" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/> 
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="component-SENSOR-TEMPERATURE"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#symbol-sensor-temperature" /> 
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-SENSOR-TEMPERATURE" x="0" y="0" caption="Temperature Sensor" href="#component-SENSOR-TEMPERATURE"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+
+</svg>

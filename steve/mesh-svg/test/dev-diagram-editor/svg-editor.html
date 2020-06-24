@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<!-- ....................................................................... -->
+    <head>
+    <!-- ................................................................... -->
+        <style>
+            .container_row
+            {
+                display: flex;
+                text-align: center;
+            }
+            .editor {width: 100%;                   }
+            .diagram{width: 100%;margin-left: -100%;}
+        </style>
+    </head>
+    <title>SVG Editor</title>
+    <!-- ................................................................... -->
+    <body>
+        <!-- ............................................................... -->
+        <script type="text/javascript" src="svg-editor.js"></script>
+        <!-- ............................................................... -->
+        <div class="container_row">
+            <div class="editor"><embed class="emb" src="svg-editor.svg" height="3000" type="image/svg+xml" ></embed></div>
+            <!-- ........................................................... -->
+<!--
+                       src="../../doc/items/PCBA-MB0044/PCBA-MB0044-block_diagram_en.svg"
+                       src="../bb-components/LED-1615-RGB-HSY.svg"
+                       src="../components-bb/Connectors/CONN-M25-VF-GREEN-P04.svg"
+                       src="../components-bb/BATTERY-ALKALINE-PACK.svg"
+                       src="../components-bb/Connectors/socket-power-alkaline-battery.svg"
+                       src="../components-bb/Jumpers/JUMPER-SPI-MASTER.svg"
+                       src="../components-bb/LED/LED-RGB-LOW-POWER.svg"
+                       src="../components-dev/Footprints/CMPT-0201-0081-LED-0603-BLUE-HSY-19-2151UBC.svg"
+-->
+            <!-- ........................................................... -->
+            <div class="diagram">
+                <embed class="emb"
+                        src="bd-components/ammeter.svg"
+                       height="3000"
+                       type="image/svg+xml" >
+                </embed>
+            </div>
+            <!-- ........................................................... -->
+        </div>
+    <!-- ................................................................... -->
+    </body>
+    <!-- ................................................................... -->
+    <script>window.addEventListener("load", findContentElementsSVG, false);</script>
+</html>

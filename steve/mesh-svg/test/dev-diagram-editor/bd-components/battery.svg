@@ -1,0 +1,48 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-100 -150 200 300"
+    caption        ="Battery"
+    >
+    <defs>
+    <!-- ................................................................. -->
+        <svg
+            id="sign-plus"
+            overflow="visible"
+            stroke-width="12.5"
+            >
+            <line x1="-25" x2="25" y1="0" y2="0"  />
+            <line x1="0" x2="0" y1="-25" y2="25"  />
+        </svg>
+        <!-- ................................................................... -->
+        <svg
+            id       ="component-BATTERY"
+            overflow ="visible"
+            fill-rule="evenodd"
+            stroke   ="dimgrey"
+            >
+            <rect x="-100" y="-150" width="200" height="300" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <path stroke="none" fill  ="dimgrey" d="M -55, -5 v 115 h 105 v -150 z M -25 75 v 12.5 h 50 v -12.5 z"/>
+
+            <use x="0" y="-65" href="#sign-plus"/>
+
+            <rect x="-75" y="-110" width="150" height="240" rx="9" ry="9" fill="none"    stroke-width="20"/>
+            <rect x="-45" y="-135" width="90" height="25"  rx="9" ry="9" fill="dimgrey" stroke-width="2"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-BATTERY" x="0" y="0" caption="Battery" href="#component-BATTERY"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

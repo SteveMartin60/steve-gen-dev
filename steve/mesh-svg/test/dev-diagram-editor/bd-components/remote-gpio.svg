@@ -1,0 +1,40 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-400 -75 800 150"
+    shape-rendering="geometricPrecision"
+    caption        =""
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none"/>
+    <!-- ............................................................. -->
+        <line id="line-h-0750-dimgrey" x1="-0375" x2="0375" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+    <!-- ............................................................. -->
+        <svg id="arrow-dual-0800" overflow="visible" ><use x="0" href="#line-h-0750-dimgrey"/><use x="0400"  href="#arrow-head-large" fill="dimgrey"/> <use x="0400"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="component-REMOTE-GPIO"
+            overflow="visible"
+            >
+            <rect x="-400" y="-75" width="800" height="150" fill="pink" stroke="none" shape-rendering="crispEdges" xml:space="preserve" text-anchor="start" opacity="0"/>
+
+            <text id="text-REMOTE-GPIO"     x="-300"  y="0" fill="darkslategrey" text-anchor="start"  font-family="consolas" font-size="65" alignment-baseline="after-edge" >Remote GPIO x8</text>
+            <use id="connector-REMOTE-GPIO" href="#arrow-dual-0800" x="0" y="0"/>
+
+            <path d="M 0, 6.25 a 1, 1, 0, 0, 1, 0, -12.5" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-REMOTE-GPIO" x="0" y="0" caption="Remote GPIO" href="#component-REMOTE-GPIO"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

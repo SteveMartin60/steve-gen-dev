@@ -1,0 +1,90 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-200 0 400 200"
+    shape-rendering="geometricPrecision"
+    caption        ="Transformer"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segment"
+            overflow="visible"
+
+            stroke-width="4"
+            >
+            <path d="M 0, 0 c 0, -15, 10, -15 10, 0" />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="coil-segments-6"
+            overflow="visible"
+
+            stroke-linecap="round"
+            >
+            <use x="0"  y="0" href="#coil-segment" />
+            <use x="10" y="0" href="#coil-segment" />
+            <use x="20" y="0" href="#coil-segment" />
+            <use x="30" y="0" href="#coil-segment" />
+            <use x="40" y="0" href="#coil-segment" />
+            <use x="50" y="0" href="#coil-segment" />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="symbol-transformer"
+            overflow       ="visible"
+
+            stroke         ="dimgrey"
+            stroke-width   ="4"
+            fill           ="none"
+            >
+            <path d="M -80, -30 h +60"/>
+            <path d="M -80, +30 h +60"/>
+            <path d="M +80, -30 h -60"/>
+            <path d="M +80, +30 h -60"/>
+
+            <path d="M -3, 30 v -60" stroke-linecap ="round"/>
+            <path d="M +3, 30 v -60" stroke-linecap ="round"/>
+
+            <use x="-30" y="20" href="#coil-segments-6" transform="rotate(90, 0, 0)"/>
+            <use x="-30" y="20" href="#coil-segments-6" transform="rotate(270, 0, 0)"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id             ="symbol-transformer-scaled"
+            overflow       ="visible"
+            >
+            <use x="0" y="0" href="#symbol-transformer" transform="scale(2.2)"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id      ="component-TRANSFORMER"
+            overflow="visible"
+            >
+            <rect x="-200" y="0"  width="400" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-200" y="40" width="400" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="0" y="40" fill="darkslategrey" font-family="Lato" stroke="none" font-size="40" text-anchor="middle" alignment-baseline="after-edge" >Transformer</text>
+
+            <use x="0" y="120" href="#symbol-transformer-scaled"/>
+
+            <path id="arc-down"  d="M 6.25 0 a 1, 1, 0, 0, 1, -12.5, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-TRANSFORMER" x="0" y="0" caption="Transformer" href="#component-TRANSFORMER"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+
+</svg>

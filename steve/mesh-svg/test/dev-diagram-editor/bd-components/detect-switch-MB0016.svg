@@ -1,0 +1,84 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-200 -800 400 1600"
+    caption        ="ESD Protection"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="transmit-arcs"
+             overflow       ="visible"
+             stroke-linecap ="round"
+             fill           ="none"
+             stroke-width="8"
+            >
+            <path d="M -23,  25 a 33, 33, 0, 0, 0, 0, -50"/>
+            <path d="M -11,  38 a 50, 50, 0, 0, 0, 0, -76"/>
+            <path d="M 0,  50 a 65, 65, 0, 0, 0, 0, -100"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" opacity="0" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="transmit-arcs-large-X2"
+             overflow="visible"
+            >
+            <use x="0" y="0" href="#transmit-arcs" transform="scale(2)" />
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" opacity="0" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="contact-line-long"
+             overflow="visible"
+            >
+            <path  d="M 0, 0 M -15 0 L -110 0"/>
+            <circle cx="-125" cy="0" r="15"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="detect-switch-MB0016"
+             overflow       ="visible"
+             stroke         ="#38761d"
+             stroke-width   ="12.5"
+             stroke-linecap ="round"
+             fill           ="none"
+            >
+            <circle cx="-145" cy="0"    r="15"/>
+            <circle cx="-145" cy="-630" r="15"/>
+            <circle cx="-145" cy="+630" r="15"/>
+
+            <circle cx="+100" cy="0" r="15"/>
+            <circle cx="+155" cy="-600" r="15"/>
+            <circle cx="+155" cy="+600" r="15"/>
+
+            <circle cx="-69" cy="0" r="15"/>
+
+            <circle cx="0" cy="+136" r="15" />
+            <circle cx="0" cy="-136" r="15"/>
+
+            <use x="280" y="-600" href="#arrow-power-direction-short"/>
+            <use x="280" y="+600" href="#arrow-power-direction-short"/>
+
+            <use x="100" y="0" href="#contact-line-long" transform="rotate(-45, 100, 0)" opacity="0.6" />
+            <use x="100" y="0" href="#contact-line-long" transform="rotate(-10, 100, 0)" opacity="0.4" />
+            <use x="100" y="0" href="#contact-line-long" transform="rotate(+33, 100, 0)" opacity="0.1" />
+
+            <path d="M 100 -20 V -600 H 140" stroke-linecap="round"/>
+            <path d="M 100 +20 V +600 H 140" stroke-linecap="round"/>
+
+            <path d="M -130 0 H -85" stroke-linecap="round"/>
+            <path d="M 0 +157 V 630  H -125" stroke-linecap="round"/>
+            <path d="M 0 -157 V -630 H -125" stroke-linecap="round"/>
+
+            <use x="-235" y="0"    href="#transmit-arcs-large-X2" />
+            <use x="-235" y="-630" href="#transmit-arcs-large-X2" />
+            <use x="-235" y="630"  href="#transmit-arcs-large-X2" />
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" opacity="0" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+            <use x="0" y="0" href="#detect-switch-MB0016" />
+</svg>

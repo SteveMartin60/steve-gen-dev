@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<!-- ....................................................................... -->
+    <head>
+    <!-- ................................................................... -->
+        <style>
+            .container_row
+            {
+                display: flex;
+                text-align: center;
+            }
+            .editor {width: 100%;                   }
+            .diagram{width: 100%;margin-left: -100%;}
+        </style>
+    </head>
+    <title>SVG Editor</title>
+    <!-- ................................................................... -->
+    <body>
+        <!-- ............................................................... -->
+        <script type="text/javascript" src="svg-editor.js"></script>
+        <!-- ............................................................... -->
+        <div class="container_row">
+            <div class="editor"><embed class="emb" src="svg-editor.svg" height="3000" type="image/svg+xml" ></embed></div>
+            <!-- ........................................................... -->
+<!--
+                       src="../components-bb/BATTERY-ALKALINE-PACK.svg"
+                       src="../components-bb/Connectors/socket-power-alkaline-battery.svg"
+                       src="../components-bb/Jumpers/JUMPER-SPI-MASTER.svg"
+                       src="../components-dev/Footprints/CMPT-0201-0081-LED-0603-BLUE-HSY-19-2151UBC.svg"
+                       src="../../doc/docs/images/real-world/hanging-light-panel.svg"
+                       src="../components-bb/LED/LED-RGB-LOW-POWER.svg"
+                       src="../../doc/items/PCBA-MB0003/matrices/PCBA-MB0003-matrix-layout-12x2.svg"
+                       src="../../package-source/mesh-doc/output-final/html/product-doc_en/items/PCBA-MB0001/PCBA-MB0001-device_sheet.svg"
+                       src="../../doc/items/PCBA-MB0005/BB0005-sch_sheet.svg"
+                       src="../components-bb/Connectors/CONN-M25-VF-GREEN-P04.svg"
+                       src="../../doc/items/PCBA-MB0001/usage/PCBA-MB0001-single-coil-usage.svg"
+
+                       src="../components-bb-backup/CAP-0603.svg"
+                       src="../components-bb-backup/BATTERY-ALKALINE-PACK.svg"
+                       src="../doco-images/cloud-computing.svg"
+                       src="../doco-images/file-servers-network-map.svg"
+-->
+            <!-- ........................................................... -->
+            <div class="diagram">
+                <embed class="emb"
+                       src="../bb-dev/BB0017.svg"
+                       height="3000"
+                       type="image/svg+xml" >
+                </embed>
+            </div>
+            <!-- ........................................................... -->
+        </div>
+    <!-- ................................................................... -->
+    </body>
+    <!-- ................................................................... -->
+    <script>window.addEventListener("load", findContentElementsSVG, false);</script>
+</html>
+

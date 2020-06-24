@@ -1,0 +1,54 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="0 0 500 500"
+    shape-rendering="geometricPrecision"
+    caption        =""
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="component-HEADPHONE-JACK-PINS"
+            overflow      ="visible"
+            >
+            <rect x="0" y="0" width="500" height="500" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <rect x="420"   y="80" width="60" height="320" stroke="dimgrey" stroke-width="12.5" fill="none" />
+
+
+            <line x1="0"   x2="250" y1="100" y2="100" stroke="dimgrey" stroke-width="12.5"/>
+            <line x1="0"   x2="250" y1="200" y2="200" stroke="dimgrey" stroke-width="12.5"/>
+            <line x1="0"   x2="250" y1="300" y2="300" stroke="dimgrey" stroke-width="12.5"/>
+            <line x1="0"   x2="250" y1="400" y2="400" stroke="dimgrey" stroke-width="12.5"/>
+
+            <line x1="290"   x2="420" y1="400" y2="400" stroke="dimgrey" stroke-width="12.5"/>
+
+            <path d="M 290 100 h 50 l 20 20  l 20 -20 " stroke="dimgrey" stroke-width="12.5" fill="none"/>
+
+            <path d="M 340 157 l -20 20 h 40  z " stroke="dimgrey" stroke-width="9" fill="none"/>
+
+            <path d="M 290 200 h 50 v -20 " stroke="dimgrey" stroke-width="12.5" fill="none"/>
+
+            <path d="M 290 300 h 50 l 20 -20 l 20 20 " stroke="dimgrey" stroke-width="12.5" fill="none"/>
+
+            <circle cx="270" cy="100"  r="20" fill="none" stroke="dimgrey" stroke-width="9"/>
+            <circle cx="270" cy="200"  r="20" fill="none" stroke="dimgrey" stroke-width="9"/>
+            <circle cx="270" cy="300"  r="20" fill="none" stroke="dimgrey" stroke-width="9"/>
+            <circle cx="270" cy="400"  r="20" fill="none" stroke="dimgrey" stroke-width="9"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-HEADPHONE-JACK-PINS" x="0" y="0" caption="Headphone Jack Pins" href="#component-HEADPHONE-JACK-PINS"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

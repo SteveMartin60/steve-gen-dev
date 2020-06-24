@@ -1,0 +1,58 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-1100 -100 1100 500"
+    shape-rendering="geometricPrecision"
+    caption        ="SPI Control Interface"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none"/>
+    <!-- ............................................................. -->
+        <svg
+            id="component-CONTROL-INTERFACE-SPI"
+            font-family="Consolas"
+            stroke-linecap="round"
+            overflow="visible"
+            font-size="85"
+            text-anchor="end"
+            >
+            <rect x="-1100" y="-100" width="1100" height="500" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-600" y="100" fill="darkslategrey" stroke="none" alignment-baseline="middle" >Control  </text>
+            <text  x="-600" y="200" fill="darkslategrey" stroke="none" alignment-baseline="middle" >Interface</text>
+
+            <line x1="-550" x2="-550" y1="0" y2="300" stroke= "#bcbec0" stroke-width="18"/>
+
+            <line x1="-20" x2="-480" y1="0"   y2="0"   stroke= "#f37021" stroke-width="12.5"/>
+            <line x1="-20" x2="-500" y1="100" y2="100" stroke= "#d2ab67" stroke-width="12.5"/>
+            <line x1="-20" x2="-500" y1="200" y2="200" stroke= "#d2ab67" stroke-width="12.5"/>
+            <line x1="-20" x2="-500" y1="300" y2="300" stroke= "#939598" stroke-width="12.5"/>
+
+            <text  x="-100" y="0"   fill= "#f37021" stroke="none" alignment-baseline="after-edge">SPI      </text>
+            <text  x="-100" y="100" fill= "#d2ab67" stroke="none" alignment-baseline="after-edge">WAKE_IN  </text>
+            <text  x="-100" y="200" fill= "#d2ab67" stroke="none" alignment-baseline="after-edge">WAKE_OUT </text>
+            <text  x="-100" y="300" fill= "#939598" stroke="none" alignment-baseline="after-edge">RST_N    </text>
+
+            <use id="arrowhead-spi"      x="500" y="0"   href="#arrow-head-large" fill= "#f37021" transform="scale(-1, 1)"  />
+            <use id="arrowhead-spi"      x="0"   y="0"   href="#arrow-head-large" fill= "#f37021"/>
+            <use id="arrowhead-wake-in"  x="0"   y="100" href="#arrow-head-large" fill= "#d2ab67"/>
+            <use id="arrowhead-wake-out" x="0"   y="200" href="#arrow-head-large" fill= "#d2ab67"/>
+            <use id="arrowhead-reset"    x="0"   y="300" href="#arrow-head-large" fill= "#939598"/>
+
+            <path id="arc-left"  d="M  0, 4 a 1, 1, 0, 0, 1,  0, -8" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-CONTROL-INTERFACE-SPI" x="-0" y="0" caption="SPI Control Interface" href="#component-CONTROL-INTERFACE-SPI"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

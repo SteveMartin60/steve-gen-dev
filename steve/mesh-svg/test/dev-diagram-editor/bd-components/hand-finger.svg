@@ -1,0 +1,45 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-60 -30 120 60"
+    shape-rendering="geometricPrecision"
+    caption        ="Pointing Finger"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="symbol-HAND-FINGER"
+            overflow="visible"
+            >
+            <path fill="dimgrey" d="m -25, -25   a 25, 25, 0, 0, 0, 0, 50"/>
+
+            <path fill="dimgrey" d="m -24, -25    h 68 a 5, 5, 0, 0, 1, 0, 11.75 h -68"/>
+            <path fill="dimgrey" d="m -24, -12.25 h 53 a 5, 5, 0, 0, 1, 0, 11.75 h -53"/>
+            <path fill="dimgrey" d="m -24,   0.5  h 40 a 5, 5, 0, 0, 1, 0, 11.75 h -40"/>
+            <path fill="dimgrey" d="m -24,  13.25 h 30 a 5, 5, 0, 0, 1, 0, 11.75 h -30"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-HAND-FINGER"
+            overflow       ="visible"
+            >
+            <rect x="-60" y="-30" width="120" height="60" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <use x="0" y="0" href="#symbol-HAND-FINGER"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-HAND-FINGER" x="0" y="0" caption="Pointing Finger" href="#component-HAND-FINGER"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

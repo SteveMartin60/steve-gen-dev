@@ -1,0 +1,89 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="USB C"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <rect id="pin-usb-c" x="-3.5" y="-06.8" width="7" height="13.6" stroke="none"/>
+    <!-- ............................................................. -->
+        <path id="curve-usb" fill="none" stroke="dimgrey" stroke-width="4" d="M 0, 0 c 0, -8, 7, -15, 15, -15 "/>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-usb-abstract"
+            overflow="visible"
+            stroke="dimgrey"
+            fill="dimgrey"
+            >
+            <rect x="16.2"  y="-16.6" width="15"   height="15"  stroke="none" />
+
+            <line x1="-35" x2="40" y1="-23.75" y2="-23.75" stroke-width="8"/>
+
+            <path fill="none" d="M 10 -38 h -18 l -12  14"/>
+            <path fill="none" d="M 24  -9 h -18 l -12 -14"/>
+
+            <path stroke="none" d="M 37.75 -23.75 v -9 l 12 9 l -12 9 v -9"/>
+
+            <circle cx="-40" cy="-23.75" r="10" stroke="none"/>
+            <circle cx="+10" cy="-38"    r="7"  stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-usb-c"
+            overflow="visible"
+            stroke="dimgrey"
+            fill="dimgrey"
+            stroke-width="7"
+            >
+            <use x="0" y="0" href="#symbol-usb-abstract"/>
+
+            <line x1="-32.1" x2="32.1" y1="42.9" y2="42.9" stroke-width="4"/>
+            <line x1="-32.1" x2="32.1" y1="13.1" y2="13.1" stroke-width="4"/>
+
+            <use x="-47" y="28.1"  href="#curve-usb" transform="scale(1 ,  1)"/>
+            <use x="-47" y="28.1"  href="#curve-usb" transform="scale(-1,  1)"/>
+            <use x="-47" y="-27.9" href="#curve-usb" transform="scale(1 , -1)"/>
+            <use x="-47" y="-27.9" href="#curve-usb" transform="scale(-1, -1)"/>
+
+            <use x="-10" y="27.5" href="#pin-usb-c"/>
+            <use x="-20" y="27.5" href="#pin-usb-c"/>
+            <use x="-30" y="27.5" href="#pin-usb-c"/>
+            <use x="+00" y="27.5" href="#pin-usb-c"/>
+            <use x="+10" y="27.5" href="#pin-usb-c"/>
+            <use x="+20" y="27.5" href="#pin-usb-c"/>
+            <use x="+30" y="27.5" href="#pin-usb-c"/>
+
+            <rect x="-39"  y="24.25" width="78" height="7" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-USB-C"
+            overflow       ="visible"
+            stroke-width   ="1"
+            >
+            <rect x="-100" y="-100" width="200" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-100" y="-060" width="200" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="0" y="-55" fill="darkslategrey" font-family="Lato" font-size="40" text-anchor="middle" alignment-baseline="after-edge" >USB C</text>
+
+            <use x="0" y="13" href="#symbol-usb-c" transform="scale(1.5)"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-USB-C" x="0" y="0" caption="USB C" href="#component-USB-C"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+
+</svg>

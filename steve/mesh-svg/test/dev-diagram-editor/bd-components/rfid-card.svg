@@ -1,0 +1,49 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="block-diagram"
+    diagramType    ="svg-component"
+    viewBox        ="0 -100 300 200"
+    shape-rendering="geometricPrecision"
+    caption        =""
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="transmit-arcs"
+             overflow       ="visible"
+             stroke-linecap ="round"
+             fill           ="none"
+             stroke         ="dimgrey"
+             stroke-width="8"
+            >
+            <path d="M -23,  25 a 33, 33, 0, 0, 0, 0, -50"/>
+            <path d="M -11,  38 a 50, 50, 0, 0, 0, 0, -76"/>
+            <path d="M 0,  50 a 65, 65, 0, 0, 0, 0, -100"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-RFID-CARD"
+            overflow       ="visible"
+            >
+            <rect x="0"  y="-100" width="300" height="200" fill="#fffff4" stroke="dimgrey" stroke-width="0.9" rx="25" ry="25"/>
+
+            <text  x="175" y="0" fill="darkslategrey" text-anchor="middle" font-family="consolas" font-size="50" alignment-baseline="middle" >  RFID</text>
+
+            <use x="-50" y="0" href="#transmit-arcs" transform="rotate(180)"/>
+
+            <path id="arc-right" d="M  0, 4 a 1, 1, 0, 0, 0,  0, -8" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-RFID-CARD" x="0" y="0" caption="RFID-Card" href="#component-RFID-CARD"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

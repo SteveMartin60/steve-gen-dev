@@ -3630,7 +3630,7 @@
     <g id="round-rect" 
         stroke = "none"
         opacity ="1"
-        fill   = "#444141">     
+        fill   = "#444141">
         <path d="M -6.3 -5.3  H 6.3 
                  A 1 1 0 0 1 7.3 -4.3  V 4.3 
                  A 1 1 0 0 1 6.3 5.3  H -6.3

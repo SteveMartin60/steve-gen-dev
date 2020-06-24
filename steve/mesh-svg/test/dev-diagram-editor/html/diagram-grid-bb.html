@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Block Diagram Grid</title>
+        <meta charset="utf-8">
+        <style>
+            /*............................................................... */
+            #c
+            {
+                margin           :0 auto; /*center aligned*/
+                padding          :0;
+                font-size        :0; /* Remember to change it back to normal font size if have captions */
+                list-style       :none;
+                background-color :ivory;
+                overflow-x       : hidden;
+                overflow-y       : hidden;
+            }
+            /*............................................................... */
+            #c li
+            {
+                display        : inline-block;
+                width          : 100%;
+                vertical-align : middle;
+                box-sizing     : border-box;
+                margin         : 0;
+                padding        : 0;
+            }
+            /*............................................................... */
+            .diagram
+            {
+                display  : flex;
+                position : relative;
+                overflow : visible;
+            }
+            /*............................................................... */
+            .c-img
+            {
+                display    : block;
+                width      : 100%;
+                height     : auto;
+                border     : none;
+                transform  : scale(1);
+                transition : all 1s;
+                z-index    : auto;
+            }
+            /*............................................................... */
+            #c li:hover .c-img
+            {
+                transform :scale(3.05);
+                z-index   : 1100;
+            }
+            /*............................................................... */
+            .c-text
+            {
+                display     : flex;
+                background  : ivory;
+                margin      : 10px;
+                padding     : 18px;
+                position    : absolute;
+                left        : 25%;
+                width       : 50%;
+                text-align  : center;
+                font-size   : 68px;
+                font-family : 'Lato Semibold', sans-serif;
+                top         : 150%;
+                color       : green;
+                opacity     : 0;
+                transition  : all .3s;
+                zoom        : 1;
+            }
+            /*............................................................... */
+            #c li:hover .c-text
+            {
+                opacity    : 0.81;
+                z-index    : 1200;
+                transition : all .8s;
+            }
+            /*............................................................... */
+        </style>
+    </head>
+
+    <body>
+
+        <script type="text/javascript" src="../scripts/side-bar.js"></script>
+        <!--................................................................ -->
+    <ul id="c">
+<!--
+        <li><a class="diagram" ><img class="c-img" alt="MB0001"  src="../../doc/items/PCBA-MB0001/PCBA-MB0001-block-diagram.svg"   /><span class="c-text"> MB0001  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0003"  src="../../doc/items/PCBA-MB0003/PCBA-MB0003-block-diagram.svg"   /><span class="c-text"> MB0003  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0005"  src="../../doc/items/PCBA-MB0005/PCBA-MB0005-block-diagram.svg"   /><span class="c-text"> MB0005  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0006"  src="../../doc/items/PCBA-MB0006/PCBA-MB0006-block-diagram.svg"   /><span class="c-text"> MB0006  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0011"  src="../../doc/items/PCBA-MB0011/PCBA-MB0011-block-diagram.svg"   /><span class="c-text"> MB0011  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0015"  src="../../doc/items/PCBA-MB0015/PCBA-MB0015-block-diagram.svg"   /><span class="c-text"> MB0015  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0016"  src="../../doc/items/PCBA-MB0016/PCBA-MB0016-block-diagram.svg"   /><span class="c-text"> MB0016  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0017"  src="../../doc/items/PCBA-MB0017/PCBA-MB0017-block-diagram.svg"   /><span class="c-text"> MB0017  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0018"  src="../../doc/items/PCBA-MB0018/PCBA-MB0018-block-diagram.svg"   /><span class="c-text"> MB0018  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0020"  src="../../doc/items/PCBA-MB0020/PCBA-MB0020-block-diagram.svg"   /><span class="c-text"> MB0020  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0022"  src="../../doc/items/PCBA-MB0022/PCBA-MB0022-block-diagram.svg"   /><span class="c-text"> MB0022  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0023"  src="../../doc/items/PCBA-MB0023/PCBA-MB0023-block-diagram.svg"   /><span class="c-text"> MB0023  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0026"  src="../../doc/items/PCBA-MB0026/PCBA-MB0026-block-diagram.svg"   /><span class="c-text"> MB0026  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0028"  src="../../doc/items/PCBA-MB0028/PCBA-MB0028-block-diagram.svg"   /><span class="c-text"> MB0028  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0030"  src="../../doc/items/PCBA-MB0030/PCBA-MB0030-block-diagram.svg"   /><span class="c-text"> MB0030  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0031"  src="../../doc/items/PCBA-MB0031/PCBA-MB0031-block-diagram.svg"   /><span class="c-text"> MB0031  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0032"  src="../../doc/items/PCBA-MB0032/PCBA-MB0032-block-diagram.svg"   /><span class="c-text"> MB0032  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0035"  src="../../doc/items/PCBA-MB0035/PCBA-MB0035-block-diagram.svg"   /><span class="c-text"> MB0035  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0039"  src="../../doc/items/PCBA-MB0039/PCBA-MB0039-block-diagram.svg"   /><span class="c-text"> MB0039  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0045"  src="../../doc/items/PCBA-MB0045/PCBA-MB0045-block-diagram.svg"   /><span class="c-text"> MB0045  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0048"  src="../../doc/items/PCBA-MB0048/PCBA-MB0048-block-diagram.svg"   /><span class="c-text"> MB0048  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0049"  src="../../doc/items/PCBA-MB0049/PCBA-MB0049-block-diagram.svg"   /><span class="c-text"> MB0049  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0053"  src="../../doc/items/PCBA-MB0053/PCBA-MB0053-block-diagram.svg"   /><span class="c-text"> MB0053  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB0061"  src="../../doc/items/PCBA-MB0061/PCBA-MB0061-block-diagram.svg"   /><span class="c-text"> MB0061  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2000A" src="../../doc/items/PCBA-MB2000A/PCBA-MB2000A-block-diagram.svg" /><span class="c-text"> MB2000A </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2000B" src="../../doc/items/PCBA-MB2000B/PCBA-MB2000B-block-diagram.svg" /><span class="c-text"> MB2000B </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2001A" src="../../doc/items/PCBA-MB2001A/PCBA-MB2001A-block-diagram.svg" /><span class="c-text"> MB2001A </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2001B" src="../../doc/items/PCBA-MB2001B/PCBA-MB2001B-block-diagram.svg" /><span class="c-text"> MB2001B </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2002A" src="../../doc/items/PCBA-MB2002A/PCBA-MB2002A-block-diagram.svg" /><span class="c-text"> MB2002A </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB2002B" src="../../doc/items/PCBA-MB2002B/PCBA-MB2002B-block-diagram.svg" /><span class="c-text"> MB2002B </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB3001A" src="../../doc/items/PCBA-MB3001A/PCBA-MB3001A-block-diagram.svg" /><span class="c-text"> MB3001A </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB3001B" src="../../doc/items/PCBA-MB3001B/PCBA-MB3001B-block-diagram.svg" /><span class="c-text"> MB3001B </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB3002A" src="../../doc/items/PCBA-MB3002A/PCBA-MB3002A-block-diagram.svg" /><span class="c-text"> MB3002A </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB3002B" src="../../doc/items/PCBA-MB3002B/PCBA-MB3002B-block-diagram.svg" /><span class="c-text"> MB3002B </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB4001"  src="../../doc/items/PCBA-MB4001/PCBA-MB4001-block-diagram.svg"   /><span class="c-text"> MB4001  </span></a></li>
+        <li><a class="diagram" ><img class="c-img" alt="MB4002"  src="../../doc/items/PCBA-MB4002/PCBA-MB4002-block-diagram.svg"   /><span class="c-text"> MB4002  </span></a></li>
+-->
+    </ul>
+        <!--................................................................ -->
+<!--
+        <script>
+            //<![CDATA[
+                window.addEventListener("load", findSVGElements, false);
+            //]]>
+        </script>
+-->
+    <!--.................................................................... -->
+    </body>
+</html>

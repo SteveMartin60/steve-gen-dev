@@ -14,38 +14,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="firepad.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/firepad.html">
+      <file leaf-file-name="svg-editor.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1545625449152" expanded="true" signature="2087:2103" ph="..." />
-                <marker date="1545625449152" expanded="true" signature="2141:2151" ph="..." />
-              </folding>
+            <state relative-caret-position="313">
+              <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="richtext.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/richtext.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <marker date="1545725578210" expanded="true" signature="2002:2018" ph="..." />
-                <marker date="1545725578210" expanded="true" signature="2056:2066" ph="..." />
-                <marker date="1545725578210" expanded="true" signature="2152:2167" ph="..." />
-                <marker date="1545725578210" expanded="true" signature="2296:2315" ph="..." />
-                <marker date="1545725578210" expanded="true" signature="2366:2382" ph="..." />
-                <marker date="1545725578210" expanded="true" signature="2435:2446" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userlist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/userlist.html">
+      <file leaf-file-name="USB2-A-VF.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/USB2-A-VF.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -54,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ace.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/ace.html">
+      <file leaf-file-name="svg-editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/code.html">
+      <file leaf-file-name="BB0017.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mesh-svg/bb-dev/BB0017.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -76,11 +56,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>C:\dev\gen-dev\steve\mesh-doc-graphics\BB\components</find>
+      <find>svg-bb</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bd-editor/block-diagram-editor.html" />
+        <option value="$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.html" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Documentation/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Documentation/package-source/mesh-doc/node_modules" />
+    <handled-path value="$PROJECT_DIR$/mesh-doc-graphics/mesh-fonts/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -103,29 +102,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="General Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="General Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="steve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="General Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="General Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Google Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="steve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve" type="462c0819:PsiDirectoryNode" />
+              <item name="bd-editor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="General Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="General Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Google Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Alternatives" type="462c0819:PsiDirectoryNode" />
+              <item name="steve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve" type="462c0819:PsiDirectoryNode" />
+              <item name="mesh-svg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="steve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve" type="462c0819:PsiDirectoryNode" />
+              <item name="mesh-svg" type="462c0819:PsiDirectoryNode" />
+              <item name="bb-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="steve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve" type="462c0819:PsiDirectoryNode" />
+              <item name="mesh-svg" type="462c0819:PsiDirectoryNode" />
+              <item name="svg-editor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -133,6 +143,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,24 +169,27 @@
       <updated>1545725386641</updated>
       <workItem from="1545725388348" duration="1465000" />
       <workItem from="1545789590223" duration="594000" />
+      <workItem from="1587533856714" duration="913000" />
+      <workItem from="1587534854423" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2059000" />
+    <option name="totallyTimeSpent" value="2984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -196,33 +210,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/firepad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1545625449152" expanded="true" signature="2087:2103" ph="..." />
-            <marker date="1545625449152" expanded="true" signature="2141:2151" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/richtext.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <marker date="1545725578210" expanded="true" signature="2002:2018" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2056:2066" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2152:2167" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2296:2315" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2366:2382" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2435:2446" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/userlist.html">
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -230,49 +218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/ace.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/firepad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1545625449152" expanded="true" signature="2087:2103" ph="..." />
-            <marker date="1545625449152" expanded="true" signature="2141:2151" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/richtext.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <marker date="1545725578210" expanded="true" signature="2002:2018" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2056:2066" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2152:2167" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2296:2315" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2366:2382" ph="..." />
-            <marker date="1545725578210" expanded="true" signature="2435:2446" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/userlist.html">
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/USB2-A-VF.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -280,18 +226,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/ace.html">
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/code.html">
+    <entry file="file://$PROJECT_DIR$/mesh-svg/bb-dev/BB0017.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/firepad.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/richtext.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/userlist.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/ace.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/code.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/firepad.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/richtext.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/userlist.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/ace.html" />
+    <entry file="file://$PROJECT_DIR$/Google Docs/Alternatives/code.html" />
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/USB2-A-VF.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bd-editor/block-diagram-editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh-svg/bb-dev/BB0017.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mesh-svg/svg-editor/svg-editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="29" column="85" lean-forward="false" selection-start-line="29" selection-start-column="85" selection-end-line="29" selection-end-column="85" />
           <folding />
         </state>
       </provider>

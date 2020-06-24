@@ -1,0 +1,194 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-130 -130 260 270"
+    shape-rendering="geometricPrecision"
+    caption        ="Compass"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="crosshairs"
+            overflow       ="visible"
+            stroke-width   ="0.1"
+            shape-rendering="crispEdges"
+            >
+            <line   x1="-1000" x2="1000" y1="0"      y2="0"   />
+            <line   x1="0"     x2="0"    y1="-10000" y2="10000"/>
+            <circle cx="0"     cy="0"    r="0.5" fill="#ff0000" stroke="none" opacity="0.5"/>
+        </svg>
+        <svg id="crosshairs-black" overflow="visible" stroke="black"><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-red"   overflow="visible" stroke="red"  ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-blue"  overflow="visible" stroke="blue" ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-green" overflow="visible" stroke="green"><use href="#crosshairs"/></svg>
+    <!-- ................................................................. -->
+        <svg
+            id      ="compass-needle" 
+            overflow="visible"
+            stroke  ="#999999"
+            fill    ="#999999"
+            >
+            <line   x1="0" x2="0" y1="+1.8" y2="7.8" stroke-width="1"/>
+            <line   x1="0" x2="0" y1="-1.8" y2="-8" stroke-width="1"/>
+
+            <circle cx="0" cy="0" r="1.5" fill="none" stroke-width="0.75"/>
+
+            <circle cx="0" cy="0" r="0.5" stroke="none"/>
+            <path stroke-width="0" d="M 0, +6.5 a 5, 5, 0, 0, 0, 2, 3 a 5, 5, 0, 0, 0, -4, 0 a 5, 5, 0, 0, 0, 2, -3"/>
+            <path stroke-width="0" d="M 0, -9.5 a 5, 5, 0, 0, 0, 2, 3 a 5, 5, 0, 0, 0, -4, 0 a 5, 5, 0, 0, 0, 2, -3"/>
+        </svg>
+    <!-- ................................................................. -->
+        <line id="compass-stroke" x1="0" x2="0" y1="-13"  y2="-15" stroke="#888888"  stroke-width="1.5"/>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-text"
+            overflow="visible"
+            >
+            <text  x="0"      y="-17.8" fill="#666666" font-size="8" text-anchor="middle" font-family="Lato" font-weight="700" >N</text>
+            <text  x="0"      y="23.07" fill="#666666" font-size="8" text-anchor="middle" font-family="Lato" font-weight="700" >S</text>
+            <text  x="22.85"  y="2.7"   fill="#666666" font-size="8" text-anchor="end"    font-family="Lato" font-weight="700" >E</text>
+            <text  x="-25.54" y="2.7"   fill="#666666" font-size="8" text-anchor="start"  font-family="Lato" font-weight="700" >W</text>
+
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass"
+            overflow="visible"
+            isDisplay="true"
+            >
+            <use x="0" y="0" href="#compass-text"/> 
+
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(000, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(030, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(060, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(090, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(120, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(150, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(180, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(210, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(240, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(270, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(300, 0, 0)"/>
+            <use x="0" y="0" href="#compass-stroke" transform="rotate(330, 0, 0)"/>
+
+            <use x="0" y="0" href="#compass-needle" transform="rotate(+60, 0, 0)"/>
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="square-corner"
+            overflow="visible"
+            >
+            <path stroke-width="0.5" stroke="#444444" fill="#777777" d="M 0, 0 h 60 a 60, 60, 0, 0, 0, -60, 60 v-60"/>
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="square-corners-4"
+            overflow="visible"
+            >
+             <use x="0"    y="0"    href="#square-corner" transform="rotate(00)"/> 
+             <use x="0"    y="-120" href="#square-corner" transform="rotate(90)"/>  
+             <use x="-120" y="-120" href="#square-corner" transform="rotate(180)"/> 
+             <use x="-120" y="0"    href="#square-corner" transform="rotate(270)"/> 
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face"
+            overflow="visible"
+            >
+            <rect x="0" y="0" width="120" height="120" fill="white" stroke-width="none" stroke="#none" opacity="0.9"/>
+            <rect x="0" y="0" width="120" height="120" fill="none" stroke-width="1" stroke="#444444" />
+
+            <use x="0" y="0" href="#square-corners-4"/> 
+            <use x="26.09" y="26.09" href="#compass" transform="scale(2.3)"/> 
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-top-45"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#compass-face" transform="rotate(45, 60, 60)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-top"
+            overflow="visible"
+            >
+            <use x="25" y="-60" href="#compass-face-top-45" transform="scale(1.2, 0.5)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-bottom"
+            overflow="visible"
+            >
+            <use x="25" y="180" href="#compass-face-top-45" transform="scale(1.2, 0.5)"  opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-left-front"
+            overflow="visible"
+            >
+            <use x="0" y="0.2" href="#compass-face" transform="skewY(+22.6) scale(0.85 1)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-left-back"
+            overflow="visible"
+            >
+            <use x="00" y="0" href="#compass-face" transform="skewY(-22.6) scale(0.85, 1.00)" opacity="0.5" />
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-right-front"
+            overflow="visible"
+            >
+            <use x="120" y="85" href="#compass-face" transform="skewY(-22.6) scale(0.85, 1.00)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="compass-face-right-back"
+            overflow="visible"
+            >
+            <use x="120" y="-85" href="#compass-face" transform="skewY(+22.6) scale(0.85 1)" opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id       ="symbol-COMPASS-3D"
+            isDisplay="true"
+            overflow ="visible"
+            >
+            <use x="-102" y="-60.1" href="#compass-face-bottom"     />  
+            <use x="-102" y="-60.1" href="#compass-face-left-back"  />
+            <use x="-102" y="-60.1" href="#compass-face-right-back" />
+            <use x="-102" y="-60.1" href="#compass-face-right-front"/>
+            <use x="-102" y="-60.1" href="#compass-face-left-front" />
+            <use x="-102" y="-60.1" href="#compass-face-top"        /> 
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="component-COMPASS-3D"
+            overflow="visible"
+            >
+
+            <rect x="-130" y="-130" width="260" height="30" stroke="#505050" fill="#d9ead3" shape-rendering="crispEdges"/> 
+            <rect x="-130" y="-100" width="260" height="240" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <use  x="0"    y="20" href="#symbol-COMPASS-3D"        />
+            <text x="0"    y="-106" font-family="Lato" font-size="30" fill="darkgreen" text-anchor="middle">Compass</text>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-COMPASS-3D" x="0" y="0" caption="Compass" href="#component-COMPASS-3D"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

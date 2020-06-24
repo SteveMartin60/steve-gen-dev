@@ -1,0 +1,77 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-200 -200 400 400"
+    shape-rendering="geometricPrecision"
+    caption        ="Touchpad"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="transmit-arcs"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            fill           ="none"
+            stroke         ="dimgrey"
+            stroke-width   ="8"
+            >
+
+            <path d="M -23, 25 a 33, 33, 0, 0, 0, 0, -50" />
+            <path d="M -11, 38 a 50, 50, 0, 0, 0, 0, -76" />
+            <path d="M 0,   50 a 65, 65, 0, 0, 0, 0, -100"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="symbol-hand"
+            overflow       ="visible"
+            stroke="dimgrey"
+            >
+            <path fill="dimgrey" d="M -70, 49        c  0, 109,     140, 109,     140, 0 "/>
+
+            <path stroke-linecap="square" stroke-width="34" d="M -53,   +10  v 21" />
+            <path stroke-linecap="round"  stroke-width="34" d="M -53,   -10  v 39" />
+            <path stroke-linecap="round"  stroke-width="34" d="M -17.5, -25  v 39" />
+            <path stroke-linecap="square" stroke-width="34" d="M -17.5, +9   v 22" />
+            <path stroke-linecap="round"  stroke-width="34" d="M +17.5, -53  v 59" />
+            <path stroke-linecap="square" stroke-width="34" d="M +17.5, +9   v 22" />
+            <path stroke-linecap="round"  stroke-width="34" d="M +53,   -114 v 120"/>
+            <path stroke-linecap="square" stroke-width="34" d="M +53,   +9   v 22" />
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id             ="transmit-arcs-130"
+            overflow       ="visible"
+            >
+            <use x="0" y="0" href="#transmit-arcs" transform="rotate(-130)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id             ="component-TOUCHPAD"
+            overflow       ="visible"
+            >
+            <rect x="-200" y="-200" width="400" height="400" stroke="darkslategray" fill="#ffe599" stroke-width="0.5" shape-rendering="crispEdges"/>
+            <rect x="-125" y="-150"  width="250" height="300" stroke="dimgrey" fill="#fffff8" stroke-width="0.5" shape-rendering="crispEdges"/>
+
+            <use x="-55" y="-100" href="#transmit-arcs-130"/>
+
+            <use x="50" y="48" href="#symbol-hand" transform="rotate(-45, 50, 80)"/>
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-TOUCHPAD" x="0" y="0" caption="Touchpad" href="#component-TOUCHPAD"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

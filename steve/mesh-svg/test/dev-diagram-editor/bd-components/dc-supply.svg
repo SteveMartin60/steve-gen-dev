@@ -1,0 +1,76 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="DC Power Supply"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id            ="sine-wave-cycle"
+            overflow      ="visible"
+            fill          ="none" 
+            stroke        ="dimgrey" 
+            stroke-width  ="2" 
+            stroke-linecap="round"
+            >
+            <path
+                d="
+                    M 0, 0
+                    c 3, +12, 7, +12, 10, +0
+                    c 3, -12, 7, -12, 10, +0 
+                  "
+            />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="sine-wave-cycles-2"
+            overflow="visible"
+            >
+            <use x="0"  y="0" href="#sine-wave-cycle"/>
+            <use x="20" y="0" href="#sine-wave-cycle"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id       ="symbol-POWER-SUPPLY-DC"
+            overflow ="visible"
+            stroke   ="dimgrey"
+            isDisplay="true"
+            >
+            <line x1="01" x2="31" y1="21" y2="21" stroke-width="2" stroke-linecap="square"/>
+            <line x1="01" x2="07" y1="26" y2="26" stroke-width="2" stroke-linecap="square"/>
+            <line x1="13" x2="19" y1="26" y2="26" stroke-width="2" stroke-linecap="square"/>
+            <line x1="25" x2="31" y1="26" y2="26" stroke-width="2" stroke-linecap="square"/>
+            
+            <line x1="45" x2="-45" y1="-45" y2="45" stroke-width="4" stroke-linecap="square"/>
+
+            <rect x="-48" y="-48" width="96" height="96" fill="none" rx="7" ry="7" stroke-width="4"/>
+
+            <use x="-40" y="-25" href="#sine-wave-cycles-2"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-POWER-SUPPLY-DC"
+            overflow       ="visible"
+            stroke-width   ="1"
+            >
+            <rect x="-100" y="-100" width="200" height="200" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <use x="0" y="0" href="#symbol-POWER-SUPPLY-DC" transform="scale(1.9)"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-POWER-SUPPLY-DC" x="0" y="0" caption="DC Power Supply" href="#component-POWER-SUPPLY-DC"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-200 -200 400 400"
+    caption        ="ESD Protection"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="teeth-cog"
+            overflow="visible"
+            >
+            <path
+                stroke="none"
+                fill-rule="evenodd"
+                fill="dimgrey"
+                d=
+                  "
+                    M 0, 0
+                    M 0, -55
+                    H -17
+                    L -9 -83
+                    H 9
+                    L 17 -55
+                    M 0 55
+                    H -17
+                    L -9 83
+                    H 9
+                    L 17 55
+                  "
+            />
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="wheel-cog"
+            overflow="visible"
+            >
+            <circle cx="0" cy="0" r="50" fill="none" stroke="dimgrey" stroke-width="20"/>
+
+            <use x="0" y="0" href="#teeth-cog"  transform="rotate(0)"     />
+            <use x="0" y="0" href="#teeth-cog"  transform="rotate(45)"     />
+            <use x="0" y="0" href="#teeth-cog"  transform="rotate(-45)"     />
+            <use x="0" y="0" href="#teeth-cog"  transform="rotate(90)"     />
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" opacity="0" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="wheel-cog-075"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#wheel-cog"  transform="scale(0.85)"     />
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="wheel-cog-075"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#wheel-cog"  transform="scale(0.75)"     />
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="wheel-cog-065"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#wheel-cog"  transform="scale(0.65) rotate(15)"   />
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="wheel-cog-055"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#wheel-cog"  transform="scale(0.55) rotate(0)"   />
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="settings-gears"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#wheel-cog"       />
+            <use x="132" y="-17" href="#wheel-cog-055"/>
+            <use x="100" y="90" href="#wheel-cog-065"/>
+            <use x="90" y="-100" href="#wheel-cog-065"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" opacity="0" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="settings-gears" href="#settings-gears"/>
+</svg>

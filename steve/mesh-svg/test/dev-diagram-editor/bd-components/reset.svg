@@ -1,0 +1,23 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-200 -200 400 400"
+    caption        ="ESD Protection"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="component-reset"
+             overflow="visible"
+            >
+            <rect x="-100" y="-100" width="200" height="200" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+            <path fill="none" stroke-width="25" stroke="gray" d="M 60 0 A 70, 70, 0, 1, 0, 42, 47"/>
+            <path fill="gray"  stroke="none" d="M 95 -1 H 25 L 60 45 Z"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+        <use x="0" y="0" href="#component-reset"/>
+</svg>

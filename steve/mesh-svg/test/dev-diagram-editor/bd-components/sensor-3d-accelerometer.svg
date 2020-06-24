@@ -1,0 +1,148 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-130 -130 260 270"
+    shape-rendering="geometricPrecision"
+    caption        ="Accelerometer"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="gauge-needle" 
+            overflow="visible"
+            stroke  ="#999999"
+            fill    ="#999999"
+            >
+            <line   x1="0" x2="0" y1="+1.8" y2="+5" stroke-width="1"/>
+            <line   x1="0" x2="0" y1="-1.8" y2="-8" stroke-width="1"/>
+
+            <circle cx="0" cy="0" r="1.5" fill="none" stroke-width="0.75"/>
+
+            <circle cx="0" cy="0" r="0.5" stroke="none"/>
+            <path
+                stroke-width="0" 
+                d="
+                    M 0, +3.5
+                    a 5, 5, 0, 0, 0, 2, 3
+                    a 5, 5, 0, 0, 0, -4, 0
+                    a 5, 5, 0, 0, 0, 2, -3
+                  "
+            />
+            <path
+                stroke-width="0" 
+                d="
+                    M 0, -9.5
+                    a 5, 5, 0, 0, 0, 2, 3
+                    a 5, 5, 0, 0, 0, -4, 0
+                    a 5, 5, 0, 0, 0, 2, -3
+                  "
+            />
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="arrow-circular"
+            overflow="visible"
+            >
+            <path fill="none" stroke-width="7" stroke="#999999" d="M 0 0 a 35, 35, 0, 1, 0, -30, 0"/>
+            <path transform="scale(3)" stroke-width="0" fill="#999999" d="M 0, -5.5 a 15, 15, 0, 0, 0, 5, 8 a 15, 15, 0, 0, 0, -10, 0 a 15, 15, 0, 0, 0, 5, -8 "/>
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-contents"
+            overflow="visible"
+            >
+            <rect x="0" y="0" width="120" height="120" fill="white" stroke-width="1" stroke="#444444"  opacity="0.85"/>
+            <use x="65" y="83.2" href="#arrow-circular" transform="scale(1.2)"/> 
+            <use x="15" y="15.5" href="#gauge-needle" transform="scale(4) rotate(60, 15, 15.5)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-top-contents-45"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#accelerometer-face-contents" transform="rotate(45, 60, 60)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-top"
+            overflow="visible"
+            >
+            <use x="25" y="-60" href="#accelerometer-face-top-contents-45" transform="scale(1.2, 0.5)"/>
+        </svg>
+        <svg
+            id="accelerometer-face-bottom"
+            overflow="visible"
+            >
+            <use x="25" y="180" href="#accelerometer-face-top-contents-45" transform="scale(1.2, 0.5)"  opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-left-front"
+            overflow="visible"
+            >
+            <use x="0" y="0.2" href="#accelerometer-face-contents" transform="skewY(+22.6) scale(0.85 1)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-left-back"
+            overflow="visible"
+            >
+            <use x="00" y="0" href="#accelerometer-face-contents" transform="skewY(-22.6) scale(0.85, 1.00)" opacity="0.5" />
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-right-front"
+            overflow="visible"
+            >
+            <use x="120" y="85" href="#accelerometer-face-contents" transform="skewY(-22.6) scale(0.85, 1.00)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="accelerometer-face-right-back"
+            overflow="visible"
+            >
+            <use x="120" y="-85" href="#accelerometer-face-contents" transform="skewY(+22.6) scale(0.85 1)" opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="symbol-ACCELEROMETER-3D"
+            overflow="visible"
+            >
+            <use x="-102" y="-60.1" href="#accelerometer-face-bottom"     /> 
+            <use x="-102" y="-60.1" href="#accelerometer-face-left-back"  />
+            <use x="-102" y="-60.1" href="#accelerometer-face-right-back" />
+            <use x="-102" y="-60.1" href="#accelerometer-face-right-front"/>
+            <use x="-102" y="-60.1" href="#accelerometer-face-left-front" />
+            <use x="-102" y="-60.1" href="#accelerometer-face-top"        />
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="component-ACCELEROMETER-3D"
+            overflow="visible"
+            >
+            <rect x="-130" y="-130" width="260" height="30" stroke="#505050" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-130" y="-100" width="260" height="240" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <use  x="0"    y="20" href="#symbol-ACCELEROMETER-3D"        />
+            <text x="0"    y="-105" font-family="Lato" font-size="30" fill="darkgreen" text-anchor="middle">Accelerometer</text>
+
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-ACCELEROMETER-3D" x="0" y="0" caption="Accelerometer" href="#component-ACCELEROMETER-3D"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

@@ -1,0 +1,208 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-130 -130 260 270"
+    shape-rendering="geometricPrecision"
+    caption        ="Gyroscope"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="crosshairs"
+            overflow       ="visible"
+            stroke-width   ="0.1"
+            shape-rendering="crispEdges"
+            >
+            <line   x1="-1000" x2="1000" y1="0"      y2="0"   />
+            <line   x1="0"     x2="0"    y1="-10000" y2="10000"/>
+            <circle cx="0"     cy="0"    r="0.5" fill="#ff0000" stroke="none" opacity="0.5"/>
+        </svg>
+        <svg id="crosshairs-black" overflow="visible" stroke="black"><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-red"   overflow="visible" stroke="red"  ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-blue"  overflow="visible" stroke="blue" ><use href="#crosshairs"/></svg>
+        <svg id="crosshairs-green" overflow="visible" stroke="green"><use href="#crosshairs"/></svg>
+    <!-- ................................................................. -->
+        <svg
+            id="rotate-360"
+            overflow="visible"
+            fill="dimgrey"
+            >
+        <path
+            d=
+                "
+                    M 16.7, 10.258
+                    c -0.004,-0.127,-0.006,-0.165,-0.013,-0.335
+                    c 0.001,0.02,-0.01,-0.159,-0.008,-0.14
+                    l -1.225,0.08
+                    c 0.005,0.071,0.009,0.137,0.013,0.209
+                    c 0,-0.001,0.025,0.732,0.025,0.731
+                    c 0,0.925,-0.066,1.891,-0.214,2.85
+                    c 0.443,-0.125,0.877,-0.272,1.288,-0.444
+                    c 0.097,-0.8,0.143,-1.604,0.143,-2.405
+                    c -0.001,-0.127,-0.002,-0.254,-0.004,-0.381
+                    z
+                    m -12.47,5.265
+                    l -3.386,-0.983
+                    l 0.658,-0.711
+                    c -0.841,-0.79,-1.458,-1.798,-1.458,-2.98
+                    c 0.006,-0.916,0.35,-1.691,0.912,-2.399
+                    c 0.83,-1.011,2.014,-1.758,3.339,-2.293
+                    c -0.116,0.484,-0.212,0.973,-0.289,1.466
+                    c -0.578,0.292,-1.109,0.636,-1.57,1.038
+                    c -0.563,0.5,-1.035,1.118,-1.149,1.862
+                    c -0.076,0.5,0.027,0.975,0.259,1.417
+                    c 0.197,0.374,0.478,0.711,0.782,0.995
+                    l 0.657,-0.711
+                    l 1.245,3.299
+                    z
+                    m 4.214, -10.391
+                    c 0.84,-0.103,1.656,-0.148,2.4,-0.148
+                    c 1.765,0,3.552,0.222,5.246,0.722
+                    c 2.32,0.685,5.537,2.332,5.554,5.143
+                    c -0.006,0.915,-0.349,1.69,-0.911,2.398
+                    c -2.151,2.622,-6.685,3.467,-9.889,3.467
+                    c -0.89,0,-1.822,-0.054,-2.697,-0.182
+                    l 0.165,-1.205
+                    c 0.82,0.12,1.699,0.17,2.533,0.17
+                    c 2.71,0,6.298,-0.621,8.408,-2.46
+                    c 0.644,-0.572,1.167,-1.297,1.175,-2.188
+                    c-0.013,-1.455,-1.41,-2.516,-2.574,-3.134
+                    c-2.086,-1.093,-4.677,-1.515,-7.01,-1.515
+                    c -0.884,0,-1.862,0.066,-2.852,0.219
+                    c 0.127,-0.442,0.277,-0.873,0.452,-1.287
+                    z
+                    m 5.624,12.551
+                    c 0.486,-0.076,0.975,-0.169,1.459,-0.283
+                    c -0.85,2.063,-2.374,4.235,-4.683,4.249
+                    c -0.916,-0.006,-1.691,-0.349,-2.399,-0.911
+                    c -2.622,-2.152,-3.466,-6.685,-3.466,-9.889
+                    c 0,-1.764,0.222,-3.552,0.722,-5.246
+                    c 0.685,-2.32,2.332,-5.537,5.143,-5.554
+                    c 1.454,0,2.627,0.926,3.466,2.038
+                    l 0.778,-0.577
+                    l 0.61,3.471
+                    l -3.144,-1.593
+                    l 0.778,-0.577
+                    c -0.581,-0.787,-1.465,-1.545,-2.488,-1.545
+                    c -1.455,0.013,-2.516,1.411,-3.134,2.575
+                    c -1.093,2.084,-1.515,4.675,-1.515,7.008
+                    c 0,2.71,0.621,6.298,2.461,8.408
+                    c 0.572,0.644,1.296,1.167,2.188,1.175
+                    c 1.455,-0.013,2.516,-1.41,3.134,-2.574
+                    z
+                  "
+            />
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id="square-grey"
+            overflow="visible"
+            fill="none" stroke="#444444" 
+            >
+            <rect x="0" y="0" width="120" height="120" fill="white" stroke-width="1" opacity="0.85"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-contents"
+            overflow="visible"
+            >
+            <use x="3.3" y="3.75" href="#rotate-360" transform="scale(4.23)"/> 
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-contents"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#square-grey"    /> 
+            <use x="0" y="0" href="#gyroscope-contents"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-top-contents-45"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#gyroscope-face-contents" transform="rotate(45, 60, 60)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-top"
+            overflow="visible"
+            >
+            <use x="25" y="-60" href="#gyroscope-face-top-contents-45" transform="scale(1.2, 0.5)"/>
+        </svg>
+        <svg
+            id="gyroscope-face-bottom"
+            overflow="visible"
+            >
+            <use x="25" y="180" href="#gyroscope-face-top-contents-45" transform="scale(1.2, 0.5)"  opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-left-front"
+            overflow="visible"
+            >
+            <use x="0" y="0.2" href="#gyroscope-face-contents" transform="skewY(+22.6) scale(0.85 1)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-left-back"
+            overflow="visible"
+            >
+            <use x="00" y="0" href="#gyroscope-face-contents" transform="skewY(-22.6) scale(0.85, 1.00)" opacity="0.5" />
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-right-front"
+            overflow="visible"
+            >
+            <use x="120" y="85" href="#gyroscope-face-contents" transform="skewY(-22.6) scale(0.85, 1.00)"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="gyroscope-face-right-back"
+            overflow="visible"
+            >
+            <use x="120" y="-85" href="#gyroscope-face-contents" transform="skewY(+22.6) scale(0.85 1)" opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+
+    <!-- ................................................................. -->
+        <svg
+            id       ="symbol-GYROSCOPE-3D"
+            overflow ="visible"
+            isDisplay="true"
+        >
+        <use x="-102" y="-60.1" href="#gyroscope-face-bottom"     />  
+        <use x="-102" y="-60.1" href="#gyroscope-face-left-back"  />
+        <use x="-102" y="-60.1" href="#gyroscope-face-right-back" />
+        <use x="-102" y="-60.1" href="#gyroscope-face-right-front"/>
+        <use x="-102" y="-60.1" href="#gyroscope-face-left-front" />
+        <use x="-102" y="-60.1" href="#gyroscope-face-top"        /> 
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="component-GYROSCOPE-3D"
+            overflow="visible"
+            >
+
+            <rect x="-130" y="-130" width="260" height="30" stroke="#505050" fill="#d9ead3" shape-rendering="crispEdges"/> 
+            <rect x="-130" y="-100" width="260" height="240" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <use  x="0"    y="20" href="#symbol-GYROSCOPE-3D"        />
+            <text x="0"    y="-106" font-family="Lato" font-size="30" fill="darkgreen" text-anchor="middle">Gyroscope</text>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-GYROSCOPE-3D" x="0" y="0" caption="Gyroscope" href="#component-GYROSCOPE-3D"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

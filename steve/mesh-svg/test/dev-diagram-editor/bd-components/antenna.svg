@@ -1,0 +1,60 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-100 -100 200 200"
+    caption        ="Antenna"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="symbol-transmit-arcs"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            fill           ="none"
+            stroke         ="dimgrey"
+            stroke-width="8"
+            >
+            <path d="M -23,  25 a 33, 33, 0, 0, 0, 0, -50"/>
+            <path d="M -11,  38 a 50, 50, 0, 0, 0, 0, -76"/>
+            <path d="M 0,  50 a 65, 65, 0, 0, 0, 0, -100"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-ANTENNA"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            stroke-linejoin="round"
+            stroke         ="dimgrey"
+            stroke-width   ="2.9"
+            >
+            <rect x="-100" y="-100" width="200" height="200" fill="#ffe599" stroke="#666666" stroke-width="0.6"/>
+
+            <circle cx="-0"     cy="-20"    r="15" fill="dimgrey"  stroke="none"/>
+
+            <line   x1="0" x2="0" y1="-8.5" y2="70" stroke="dimgrey" stroke-width="12.5"/>
+
+            <rect x="-30" y="65" width="60" rx="7" ry="7" height="15" fill="dimgrey" stroke="none"/>
+            <rect x="-30" y="75" width="60" rx="0.0" ry="0.0" height="8" fill="dimgrey" stroke="none"/>
+
+            <use x="50" y="-20" href="#symbol-transmit-arcs" />
+            <use x="50" y="+20" href="#symbol-transmit-arcs" transform="rotate(180)"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-ANTENNA" x="0" y="0" caption="Antenna" href="#component-ANTENNA"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

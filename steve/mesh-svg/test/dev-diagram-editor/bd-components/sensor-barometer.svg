@@ -1,0 +1,192 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-130 -130 260 270"
+    shape-rendering="geometricPrecision"
+    caption        ="Barometer"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="gauge-needle" 
+            overflow="visible"
+            stroke  ="dimgrey"
+            fill    ="dimgrey"
+            >
+            <line   x1="0" x2="0" y1="+1.8" y2="+5" stroke-width="1"/>
+            <line   x1="0" x2="0" y1="-1.8" y2="-8" stroke-width="1"/>
+
+            <circle cx="0" cy="0" r="1.5" fill="none" stroke-width="0.75"/>
+
+            <circle cx="0" cy="0" r="0.5" stroke="none"/>
+            <path
+                stroke-width="0" 
+                d="
+                    M 0, +3.5
+                    a 5, 5, 0, 0, 0, 2, 3
+                    a 5, 5, 0, 0, 0, -4, 0
+                    a 5, 5, 0, 0, 0, 2, -3
+                  "
+            />
+            <path
+                stroke-width="0" 
+                d="
+                    M 0, -9.5
+                    a 5, 5, 0, 0, 0, 2, 3
+                    a 5, 5, 0, 0, 0, -4, 0
+                    a 5, 5, 0, 0, 0, 2, -3
+                  "
+            />
+        </svg>
+    <!-- ............................................................. -->
+        <line id="stroke-gauge" x1="0" x2="0" y1="-100"  y2="-110"   stroke-width="5"/>
+        <line id="stroke-gauge-old" x1="0" x2="0" y1="-11"  y2="-13"   stroke-width="1.5"/>
+        <line id="stroke-sun"   x1="0" x2="0" y1="-11"  y2="-13" stroke="#888888"  stroke-width="1.5"/>
+    <!-- ............................................................. -->
+        <svg
+            id="gauge-outline"
+            overflow="visible"
+            >
+            <path fill="none" stroke-width="1" stroke="#999999" d="M 12.5 8.3 a 15, 15, 0, 1, 0, -25, 0"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="gauge-needle-large"
+            overflow="visible"
+                stroke="dimgrey" 
+            >
+            <use x="0" y="0" href="#gauge-needle" transform="scale(7) rotate(60)"/> 
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="gauge"
+            overflow="visible"
+            stroke="dimgrey"
+            stroke-linejoin ="round"
+            stroke-linecap ="round"
+            >
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(000, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(015, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(030, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(045, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(060, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(075, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(090, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(105, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(120, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(240, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(255, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(270, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(285, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(300, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(315, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(330, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge" transform="rotate(345, 0, 0)"/>
+
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="gauge-old"
+            overflow="visible"
+            stroke="#888888"
+            >
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(+000, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(+030, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(+060, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(+090, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(+120, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(-030, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(-060, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(-090, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-gauge-old" transform="rotate(-120, 0, 0)"/>
+
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-sun"
+            overflow="visible"
+            stroke-linejoin ="round"
+            stroke-linecap ="round"
+            >
+            <circle cx="0" cy="0" r="8" fill="none" stroke="#888888" stroke-width="2" cursor="default"/>
+
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(000, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(030, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(060, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(090, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(120, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(150, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(180, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(210, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(240, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(270, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(300, 0, 0)"/>
+            <use x="0" y="0" href="#stroke-sun" transform="rotate(330, 0, 0)"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-clouds-2d"
+            overflow="visible"
+            stroke-linejoin ="round"
+            stroke-linecap ="round"
+            >
+            <path
+                fill="#ffe599"
+                stroke-width="3"
+                stroke="dimgrey" 
+                d="
+                    M 0 0 
+                    h -12.1875 
+                    a 3.125  3.125  0, 1, 1, 01.875 -10.625 
+                    a 4.6875 4.6875 0, 1, 1, 16.875 -06.5625
+                    a 3.125  3.125  0, 1, 1, 03.75  +05.3125
+                    a 4.6875 4.6875 0, 1, 1, 1.875  +11.875
+                    z
+                  "
+            />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="symbol-BAROMETER-2D"
+            overflow="visible"
+            fill="none"
+            >
+            <path stroke-width="6" stroke="dimgrey" d="M -90 110 a 120, 120, 0, 1, 1, 180,  0 z"/>
+
+            <use x="14" y="-47" href="#symbol-sun"/> 
+            <use x="0" y="-30" href="#symbol-clouds-2d"/> 
+
+            <use x="-70" y="60" href="#symbol-clouds-2d"/> 
+            
+            <use x="0" y="30" href="#gauge-needle-large" transform="scale(4, 0, 30)"/> 
+
+            <use x="70" y="49" href="#symbol-sun"/> 
+
+            <use x="0" y="30" href="#gauge"/> 
+            
+            <text  x="0" y="95" font-family="Consolas" fill="dimgrey" font-size="38" text-anchor="middle" >hPa      </text>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-BAROMETER-2D"
+            overflow="visible"
+            >
+            <rect x="-130" y="-130" width="260" height="30" stroke="#505050" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-130" y="-100" width="260" height="240" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <text x="0"    y="-105" font-family="Lato" font-size="30" fill="darkgreen" text-anchor="middle">Barometer</text>
+            <use x="0"     y="0" href="#symbol-BAROMETER-2D" transform="scale(1)" />
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-BAROMETER-2D" x="0" y="0" caption="Barometer" href="#component-BAROMETER-2D"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

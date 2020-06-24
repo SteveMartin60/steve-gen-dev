@@ -1,0 +1,198 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="block-diagram" 
+    fill           ="none" 
+    shape-rendering="geometricPrecision"
+    font-family    ="Consolas"
+    font-size="65"
+    viewBox="-2410 -1710 4820 3420"
+    >
+    <defs>
+<!-- ................................................................. -->
+<!-- Defs Begin                                                        -->
+<!-- ................................................................. -->
+    <!-- ............................................................. -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none" shape-rendering="geometricPrecision"/>
+    <!-- ............................................................. -->
+        <line id="line-h-0150-dimgrey" x1="-0075" x2="0075" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0350-dimgrey" x1="-0175" x2="0175" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0550-dimgrey" x1="-0275" x2="0275" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0750-dimgrey" x1="-0375" x2="0375" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0950-dimgrey" x1="-0475" x2="0475" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1150-dimgrey" x1="-0575" x2="0575" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1350-dimgrey" x1="-0675" x2="0675" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1550-dimgrey" x1="-0775" x2="0775" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1750-dimgrey" x1="-0875" x2="0875" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+    <!-- ................................................................... -->
+        <line id="line-h-0200-dimgrey" x1="-0100" x2="0100" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0400-dimgrey" x1="-0200" x2="0200" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0600-dimgrey" x1="-0300" x2="0300" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0800-dimgrey" x1="-0400" x2="0400" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1000-dimgrey" x1="-0500" x2="0500" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1200-dimgrey" x1="-0600" x2="0600" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1400-dimgrey" x1="-0700" x2="0700" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1600-dimgrey" x1="-0800" x2="0800" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1800-dimgrey" x1="-0900" x2="0900" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+    <!-- ................................................................... -->
+        <svg id="arrow-single-0200" overflow="visible" ><use x="-25" y="0" href="#line-h-0150-dimgrey"/><use x="0100"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0400" overflow="visible" ><use x="-25" y="0" href="#line-h-0350-dimgrey"/><use x="0200"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0600" overflow="visible" ><use x="-25" y="0" href="#line-h-0550-dimgrey"/><use x="0300"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0800" overflow="visible" ><use x="-25" y="0" href="#line-h-0750-dimgrey"/><use x="0400"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1000" overflow="visible" ><use x="-25" y="0" href="#line-h-0950-dimgrey"/><use x="0500"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1200" overflow="visible" ><use x="-25" y="0" href="#line-h-1150-dimgrey"/><use x="0600"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1400" overflow="visible" ><use x="-25" y="0" href="#line-h-1350-dimgrey"/><use x="0700"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1600" overflow="visible" ><use x="-25" y="0" href="#line-h-1550-dimgrey"/><use x="0800"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1800" overflow="visible" ><use x="-25" y="0" href="#line-h-1750-dimgrey"/><use x="0900"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+    <!-- ................................................................... -->
+        <svg id="arrow-dual-0200" overflow="visible" ><use x="0" href="#line-h-0150-dimgrey"/><use x="0100"  href="#arrow-head-large" fill="dimgrey"/> <use x="0100"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0400" overflow="visible" ><use x="0" href="#line-h-0350-dimgrey"/><use x="0200"  href="#arrow-head-large" fill="dimgrey"/> <use x="0200"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0600" overflow="visible" ><use x="0" href="#line-h-0550-dimgrey"/><use x="0300"  href="#arrow-head-large" fill="dimgrey"/> <use x="0300"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0800" overflow="visible" ><use x="0" href="#line-h-0750-dimgrey"/><use x="0400"  href="#arrow-head-large" fill="dimgrey"/> <use x="0400"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1000" overflow="visible" ><use x="0" href="#line-h-0950-dimgrey"/><use x="0500"  href="#arrow-head-large" fill="dimgrey"/> <use x="0500"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1200" overflow="visible" ><use x="0" href="#line-h-1150-dimgrey"/><use x="0600"  href="#arrow-head-large" fill="dimgrey"/> <use x="0600"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1400" overflow="visible" ><use x="0" href="#line-h-1350-dimgrey"/><use x="0700"  href="#arrow-head-large" fill="dimgrey"/> <use x="0700"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1600" overflow="visible" ><use x="0" href="#line-h-1550-dimgrey"/><use x="0800"  href="#arrow-head-large" fill="dimgrey"/> <use x="0800"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1800" overflow="visible" ><use x="0" href="#line-h-1750-dimgrey"/><use x="0900"  href="#arrow-head-large" fill="dimgrey"/> <use x="0900"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+    <!-- ................................................................... -->
+        <svg id="arrow-blunt-0200" overflow="visible" ><use x="0" href="#line-h-0200-dimgrey"/></svg>
+        <svg id="arrow-blunt-0400" overflow="visible" ><use x="0" href="#line-h-0400-dimgrey"/></svg>
+        <svg id="arrow-blunt-0600" overflow="visible" ><use x="0" href="#line-h-0600-dimgrey"/></svg>
+        <svg id="arrow-blunt-0800" overflow="visible" ><use x="0" href="#line-h-0800-dimgrey"/></svg>
+        <svg id="arrow-blunt-1000" overflow="visible" ><use x="0" href="#line-h-1000-dimgrey"/></svg>
+        <svg id="arrow-blunt-1200" overflow="visible" ><use x="0" href="#line-h-1200-dimgrey"/></svg>
+        <svg id="arrow-blunt-1400" overflow="visible" ><use x="0" href="#line-h-1400-dimgrey"/></svg>
+        <svg id="arrow-blunt-1600" overflow="visible" ><use x="0" href="#line-h-1600-dimgrey"/></svg>
+        <svg id="arrow-blunt-1800" overflow="visible" ><use x="0" href="#line-h-1800-dimgrey"/></svg>
+    <!-- ................................................................... -->
+        <svg
+            id="arrows-left-right"
+            overflow   ="visible"
+            text-anchor="start"
+            >
+            <use href="#arrow-single-0200" x="0" y="0000"/>
+            <use href="#arrow-single-0400" x="0" y="0100"/>
+            <use href="#arrow-single-0600" x="0" y="0200"/>
+            <use href="#arrow-single-0800" x="0" y="0300"/>
+            <use href="#arrow-single-1000" x="0" y="0400"/>
+            <use href="#arrow-single-1200" x="0" y="0500"/>
+            <use href="#arrow-single-1400" x="0" y="0600"/>
+
+            <text x="0" y="0000"  fill="green" alignment-baseline="after-edge" text-anchor="middle">0200     </text>
+            <text x="0" y="0100"  fill="green" alignment-baseline="after-edge" text-anchor="middle">0400     </text>
+            <text x="0" y="0300"  fill="green" alignment-baseline="after-edge" text-anchor="middle">0600     </text>
+            <text x="0" y="0200"  fill="green" alignment-baseline="after-edge" text-anchor="middle">0800     </text>
+            <text x="0" y="0400"  fill="green" alignment-baseline="after-edge" text-anchor="middle">1000     </text>
+            <text x="0" y="0500"  fill="green" alignment-baseline="after-edge" text-anchor="middle">1200     </text>
+            <text x="0" y="0600"  fill="green" alignment-baseline="after-edge" text-anchor="middle">1400     </text>
+
+            <circle cx="0" cy="0000" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0100" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0300" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0200" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0400" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0500" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0600" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="arrows-right-left"
+            overflow   ="visible"
+            text-anchor="start"
+            >
+            <use href="#arrow-single-0200" x="0" y="0000" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-0400" x="0" y="0100" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-0600" x="0" y="0200" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-0800" x="0" y="0300" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-1000" x="0" y="0400" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-1200" x="0" y="0500" transform="scale(-1, 1)"/>
+            <use href="#arrow-single-1400" x="0" y="0600" transform="scale(-1, 1)"/>
+
+            <text x="0" y="0000"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0200     </text>
+            <text x="0" y="0100"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0400     </text>
+            <text x="0" y="0300"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0600     </text>
+            <text x="0" y="0200"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0800     </text>
+            <text x="0" y="0400"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1000     </text>
+            <text x="0" y="0500"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1200     </text>
+            <text x="0" y="0600"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1400     </text>
+
+            <circle cx="0" cy="0000" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0100" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0300" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0200" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0400" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0500" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0600" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="arrows-dual"
+            overflow   ="visible"
+            text-anchor="start"
+            >
+            <use href="#arrow-dual-0200" x="0" y="0000"/>
+            <use href="#arrow-dual-0400" x="0" y="0100"/>
+            <use href="#arrow-dual-0600" x="0" y="0200"/>
+            <use href="#arrow-dual-0800" x="0" y="0300"/>
+            <use href="#arrow-dual-1000" x="0" y="0400"/>
+            <use href="#arrow-dual-1200" x="0" y="0500"/>
+            <use href="#arrow-dual-1400" x="0" y="0600"/>
+
+            <text x="0" y="0000"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0200     </text>
+            <text x="0" y="0100"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0400     </text>
+            <text x="0" y="0300"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0600     </text>
+            <text x="0" y="0200"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0800     </text>
+            <text x="0" y="0400"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1000     </text>
+            <text x="0" y="0500"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1200     </text>
+            <text x="0" y="0600"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1400     </text>
+
+            <circle cx="0" cy="0000" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0100" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0300" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0200" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0400" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0500" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0600" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="arrows-blunt"
+            overflow   ="visible"
+            text-anchor="start"
+            >
+            <use href="#arrow-blunt-0200" x="0" y="0000"/>
+            <use href="#arrow-blunt-0400" x="0" y="0100"/>
+            <use href="#arrow-blunt-0600" x="0" y="0200"/>
+            <use href="#arrow-blunt-0800" x="0" y="0300"/>
+            <use href="#arrow-blunt-1000" x="0" y="0400"/>
+            <use href="#arrow-blunt-1200" x="0" y="0500"/>
+            <use href="#arrow-blunt-1400" x="0" y="0600"/>
+
+            <text x="0" y="0000"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0200     </text>
+            <text x="0" y="0100"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0400     </text>
+            <text x="0" y="0300"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0600     </text>
+            <text x="0" y="0200"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >0800     </text>
+            <text x="0" y="0400"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1000     </text>
+            <text x="0" y="0500"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1200     </text>
+            <text x="0" y="0600"  fill="green" alignment-baseline="after-edge" text-anchor="middle" >1400     </text>
+
+            <circle cx="0" cy="0000" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0100" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0300" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0200" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0400" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0500" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+            <circle cx="0" cy="0600" r="10" fill="magenta" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+<!-- ................................................................. -->
+<!-- Defs End                                                          -->
+<!-- ................................................................. -->
+    </defs>
+    <use x="-1000" y="-300" href="#arrows-left-right"/>
+    <use x="+1000" y="-300" href="#arrows-right-left"/>
+
+    <use x="0" y="-1000" href="#arrows-dual"/>
+    <use x="0" y="+500" href="#arrows-blunt"/>
+
+    <script href="../../js/block-diagram-editor.js"/>
+</svg>

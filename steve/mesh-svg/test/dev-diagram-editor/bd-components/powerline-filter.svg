@@ -1,0 +1,79 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-200 -200 400 400"
+    caption        ="ESD Protection"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="ammeter-green"
+             overflow="visible"
+            >
+            <circle cx="" cy="0" r="90" fill="none" stroke-width="15" />
+            <text x="0" y="52" fill="#38761d" font-family="Lato" font-size="150" text-anchor="middle" >A</text>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="symbol-current-limiter-green"
+             overflow="visible"
+             stroke="#38761d"
+            >
+            <use  x="-50" y="27" href="#ammeter-green"/>
+
+            <path stroke-width="15" d="M -150 -117 H 150"/>
+
+            <path stroke-dasharray="54,20" stroke-linecap="butt" stroke-width="15" d="M -150 -88 H 50"/>
+
+            <path stroke-width="15" d="M +100 -70 V 125"/>
+            <path fill="#38761d" stroke="none" d="M 100 -109 l -30 45 h 60"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" opacity="0" stroke="none" cursor="default"/>
+            <!--<rect x="-150" y="-125" width="300" height="250" fill="red" stroke="none" opacity=".65"/>-->
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="waveforms-unfiltered"
+            overflow="visible"
+            stroke-width="13" fill="none" stroke-linecap="round"
+            >
+            <path stroke="#606060" d="m  5, 10
+                     c 06 -12  14 -22  26 -22
+                     c 24 -00  24  31  50  31
+                     c 24  00  24 -14  48 -14
+                     c 24  00  24  21  50  21
+                     c 12  00  18  -5  24 -16
+                   "
+            />
+
+            <line x1="5" x2="235" y1="50" y2="50" stroke="#606060" stroke-dasharray="44, 37" stroke-linecap="square"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="waveforms-filtered"
+            overflow="visible"
+            stroke-width="13" stroke-linecap="square" fill="none"
+            >
+            <line x1="5" x2="210" y1="050" y2="050" stroke="#606060" />
+            <line x1="5" x2="235" y1="100" y2="100" stroke="#606060" stroke-dasharray="44, 37" />
+        </svg>
+    <!-- ................................................................... -->
+        <path id="arrow-flow-direction" stroke="#38761d" stroke-width="6" fill="none" d="M 20, 0 m 85, 0 l -50, 35 v -17.5 h -85 v -35 h 85 v -17.5 l 50, 35 z"/>
+    <!-- ................................................................... -->
+        <svg id="component-WAVEFORMS"
+            overflow="visible"
+            >
+            <line x1="-70" x2="-15" y1="135" y2="29" stroke-linecap="round" stroke="#38761d" stroke-width="12" stroke-dasharray="25, 20"/>
+            <line x1="70"  x2="15"  y1="-135" y2="-29" stroke-linecap="round" stroke="#38761d" stroke-width="12" stroke-dasharray="25, 20"/>
+
+            <rect x="-250" y="-150" width="500" height="300" rx="15" ry="15" stroke="#38761d" fill="none" stroke-width="10" />
+
+            <use  x="-15" y="0"  href="#arrow-flow-direction"/>
+
+            <use  x="-225" y="-100"  href="#waveforms-unfiltered" />
+            <use  x="0"    y="15"  href="#waveforms-filtered"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="component-WAVEFORMS" href="#component-WAVEFORMS"/>
+</svg>

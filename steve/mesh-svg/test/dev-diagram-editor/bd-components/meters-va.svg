@@ -1,0 +1,72 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    shape-rendering="geometricPrecision"
+    viewBox        ="-200 -200 400 400"
+    caption        ="ESD Protection"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg id="ammeter-green"
+             overflow="visible"
+            >
+            <circle cx="" cy="0" r="90" fill="none" stroke-width="15" />
+            <text x="0" y="52" fill="#38761d" font-family="Lato" font-size="150" text-anchor="middle" >A</text>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="voltmeter-green"
+             overflow="visible"
+             stroke="#38761d"
+            >
+            <circle cx="" cy="0" r="90" fill="none" stroke-width="15" />
+            <text x="0" y="65" fill="#38761d" font-family="Lato" font-size="150" text-anchor="middle" >V</text>
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="symbol-power-dc-green"
+             overflow="visible"
+             stroke="#38761d"
+            >
+            <use  x="0" y="27" href="#voltmeter-green"/>
+
+            <path stroke-width="15" d="M -100 -117 H 100"/>
+
+            <path stroke-dasharray="54,20" stroke-linecap="butt" stroke-width="15" d="M -100 -88 H 100"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" opacity="0" stroke="none" cursor="default"/>
+            <!--<rect x="-100" y="-125" width="200" height="250" fill="red" stroke="none" opacity=".65"/>-->
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="symbol-current-limiter-green"
+             overflow="visible"
+             stroke="#38761d"
+            >
+            <use  x="-50" y="27" href="#ammeter-green"/>
+
+            <path stroke-width="15" d="M -150 -117 H 150"/>
+
+            <path stroke-dasharray="54,20" stroke-linecap="butt" stroke-width="15" d="M -150 -88 H 50"/>
+
+            <path stroke-width="15" d="M +100 -70 V 125"/>
+            <path fill="#38761d" stroke="none" d="M 100 -109 l -30 45 h 60"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" opacity="0" stroke="none" cursor="default"/>
+            <!--<rect x="-150" y="-125" width="300" height="250" fill="red" stroke="none" opacity=".65"/>-->
+        </svg>
+    <!-- ................................................................... -->
+        <svg id="symbol-meters-va"
+             overflow="visible"
+             stroke="#38761d"
+            >
+            <use  x="-200" y="0" href="#symbol-power-dc-green"/>
+            <use  x="+150" y="0" href="#symbol-current-limiter-green"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" opacity="0" stroke="none" cursor="default"/>
+            <!--<rect x="-300" y="-125" width="600" height="250" fill="red" stroke="none" opacity=".65"/>-->
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+            <use  x="0" y="0" href="#symbol-meters-va"       />
+</svg>

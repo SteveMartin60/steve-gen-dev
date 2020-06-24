@@ -1,0 +1,60 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="Ethernet Connector"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="symbol-RJ-45"
+            overflow="visible"
+
+            stroke="dimgrey"
+            fill="none"
+            >
+            <path stroke-width="3" d="M -15 -17 h +23 v +07.5 h +03.5 v +03.5 h +03.5 v +12.0 h -03.5 v +03.5 h -03.5v +07.5 h -23 z"/>
+            <use x="-12" y="+11" href="#pin-RJ-45" />
+            <use x="-12" y="+07" href="#pin-RJ-45" />
+            <use x="-12" y="+03" href="#pin-RJ-45" />
+            <use x="-12" y="-01" href="#pin-RJ-45" />
+            <use x="-12" y="-05" href="#pin-RJ-45" />
+            <use x="-12" y="-09" href="#pin-RJ-45" />
+            <use x="-12" y="-13" href="#pin-RJ-45" />
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id             ="symbol-RJ-45-scaled"
+            overflow       ="visible"
+            >
+            <use x="0" y="0" href="#symbol-RJ-45" transform="scale(4.2) rotate(-90)"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="component-RJ-45"
+            overflow="visible"
+            >
+            <rect x="-100" y="-100" width="200" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-100" y="-60"  width="200" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="0" y="-58" fill="darkslategrey" font-family="Lato" font-size="40" text-anchor="middle" alignment-baseline="after-edge" >Ethernet</text>
+
+            <use x="0" y="20" href="#symbol-RJ-45-scaled"/>
+            <circle cx="0" cy="0" r="3" fill="coral" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-RJ-45" x="0" y="0" caption="Ethernet Connector" href="#component-RJ-45"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

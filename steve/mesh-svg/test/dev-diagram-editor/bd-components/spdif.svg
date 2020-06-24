@@ -1,0 +1,85 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-150 -150 300 300"
+    shape-rendering="geometricPrecision"
+    caption        =""
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="spdif-arc-small"
+            overflow="visible"
+            >
+            <path fill="none" stroke-width="03.5" d="M 0 0 c +02.64, 0, 08.3, 00.89, +08.35, 07.2"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="spdif-arc-large"
+            overflow="visible"
+            >
+            <path fill="none" stroke-width="03.5" d="M 0 0 c +05.28, 0, 16.6, 1.78, +16.7, 14.4"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="symbol-SPDIF"
+            overflow       ="visible"
+            stroke         ="dimgrey"
+            stroke-width   ="03.5"
+            fill           ="none"
+
+            >
+            <circle cx="0" cy="0" r="13" fill="none"  />
+            <circle cx="0" cy="0" r="10" fill="dimgrey"  stroke="none"/>
+
+            <rect x="-23" y="-23" width="46" height="46" rx="10" ry="10" stroke-width="03.5"/>
+
+            <path fill="none" d="M -39.5 -20.25 v -15.5 h 79 v 15.5"/>
+
+            <use x="39.5" y="-22.0" href="#spdif-arc-small" transform="           scale(-1,  1)"/>
+            <use x="39.5" y="-05.5" href="#spdif-arc-small" transform="           scale(-1, -1)"/>
+            <use x="39.5" y="-22.0" href="#spdif-arc-small" transform="           scale( 1,  1)"/>
+            <use x="39.5" y="-05.5" href="#spdif-arc-small" transform="           scale( 1, -1)"/>
+            <!--
+            -->
+
+            <use x="19.05" y="-39.5" href="#spdif-arc-large" transform="rotate(90) scale( 1, -1)"/>
+            <use x="19.05" y="-39.5" href="#spdif-arc-large" transform="rotate(90)              "/>
+
+            <line x1="-25.2" x2="+25.15" y1="+35.75" y2="+35.75"/>
+
+            <line x1="-47.845" x2="-47.845" y1="-14.88" y2="-01.50"/>
+            <line x1="+47.845" x2="+47.845" y1="-14.88" y2="-01.50"/>
+
+            <line x1="-39.500" x2="-39.500" y1="+03.74" y2="+19.1"/>
+            <line x1="+39.500" x2="+39.500" y1="+03.74" y2="+19.1"/>
+            <!--
+            -->
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id="component-SPDIF"
+            overflow="visible"
+            stroke-width="1"
+            >
+            <rect x="0" y="0"  width="300" height="50" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="0" y="50" width="300" height="250" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <use x="53.5" y="63" href="#symbol-SPDIF" transform="scale(2.8)"/>
+
+            <text x="150" y="50" fill="darkslategrey" font-family="Lato" font-size="45" text-anchor="middle" alignment-baseline="after-edge" >SPDIF</text>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-SPDIF" x="-150" y="-150" caption="Barometer" href="#component-SPDIF"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

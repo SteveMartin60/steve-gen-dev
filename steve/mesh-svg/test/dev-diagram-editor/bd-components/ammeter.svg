@@ -1,0 +1,56 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-175 -60 350 120"
+    shape-rendering="geometricPrecision"
+    caption        ="Ammeter"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id          ="symbol-AMMETER"
+            isDisplay   ="true"
+            overflow    ="visible"
+            font-family ="Lato" 
+            fill        ="none"           
+            >
+            <path stroke="dimgrey" stroke-width="5" fill="none" d="M -100 45 v 30 h -30" shape-rendering="crispEdges"/>
+            <path stroke="dimgrey" stroke-width="5" fill="none" d="M -200 45 v 30 h +30" shape-rendering="crispEdges"/>
+
+            <path stroke="none"    fill="dimgrey" d="M -100 55 l -4.5 -15 h 9 z"/>
+            <path stroke="none"    fill="dimgrey" d="M -200 55 l -4.5 -15 h 9 z"/>
+
+            <path stroke-width="9" fill="none" d="M 0 0    h -100 v 40"   shape-rendering="crispEdges"/>
+            <path stroke-width="9" fill="none" d="M -200 40 v -40 h -150" shape-rendering="crispEdges"/>
+
+            <text  x="-150" y="77" fill="#303030" font-size="32" text-anchor="middle" alignment-baseline="middle" stroke="none" >A</text>
+            <circle cx="-150" cy="75" r="20" stroke="dimgrey" stroke-width="5"/>
+
+            <rect x="-3" y="0" width="3" height="3" class="origin-marker" stroke="none" fill="magenta" shape-rendering="crispEdges"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id             ="component-AMMETER"
+            overflow       ="visible"
+            stroke-width   ="1"
+            >
+            <rect x="-220" y="40" width="140" height="60" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <rect x="-220" y="100" width="140" height="20" stroke="#505050" fill="#d9ead3" shape-rendering="crispEdges"/> 
+            <text x="-150" y="120" fill="#303030" stroke="none" font-family="Lato" font-size="21" font-weight="100" alignment-baseline="after-edge" text-anchor="middle" >Current Sense</text>
+
+            <use x="0" y="0" href="#symbol-AMMETER"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-AMMETER" x="175" y="-60" href="#component-AMMETER" stroke ="yellow"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

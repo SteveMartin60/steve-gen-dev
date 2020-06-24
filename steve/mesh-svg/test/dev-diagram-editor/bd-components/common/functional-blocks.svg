@@ -1,0 +1,165 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="block-diagram"
+    diagramType    ="block-diagram"
+    fill           ="none"
+    shape-rendering="geometricPrecision"
+    font-family    ="Consolas"
+    font-size      ="95"
+    text-anchor="middle"
+    viewBox        ="-2410 -1710 4820 3420"
+    >
+    <defs>
+<!-- ................................................................. -->
+<!-- Defs Begin                                                        -->
+<!-- ................................................................. -->
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0800-0400"
+            overflow="visible"
+            >
+            <rect  x="-400"  y="-200" width ="800" height="400" fill="#d9ead3" stroke="darkslategray" stroke-width   ="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-1000-0150"
+            overflow="visible"
+            >
+            <rect x="-500" y="0" width="1000" height="150" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges" />
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-1000-0200"
+            overflow="visible"
+            >
+            <rect x="-500" y="-100" width="1000" height="200" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges" />
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-1000-0400"
+            overflow="visible"
+            >
+            <rect x="-500" y="-200" width="1000" height="400" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges" />
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-1000-0500"
+            overflow="visible"
+            >
+            <rect x="-500" y="0" width="1000" height="500" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges" />
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-0300"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-200" width ="600" height="300" fill="#d9ead3" stroke="darkslategray" stroke-width   ="1" shape-rendering="crispEdges"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-0400"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-200" width ="600" height="400" fill="#d9ead3" stroke="darkslategray" stroke-width   ="1" shape-rendering="crispEdges"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0400-0400"
+            overflow="visible"
+            >
+            <rect  x="-200"  y="-200" width ="400" height="400" fill="#d9ead3" stroke="darkslategray" stroke-width   ="1" shape-rendering="crispEdges"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0400-0800"
+            overflow="visible"
+            >
+            <rect  x="-200"  y="-400" width="400" height="800" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-0600"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-300" width="600" height="600" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-0800"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-400" width="600" height="800" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-1000"
+            overflow="visible"
+            >
+            <rect x="-300" y="-500" width="600" height="1000" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-1200"
+            overflow="visible"
+            >
+            <rect x="-300" y="-600" width="600" height="1200" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-1600"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-800" width="600" height="1600" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-1400"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-700" width="600" height="1400" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="f-block-0600-1350"
+            overflow="visible"
+            >
+            <rect  x="-300"  y="-700" width="600" height="1350" fill="#d9ead3" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+            <path d="M 5, 0 a 1, 1, 0, 0, 1, -10, 0" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+    </defs>
+
+    <use  id="1000-0150" x="0" y="0" href="#f-block-1000-0150" caption="Block 1000 x 150"/>
+    <use  id="1000-0200" x="0" y="0" href="#f-block-1000-0200" caption="Block 1000 x 200"/>
+    <use  id="1000-0500" x="0" y="0" href="#f-block-1000-0500" caption="Block 1000 x 500"/>
+    <use  id="1000-0500" x="0" y="0" href="#f-block-1000-0400" caption="Block 1000 x 400"/>
+    <use  id="0800-0400" x="0" y="0" href="#f-block-0800-0400" caption="Block 800 x 400" />
+    <use  id="0600-0300" x="0" y="0" href="#f-block-0600-0300" caption="Block 600 x 300" />
+    <use  id="0600-0400" x="0" y="0" href="#f-block-0600-0400" caption="Block 600 x 400" />
+    <use  id="0600-0600" x="0" y="0" href="#f-block-0600-0600" caption="Block 600 x 600" />
+    <use  id="0400-0400" x="0" y="0" href="#f-block-0400-0400" caption="Block 400 x 400" />
+    <use  id="0400-0800" x="0" y="0" href="#f-block-0400-0800" caption="Block 400 x 800" />
+    <use  id="0600-0800" x="0" y="0" href="#f-block-0600-0800" caption="Block 600 x 800" />
+    <use  id="0600-1000" x="0" y="0" href="#f-block-0600-1000" caption="Block 600 x 1000"/>
+    <use  id="0600-1200" x="0" y="0" href="#f-block-0600-1200" caption="Block 600 x 1200"/>
+    <use  id="0600-1600" x="0" y="0" href="#f-block-0600-1600" caption="Block 600 x 1200"/>
+    <use  id="0600-1350" x="0" y="0" href="#f-block-0600-1350" caption="Block 600 x 1350"/>
+    <use  id="0600-1400" x="0" y="0" href="#f-block-0600-1400" caption="Block 600 x 1400"/>
+
+    <circle cx="0" cy="0" r="5" fill="coral" class="origin-marker" stroke="none" cursor="default"/>
+</svg>

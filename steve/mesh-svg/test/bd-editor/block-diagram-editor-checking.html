@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<!-- ....................................................................... -->
+<head>
+</head>
+<!-- ................................................................... -->
+<style>
+    .container_row
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        zoom: 100%;
+    }
+
+    .editor
+    {
+        width: 100%;
+    }
+
+    .diagram
+    {
+        width: 100%;
+        margin-left: -100%;
+    }
+    .tooltip
+    {
+        width: 100%;
+        margin-left: -100%;
+    }
+
+</style>
+<!-- ................................................................... -->
+<body>
+<!-- ................................................................... -->
+<script type="text/javascript" src="../scripts/block-diagram.js"></script>
+
+<div class="container_row">
+
+    <div class="editor">
+        <embed  class="emb" src="../bd-dev/block-diagram-editor.svg" height="3000" type="image/svg+xml" />
+    </div>
+
+    <div class="diagram">
+        <embed  class="emb" src="../bd-components/ammeter.svg" height="3000" type="image/svg+xml" />
+        <!--<embed  class="emb" src="../../items/PCBA-MB0001/PCBA-MB0001-block-diagram.svg" height="3000" type="image/svg+xml" />-->
+    </div>
+    <!-- ................................................................... -->
+</div>
+<!-- ................................................................... -->
+<script>//<![CDATA[
+
+window.addEventListener("load", findSVGElements, false);
+//]]>
+</script>
+<!-- ................................................................... -->
+</body>
+<!-- ................................................................... -->
+</html>

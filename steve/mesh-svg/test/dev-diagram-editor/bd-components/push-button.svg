@@ -1,0 +1,36 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-50 -50 100 100"
+    shape-rendering="geometricPrecision"
+    caption        ="Push Button"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="component-BUTTON-PUSH"
+            overflow="visible"
+            fill="dimgrey" 
+            stroke="none"
+            >
+            <rect x="-50" y="-50" width="100" height="100" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1"/>
+
+            <rect x="-9"   y="-10" width="5"    height="20" rx="2.8" ry="2.8"/>
+            <rect x="-6.5" y="-10" width="2.5"  height="20" rx="0.0" ry="0.0"/>
+            <rect x="-1.5" y="-20" width="10.5" height="40" rx="2.8" ry="2.8"/>
+            <rect x="2.5"  y="-20" width="6.5"  height="40" rx="0.0" ry="0.0"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-BUTTON-PUSH" x="0" y="0" caption="Push Button" href="#component-BUTTON-PUSH"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-150 -150 300 300"
+    shape-rendering="geometricPrecision"
+    caption        ="Speaker"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="transmit-arcs"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            fill           ="none"
+            stroke         ="dimgrey"
+            stroke-width="8"
+
+            >
+            <path d="M -23,  25 a 33, 33, 0, 0, 0, 0, -50"/>
+            <path d="M -11,  38 a 50, 50, 0, 0, 0, 0, -76"/>
+            <path d="M   0,  50 a 65, 65, 0, 0, 0, 0, -100"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="transmit-arcs-speaker"
+            overflow       ="visible"
+            >
+            <use x="0" y="0" href="#transmit-arcs" transform="scale(1.8, 2.1)" />
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="speaker-outline"
+            overflow       ="visible"
+            >
+            <rect x="10" y="-35" width="30" height="70" stroke-width="8"/>
+
+            <path stroke-width="8" d=" M 40, -35 l 110 -70 v 210 l -110 -70 z"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-SPEAKER"
+            overflow       ="visible"
+            fill           ="none"
+            stroke         ="dimgrey"
+
+            stroke-linejoin="round"
+            >
+            <rect x="0" y="0" width="300" height="300" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1" />
+
+            <use x="0" y="150" href="#speaker-outline"/>
+
+            <use x="230" y="150" href="#transmit-arcs-speaker"/>
+
+            <rect x="0" y="0" width="10" height="10" fill="magenta" class="origin-marker" shape-rendering="crispEdges" stroke="none" />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-SPEAKER" x="-150" y="-150" caption="Speaker" href="#component-SPEAKER"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

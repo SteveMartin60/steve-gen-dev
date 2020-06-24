@@ -1,0 +1,45 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="Zener Diode"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id      ="symbol-DIODE-ZENER"
+            overflow="visible"
+            stroke-linecap ="round"
+            >
+            <path stroke="dimgrey" fill="none" stroke-width="6" d="M 30 -25 h 10  v 10 h -80 v 10 h 10"/>
+
+            <path stroke="none" fill="dimgrey" d="M 0 -15 L  -45 40 h 90"/>
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-DIODE-ZENER"
+            overflow="visible"
+            >
+            <rect x="-100" y="-100" width="200" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-100" y="-060" width="200" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="-0" y="-60" fill="darkslategrey" font-family="Lato" stroke="none" font-size="34" text-anchor="middle" alignment-baseline="after-edge" >Zener Diode</text>
+
+            <use y="5" href="#symbol-DIODE-ZENER" transform="scale(1.8)"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-DIODE-ZENER" x="0" y="0" caption="Zener Diode" href="#component-DIODE-ZENER"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

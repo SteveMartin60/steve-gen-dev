@@ -1,0 +1,163 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="block-diagram"
+    fill           ="none"
+    shape-rendering="geometricPrecision"
+    font-family    ="Consolas"
+    font-size      ="95"
+    text-anchor="middle"
+    viewBox        ="-2410 -1710 4820 3420"
+    >
+    <defs>
+        <!-- ................................................................. -->
+        <!-- Defs Begin                                                        -->
+        <!-- ................................................................. -->
+        <!-- ............................................................. -->
+        <svg
+                id      ="module-case-0800-0800"
+                overflow="visible"
+        >
+            <rect x="-400" y="-400" width="800" height="800"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+                id      ="module-case-1000-1000"
+                overflow="visible"
+        >
+            <rect x="-500" y="-500" width="1000" height="1000"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1200-0800"
+            overflow="visible"
+            >
+            <rect x="-600" y="-400" width="1200" height="0800"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1200-1000"
+            overflow="visible"
+            >
+            <rect x="-600" y="-500" width="1200" height="1000"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1400-1400"
+            overflow="visible"
+            >
+            <rect x="-700" y="-700" width="1400" height="1400"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1200-1200"
+            overflow="visible"
+            >
+            <rect x="-600" y="-600" width="1200" height="1200"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1800-1600"
+            overflow="visible"
+            >
+            <rect x="-900" y="-800" width="1800" height="1600"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1800-2200"
+            overflow="visible"
+            >
+            <rect x="-900" y="-1100" width="1800" height="2200"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1600-2600"
+            overflow="visible"
+            >
+            <rect x="-800" y="-1300" width="1600" height="2600"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1200-2400"
+            overflow="visible"
+            >
+            <rect x="-600" y="-1200" width="1200" height="2400"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-1400-2600"
+            overflow="visible"
+            >
+            <rect x="-700" y="-1400" width="1400" height="2600"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-2100-1800"
+            overflow="visible"
+            >
+            <rect x="-1200" y="-900" width="2100" height="1800"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-2400-2400"
+            overflow="visible"
+            >
+            <rect x="-1200" y="-1200" width="2400" height="2400"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+        <svg
+            id      ="module-case-2600-1800"
+            overflow="visible"
+            >
+            <rect x="-1300" y="-900" width="2600" height="1800"  caption="Module Case" fill="whitesmoke" stroke="darkslategray" stroke-width="2" shape-rendering="crispEdges" opacity="0.5"/>
+
+            <circle cx="0" cy="0" r="5" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+        <!-- ............................................................. -->
+    </defs>
+
+    <use  id="0800-0800" x="0" y="0" href="#module-case-0800-0800" caption="Case 0800 x 0800"/>
+    <use  id="1000-1000" x="0" y="0" href="#module-case-1000-1000" caption="Case 1000 x 1000"/>
+    <use  id="1200-0800" x="0" y="0" href="#module-case-1200-0800" caption="Case 1200 x 0800"/>
+    <use  id="1200-1000" x="0" y="0" href="#module-case-1200-1000" caption="Case 1200 x 1000"/>
+    <use  id="1200-1200" x="0" y="0" href="#module-case-1200-1200" caption="Case 1200 x 1200"/>
+    <use  id="1400-1400" x="0" y="0" href="#module-case-1400-1400" caption="Case 1400 x 1400"/>
+    <use  id="1800-1600" x="0" y="0" href="#module-case-1800-1600" caption="Case 1800 x 1600"/>
+    <use  id="1200-2400" x="0" y="0" href="#module-case-1200-2400" caption="Case 1200 x 2400"/>
+    <use  id="1400-2600" x="0" y="0" href="#module-case-1400-2600" caption="Case 1400 x 2600"/>
+    <use  id="1600-2600" x="0" y="0" href="#module-case-1600-2600" caption="Case 1600 x 2600"/>
+    <use  id="1800-2200" x="0" y="0" href="#module-case-1800-2200" caption="Case 1800 x 2200"/>
+    <use  id="2100-1800" x="0" y="0" href="#module-case-2100-1800" caption="Case 2100 x 1800"/>
+    <use  id="2400-2400" x="0" y="0" href="#module-case-2400-2400" caption="Case 2400 x 2400"/>
+    <use  id="2600-1800" x="0" y="0" href="#module-case-2600-1800" caption="Case 2600 x 1800"/>
+
+    <text               x="-2300" y="-400" fill="#38761d" alignment-baseline="middle" >1600 x 2600</text>
+
+    <circle cx="0" cy="0" r="5" fill="coral" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+
+</svg>

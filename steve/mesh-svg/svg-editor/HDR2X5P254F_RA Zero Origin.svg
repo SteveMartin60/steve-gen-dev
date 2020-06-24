@@ -1,0 +1,72 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="-6.737 -6.6035 13.474 13.207"
+    >
+  <defs>
+    <radialGradient id="l" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 12.743 .29)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#3c3c3c"/>
+      <stop offset=".067" stop-color="#4d4d4d"/>
+      <stop offset=".181" stop-color="#5e5e5e"/>
+      <stop offset="1" stop-color="#d0d0d0"/>
+    </linearGradient>
+    <radialGradient id="k" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 15.283 .29)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <linearGradient id="m" x1=".997" x2=".439" gradientTransform="matrix(4.51366 0 0 4.51366 1.817 -5.082)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+    <linearGradient id="b" x2="1" gradientTransform="matrix(12.79462 0 0 -12.79462 71.334 264.9)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7e5c19"/>
+      <stop offset=".204" stop-color="#c58f27"/>
+      <stop offset="1" stop-color="#cfa550"/>
+    </linearGradient>
+    <radialGradient id="j" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 15.283 2.83)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="e" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 15.283 5.37)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="f" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 15.283 7.91)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="i" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 15.283 10.45)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="h" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 12.743 10.45)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="g" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 12.743 7.91)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="d" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 12.743 5.37)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <radialGradient id="c" cx="-8.839" cy="-5.089" r=".568" fx="-8.839" fy="-5.089" gradientTransform="matrix(1.05907 .00097 -.00097 1.0537 12.743 2.83)" gradientUnits="userSpaceOnUse" spreadMethod="pad" xlink:href="#a"/>
+    <linearGradient id="n" x1=".997" x2=".439" gradientTransform="matrix(4.51366 0 0 4.51366 1.817 -2.542)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+    <linearGradient id="o" x1=".997" x2=".439" gradientTransform="matrix(4.51366 0 0 4.51366 1.817 -.002)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+    <linearGradient id="p" x1=".997" x2=".439" gradientTransform="matrix(4.51366 0 0 4.51366 1.817 2.538)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+    <linearGradient id="q" x1=".997" x2=".439" gradientTransform="matrix(4.51366 0 0 4.51366 1.817 5.078)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+  </defs>
+  <circle cx="3.387" cy="-2.541" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="3.387" cy="-2.541" r=".7" fill="url(#c)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="3.387" cy="-.001" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="3.387" cy="-.001" r=".7" fill="url(#d)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="5.927" cy="-.001" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="5.927" cy="-.001" r=".7" fill="url(#e)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="5.927" cy="2.539" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="5.927" cy="2.539" r=".7" fill="url(#f)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="3.387" cy="2.539" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="3.387" cy="2.539" r=".7" fill="url(#g)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="3.387" cy="5.079" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="3.387" cy="5.079" r=".7" fill="url(#h)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="5.927" cy="5.08" r=".8" fill="#ebb300"/>
+  <circle cx="5.927" cy="5.079" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="5.927" cy="5.079" r=".7" fill="url(#i)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="5.927" cy="-2.541" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="5.927" cy="-2.541" r=".7" fill="url(#j)" stroke="#ebb300" stroke-width=".2"/>
+  <circle cx="5.927" cy="-5.081" r=".72" fill="#d0d0d0" stroke="#303030" stroke-width=".2"/>
+  <circle cx="5.927" cy="-5.081" r=".7" fill="url(#k)" stroke="#ebb300" stroke-width=".2"/>
+  <rect width="1.64" height="1.64" x="2.567" y="-5.901" fill="#303030"/>
+  <rect width="1.6" height="1.6" x="2.587" y="-5.882" fill="#ebb300"/>
+  <circle cx="3.387" cy="-5.081" r=".7" fill="url(#l)" stroke="#ebb300" stroke-width=".2"/>
+  <rect width="4.514" height=".64" x="1.817" y="-5.401" fill="none" stroke="#303030" stroke-miterlimit="10" stroke-width=".02"/>
+  <path fill="url(#m)" d="M1.817-4.762h4.514v-.64H1.817z"/>
+  <rect width="4.514" height=".64" x="1.817" y="-2.861" fill="none" stroke="#303030" stroke-miterlimit="10" stroke-width=".02"/>
+  <path fill="url(#n)" d="M1.817-2.222h4.514v-.64H1.817z"/>
+  <rect width="4.514" height=".64" x="1.817" y="-.321" fill="none" stroke="#303030" stroke-miterlimit="10" stroke-width=".02"/>
+  <path fill="url(#o)" d="M1.817.318h4.514v-.64H1.817z"/>
+  <rect width="4.514" height=".64" x="1.817" y="2.219" fill="none" stroke="#303030" stroke-miterlimit="10" stroke-width=".02"/>
+  <path fill="url(#p)" d="M1.817 2.858h4.514v-.64H1.817z"/>
+  <rect width="4.514" height=".64" x="1.817" y="4.759" fill="none" stroke="#303030" stroke-miterlimit="10" stroke-width=".02"/>
+  <path fill="url(#q)" d="M1.817 5.398h4.514v-.64H1.817z"/>
+  <rect width="8.5" height="13.119" x="-6.683" y="-6.56" fill="#4f4c4d" stroke="#231f20" stroke-miterlimit="10" stroke-width=".088"/>
+  <g fill="none" stroke="#2e2aff" transform="translate(2.8 7.842)">
+    <line x1="-2.168" x2="-3.433" y1="-8.475" y2="-7.209" stroke-width=".006" paint-order="markers fill stroke"/>
+    <line x1="-2.168" x2="-3.433" y1="-7.209" y2="-8.475" stroke-width=".006" paint-order="markers fill stroke"/>
+    <ellipse cx="-2.801" cy="-7.842" stroke-width=".005" paint-order="markers fill stroke" rx=".633" ry=".633"/>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -120 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="Grey LED"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="arrow-led"
+            overflow="visible"
+            >
+            <path stroke="none" d="M 0, 0 l -10, 18 h 20 l -10 -18"/>
+
+            <line x1="0" x2="0" y1="15" y2="25" stroke-linecap ="square" stroke-width="9"/>
+
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="arrows-led"
+            overflow="visible"
+            >
+            <use x="-15" y="-8" href="#arrow-led"/>
+            <use x="+15" y="-8" href="#arrow-led"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="arrows-led-rotate"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#arrows-led" transform="rotate(26.56)"/>
+            <circle cx="0" cy="0" r="1" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="led"
+            overflow="visible"
+            >
+            <rect x="-100" y="-120" width="200" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-100" y="-080" width="200" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="-0" y="-80" fill="darkslategrey" font-family="Lato" stroke="none" font-size="40" text-anchor="middle" alignment-baseline="after-edge" >LED</text>
+
+            <line x1="-94" x2="-45" y1="0" y2="0"   stroke-linecap ="square" stroke-width="12.5"/>
+
+            <path fill="none" stroke-width="12.5" stroke-linecap ="round" stroke-linejoin="round" d="M 45, 0 l -90, -45 v 90 l 90, -45"/>
+
+            <rect x="40" y="-50" width="12.5" height="100" rx="5" ry="5" stroke-width="1" stroke-linejoin="round"/>
+
+            <line x1="55" x2="94 " y1="0" y2="0" stroke-linecap ="square" stroke-width="12.5"/>
+
+            <use x="15" y="-48"  href="#arrows-led-rotate"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="component-LED-GREY"
+            overflow="visible"
+            fill    ="dimgrey"
+            stroke  ="dimgrey"
+            stroke-width   ="1"
+            >
+            <use x="0" y="0" href="#led"/>
+            <path id="arc-left"  d="M 0, 6.25 a 1, 1, 0, 0, 1, 0, -12.5" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-LED-GREY" x="0" y="0" caption="Grey LED" href="#component-LED-GREY"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

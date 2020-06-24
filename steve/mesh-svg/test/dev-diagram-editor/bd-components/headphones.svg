@@ -1,0 +1,49 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="0 0 400 500"
+    shape-rendering="geometricPrecision"
+    caption        ="Headphones"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="symbol-HEADPHONES"
+            overflow="visible"
+            fill="none"
+            stroke="dimgrey"
+            stroke-width="3"
+            >
+
+            <path d="M -40 25 v -7 c 0 -15, 22 -15, 22 0 v 16 c 0 15, -22 15, -22 0 v -10"/>
+            <path d="M  18 25 v -7 c 0 -15, 22 -15, 22 0 v 16 c 0 15, -22 15, -22 0 v -10"/>
+
+            <path d="M -40.2 15 v -10 c -2 -58, 82 -58, 80.2 0 v 10"/>
+            <path d="M -47   15 v -10 c -2 -67, 96 -67, 94   0 v 10"/>
+
+            <rect x="-48.5"   y="16" width="8" height="19" />
+            <rect x="40.5"   y="16" width="8" height="19"  />
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-HEADPHONES"
+            overflow       ="visible"
+            >
+            <rect x="0" y="0" width="400" height="500" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+            <use x="54" y="67" href="#symbol-HEADPHONES" transform="scale(3.7)"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-HEADPHONES" x="0" y="0" caption="Headphones" href="#component-HEADPHONES"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

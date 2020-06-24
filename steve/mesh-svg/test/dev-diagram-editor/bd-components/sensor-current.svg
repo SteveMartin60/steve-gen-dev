@@ -1,0 +1,40 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-300 -25 300 150"
+    shape-rendering="geometricPrecision"
+    caption        ="Current Sensor"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="component-SENSOR-CURRENT"
+            overflow="visible"
+            shape-rendering="crispEdges"
+            >
+            <rect x="-300" y="-25" width="100"  height="150" fill="#ffe599" stroke="darkslategray" stroke-width="0"/>
+
+            <path stroke= "#ed1c24" stroke-width="12.5" fill="none" d="M -200 0 h -50 v 100 h 50"/>
+
+            <rect x="-290" y="-6.25" width="25"   height="112.5" fill= "#ed1c24"/>
+
+            <line x1="0" x2="-200" y1="0"   y2="0"   stroke="#f8a4a7" stroke-width="12.5"/>
+            <line x1="0" x2="-200" y1="100" y2="100" stroke="#f8a4a7" stroke-width="12.5"/>
+
+            <path d="M 0, 6.25 a 1, 1, 0, 0, 1, 0, -12.5" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-SENSOR-CURRENT" x="0" y="0" caption="Current Sensor" href="#component-SENSOR-CURRENT"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+
+</svg>

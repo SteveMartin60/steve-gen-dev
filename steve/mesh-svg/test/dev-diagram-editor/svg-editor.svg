@@ -1,0 +1,287 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="editor-tools"
+    viewBox="-2410 -1710 4820 3420"
+    >
+    <defs>
+<!-- ................................................................. -->
+<!-- Defs Begin                                                        -->
+<!-- ................................................................. -->
+    <!-- ............................................................. -->
+        <pattern
+            id    ="grid-pattern-dots-10"
+            width ="10"
+            height="10"
+            patternUnits="userSpaceOnUse"
+            overflow   ="visible"
+            x="-0.5"
+            y="-0.5"
+            >
+            <circle id="grid-circle-10" cx="0.5" cy="0.5" r="0.5" fill="black" stroke="none" cursor="default" opacity="0.5"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="grid-pattern-dots-100"
+            width ="100"
+            height="100"
+            patternUnits="userSpaceOnUse"
+            overflow   ="visible"
+            x="-1.5"
+            y="-1.5"
+            >
+            <line id="grid-line-100" x1="-100" x2="100" y1="1.5"  y2="1.5"   stroke-width="0.25" stroke="black" shape-rendering="crispEdges"                        opacity="0.25"/>
+            <line id="grid-line-100" x1="1.5"  x2="1.5" y1="-100" y2="100" stroke-width="0.25" stroke="black" shape-rendering="crispEdges"                        opacity="0.25"/>
+
+            <circle id="grid-circle-100" cx="1.5" cy="1.5" r="1.5" fill="black" class="origin-marker" stroke="none" cursor="default" opacity="0.50"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <pattern
+            id    ="grid-pattern"
+            width ="10"
+            height="10"
+            patternUnits="userSpaceOnUse"
+            overflow   ="visible"
+            >
+
+            <rect x="5" y="5" width="1" height="1" fill="url(#grid-pattern-dots-10)"  opacity="0.1"/>
+        </pattern>
+    <!-- ............................................................. -->
+        <svg
+            id             ="crosshairs"
+            overflow       ="visible"
+            stroke-width   ="1"
+            shape-rendering="crispEdges"
+            >
+            <line   x1="-2400" x2="2400" y1="0"      y2="0"   />
+            <line   x1="0"     x2="0"    y1="-1700" y2="1700"/>
+            <circle cx="0"     cy="0"    r="5" fill="none" stroke="blue" opacity="0.5"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg id="crosshairs-blue"  overflow="visible" stroke="blue" ><use href="#crosshairs"/></svg>
+    <!-- ............................................................. -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none"/>
+    <!-- ............................................................. -->
+        <line id="line-h-0150-dimgrey" x1="-0075" x2="0075" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0350-dimgrey" x1="-0175" x2="0175" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0550-dimgrey" x1="-0275" x2="0275" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0750-dimgrey" x1="-0375" x2="0375" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0950-dimgrey" x1="-0475" x2="0475" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1150-dimgrey" x1="-0575" x2="0575" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1350-dimgrey" x1="-0675" x2="0675" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1550-dimgrey" x1="-0775" x2="0775" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1750-dimgrey" x1="-0875" x2="0875" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+    <!-- ................................................................... -->
+        <line id="line-h-0200-dimgrey" x1="-0100" x2="0100" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0400-dimgrey" x1="-0200" x2="0200" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0600-dimgrey" x1="-0300" x2="0300" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-0800-dimgrey" x1="-0400" x2="0400" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1000-dimgrey" x1="-0500" x2="0500" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1200-dimgrey" x1="-0600" x2="0600" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1400-dimgrey" x1="-0700" x2="0700" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1600-dimgrey" x1="-0800" x2="0800" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+        <line id="line-h-1800-dimgrey" x1="-0900" x2="0900" y1="0" y2="0" stroke-width="12.5" stroke="dimgrey" shape-rendering="crispEdges"/>
+    <!-- ................................................................... -->
+        <svg id="arrow-single-0200" overflow="visible" ><use x="-25" y="0" href="#line-h-0150-dimgrey"/><use x="0100"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0400" overflow="visible" ><use x="-25" y="0" href="#line-h-0350-dimgrey"/><use x="0200"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0600" overflow="visible" ><use x="-25" y="0" href="#line-h-0550-dimgrey"/><use x="0300"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-0800" overflow="visible" ><use x="-25" y="0" href="#line-h-0750-dimgrey"/><use x="0400"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1000" overflow="visible" ><use x="-25" y="0" href="#line-h-0950-dimgrey"/><use x="0500"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1200" overflow="visible" ><use x="-25" y="0" href="#line-h-1150-dimgrey"/><use x="0600"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1400" overflow="visible" ><use x="-25" y="0" href="#line-h-1350-dimgrey"/><use x="0700"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1600" overflow="visible" ><use x="-25" y="0" href="#line-h-1550-dimgrey"/><use x="0800"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+        <svg id="arrow-single-1800" overflow="visible" ><use x="-25" y="0" href="#line-h-1750-dimgrey"/><use x="0900"  y="0" href="#arrow-head-large" fill="dimgrey"/></svg>
+    <!-- ................................................................... -->
+        <svg id="arrow-dual-0200" overflow="visible" ><use x="0" href="#line-h-0150-dimgrey"/><use x="0100"  href="#arrow-head-large" fill="dimgrey"/> <use x="0100"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0400" overflow="visible" ><use x="0" href="#line-h-0350-dimgrey"/><use x="0200"  href="#arrow-head-large" fill="dimgrey"/> <use x="0200"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0600" overflow="visible" ><use x="0" href="#line-h-0550-dimgrey"/><use x="0300"  href="#arrow-head-large" fill="dimgrey"/> <use x="0300"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-0800" overflow="visible" ><use x="0" href="#line-h-0750-dimgrey"/><use x="0400"  href="#arrow-head-large" fill="dimgrey"/> <use x="0400"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1000" overflow="visible" ><use x="0" href="#line-h-0950-dimgrey"/><use x="0500"  href="#arrow-head-large" fill="dimgrey"/> <use x="0500"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1200" overflow="visible" ><use x="0" href="#line-h-1150-dimgrey"/><use x="0600"  href="#arrow-head-large" fill="dimgrey"/> <use x="0600"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1400" overflow="visible" ><use x="0" href="#line-h-1350-dimgrey"/><use x="0700"  href="#arrow-head-large" fill="dimgrey"/> <use x="0700"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1600" overflow="visible" ><use x="0" href="#line-h-1550-dimgrey"/><use x="0800"  href="#arrow-head-large" fill="dimgrey"/> <use x="0800"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+        <svg id="arrow-dual-1800" overflow="visible" ><use x="0" href="#line-h-1750-dimgrey"/><use x="0900"  href="#arrow-head-large" fill="dimgrey"/> <use x="0900"  href="#arrow-head-large" fill="dimgrey" transform="scale(-1, 1)"/></svg>
+    <!-- ................................................................... -->
+        <svg id="arrow-blunt-0200" overflow="visible" ><use x="0" href="#line-h-0200-dimgrey"/></svg>
+        <svg id="arrow-blunt-0400" overflow="visible" ><use x="0" href="#line-h-0400-dimgrey"/></svg>
+        <svg id="arrow-blunt-0600" overflow="visible" ><use x="0" href="#line-h-0600-dimgrey"/></svg>
+        <svg id="arrow-blunt-0800" overflow="visible" ><use x="0" href="#line-h-0800-dimgrey"/></svg>
+        <svg id="arrow-blunt-1000" overflow="visible" ><use x="0" href="#line-h-1000-dimgrey"/></svg>
+        <svg id="arrow-blunt-1200" overflow="visible" ><use x="0" href="#line-h-1200-dimgrey"/></svg>
+        <svg id="arrow-blunt-1400" overflow="visible" ><use x="0" href="#line-h-1400-dimgrey"/></svg>
+        <svg id="arrow-blunt-1600" overflow="visible" ><use x="0" href="#line-h-1600-dimgrey"/></svg>
+        <svg id="arrow-blunt-1800" overflow="visible" ><use x="0" href="#line-h-1800-dimgrey"/></svg>
+    <!-- ................................................................... -->
+        <svg
+            id="arrow-90"
+            overflow   ="visible"
+            >
+            <path stroke="dimgrey" stroke-width="2" fill="none"     d="M -15, -6 h 15 a 6, 6, 0, 0, 1, 6, 6 "/>
+            <path stroke="none"                     fill="dimgrey"  d="M 6 7 l +04 -7   h -08"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id         ="buttons"
+            overflow   ="visible"
+            font-family="consolas"
+            text-anchor="start"
+            font-size  ="20"
+            cursor     ="default"
+            >
+            <rect class="refresh" x="0"     y="0   " width="260" height="35" fill="lemonchiffon" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <rect class="refresh" x="-0"    y="35  "  id="rectRefresh" width="130" height="35" fill="white" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <rect class="viewBox" x="130"   y="35  "  id="rectViewBox" width="130" height="35" fill="white" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <use class="refresh"  x="115"   y="49" href="#arrow-90"/>
+            <use class="refresh"  x="-108"  y="-56 "  href="#arrow-90" transform="scale(-1, -1)"/>
+            <text class="buttons" x="130"   y="25 " id="labelButtons" fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >Do Stuff</text>
+            <text class="refresh" x="50"    y="61  "  id="labelRefresh" fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >Refresh </text>
+            <text class="viewBox" x="+195"  y="61  "  id="labelViewBox" fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >View Box</text>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id         ="coordinates"
+            overflow   ="visible"
+            font-family="consolas"
+            font-size  ="20"
+            text-anchor="start"
+            class      ="coords"
+            cursor     ="default"
+            >
+            <rect class="coords" x="0"   y="-70    " width="250" height="35" fill="lemonchiffon" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <rect class="coords" x="0"   y="-35   "   width="250" height="35" fill="white"        stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <text class="coords" x="125" y="-44.65" id="labelCoords" fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >Mouse Coordinates  </text>
+            <text class="coords" x="20"  y="-10"    id="label0"      fill="darkgrey" stroke="none" >X:    </text>
+            <text class="coords" x="140" y="-10"    id="label1"      fill="darkgrey" stroke="none" >Y:    </text>
+            <text class="coords" x="45"  y="-10"    id="elementX"    fill="darkslategrey"  stroke="none" >&#160;</text>
+            <text class="coords" x="165" y="-10"    id="elementY"    fill="darkslategrey"  stroke="none" >&#160;</text>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/>
+        </svg>
+    <!-- ............................................................. -->
+        <line id="info-grid-line-v-full"  x1="0"    x2="0"   y1="-50" y2="100"  stroke-width="0.5" stroke="silver" shape-rendering="crispEdges" />
+        <line id="info-grid-line-v-short" x1="0"    x2="0"   y1="-64"  y2="63.8" stroke-width="0.5" stroke="silver" shape-rendering="crispEdges" />
+        <line id="info-grid-line-h"       x1="-190" x2="190" y1="0"    y2="0"    stroke-width="0.5" stroke="silver" shape-rendering="crispEdges" />
+    <!-- ............................................................. -->
+        <svg
+            id         ="dimensions-box"
+            overflow   ="visible"
+            font-family="consolas"
+            font-size  ="20"
+            text-anchor="end"
+            class      ="info"
+            cursor     ="default"
+            >
+            <rect class="info" x="-380" y="32"      width="380" height="131" fill="white" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <use  class="info" x="-300" y="64"      href="#info-grid-line-v-full"/>
+            <use  class="info" x="-200" y="64"      href="#info-grid-line-v-full"/>
+            <use  class="info" x="-105" y="64"      href="#info-grid-line-v-full"/>
+            <rect class="info" x="-380" y="0"       width="380" height="32"  fill="lemonchiffon" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <text class="info" x="-190" y="22.35 "  id="labelInfo1"          fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >Content Dimensions</text>
+            <text class="info" x="-300" y="54.35 "  id="labelInfo5"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Top:              </text>
+            <text class="info" x="-105" y="54.35 "  id="labelInfo7"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Left:             </text>
+            <text class="info" x="-300" y="86.35 "  id="labelInfo6"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Bottom:           </text>
+            <text class="info" x="-105" y="86.35 "  id="labelInfo8"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Right:            </text>
+            <text class="info" x="-300" y="118.35"  id="labelInfo6"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Width:            </text>
+            <text class="info" x="-105" y="118.35"  id="labelInfo8"          fill="darkgrey"      stroke="none" text-anchor="end"                   >Height:           </text>
+            <text class="info" x="-300" y="150.35"  id="labelInfo9"          fill="darkgrey"      stroke="none" text-anchor="end"                   >DeltaX:           </text>
+            <text class="info" x="-105" y="150.35"  id="labelInfo10"         fill="darkgrey"      stroke="none" text-anchor="end"                   >DeltaY:           </text>
+            <text class="info" x="-290" y="54.35 "  id="dimensionInfoTop"    fill="dimgray"       stroke="none" text-anchor="start"                 >4&#160;  T        </text>
+            <text class="info" x="-290" y="86.35 "  id="dimensionInfoBottom" fill="dimgray"       stroke="none" text-anchor="start"                 >5&#160;  B        </text>
+            <text class="info" x="-90"  y="54.35 "  id="dimensionInfoLeft"   fill="dimgray"       stroke="none" text-anchor="start"                 >6&#160;  L        </text>
+            <text class="info" x="-90"  y="86.35 "  id="dimensionInfoRight"  fill="dimgray"       stroke="none" text-anchor="start"                 >7&#160;  R        </text>
+            <text class="info" x="-290" y="118.35"  id="dimensionInfoWidth"  fill="dimgray"       stroke="none" text-anchor="start"                 >8&#160;  W        </text>
+            <text class="info" x="-90"  y="118.35"  id="dimensionInfoHeight" fill="dimgray"       stroke="none" text-anchor="start"                 >9&#160;  H        </text>
+            <text class="info" x="-290" y="150.35"  id="dimensionInfoDeltaX" fill="dimgray"       stroke="none" text-anchor="start"                 >8&#160;  D        </text>
+            <text class="info" x="-90"  y="150.35"  id="dimensionInfoDeltaY" fill="dimgray"       stroke="none" text-anchor="start"                 >9&#160;  D        </text>
+            <use class="info"  x="-190" y="64"      href="#info-grid-line-h"/>
+            <use class="info"  x="-190" y="96"      href="#info-grid-line-h"/>
+            <use class="info"  x="-190" y="131"     href="#info-grid-line-h"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id         ="info-box"
+            overflow   ="visible"
+            font-family="consolas"
+            font-size  ="20"
+            text-anchor="end"
+            class      ="info"
+            cursor     ="default"
+            >
+            <rect class="info" x="-380"  y="-192" width="380" height="32"  fill="lemonchiffon" stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <rect class="info" x="-380"  y="-160" width="380" height="160" fill="white"        stroke="darkslategray" stroke-width="0.75" shape-rendering="crispEdges" />
+            <text class="info" x="-190"  y="-169.65" id="labelInfo1"        fill="darkslategrey" stroke="none" text-anchor="middle" font-size="23" >Component Info </text>
+            <text class="info" x="-300"  y="-137.65" id="labelInfo1"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Name:          </text>
+            <text class="info" x="-300"  y="-105.65" id="labelInfo2"        fill="darkgrey"      stroke="none" text-anchor="end"                   >X:             </text>
+            <text class="info" x="-300"  y="-73.65" id="labelInfo5"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Left:          </text>
+            <text class="info" x="-300"  y="-41.65" id="labelInfo6"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Right:         </text>
+            <text class="info" x="-300"  y="-9.65" id="labelInfo6"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Width:         </text>
+            <text class="info" x="-105"  y="-105.65" id="labelInfo4"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Y:             </text>
+            <text class="info" x="-105"  y="-73.65" id="labelInfo7"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Top:           </text>
+            <text class="info" x="-105"  y="-41.65" id="labelInfo8"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Bottom:        </text>
+            <text class="info" x="-105"  y="-9.65" id="labelInfo8"        fill="darkgrey"      stroke="none" text-anchor="end"                   >Height:        </text>
+            <text class="info" x="-290"  y="-137.65" id="elementInfoCap"    fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-290"  y="-105.65" id="elementInfoX"      fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-90"   y="-105.65" id="elementInfoY"      fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-290"  y="-73.65" id="elementInfoLeft"   fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-290"  y="-41.65" id="elementInfoRight"  fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-90"   y="-73.65" id="elementInfoTop"    fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-90"   y="-41.65" id="elementInfoBottom" fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-290"  y="-9.65" id="elementInfoWidth"  fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <text class="info" x="-90"   y="-9.65" id="elementInfoHeight" fill="dimgray"       stroke="none" text-anchor="start"                 >&#160;         </text>
+            <use class="info"  x="-300"  y="-80"   href="#info-grid-line-v-full"/>
+            <use class="info"  x="-200"  y="-64.2" href="#info-grid-line-v-short"/>
+            <use class="info"  x="-105"  y="-64.2" href="#info-grid-line-v-short"/>
+            <use class="info"  x="-190"  y="-128"   href="#info-grid-line-h"/>
+            <use class="info"  x="-190"  y="-96"   href="#info-grid-line-h"/>
+            <use class="info"  x="-190"  y="-64"   href="#info-grid-line-h"/>
+            <use class="info"  x="-190"  y="-32"  href="#info-grid-line-h"/>
+            <circle           cx="-0" cy="0     " r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default" opacity="0.5"/>
+        </svg>
+    <!-- ................................................................. -->
+        <svg
+                id          ="grid-target"
+                overflow    ="visible"
+                fill        ="none"
+                stroke-width="0.25"
+                pointer-events="none"
+                transform="scale(.2)"
+                opacity="0.8"
+        >
+            <line x1="-5" x2="5" y1="+0.00" y2="0.00" stroke-width="0.25"  id="crossHairLineX"  opacity="0.75" shape-rendering="crispEdges"/>
+            <line x1="+0.00" x2="0.00"   y1="-5" y2="5" id="crossHairLineY"  opacity="0.75" shape-rendering="crispEdges"/>
+            <circle cx="0"   cy="0"      r="2"               id="crossHairCircle" opacity="0.75" shape-rendering="geometricPrecision"/>
+        </svg>
+        <!-- ............................................................. -->
+        <path id="arc-left"  d="M 0, 6.25 a 1, 1, 0, 0, 1, 0, -12.5" class="origin-marker" fill="magenta" stroke="none"/>
+        <path id="arc-right" d="M 0, 6.25 a 1, 1, 0, 0, 0, 0, -12.5" class="origin-marker" fill="magenta" stroke="none"/>
+<!-- ................................................................. -->
+<!-- Defs End                                                          -->
+<!-- ................................................................. -->
+    </defs>
+    <!-- ................................................................. -->
+    <rect id="diagramBackground" x="-2400" y="-1700" width="4800" height="3400" fill="#fffff7"                    stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+    <rect id="grid"              x="-2400" y="-1700" width="4800" height="3400" fill="url(#grid-pattern-dots-10)" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+    <rect id="grid"              x="-2400" y="-1700" width="4800" height="3400" fill="url(#grid-pattern-dots-100)" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges"/>
+
+    <rect id="highlight-rect" x="0" y="0" width="1000" height="1000" stroke="dimgrey" stroke-width="5" opacity="1" visibility="hidden" fill="transparent" />
+
+    <use class="draggable" id="buttons"        x="-1200" y="-850" href="#buttons"         transform="scale(2)" />
+    <use class="draggable" id="dimensions-box" x="+1200" y="-850" href="#dimensions-box"  transform="scale(2)" />
+    <use class="draggable" id="coordinates"    x="-1200" y="+850" href="#coordinates"     transform="scale(2)" />
+    <use class="draggable" id="info-box"       x="+1200" y="+850" href="#info-box"        transform="scale(2)" />
+    <use class="info"      id="grid-target"    x="0" y="0" href="#grid-target"        />
+
+    <text id="tooltipTextX"  x="-9999" y="-999" font-family="Lato" font-weight="100" font-size="3" fill="darkslategrey" text-anchor="end">Tooltip</text>
+    <text id="tooltipTextY"  x="-9999" y="-999" font-family="Lato" font-weight="100" font-size="3" fill="darkslategrey" text-anchor="end">Tooltip</text>
+    <text id="tooltipLabelX" x="-9999" y="-999" font-family="Lato" font-weight="100" font-size="3" fill="darkslategrey" text-anchor="end">Tooltip</text>
+    <text id="tooltipLabelY" x="-9999" y="-999" font-family="Lato" font-weight="100" font-size="3" fill="darkslategrey" text-anchor="end">Tooltip</text>
+
+
+    <rect  x="-600" y="-1700   " width="1200" height="100" fill="white" stroke="darkslategray" stroke-width="1.75" shape-rendering="crispEdges" />
+    <text id="contentCaption"  x="0" y="-1625" font-family="Lato" font-weight="100" font-size="70" fill="darkslategrey" text-anchor="middle"  >Not Set</text>
+
+
+    <use  id="crosshairs-blue" x="0"   y="0" href="#crosshairs-blue"        />
+</svg>

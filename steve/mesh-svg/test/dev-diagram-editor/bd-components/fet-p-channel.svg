@@ -1,0 +1,53 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="P-Channel FET"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="symbol-FET-P-CHANNEL"
+            overflow       ="visible"
+            isDisplay      ="true"
+            stroke         ="dimgrey" 
+            stroke-width   ="5"
+            fill           ="none"
+            >
+            
+            <circle cx="5" cy="0" r="35" fill="none"/>
+            <path  d="M -2 -15 h 17 v -35 "/> 
+            <path  d="M -2 15  h 17 v 35 "/> 
+
+            <path  d="M -3 0 L -20 -10 v 20 "  stroke="none" fill="dimgrey"/> 
+
+            <line x1="-2" x2="-2" y1="-24" y2="24" />
+            
+            <line x1="-50" x2="-15" y1="0" y2="0" />
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-FET-P-CHANNEL"
+            overflow       ="visible"
+            stroke-width   ="1"
+            >
+            <rect x="-100" y="-100" width="200" height="200" stroke="#505050" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <use x="0" y="0" href="#symbol-FET-P-CHANNEL" transform="scale(2)"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-FET-P-CHANNEL" x="0" y="0" caption="P-Channel FET" href="#component-FET-P-CHANNEL"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

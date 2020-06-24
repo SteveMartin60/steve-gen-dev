@@ -1,0 +1,43 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-1400 0 1425 200"
+    shape-rendering="geometricPrecision"
+    caption        =""
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ............................................................. -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none"/>
+    <!-- ............................................................. -->
+        <svg
+            id      ="component-INTERFACE-SWD"
+            overflow="visible"
+            fill    ="darkgrey"
+            >
+            <rect x="-1400" y="0" width="1425" height="200" fill="pink" stroke="darkslategray" stroke-width="1" shape-rendering="crispEdges" opacity="0"/>
+
+            <text x="-1400" y="100" font-size="85" text-anchor="start" alignment-baseline="after-edge"  xml:space="preserve" >                       SWD* </text>
+            <text x="-1400" y="100" font-size="70" text-anchor="start" alignment-baseline="before-edge" xml:space="preserve" >  * Debug and Firmware Updates</text>
+
+            <use  x="0" y="0" href="#arrow-head-large" transform="rotate(270)"/>
+
+            <use  x="1400" y="-100" href="#arrow-head-large" transform="rotate(180)"/>
+
+            <path stroke="darkgrey" fill="none" stroke-width="12.5" d="m 0 20 v 80 h -1380"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-INTERFACE-SWD" x="-0" y="0" caption="Host Control Interface (Comm)" href="#component-INTERFACE-SWD"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

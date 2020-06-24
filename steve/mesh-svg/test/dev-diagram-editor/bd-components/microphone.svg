@@ -1,0 +1,45 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -150 200 300"
+    shape-rendering="geometricPrecision"
+    caption        ="Microphone"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="symbol-MICROPHONE"
+            overflow       ="visible"
+            >
+            <line stroke="dimgrey" x1="0"   x2="0"  y1="10"  y2="32" stroke-width="7" shape-rendering="crispEdges"/>
+
+            <path stroke="dimgrey" fill="none"    d="M -21.9 0 c 0 27, 43.8 27, 43.8 0" stroke-width="4"/>
+            <path stroke="none"    fill="dimgrey" d="M -15.3  0.5 v -24.3 c 0 -21.6, 30.6 -21.6, 30.6 0 v 18.75 c 0 21.6, -30.6 21.6, -30.6 0"/>
+
+            <rect x="-16" y="30" width="32" height="10" rx="6" ry="6" stroke="none" fill="dimgrey"/>
+
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-MICROPHONE"
+            overflow="visible"
+            stroke-width="1"
+            >
+            <rect x="-100" y="-150" width="200" height="300" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+            <use x="0" y="0" href="#symbol-MICROPHONE" transform="scale(3.4)"/>
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-MICROPHONE" x="0" y="0" caption="Grey LED" href="#component-MICROPHONE"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

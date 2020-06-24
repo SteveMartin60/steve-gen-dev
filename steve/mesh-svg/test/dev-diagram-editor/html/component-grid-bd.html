@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Component Grid</title>
+        <meta charset="utf-8">
+        <style>
+            /*............................................................... */
+            #c
+            {
+                margin           :0 auto; /*center aligned*/
+                padding          :0;
+                font-size        :0; /* Remember to change it back to normal font size if have captions */
+                list-style       :none;
+                background-color :ivory;
+                overflow-x       : hidden;
+                overflow-y       : hidden;
+            }
+            /*............................................................... */
+            #c li
+            {
+                display        : inline-block;
+                width          : 100%;
+                vertical-align : middle;
+                box-sizing     : border-box;
+                margin         : 0;
+                padding        : 0;
+            }
+            /*............................................................... */
+            .component
+            {
+                display  : flex;
+                position : relative;
+                overflow : visible;
+            }
+            /*............................................................... */
+            .c-img
+            {
+                display    : block;
+                width      : 100%;
+                height     : auto;
+                border     : none;
+                transform  : scale(1);
+                transition : all 1s;
+                z-index    : auto;
+            }
+            /*............................................................... */
+            #c li:hover .c-img
+            {
+                transform :scale(2.05);
+                z-index   : 1100;
+            }
+            /*............................................................... */
+            .c-text
+            {
+                display     : flex;
+                background  : ivory;
+                margin      : 10px;
+                padding     : 18px;
+                position    : absolute;
+                left        : 25%;
+                width       : 50%;
+                text-align  : center;
+                font-size   : 68px;
+                font-family : 'Lato Semibold', sans-serif;
+                top         : 150%;
+                color       : green;
+                opacity     : 0;
+                transition  : all .3s;
+                zoom        : 1;
+            }
+            /*............................................................... */
+            #c li:hover .c-text
+            {
+                opacity    : 0.81;
+                z-index    : 1200;
+                transition : all .8s;
+            }
+            /*............................................................... */
+        </style>
+    </head>
+
+    <body>
+
+        <script type="text/javascript" src="../scripts/side-bar.js"></script>
+        <!--................................................................ -->
+    <ul id="c">
+        <li><a class="component" ><img class="c-img" alt="Ammeter"                              src="../bd-components/ammeter.svg"                          /><span class="c-text"> Ammeter                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Antenna"                              src="../bd-components/antenna.svg"                          /><span class="c-text"> Antenna                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Battery"                              src="../bd-components/battery.svg"                          /><span class="c-text"> Battery                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="DC Supply"                            src="../bd-components/dc-supply.svg"                        /><span class="c-text"> DC Supply                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Zener Diode"                          src="../bd-components/diode-zener.svg"                      /><span class="c-text"> Zener Diode                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="N-Channel FET"                        src="../bd-components/fet-n-channel.svg"                    /><span class="c-text"> N-Channel FET                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="P-Channel FET"                        src="../bd-components/fet-p-channel.svg"                    /><span class="c-text"> P-Channel FET                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Ground"                               src="../bd-components/ground.svg"                           /><span class="c-text"> Ground                              </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Hand"                                 src="../bd-components/hand-finger.svg"                      /><span class="c-text"> Hand                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Headphone Jack Pins"                  src="../bd-components/headphone-jack-pins.svg"              /><span class="c-text"> Headphone Jack Pins                 </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Headphone Jack"                       src="../bd-components/headphone-jack.svg"                   /><span class="c-text"> Headphone Jack                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Headphones"                           src="../bd-components/headphones.svg"                       /><span class="c-text"> Headphones                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Host Control Interface (1700)"        src="../bd-components/interface-host-control-1700.svg"      /><span class="c-text"> Host Control Interface (1700)       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Host Control Interface (2000)"        src="../bd-components/interface-host-control-2000.svg"      /><span class="c-text"> Host Control Interface (2000)       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Host Control Interface (Comm) (2400)" src="../bd-components/interface-host-control-comm-2400.svg" /><span class="c-text"> Host Control Interface (Comm) (2400)</span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Host Control Interface (Comm) (2700)" src="../bd-components/interface-host-control-comm-2700.svg" /><span class="c-text"> Host Control Interface (Comm) (2700)</span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Peripheral Control Interface (1800)"  src="../bd-components/interface-peripheral-control-1800.svg"/><span class="c-text"> Peripheral Control Interface (1800) </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Peripheral Control Interface (2100)"  src="../bd-components/interface-peripheral-control-2100.svg"/><span class="c-text"> Peripheral Control Interface (2100) </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Peripheral Control Interface (2400)"  src="../bd-components/interface-peripheral-control-2400.svg"/><span class="c-text"> Peripheral Control Interface (2400) </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SPI Control Interface"                src="../bd-components/interface-spi-control.svg"            /><span class="c-text"> SPI Control Interface               </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SWD Interface"                        src="../bd-components/interface-swd.svg"                    /><span class="c-text"> SWD Interface                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Blue LED"                             src="../bd-components/led-blue.svg"                         /><span class="c-text"> Blue LED                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Green LED"                            src="../bd-components/led-green.svg"                        /><span class="c-text"> Green LED                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Grey LED"                             src="../bd-components/led-grey.svg"                         /><span class="c-text"> Grey LED                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Red LED"                              src="../bd-components/led-red.svg"                          /><span class="c-text"> Red LED                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Microphone"                           src="../bd-components/microphone.svg"                       /><span class="c-text"> Microphone                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Bipolar Stepper Motor"                src="../bd-components/motor-bipolar-stepper.svg"            /><span class="c-text"> Bipolar Stepper Motor               </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="DC Motor"                             src="../bd-components/motor-dc.svg"                         /><span class="c-text"> DC Motor                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Power Switch"                         src="../bd-components/power-switch.svg"                     /><span class="c-text"> Power Switch                        </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Push Button"                          src="../bd-components/push-button.svg"                      /><span class="c-text"> Push Button                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Dual Coil Relay"                      src="../bd-components/relay-dual-coil.svg"                  /><span class="c-text"> Dual Coil Relay                     </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Single Coil Relay"                    src="../bd-components/relay-single-coil.svg"                /><span class="c-text"> Single Coil Relay                   </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Remote GPIO"                          src="../bd-components/remote-gpio.svg"                      /><span class="c-text"> Remote GPIO                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="RJ45"                                 src="../bd-components/rj45.svg"                             /><span class="c-text"> RJ45                                </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="RFID Card"                            src="../bd-components/rfid-card.svg"                        /><span class="c-text"> RFID Card                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Accelerometer"                        src="../bd-components/sensor-3d-accelerometer.svg"          /><span class="c-text"> Accelerometer                       </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Compass"                              src="../bd-components/sensor-3d-compass.svg"                /><span class="c-text"> Compass                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Gyroscope"                            src="../bd-components/sensor-3d-gyroscope.svg"              /><span class="c-text"> Gyroscope                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Barometer"                            src="../bd-components/sensor-barometer.svg"                 /><span class="c-text"> Barometer                           </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Current Sensor"                       src="../bd-components/sensor-current.svg"                   /><span class="c-text"> Current Sensor                      </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="PIR Sensor"                           src="../bd-components/sensor-pir.svg"                       /><span class="c-text"> PIR Sensor                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Temperature Sensor"                   src="../bd-components/sensor-temperature.svg"               /><span class="c-text"> Temperature Sensor                  </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="SPDIF"                                src="../bd-components/spdif.svg"                            /><span class="c-text"> SPDIF                               </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Speaker"                              src="../bd-components/speaker.svg"                          /><span class="c-text"> Speaker                             </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Touchpad"                             src="../bd-components/touchpad.svg"                         /><span class="c-text"> Touchpad                            </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Transformer"                          src="../bd-components/transformer.svg"                      /><span class="c-text"> Transformer                         </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB A"                                src="../bd-components/usb-a.svg"                            /><span class="c-text"> USB A                               </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="USB C"                                src="../bd-components/usb-c.svg"                            /><span class="c-text"> USB C                               </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Volt Meter"                           src="../bd-components/volt-meter.svg"                       /><span class="c-text"> Volt Meter                          </span></a></li>
+        <li><a class="component" ><img class="c-img" alt="Volume Level"                         src="../bd-components/volume-level.svg"                     /><span class="c-text"> Volume Level                        </span></a></li>
+    </ul>
+        <!--................................................................ -->
+<!--
+        <script>
+            //<![CDATA[
+                window.addEventListener("load", findComponentSVGElements, false);
+            //]]>
+        </script>
+-->
+    <!--.................................................................... -->
+    </body>
+</html>

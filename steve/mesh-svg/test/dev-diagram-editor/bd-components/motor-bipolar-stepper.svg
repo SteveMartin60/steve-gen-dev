@@ -1,0 +1,79 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="0 -150 400 500"
+    shape-rendering="geometricPrecision"
+    caption        ="Bipolar Stepper Motor"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segment"
+            overflow="visible"
+            fill="none"
+            stroke-linecap="round"
+            >
+            <path d="M 0, 0 c 0, -50, 25, -50 25, 0"  stroke-width="12.5" stroke="dimgrey" />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="coil-segments-4"
+            overflow="visible"
+            >
+            <use x="0"   y="6" href="#coil-segment" />
+            <use x="25"  y="6" href="#coil-segment" />
+            <use x="50"  y="6" href="#coil-segment" />
+            <use x="75"  y="6" href="#coil-segment" />
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="coil-segments-4-90"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#coil-segments-4" transform="rotate(90)"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-BIPOLAR-STEPPER-MOTOR"
+            overflow="visible"
+            stroke="dimgrey"
+            stroke-width="12.5"
+            stroke-linejoin="round"
+            >
+            <rect x="-0" y="-150" width="400" height="100" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges" stroke-width="1"/>
+            <rect x="0" y="-50" width="400" height="400" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1"/>
+
+            <text x="200" y="-105" fill="darkslategrey" font-family="Lato" font-size="45" text-anchor="middle" stroke="none">Bi-Polar</text>
+            <text x="200" y="-65" fill="darkslategrey" font-family="Lato" font-size="45" text-anchor="middle" stroke="none">Stepper Motor</text>
+
+            <line x1="0" x2="190" y1="0" y2="0" />
+            <line x1="0" x2="190" y1="100" y2="100" />
+
+            <circle cx="300" cy="50" r="50" fill="none"/>
+
+            <path d="M 0, 200  h 250 v -40 " fill="none"/>
+            <path d="M 0, 300  h 350 v -140 " fill="none"/>
+
+            <use x="195" y="0" href="#coil-segments-4-90" />
+            <use x="250" y="155"  href="#coil-segments-4" />
+
+            <path d="M 0, 3 a 1, 1, 0, 0, 0, 0, -6" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-BIPOLAR-STEPPER-MOTOR" x="0" y="0" caption="Bipolar Stepper Motor" href="#component-BIPOLAR-STEPPER-MOTOR"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

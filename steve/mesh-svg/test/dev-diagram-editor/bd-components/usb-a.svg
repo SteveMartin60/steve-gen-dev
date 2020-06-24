@@ -1,0 +1,94 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="USB-A"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="symbol-usb-abstract"
+            overflow="visible"
+
+            stroke="dimgrey"
+            fill="dimgrey"
+            >
+            <rect x="16.2"  y="-16.6" width="15"   height="15"  stroke="none" />
+
+            <line x1="-35" x2="40" y1="-23.75" y2="-23.75" stroke-width="8"/>
+
+            <path fill="none" d="M 10 -38 h -18 l -12  14"/>
+            <path fill="none" d="M 24  -9 h -18 l -12 -14"/>
+
+            <path stroke="none" d="M 37.75 -23.75 v -9 l 12 9 l -12 9 v -9"/>
+
+            <circle cx="-40" cy="-23.75" r="10" stroke="none"/>
+            <circle cx="+10" cy="-38"    r="7"  stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="symbol-usb-a"
+            overflow       ="visible"
+
+            stroke         ="dimgrey"
+            fill           ="dimgrey"
+            stroke-linecap ="round"
+            stroke-linejoin="round"
+            stroke-width    ="7"
+            fill-rule       ="evenodd"
+            >
+            <use x="0" y="0" href="#symbol-usb-abstract"/>
+
+            <path fill="dimgrey" stroke="none"
+                d="
+                    M 0 7 h -51
+                    a 3 3 0 0 0 -3 3
+                    v 33
+                    a 3 3 0 0 0 3 3
+                    h 102
+                    a 3 3 0 0 0 3 -3
+                    v -33
+                    a 3 3 0 0 0 -3 -3
+                    h -51
+                    m -45.5 8.5 h 9 v 9 h -9 v -9
+                    m  26 0 h 9 v 9 h -9 v -9
+                    m  28 0 h 9 v 9 h -9 v -9
+                    m  28 0 h 9 v 9 h -9 v -9
+                    m  -86.5 16.5 h 100  v 8.5
+                    h -100
+                    v -8.5
+                  "
+            />
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id="component-USB-A"
+            overflow       ="visible"
+            stroke-width   ="1"
+
+            >
+            <rect x="-100" y="-100" width="200" height="40" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges"/>
+            <rect x="-100" y="-060" width="200" height="160" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges"/>
+
+            <text x="0" y="-55" fill="darkslategrey" font-family="Lato" font-size="40" text-anchor="middle" alignment-baseline="after-edge" >USB A</text>
+
+            <use x="0" y="13" href="#symbol-usb-a" transform="scale(1.5)"/>
+
+            <circle cx="0" cy="0" r="3" fill="coral" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-USB-A" x="0" y="0" caption="USB-A" href="#component-USB-A"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+
+</svg>

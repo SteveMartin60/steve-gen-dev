@@ -1,0 +1,35 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-100 -100 200 200"
+    shape-rendering="geometricPrecision"
+    caption        ="Power Switch"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-SWITCH"
+            overflow       ="visible"
+            stroke-linecap ="round"
+            stroke         ="dimgrey"
+            >
+            <rect x="-100" y="-100" width="200" height="200" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1"/>
+            <path fill="none" stroke-width="8" d="m -35, -45 a 70, 70, 0, 1, 0, 70, 0"/>
+
+            <line x1="0" x2="0" y1="-70"  y2="10" stroke-width="10" />
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-POWER-SWITCH" x="0" y="0" caption="Power Switch" href="#component-POWER-SWITCH"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

@@ -1,0 +1,59 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-0 -100 2400 400"
+    shape-rendering="geometricPrecision"
+    caption        ="Peripheral Control Interface"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <path id="arrow-head-large" class="hot-spot" d="M 0 0 l -55 25  v -50" stroke="none"/>
+    <!-- ............................................................. -->
+        <svg
+            id="component-CONTROL-INTERFACE-PERIPHERAL-2400"
+            font-family="Consolas"
+            stroke-linecap="round"
+            overflow="visible"
+            font-size="85"
+            text-anchor="end"
+            >
+            <rect x="0" y="-100" width="2400" height="400" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="2100" y="000" fill="darkslategrey" stroke="none" text-anchor="middle" alignment-baseline="middle" >Peripheral     </text>
+            <text  x="2100" y="100" fill="darkslategrey" stroke="none" text-anchor="middle" alignment-baseline="middle" >Control  </text>
+            <text  x="2100" y="200" fill="darkslategrey" stroke="none" text-anchor="middle" alignment-baseline="middle" >Interface</text>
+
+            <line x1="1850" x2="1850" y1="-100" y2="300" stroke= "#bcbec0" stroke-width="18"/>
+
+            <line x1="20" x2="1750" y1="000" y2="000" stroke= "#0088c5" stroke-width="12.5"/>
+            <line x1="20" x2="1750" y1="100" y2="100" stroke= "#a154a1" stroke-width="12.5"/>
+            <line x1="20" x2="1750" y1="200" y2="200" stroke= "#939598" stroke-width="12.5"/>
+
+            <text  x="1300" y="000" fill= "#0088c5"       stroke="none" text-anchor="start" alignment-baseline="after-edge">SPI  Master</text>
+            <text  x="1300" y="100" fill= "#a154a1"       stroke="none" text-anchor="start" alignment-baseline="after-edge">I2C Master</text>
+            <text  x="1300" y="200" fill= "darkslategrey" stroke="none" text-anchor="start" alignment-baseline="after-edge">GPIO x21    </text>
+
+            <use x="0" y="000" href="#arrow-head-large" fill= "#0088c5" transform="rotate(180, 0, 000)"/>
+            <use x="0" y="100" href="#arrow-head-large" fill= "#a154a1" transform="rotate(180, 0, 100)"/>
+            <use x="0" y="200" href="#arrow-head-large" fill= "#939598" transform="rotate(180, 0, 200)"/>
+
+            <use x="1800" y="000" href="#arrow-head-large" fill= "#0088c5"/>
+            <use x="1800" y="100" href="#arrow-head-large" fill= "#a154a1"/>
+            <use x="1800" y="200" href="#arrow-head-large" fill= "#939598"/>
+
+            <path id="arc-right" d="M  0, 4 a 1, 1, 0, 0, 0,  0, -8" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-CONTROL-INTERFACE-PERIPHERAL-2400" x="0" y="0" caption="Host Control Interface (Comm)" href="#component-CONTROL-INTERFACE-PERIPHERAL-2400"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

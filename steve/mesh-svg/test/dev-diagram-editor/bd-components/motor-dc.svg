@@ -1,0 +1,77 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="0 -75 400 300"
+    shape-rendering="geometricPrecision"
+    caption        ="DC Motor"
+    >
+<!-- ....................................................................... -->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segment"
+            overflow="visible"
+            fill="none"
+            stroke-linecap="round"
+            >
+            <path d="M 0, 0 c 0, -50, 25, -50 25, 0"  stroke-width="12.5" stroke="dimgrey" />
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segments-8"
+            overflow="visible"
+            >
+            <use x="0"   y="6" href="#coil-segment" />
+            <use x="25"  y="6" href="#coil-segment" />
+            <use x="50"  y="6" href="#coil-segment" />
+            <use x="75"  y="6" href="#coil-segment" />
+            <use x="100" y="6" href="#coil-segment" />
+            <use x="125" y="6" href="#coil-segment" />
+            <use x="150" y="6" href="#coil-segment" />
+            <use x="175" y="6" href="#coil-segment" />
+
+            <circle cx="0" cy="0" r="1" fill="red" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segments-8-90"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#coil-segments-8" transform="rotate(90)"/>
+
+            <circle cx="0" cy="0" r="1" fill="red" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="component-DC-MOTOR"
+            overflow="visible"
+            stroke="dimgrey"
+            stroke-width="12.5"
+            >
+            <rect x="-0" y="-75" width="400" height="50" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges" stroke-width="1"/>
+            <rect x="-0" y="-25" width="400" height="250" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1"/>
+
+            <circle cx="280" cy="100" r="100" fill="none"/>
+
+            <use x="125" y="0" href="#coil-segments-8-90"/>
+
+            <line x1="0" x2="120" y1="0" y2="0"  />
+            <line x1="0" x2="120" y1="200" y2="200"  />
+
+            <text x="200" y="-32" fill="darkslategrey" font-family="Lato" font-size="45" text-anchor="middle" stroke="none">DC Motor</text>
+
+            <rect x="0" y="0" width="10" height="10" class="origin-marker" stroke="none" fill="magenta" shape-rendering="crispEdges" stroke-width="1"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-DC-MOTOR" x="0" y="0" caption="DC Motor" href="#component-DC-MOTOR"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

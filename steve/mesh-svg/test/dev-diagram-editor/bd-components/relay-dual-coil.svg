@@ -1,0 +1,93 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="svg-component-"
+    diagramType    ="block-diagram"
+    viewBox        ="-200 -200 400 400"
+    shape-rendering="geometricPrecision"
+    caption        ="Dual Coil Relay"
+    >
+<!-- ....................................................................... -->
+    <!--viewBox="-2410 -1710 4820 3420"-->
+    <defs>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segment"
+            overflow="visible"
+            fill="none"
+            stroke-linecap="round"
+            >
+            <path d="M 0, 0 c 0, -50, 25, -50 25, 0"  stroke-width="12.5" stroke="dimgrey" />
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segments-8"
+            overflow="visible"
+            >
+            <use x="0"   y="6" href="#coil-segment" />
+            <use x="25"  y="6" href="#coil-segment" />
+            <use x="50"  y="6" href="#coil-segment" />
+            <use x="75"  y="6" href="#coil-segment" />
+            <use x="100" y="6" href="#coil-segment" />
+            <use x="125" y="6" href="#coil-segment" />
+            <use x="150" y="6" href="#coil-segment" />
+            <use x="175" y="6" href="#coil-segment" />
+
+            <circle cx="0" cy="0" r="1" fill="red" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id="coil-segments-8-90"
+            overflow="visible"
+            >
+            <use x="0" y="0" href="#coil-segments-8" transform="rotate(90)"/>
+
+            <circle cx="0" cy="0" r="1" fill="red" class="origin-marker" stroke="none" cursor="default"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-RELAY-DUAL-COIL"
+            isDisplay      ="true"
+            overflow       ="visible"
+            stroke         ="dimgrey"
+            stroke-width   ="12.5"
+            fill           ="none"
+            >
+            <rect x="-200" y="-275" width="400" height="50" stroke="darkslategray" fill="#d9ead3" shape-rendering="crispEdges" stroke-width="1"/>
+            <rect x="-200" y="-225" width="400" height="350" stroke="darkslategray" fill="#ffe599" shape-rendering="crispEdges" stroke-width="1"/>
+
+            <text x="0" y="-236" fill="darkslategrey" font-family="Lato" font-size="45" text-anchor="middle" stroke="none">Dual Coil Relay</text>
+
+            <path d="M -73, -100 H -200"/>
+            <path d="M -73, +100 H -200"/>
+
+            <path d="M +73, -100 H +200"/>
+            <path d="M +73, +100 H +200"/>
+
+            <use x="-73" y="-100" href="#coil-segments-8-90"/>
+            <use x="-73" y="-100" href="#coil-segments-8-90" transform="scale(-1, 1)"/>
+
+            <circle cx="-50" cy="-140" r="15"/>
+            <circle cx="+50" cy="-140" r="15"/>
+
+            <path d="M -60, -140 H -120 V -200 H -200"/>
+            <path d="M +60, -140 H +120 V -200 H +200"/>
+
+            <path d="M +35, -148 L -50 -190" stroke-linecap="round"/>
+
+            <path d="M -10, -100 V 100" stroke-linecap="round"/>
+            <path d="M +10, -100 V 100" stroke-linecap="round"/>
+
+            <circle cx="0" cy="0" r="3" fill="magenta" class="origin-marker" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id      ="container"
+            overflow="visible"
+            >
+            <use id="component-RELAY-DUAL-COIL" x="0" y="75" caption="Dual Coil Relay" href="#component-RELAY-DUAL-COIL"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+<!-- ....................................................................... -->
+    <use id="container" href="#container"/>
+</svg>

@@ -1,0 +1,336 @@
+<svg
+    xmlns          ="http://www.w3.org/2000/svg"
+    id             ="block-diagram"
+    fill           ="none"
+    shape-rendering="geometricPrecision"
+    font-family    ="Consolas"
+    viewBox="-2410 -1710 4820 3420"
+    >
+    <defs>
+<!-- ................................................................. -->
+<!-- Defs Begin                                                        -->
+<!-- ................................................................. -->
+    <!-- ............................................................. -->
+        <path id="arrow-head-power" d="M 0 0 l -85 -45  v 90" stroke="none" shape-rendering="geometricPrecision"/>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-POWER-5V_OUT"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-200" y="0"  fill="#ed1c24" font-weight="100" text-anchor="start" alignment-baseline="after-edge">5V_OUT  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="#ed1c24" shape-rendering="crispEdges"/>
+
+            <use x="500"    y="0" href="#arrow-head-power" fill="#ed1c24"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- .................................................................... -->
+        <svg
+            id             ="component-POWER-9V_OUT"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-200" y="0"  fill="#ed1c24" font-weight="100" text-anchor="start" alignment-baseline="after-edge">9V_OUT  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="#ed1c24" shape-rendering="crispEdges"/>
+
+            <use x="500"    y="0" href="#arrow-head-power" fill="#ed1c24"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- .................................................................... -->
+        <svg
+            id             ="component-POWER-5V_IN"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="200" y="0"  fill="#ed1c24" font-weight="100" text-anchor="end" alignment-baseline="after-edge">5V_IN  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="#ed1c24" shape-rendering="crispEdges"/>
+
+            <use x="500"    y="0" href="#arrow-head-power" fill="#ed1c24"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+        <!-- ............................................................... -->
+        <svg
+                id             ="component-POWER-5V_INTERNAL"
+                shape-rendering="geometricPrecision"
+                font-family    ="Consolas"
+                overflow       ="visible"
+                font-size      ="85"
+                text-anchor    ="end"
+        >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <line x1="-200" x2="-50" y1="0" y2="0" stroke-width="20" stroke= "#ed1c24" shape-rendering="crispEdges"/>
+
+            <use x="0"    y="0" href="#arrow-head-power" fill= "#ed1c24"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+        <!-- ............................................................... -->
+        <svg
+            id             ="component-POWER-3V3_OUT"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-200" y="0"  fill="#2aa9e0" font-weight="700" text-anchor="start" alignment-baseline="after-edge">3V3_OUT  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="#2aa9e0" shape-rendering="crispEdges"/>
+
+            <use  x="500"    y="0"   href="#arrow-head-power" fill="#2aa9e0"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-VBAT-RECHARGEABLE"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-400" y="-125" width="800" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="400" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <use x="400" y="0" href="#arrow-head-power" fill="dimgrey" transform="scale(-1, 1)"/>
+
+            <text  x="100" y="0"  fill="#666666" font-weight="100" text-anchor="end" alignment-baseline="after-edge">VBAT  </text>
+
+            <line x1="-370" x2="370" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+        <!-- ................................................................. -->
+        <svg
+            id             ="component-POWER-GENERIC"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-400" y="-125" width="800" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="400" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <line x1="-370" x2="370" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+        <!-- ................................................................. -->
+        <svg
+            id             ="component-POWER-3V3"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-700" y="-125" width="1100" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-200" y="0" fill="#505050" font-weight="100" text-anchor="end" alignment-baseline="middle">Power</text>
+
+            <line x1="-150" x2="-150" y1="-100" y2="100" stroke="#bcbec0" stroke-width="18"/>
+
+            <line x1="-100" x2="370" y1="0" y2="0" stroke="#2aa9e0" stroke-width="20"/>
+
+            <text  x="300" y="0"  fill="#2aa9e0" font-weight="700" text-anchor="end" alignment-baseline="after-edge">3V3  </text>
+
+            <use x="400" y="0"  href="#arrow-head-power" fill="#2aa9e0" />
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-POWER-5V"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-700" y="-125" width="1100" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-200" y="0" fill="#505050" font-weight="100" text-anchor="end" alignment-baseline="middle">Power</text>
+
+            <line x1="-150" x2="-150" y1="-100" y2="100" stroke="#bcbec0" stroke-width="18"/>
+
+            <line x1="-100" x2="370" y1="0" y2="0" stroke="#ed1c24" stroke-width="20"/>
+
+            <text  x="300" y="0"  fill="#ed1c24" font-weight="700" text-anchor="end" alignment-baseline="after-edge">5V  </text>
+
+            <use x="400" y="0"  href="#arrow-head-power" fill="#ed1c24" />
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ............................................................. -->
+        <svg
+            id             ="component-VBAT"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-400" y="-125" width="800" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="400" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <text  x="100" y="0"  fill="#666666" font-weight="100" text-anchor="end" alignment-baseline="after-edge">VBAT  </text>
+
+            <line x1="-400" x2="370" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+        <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-VA_IN"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="500" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <text  x="100" y="0"  fill="#666666" font-weight="100" text-anchor="end" alignment-baseline="after-edge">VA_IN  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-VDC_OUT"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            stroke-linecap ="round"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-400" y="-125" width="800" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <text  x="-100" y="0"  fill= "#ed1c24" font-weight="100" text-anchor="start" alignment-baseline="after-edge">VDC_OUT  </text>
+
+            <line x1="-400" x2="370" y1="0" y2="0" stroke-width="20" stroke= "#ed1c24" shape-rendering="crispEdges"/>
+
+            <use x="400"    y="0" href="#arrow-head-power" fill= "#ed1c24"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-VDC_IN"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="600" y="0" href="#arrow-head-power" fill="#ed1c24"/>
+
+            <text  x="200" y="0"  fill="#ed1c24" text-anchor="end" alignment-baseline="after-edge">VDC_IN  </text>
+
+            <line x1="-600" x2="570" y1="0" y2="0" stroke-width="20" stroke="#ed1c24" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-VDD"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="500" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <text  x="100" y="0"  fill="#666666" font-weight="100" text-anchor="end" alignment-baseline="after-edge">VDD  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+        <svg
+            id             ="component-POWER-VB_IN"
+            shape-rendering="geometricPrecision"
+            font-family    ="Consolas"
+            overflow       ="visible"
+            font-size      ="85"
+            text-anchor    ="end"
+            >
+            <rect x="-500" y="-125" width="1000" height="250" fill="pink" stroke="none" opacity="0"/>
+
+            <use x="500" y="0" href="#arrow-head-power" fill="dimgrey"/>
+
+            <text  x="100" y="0"  fill="#666666" font-weight="100" text-anchor="end" alignment-baseline="after-edge">VB_IN  </text>
+
+            <line x1="-500" x2="470" y1="0" y2="0" stroke-width="20" stroke="dimgrey" shape-rendering="crispEdges"/>
+
+            <path id="arc-left"  d="M 0, -10 a 1, 1, 0, 0, 0, 0, 20" class="origin-marker" fill="magenta" stroke="none"/>
+        </svg>
+    <!-- ................................................................... -->
+    </defs>
+
+    <use  id="component-POWER-3V3"         x="0" y="-1400" href="#component-POWER-3V3"         caption="3V3"     />
+    <use  id="component-POWER-3V3_OUT"     x="0" y="-1200" href="#component-POWER-3V3_OUT"     caption="3V3_OUT" />
+    <use  id="component-POWER-5V"          x="0" y="-1000" href="#component-POWER-5V"          caption="5V"      />
+    <use  id="component-POWER-5V_IN"       x="0" y="-800"  href="#component-POWER-5V_IN"       caption="5V_IN"   />
+    <use  id="component-POWER-5V_INTERNAL" x="0" y="-600"  href="#component-POWER-5V_INTERNAL" caption="5V"      />
+    <use  id="component-POWER-5V_OUT"      x="0" y="-400"  href="#component-POWER-5V_OUT"      caption="5V_OUT"  />
+    <use  id="component-POWER-9V_OUT"      x="0" y="-200"  href="#component-POWER-9V_OUT"      caption="9V_OUT"  />
+    <use  id="component-POWER-VA_IN"       x="0" y="+000"  href="#component-POWER-VA_IN"       caption="VA_IN"   />
+    <use  id="component-POWER-VB_IN"       x="0" y="+200"  href="#component-POWER-VB_IN"       caption="VB_IN"   />
+    <use  id="component-VBAT"              x="0" y="+400"  href="#component-VBAT"              caption="VBAT"    />
+    <use  id="component-VBAT-RECHARGEABLE" x="0" y="+600"  href="#component-VBAT-RECHARGEABLE" caption="VBAT"    />
+    <use  id="component-POWER-GENERIC"     x="0" y="+800"  href="#component-POWER-GENERIC"     caption="POWER"   />
+    <use  id="component-POWER-VDC_IN"      x="0" y="+1000" href="#component-POWER-VDC_IN"      caption="VDC_IN"  />
+    <use  id="component-POWER-VDC_OUT"     x="0" y="+1200" href="#component-POWER-VDC_OUT"     caption="VDC_OUT" />
+    <use  id="component-POWER-VDD"         x="0" y="+1400" href="#component-POWER-VDD"     caption="VDD"     />
+
+
+    <circle cx="0" cy="0" r="5" fill="coral" class="origin-marker" shape-rendering="geometricPrecision" stroke="none" cursor="default"/>
+
+</svg>
